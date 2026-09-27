@@ -1,0 +1,35 @@
+[
+  {
+    "query": "dolo",
+    "normalizedQuery": "dolo",
+    "targetType": "ingredient",
+    "targetId": "paracetamol",
+    "relationship": "brand-associated-active-ingredient",
+    "label": "Dolo is a brand commonly associated with paracetamol. Showing Ramnova products that contain paracetamol.",
+    "ingredientEquivalent": false,
+    "productEquivalent": false,
+    "nonEquivalenceNote": "Brand names, strengths, additional ingredients, and formulations can vary. This ingredient discovery alias does not mean that any listed Ramnova product is a substitute or equivalent product.",
+    "verification": "curated-search-alias"
+  },
+  {
+    "query": "acetaminophen",
+    "normalizedQuery": "acetaminophen",
+    "targetType": "ingredient",
+    "targetId": "paracetamol",
+    "relationship": "international-synonym",
+    "label": "Acetaminophen is another name for paracetamol. Showing Ramnova products that contain paracetamol.",
+    "ingredientEquivalent": true,
+    "productEquivalent": false,
+    "nonEquivalenceNote": "The ingredient names refer to the same active substance, but matching an ingredient does not make complete products interchangeable.",
+    "verification": "authoritative-synonym",
+    "references": [
+      {
+        "publisher": "National Library of Medicine",
+        "title": "Acetaminophen",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK482369/",
+        "jurisdiction": "United States",
+        "accessedAt": "2026-09-24"
+      }
+    ]
+  }
+]

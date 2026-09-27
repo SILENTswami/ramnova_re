@@ -6,6 +6,7 @@
     "dev": "next dev",
     "validate:data": "node scripts/validate-data.mjs",
     "validate:rendering": "node scripts/validate-rendering.mjs",
+    "prebuild": "npm run validate:data && npm run validate:rendering",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",

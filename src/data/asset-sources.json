@@ -1,0 +1,50 @@
+{
+  "sourceSites": [
+    "https://ramnovahealthcare.com",
+    "https://ramnovahealthcare.in"
+  ],
+  "sourceBundle": "https://ramnovahealthcare.in/assets/index-5hS737K5.js",
+  "accessedAt": "2026-09-24",
+  "licenseAssumption": "Ramnova owns or may reuse the assets published by its current websites and linked product catalog, as specified by the project owner. Rights were not independently verified.",
+  "brand": [
+    {
+      "output": "/images/brand/ramnova-logo.webp",
+      "sourceUrl": "https://ramnovahealthcare.com/assets/LOGO-mmCcX00T.png",
+      "status": "localized"
+    },
+    {
+      "output": "/images/brand/ramnova-wordmark-white.webp",
+      "sourceUrl": "https://ramnovahealthcare.com/assets/Ramnova-white-DAR0iShI.png",
+      "status": "localized"
+    }
+  ],
+  "products": [
+    { "output": "/images/products/aceoram-p.webp", "sourceUrl": "https://i.imgur.com/kPiSjXG.jpg", "status": "localized" },
+    { "output": "/images/products/aceoram-sp.webp", "sourceUrl": "https://i.imgur.com/0OjBYd9.jpg", "status": "localized" },
+    { "output": "/images/products/blemango-5g.webp", "sourceUrl": "https://i.imgur.com/qlmm387.jpg", "status": "localized" },
+    { "output": "/images/products/blemango-syrup.webp", "sourceUrl": "https://i.imgur.com/mMlkjTa.jpg", "status": "localized" },
+    { "output": "/images/products/cadisun-d3.webp", "sourceUrl": "https://i.imgur.com/jCzW6So.jpg", "status": "localized" },
+    { "output": "/images/products/cadmizorb-500.webp", "sourceUrl": "https://i.imgur.com/6TmcqGa.jpeg", "status": "localized" },
+    { "output": "/images/products/cadmizorb.webp", "sourceUrl": "https://i.imgur.com/15CZIb0.jpg", "status": "localized" },
+    { "output": "/images/products/cadmizorb-max.webp", "sourceUrl": "https://i.imgur.com/gLZJBUJ.jpg", "status": "localized" },
+    { "output": "/images/products/cadmizorb-plus.webp", "sourceUrl": "https://i.imgur.com/M12fMgX.jpg", "status": "localized" },
+    { "output": "/images/products/cadmizorb-fem.webp", "sourceUrl": "https://i.imgur.com/CEpw1ir.jpg", "status": "localized" },
+    { "output": "/images/products/esorusk-d.webp", "sourceUrl": "https://i.imgur.com/xhjDbGc.jpg", "status": "localized" },
+    { "output": "/images/products/esorusk-ls.webp", "sourceUrl": "https://i.imgur.com/J5iwZWV.jpg", "status": "localized" },
+    { "output": "/images/products/krujocet-m.webp", "sourceUrl": "https://i.imgur.com/nfVooSL.jpeg", "status": "localized" },
+    { "output": "/images/products/krujokast-f.webp", "sourceUrl": "https://i.imgur.com/22kxk86.jpg", "status": "localized" },
+    { "output": "/images/products/meprishot-1g-125mg.webp", "sourceUrl": "https://i.imgur.com/LVXNLED.jpeg", "status": "localized" },
+    { "output": "/images/products/piproshot-4-5g.webp", "sourceUrl": "https://i.imgur.com/YtdKwPE.jpeg", "status": "localized" },
+    { "output": "/images/products/prosteosol-d.webp", "sourceUrl": "https://i.imgur.com/UKilC47.jpg", "status": "localized" },
+    { "output": "/images/products/ruskitop-dsr.webp", "sourceUrl": "https://i.imgur.com/UQFUpKZ.jpeg", "status": "localized" },
+    { "output": "/images/products/ruskirab-dsr.webp", "sourceUrl": "https://i.imgur.com/4ehHgxE.jpg", "status": "localized" },
+    { "output": "/images/products/ruskirab-l.webp", "sourceUrl": "https://i.imgur.com/pDp6HdC.jpg", "status": "localized" },
+    { "output": "/images/products/roseoram-1000.webp", "sourceUrl": "https://i.imgur.com/HJ3htMC.jpg", "status": "localized" },
+    { "output": "/images/products/roseoram-500.webp", "sourceUrl": "https://i.imgur.com/zfFNWyc.jpg", "status": "localized" },
+    { "output": "/images/products/sizedob.webp", "sourceUrl": "https://i.imgur.com/ZCVkr3c.jpeg", "status": "localized" },
+    { "output": "/images/products/sizehem-xt.webp", "sourceUrl": "https://i.imgur.com/vUt1243.jpeg", "status": "localized" },
+    { "output": "/images/products/sizeclav-625.webp", "sourceUrl": "https://i.imgur.com/bogIGf3.jpeg", "status": "localized" },
+    { "output": "/images/products/siliram-max.webp", "sourceUrl": "https://i.imgur.com/7imlzjH.jpg", "status": "localized" },
+    { "output": "/images/products/ursoram-300-150mg.webp", "sourceUrl": "https://i.imgur.com/93Nrq3i.jpeg", "status": "localized" }
+  ]
+}

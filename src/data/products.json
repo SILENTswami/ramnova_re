@@ -1,0 +1,929 @@
+[
+  {
+    "slug": "aceoram-p",
+    "name": "ACEORAM-P",
+    "brandName": "ACEORAM-P",
+    "sourceDescription": "Aceclofenac 100 mg + Paracetamol 325 mg Tablets",
+    "displayDescription": "Aceclofenac 100 mg and paracetamol 325 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": [
+      "/images/products/aceoram-p.webp",
+      "/images/products/aceoram-p.webp"
+    ],
+    "imageAlt": "ACEORAM-P medicine packaging",
+    "featured": true,
+    "therapyCategory": "Pain and inflammation",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [
+      {
+        "id": "aceoram-p-100-325",
+        "label": "100 mg / 325 mg",
+        "ingredients": [
+          { "ingredientId": "aceclofenac", "strength": { "amount": 100, "unit": "mg" }, "verification": "source-listed" },
+          { "ingredientId": "paracetamol", "strength": { "amount": 325, "unit": "mg" }, "verification": "source-listed" }
+        ],
+        "verification": "source-listed"
+      }
+    ],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova combination tablet containing aceclofenac and paracetamol. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": [] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength"] }]
+  },
+  {
+    "slug": "aceoram-sp",
+    "name": "ACEORAM-SP",
+    "brandName": "ACEORAM-SP",
+    "sourceDescription": "Aceclofenac 100 mg + Paracetamol 325 mg + Serratiopeptidase 15 mg Tablets",
+    "displayDescription": "Aceclofenac 100 mg, paracetamol 325 mg and serratiopeptidase 15 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/aceoram-sp.webp",
+    "imageAlt": "ACEORAM-SP medicine packaging",
+    "featured": true,
+    "therapyCategory": "Pain and inflammation",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [
+      {
+        "id": "aceoram-sp-100-325-15",
+        "label": "100 mg / 325 mg / 15 mg",
+        "ingredients": [
+          { "ingredientId": "aceclofenac", "strength": { "amount": 100, "unit": "mg" }, "verification": "source-listed" },
+          { "ingredientId": "paracetamol", "strength": { "amount": 325, "unit": "mg" }, "verification": "source-listed" },
+          { "ingredientId": "serratiopeptidase", "strength": { "amount": 15, "unit": "mg" }, "verification": "source-listed" }
+        ],
+        "verification": "source-listed"
+      }
+    ],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova combination tablet containing aceclofenac, paracetamol, and serratiopeptidase. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": ["Combination product; ingredient matching must not be presented as product equivalence."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength"] }]
+  },
+  {
+    "slug": "blemango-5g",
+    "name": "BLEMANGO-5G",
+    "brandName": "BLEMANGO-5G",
+    "sourceDescription": "Omega-3 Fatty Acids,Ginkgo Biloba Extract, Ginseng Extract, Green Tea Extract, Grape Seed Extract, Multimineral Multivitamin with Antioxidants & Trace Elements Soft Gelatin Capsules",
+    "displayDescription": "Omega-3 fatty acids, botanical extracts, multivitamins, multiminerals, antioxidants and trace elements soft-gel capsules",
+    "category": "capsules",
+    "dosageForm": "soft-gel-capsule",
+    "image": "/images/products/blemango-5g.webp",
+    "imageAlt": "BLEMANGO-5G supplement packaging",
+    "featured": true,
+    "therapyCategory": "Nutritional support",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [
+      {
+        "id": "blemango-5g-standard",
+        "label": "Catalog listing",
+        "ingredients": [
+          { "ingredientId": "omega-3-fatty-acids", "strength": null, "verification": "source-listed-strength-not-provided" },
+          { "ingredientId": "ginkgo-biloba-extract", "strength": null, "verification": "source-listed-strength-not-provided" },
+          { "ingredientId": "ginseng-extract", "strength": null, "verification": "source-listed-strength-not-provided" },
+          { "ingredientId": "green-tea-extract", "strength": null, "verification": "source-listed-strength-not-provided" },
+          { "ingredientId": "grape-seed-extract", "strength": null, "verification": "source-listed-strength-not-provided" },
+          { "ingredientId": "multimineral-blend", "strength": null, "verification": "blend-details-not-provided" },
+          { "ingredientId": "multivitamin-blend", "strength": null, "verification": "blend-details-not-provided" },
+          { "ingredientId": "antioxidant-blend", "strength": null, "verification": "blend-details-not-provided" },
+          { "ingredientId": "trace-elements-blend", "strength": null, "verification": "blend-details-not-provided" }
+        ],
+        "verification": "partial-details"
+      }
+    ],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed multi-ingredient soft-gel supplement. Ingredient amounts, botanical standardization, uses, and safety guidance require package or approved-label confirmation.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "partial-details", "notes": ["The source names blends but does not enumerate their full compositions or strengths."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition"] }]
+  },
+  {
+    "slug": "blemango-syrup",
+    "name": "BLEMANGO SYRUP",
+    "brandName": "BLEMANGO SYRUP",
+    "sourceDescription": "Multivitamin,Multimineral with Astaxanthin Syrup",
+    "displayDescription": "Multivitamin, multimineral and astaxanthin syrup",
+    "category": "syrups",
+    "dosageForm": "syrup",
+    "image": "/images/products/blemango-syrup.webp",
+    "imageAlt": "BLEMANGO SYRUP supplement packaging",
+    "featured": true,
+    "therapyCategory": "Nutritional support",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "blemango-syrup-standard",
+      "label": "Catalog listing",
+      "ingredients": [
+        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "blend-details-not-provided" },
+        { "ingredientId": "multimineral-blend", "strength": null, "verification": "blend-details-not-provided" },
+        { "ingredientId": "astaxanthin", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "partial-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Multivitamin and multimineral syrup with astaxanthin. Refer to the current pack for the complete blend composition and strengths.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "partial-details", "notes": ["Full blend composition and strengths are not supplied by the source catalog."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition"] }]
+  },
+  {
+    "slug": "cadisun-d3",
+    "name": "CADISUN-D3",
+    "brandName": "CADISUN-D3",
+    "sourceDescription": "Cholecalciferol 60000 I.U. Soft Gelatin Capsules",
+    "displayDescription": "Cholecalciferol 60,000 IU soft-gel capsules",
+    "category": "capsules",
+    "dosageForm": "soft-gel-capsule",
+    "image": "/images/products/cadisun-d3.webp",
+    "imageAlt": "CADISUN-D3 supplement packaging",
+    "featured": true,
+    "therapyCategory": "Vitamin D supplementation",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{ "id": "cadisun-d3-60000-iu", "label": "60,000 IU", "ingredients": [{ "ingredientId": "cholecalciferol", "strength": { "amount": 60000, "unit": "IU" }, "verification": "source-listed" }], "verification": "source-listed" }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed cholecalciferol soft-gel capsule. NIH information supports vitamin D's general role in calcium absorption and bone health, but it is not a Ramnova-specific prescribing label.",
+      "uses": ["Vitamin D supports calcium absorption and normal bone health; this is a general nutrient role, not a product-specific treatment claim."],
+      "sideEffects": [],
+      "warnings": ["Excess vitamin D from supplements can cause high blood calcium, nausea, vomiting, weakness, confusion, dehydration, kidney stones, kidney failure, or an irregular heartbeat."],
+      "contraindications": [],
+      "interactions": ["Vitamin D supplements may interact with orlistat, some statins, corticosteroids, and thiazide diuretics."],
+      "scopeNote": "General NIH supplement information; it does not verify how CADISUN-D3 should be used or establish an India-approved indication.",
+      "fieldSources": { "summary": ["nih-ods-vitamin-d"], "uses": ["nih-ods-vitamin-d"], "warnings": ["nih-ods-vitamin-d"], "interactions": ["nih-ods-vitamin-d"] },
+      "sources": [{ "id": "nih-ods-vitamin-d", "publisher": "NIH Office of Dietary Supplements", "title": "Vitamin D — Fact Sheet for Consumers", "url": "https://ods.od.nih.gov/factsheets/VITAMIND-Consumer/", "jurisdiction": "United States", "revision": "current at access", "accessedAt": "2026-09-24", "sections": ["What is vitamin D and what does it do?", "Can vitamin D be harmful?", "Does vitamin D interact with medications or other dietary supplements?"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": [] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength"] }]
+  },
+  {
+    "slug": "cadmizorb-500",
+    "name": "CADMIZORB-500",
+    "brandName": "CADMIZORB-500",
+    "sourceDescription": "Calcium Carbonate + Vitamin D3 250 I.U. Tablets",
+    "displayDescription": "Calcium carbonate and vitamin D3 250 IU tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/cadmizorb-500.webp",
+    "imageAlt": "CADMIZORB-500 supplement packaging",
+    "featured": false,
+    "therapyCategory": "Bone health and nutrition",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "cadmizorb-500-standard",
+      "label": "Product presentation",
+      "ingredients": [
+        { "ingredientId": "calcium-carbonate", "strength": null, "verification": "brand-suggests-strength-source-does-not-state-it" },
+        { "ingredientId": "cholecalciferol", "strength": { "amount": 250, "unit": "IU" }, "verification": "source-listed" }
+      ],
+      "verification": "partial-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed calcium carbonate and vitamin D3 tablet. The brand includes “500,” but the source does not explicitly assign a 500-unit strength to calcium carbonate, so that value is not inferred.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "conflicting-or-incomplete-details", "notes": ["Do not infer a 500 mg calcium strength from the brand name; confirm from packaging."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition", "vitamin-d3-strength"] }]
+  },
+  {
+    "slug": "cadmizorb",
+    "name": "CADMIZORB",
+    "brandName": "CADMIZORB",
+    "sourceDescription": "Calcium Citrate + Vitamin D + Methylcobalamin + Magnesium + Zinc + Folic Acid & Pyridoxine HCL Tablets",
+    "displayDescription": "Calcium citrate, vitamin D, methylcobalamin, magnesium, zinc, folic acid and pyridoxine hydrochloride tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/cadmizorb.webp",
+    "imageAlt": "CADMIZORB supplement packaging",
+    "featured": false,
+    "therapyCategory": "Bone health and nutrition",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "cadmizorb-standard",
+      "label": "Catalog listing",
+      "ingredients": [
+        { "ingredientId": "calcium-citrate", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "cholecalciferol", "strength": null, "verification": "source-lists-vitamin-d-form-not-specified" },
+        { "ingredientId": "methylcobalamin", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "magnesium", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "zinc", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "folic-acid", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "pyridoxine-hydrochloride", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "partial-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed multi-ingredient tablet. Ingredient strengths and the precise form of vitamin D are not provided by the source catalog.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "partial-details", "notes": ["Ingredient names are source-listed; all strengths require packaging confirmation."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition"] }]
+  },
+  {
+    "slug": "cadmizorb-max",
+    "name": "CADMIZORB-MAX",
+    "brandName": "CADMIZORB-MAX",
+    "sourceDescription": "Omega 3 Fatty Acids 300mg + Methylcobalamin 1500 mcg  + Calcium Carbonate 500 mg + Calcitriol0.25 mcg + Folic Acid 200mcg + Boron 1.5 mg Soft Gelatin Capsules",
+    "displayDescription": "Omega-3 fatty acids, methylcobalamin, calcium carbonate, calcitriol, folic acid and boron soft-gel capsules",
+    "category": "capsules",
+    "dosageForm": "soft-gel-capsule",
+    "image": "/images/products/cadmizorb-max.webp",
+    "imageAlt": "CADMIZORB-MAX supplement packaging",
+    "featured": false,
+    "therapyCategory": "Bone health and nutrition",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "cadmizorb-max-standard",
+      "label": "300 mg / 1500 mcg / 500 mg / 0.25 mcg / 200 mcg / 1.5 mg",
+      "ingredients": [
+        { "ingredientId": "omega-3-fatty-acids", "strength": { "amount": 300, "unit": "mg" }, "verification": "source-listed" },
+        { "ingredientId": "methylcobalamin", "strength": { "amount": 1500, "unit": "mcg" }, "verification": "source-listed" },
+        { "ingredientId": "calcium-carbonate", "strength": { "amount": 500, "unit": "mg" }, "verification": "source-listed-compound-vs-elemental-basis-not-stated" },
+        { "ingredientId": "calcitriol", "strength": { "amount": 0.25, "unit": "mcg" }, "verification": "source-listed" },
+        { "ingredientId": "folic-acid", "strength": { "amount": 200, "unit": "mcg" }, "verification": "source-listed" },
+        { "ingredientId": "boron", "strength": { "amount": 1.5, "unit": "mg" }, "verification": "source-listed" }
+      ],
+      "verification": "source-listed-pending-packaging-check"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed multi-ingredient soft-gel supplement. The displayed composition is transcribed from the source and has not been medically reviewed.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed-pending-packaging-check", "notes": ["Confirm whether the calcium amount refers to calcium carbonate or elemental calcium."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength"] }]
+  },
+  {
+    "slug": "cadmizorb-plus",
+    "name": "CADMIZORB-PLUS",
+    "brandName": "CADMIZORB-PLUS",
+    "sourceDescription": "Calcium Carbonate 500mg + Calcitriol 0.25 mcg + Vitamin k₂7 45 mg + Methylcobalamin 750mcg + Magnesium 20mg + Boron1.5mg+ Zinc 7.5mg Soft Gel Capsules",
+    "displayDescription": "Calcium carbonate, calcitriol, vitamin K2-7, methylcobalamin, magnesium, boron and zinc soft-gel capsules",
+    "category": "capsules",
+    "dosageForm": "soft-gel-capsule",
+    "image": "/images/products/cadmizorb-plus.webp",
+    "imageAlt": "CADMIZORB-PLUS supplement packaging",
+    "featured": false,
+    "therapyCategory": "Bone health and nutrition",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "cadmizorb-plus-standard",
+      "label": "Product composition",
+      "ingredients": [
+        { "ingredientId": "calcium-carbonate", "strength": { "amount": 500, "unit": "mg" }, "verification": "source-listed-compound-vs-elemental-basis-not-stated" },
+        { "ingredientId": "calcitriol", "strength": { "amount": 0.25, "unit": "mcg" }, "verification": "source-listed" },
+        { "ingredientId": "vitamin-k2-7", "strength": null, "sourceStrengthText": "45 mg", "verification": "unit-or-decimal-formatting-needs-confirmation" },
+        { "ingredientId": "methylcobalamin", "strength": { "amount": 750, "unit": "mcg" }, "verification": "source-listed" },
+        { "ingredientId": "magnesium", "strength": { "amount": 20, "unit": "mg" }, "verification": "source-listed-form-not-stated" },
+        { "ingredientId": "boron", "strength": { "amount": 1.5, "unit": "mg" }, "verification": "source-listed" },
+        { "ingredientId": "zinc", "strength": { "amount": 7.5, "unit": "mg" }, "verification": "source-listed-form-not-stated" }
+      ],
+      "verification": "conflicting-or-ambiguous-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed multi-ingredient soft-gel supplement. The vitamin K2-7 strength is withheld from normalized display because the source's unit or decimal formatting may be ambiguous.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "conflicting-or-ambiguous-details", "notes": ["Source states vitamin K2-7 as 45 mg; confirm amount and unit from packaging before normalized display."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition", "source-strength-text"] }]
+  },
+  {
+    "slug": "cadmizorb-fem",
+    "name": "CADMIZORB-FEM",
+    "brandName": "CADMIZORB-FEM",
+    "sourceDescription": "Calcium Carbonate 500mg+Calcitriol 0.25 mcg +  Vitamin K2-7.45mg + Soya isoflavones 40% 50 mg + Magnesium 50mg Soft Gelatin Capsules",
+    "displayDescription": "Calcium carbonate, calcitriol, vitamin K2-7, soya isoflavones and magnesium soft-gel capsules",
+    "category": "capsules",
+    "dosageForm": "soft-gel-capsule",
+    "image": "/images/products/cadmizorb-fem.webp",
+    "imageAlt": "CADMIZORB-FEM supplement packaging",
+    "featured": false,
+    "therapyCategory": "Bone health and nutrition",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "cadmizorb-fem-standard",
+      "label": "Product composition",
+      "ingredients": [
+        { "ingredientId": "calcium-carbonate", "strength": { "amount": 500, "unit": "mg" }, "verification": "source-listed-compound-vs-elemental-basis-not-stated" },
+        { "ingredientId": "calcitriol", "strength": { "amount": 0.25, "unit": "mcg" }, "verification": "source-listed" },
+        { "ingredientId": "vitamin-k2-7", "strength": null, "sourceStrengthText": ".45mg", "verification": "decimal-or-spacing-formatting-needs-confirmation" },
+        { "ingredientId": "soya-isoflavones", "strength": { "amount": 50, "unit": "mg" }, "sourceStrengthText": "40% 50 mg", "verification": "source-listed-standardization-format-needs-confirmation" },
+        { "ingredientId": "magnesium", "strength": { "amount": 50, "unit": "mg" }, "verification": "source-listed-form-not-stated" }
+      ],
+      "verification": "conflicting-or-ambiguous-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed multi-ingredient soft-gel supplement. Ambiguous vitamin K2-7 formatting is preserved only as source text until packaging is checked.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "conflicting-or-ambiguous-details", "notes": ["Source renders “Vitamin K2-7.45mg”; do not infer whether this means K2-7 at 45 mg, 0.45 mg, or another unit."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition", "source-strength-text"] }]
+  },
+  {
+    "slug": "esorusk-d",
+    "name": "ESORUSK-D",
+    "brandName": "ESORUSK-D",
+    "sourceDescription": "Esomeprazole 40 mg +Domperidone 30 mg SR Capsules",
+    "displayDescription": "Esomeprazole 40 mg and domperidone 30 mg sustained-release capsules",
+    "category": "capsules",
+    "dosageForm": "sustained-release-capsule",
+    "image": "/images/products/esorusk-d.webp",
+    "imageAlt": "ESORUSK-D medicine packaging",
+    "featured": false,
+    "therapyCategory": "Gastrointestinal care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "esorusk-d-40-30",
+      "label": "40 mg / 30 mg SR",
+      "ingredients": [
+        { "ingredientId": "esomeprazole", "strength": { "amount": 40, "unit": "mg" }, "verification": "source-listed" },
+        { "ingredientId": "domperidone", "strength": { "amount": 30, "unit": "mg" }, "release": "sustained release", "verification": "source-listed" }
+      ],
+      "verification": "source-listed"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova esomeprazole and sustained-release domperidone capsule. Refer to the current pack insert and a qualified healthcare professional for uses and safety guidance.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": [] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
+  },
+  {
+    "slug": "esorusk-ls",
+    "name": "ESORUSK-LS",
+    "brandName": "ESORUSK-LS",
+    "sourceDescription": "Esomeprazole 40 mg +Levosulpiride 75 mg SR Capsules",
+    "displayDescription": "Esomeprazole 40 mg and levosulpiride 75 mg sustained-release capsules",
+    "category": "capsules",
+    "dosageForm": "sustained-release-capsule",
+    "image": "/images/products/esorusk-ls.webp",
+    "imageAlt": "ESORUSK-LS medicine packaging",
+    "featured": false,
+    "therapyCategory": "Gastrointestinal care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "esorusk-ls-40-75",
+      "label": "40 mg / 75 mg SR",
+      "ingredients": [
+        { "ingredientId": "esomeprazole", "strength": { "amount": 40, "unit": "mg" }, "verification": "source-listed" },
+        { "ingredientId": "levosulpiride", "strength": { "amount": 75, "unit": "mg" }, "release": "sustained release", "verification": "source-listed" }
+      ],
+      "verification": "source-listed"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova esomeprazole and sustained-release levosulpiride capsule. Refer to the current pack insert and a qualified healthcare professional for uses and safety guidance.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": [] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
+  },
+  {
+    "slug": "krujocet-m",
+    "name": "KRUJOCET-M",
+    "brandName": "KRUJOCET-M",
+    "sourceDescription": "Levocetirizine 5 mg + Montelukast 10 mg Tablets",
+    "displayDescription": "Levocetirizine 5 mg and montelukast 10 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/krujocet-m.webp",
+    "imageAlt": "KRUJOCET-M medicine packaging",
+    "featured": false,
+    "therapyCategory": "Allergy and respiratory care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "krujocet-m-5-10",
+      "label": "5 mg / 10 mg",
+      "ingredients": [
+        { "ingredientId": "levocetirizine", "strength": { "amount": 5, "unit": "mg" }, "verification": "source-listed" },
+        { "ingredientId": "montelukast", "strength": { "amount": 10, "unit": "mg" }, "verification": "source-listed" }
+      ],
+      "verification": "source-listed"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova levocetirizine and montelukast tablet. Refer to the current pack insert and a qualified healthcare professional for indications and safety guidance.",
+      "uses": [], "sideEffects": [],
+      "warnings": ["Contains montelukast: the U.S. FDA requires a boxed warning for serious neuropsychiatric events, including suicidal thoughts or actions. This critical ingredient warning is included without attempting to merge full safety profiles for both ingredients."],
+      "contraindications": [], "interactions": [],
+      "scopeNote": "U.S. FDA safety communication for the montelukast ingredient; not a complete combination-product label or an India-approved product claim.",
+      "fieldSources": { "warnings": ["fda-montelukast-boxed-warning"] },
+      "sources": [{ "id": "fda-montelukast-boxed-warning", "publisher": "U.S. Food and Drug Administration", "title": "FDA requires Boxed Warning about serious mental health side effects for montelukast", "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug", "jurisdiction": "United States", "revision": "2020-03-04", "accessedAt": "2026-09-24", "sections": ["Safety announcement", "Additional Information for Health Care Professionals"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": [] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength"] }]
+  },
+  {
+    "slug": "krujokast-f",
+    "name": "KRUJOKAST-F",
+    "brandName": "KRUJOKAST-F",
+    "sourceDescription": "Fexofenadine 120mg + Montelukast 10mg",
+    "displayDescription": "Fexofenadine 120 mg and montelukast 10 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/krujokast-f.webp",
+    "imageAlt": "KRUJOKAST-F medicine packaging",
+    "featured": false,
+    "therapyCategory": "Allergy and respiratory care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "krujokast-f-120-10",
+      "label": "120 mg / 10 mg",
+      "ingredients": [
+        { "ingredientId": "fexofenadine", "strength": { "amount": 120, "unit": "mg" }, "verification": "source-listed" },
+        { "ingredientId": "montelukast", "strength": { "amount": 10, "unit": "mg" }, "verification": "source-listed" }
+      ],
+      "verification": "source-listed-dosage-form-from-category"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed fexofenadine and montelukast product. Tablet dosage form comes from the source category because the description itself omits it.",
+      "uses": [], "sideEffects": [],
+      "warnings": ["Contains montelukast: the U.S. FDA requires a boxed warning for serious neuropsychiatric events, including suicidal thoughts or actions. This critical ingredient warning is included without attempting to merge full safety profiles for both ingredients."],
+      "contraindications": [], "interactions": [],
+      "scopeNote": "U.S. FDA safety communication for the montelukast ingredient; not a complete combination-product label or an India-approved product claim.",
+      "fieldSources": { "warnings": ["fda-montelukast-boxed-warning"] },
+      "sources": [{ "id": "fda-montelukast-boxed-warning", "publisher": "U.S. Food and Drug Administration", "title": "FDA requires Boxed Warning about serious mental health side effects for montelukast", "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug", "jurisdiction": "United States", "revision": "2020-03-04", "accessedAt": "2026-09-24", "sections": ["Safety announcement", "Additional Information for Health Care Professionals"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed-pending-packaging-check", "notes": ["Dosage form is supplied by the source category, not the source description."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength"] }]
+  },
+  {
+    "slug": "meprishot-1g-125mg",
+    "name": "MEPRISHOT-1g/125mg",
+    "brandName": "MEPRISHOT-1g/125mg",
+    "sourceDescription": "Meropenem Injection IP 125MG Injection",
+    "displayDescription": "Meropenem injection",
+    "category": "injections",
+    "dosageForm": "injection",
+    "image": "/images/products/meprishot-1g-125mg.webp",
+    "imageAlt": "MEPRISHOT meropenem injection packaging",
+    "featured": false,
+    "therapyCategory": "Antibacterial medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "meprishot-strength-unverified",
+      "label": "Product presentation",
+      "ingredients": [{ "ingredientId": "meropenem", "strength": null, "sourceStrengthText": "Brand: 1g/125mg; description: 125MG", "verification": "conflicting-source-strengths" }],
+      "verification": "conflicting-source-strengths"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "The Ramnova source identifies meropenem injection but conflicts on strength. The clinical outline below is ingredient-level information from a U.S. meropenem label and does not resolve that conflict.",
+      "uses": ["U.S. meropenem injection labeling includes treatment of certain susceptible bacterial infections, including complicated skin and skin-structure infections and intra-abdominal infections."],
+      "sideEffects": ["Commonly reported reactions include headache, nausea, constipation, diarrhea, anemia, vomiting, and rash."],
+      "warnings": ["Serious hypersensitivity and severe skin reactions can occur; seizures and other central nervous system effects have also been reported, with greater concern in renal impairment or seizure disorders."],
+      "contraindications": ["Known hypersensitivity to meropenem or product components, or a history of anaphylactic reactions to beta-lactam antibacterial medicines."],
+      "interactions": ["Probenecid can increase meropenem exposure and is not recommended with it.", "Meropenem can reduce valproic acid or divalproex concentrations and increase the risk of breakthrough seizures."],
+      "scopeNote": "The clinical outline references a U.S. ingredient label. Consult Ramnova's current pack insert for strength, approved indications, and local prescribing information.",
+      "fieldSources": { "summary": ["dailymed-meropenem"], "uses": ["dailymed-meropenem"], "sideEffects": ["dailymed-meropenem"], "warnings": ["dailymed-meropenem"], "contraindications": ["dailymed-meropenem"], "interactions": ["dailymed-meropenem"] },
+      "sources": [{ "id": "dailymed-meropenem", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Meropenem for injection — prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d37e43b-ff8d-495d-b9af-4fd5fce53d56", "jurisdiction": "United States", "revision": "2025", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "conflict", "notes": ["Do not publish 1 g or 125 mg as a verified strength; brand and description conflict."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "sourceDescription", "category", "ingredient", "conflicting-source-strength-text"] }]
+  },
+  {
+    "slug": "piproshot-4-5g",
+    "name": "PIPROSHOT 4.5g",
+    "brandName": "PIPROSHOT 4.5g",
+    "sourceDescription": "Piperacillin & Tazobactam Injection IP Injection",
+    "displayDescription": "Piperacillin and tazobactam injection",
+    "category": "injections",
+    "dosageForm": "injection",
+    "image": "/images/products/piproshot-4-5g.webp",
+    "imageAlt": "PIPROSHOT 4.5g injection packaging",
+    "featured": false,
+    "therapyCategory": "Antibacterial medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "piproshot-4-5g-standard",
+      "label": "4.5 g product presentation",
+      "ingredients": [
+        { "ingredientId": "piperacillin", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "tazobactam", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "partial-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova piperacillin and tazobactam injection. The clinical outline references a current U.S. label for the same active-ingredient combination; consult the current PIPROSHOT pack for component strengths.",
+      "uses": ["U.S. labeling includes specified susceptible bacterial infections such as intra-abdominal infections, hospital- and community-acquired pneumonia, skin and skin-structure infections, and female pelvic infections."],
+      "sideEffects": ["The U.S. label lists diarrhea, constipation, nausea, headache, and insomnia among the most common reactions."],
+      "warnings": ["Serious hypersensitivity and severe skin reactions can occur.", "Important risks include blood-count or bleeding effects, seizures or neuromuscular excitability, kidney injury in critically ill patients, and Clostridioides difficile-associated diarrhea."],
+      "contraindications": ["History of an allergic reaction to penicillins, cephalosporins, or beta-lactamase inhibitors."],
+      "interactions": ["Probenecid prolongs piperacillin and tazobactam exposure.", "Vancomycin co-administration may increase acute kidney injury risk.", "Coagulation monitoring may be needed with heparin or oral anticoagulants; the combination can also prolong blockade from non-depolarizing neuromuscular blockers."],
+      "scopeNote": "The clinical outline references a U.S. combination label. Consult the current Ramnova pack insert for India-approved indications, component strengths, and product-specific guidance.",
+      "fieldSources": { "summary": ["dailymed-piperacillin-tazobactam"], "uses": ["dailymed-piperacillin-tazobactam"], "sideEffects": ["dailymed-piperacillin-tazobactam"], "warnings": ["dailymed-piperacillin-tazobactam"], "contraindications": ["dailymed-piperacillin-tazobactam"], "interactions": ["dailymed-piperacillin-tazobactam"] },
+      "sources": [{ "id": "dailymed-piperacillin-tazobactam", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Piperacillin and tazobactam for injection — prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c8e3cc43-238d-4a23-95dc-157c85f83184", "jurisdiction": "United States", "revision": "2025-04", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "partial-details", "notes": ["Do not split the 4.5 g brand total into component strengths without packaging evidence."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "sourceDescription", "category", "composition"] }]
+  },
+  {
+    "slug": "prosteosol-d",
+    "name": "PROSTEOSOL-D",
+    "brandName": "PROSTEOSOL-D",
+    "sourceDescription": "Tamsulosin HCL SR) 0.4 mg + Dutasteride 0.5 mg Tablets",
+    "displayDescription": "Tamsulosin hydrochloride sustained-release 0.4 mg and dutasteride 0.5 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/prosteosol-d.webp",
+    "imageAlt": "PROSTEOSOL-D medicine packaging",
+    "featured": false,
+    "therapyCategory": "Urology care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "prosteosol-d-0-4-0-5",
+      "label": "0.4 mg SR / 0.5 mg",
+      "ingredients": [
+        { "ingredientId": "tamsulosin-hydrochloride", "strength": { "amount": 0.4, "unit": "mg" }, "release": "sustained release", "verification": "source-listed" },
+        { "ingredientId": "dutasteride", "strength": { "amount": 0.5, "unit": "mg" }, "verification": "source-listed" }
+      ],
+      "verification": "source-listed"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed tamsulosin hydrochloride and dutasteride combination. The clinical outline comes from a U.S. capsule label with the same strengths; it does not verify Ramnova's tablet formulation or India-approved label.",
+      "uses": ["The matched U.S. combination label is indicated for symptomatic benign prostatic hyperplasia in men with an enlarged prostate."],
+      "sideEffects": ["The matched label lists ejaculation disorders, impotence, decreased libido, dizziness, and breast disorders among the most common reactions."],
+      "warnings": ["Postural low blood pressure and fainting can occur.", "Dutasteride lowers prostate-specific antigen values, which affects interpretation during prostate-cancer evaluation.", "People having cataract surgery should tell their eye surgeon about current or prior tamsulosin use; dutasteride can cause fetal harm and leaking capsules should not be handled during pregnancy."],
+      "contraindications": ["Pregnancy, and clinically significant hypersensitivity to dutasteride, other 5-alpha-reductase inhibitors, tamsulosin, or formulation components, under the matched U.S. label."],
+      "interactions": ["Strong CYP3A4 inhibitors should not be combined with the tamsulosin-containing product; caution applies with moderate CYP3A4 inhibitors, CYP2D6 inhibitors, cimetidine, phosphodiesterase-5 inhibitors, and warfarin.", "Other alpha-adrenergic antagonists can increase the risk of symptomatic low blood pressure."],
+      "scopeNote": "The clinical outline references the U.S. JALYN capsule label for the same 0.4 mg tamsulosin hydrochloride and 0.5 mg dutasteride combination. Consult current Ramnova labeling for formulation-specific guidance.",
+      "fieldSources": { "summary": ["dailymed-jalyn"], "uses": ["dailymed-jalyn"], "sideEffects": ["dailymed-jalyn"], "warnings": ["dailymed-jalyn"], "contraindications": ["dailymed-jalyn"], "interactions": ["dailymed-jalyn"] },
+      "sources": [{ "id": "dailymed-jalyn", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "JALYN (dutasteride and tamsulosin hydrochloride) capsules — prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aab9a2d4-5328-40f3-986f-e7753a928bc0", "jurisdiction": "United States", "revision": "2024-04; DailyMed updated 2026-03", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": ["Display description removes an apparent stray closing parenthesis from the source; sourceDescription is preserved verbatim."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
+  },
+  {
+    "slug": "ruskitop-dsr",
+    "name": "RUSKITOP-DSR",
+    "brandName": "RUSKITOP-DSR",
+    "sourceDescription": "Enteric Coated Pantoprazole Sodium & Domperidone SR Capsules",
+    "displayDescription": "Enteric-coated pantoprazole sodium and sustained-release domperidone capsules",
+    "category": "capsules",
+    "dosageForm": "modified-release-capsule",
+    "image": "/images/products/ruskitop-dsr.webp",
+    "imageAlt": "RUSKITOP-DSR medicine packaging",
+    "featured": false,
+    "therapyCategory": "Gastrointestinal care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "ruskitop-dsr-standard",
+      "label": "Product presentation",
+      "ingredients": [
+        { "ingredientId": "pantoprazole-sodium", "strength": null, "release": "enteric coated", "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "domperidone", "strength": null, "release": "sustained release", "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "partial-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed modified-release pantoprazole sodium and domperidone capsule. Strengths are not supplied in the source catalog.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "partial-details", "notes": ["Both ingredient strengths require packaging confirmation."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "release-form"] }]
+  },
+  {
+    "slug": "ruskirab-dsr",
+    "name": "RUSKIRAB-DSR",
+    "brandName": "RUSKIRAB-DSR",
+    "sourceDescription": "Rabeprazole 20 mg + Domperidone 30 mg SR Capsules",
+    "displayDescription": "Rabeprazole 20 mg and domperidone 30 mg sustained-release capsules",
+    "category": "capsules",
+    "dosageForm": "sustained-release-capsule",
+    "image": "/images/products/ruskirab-dsr.webp",
+    "imageAlt": "RUSKIRAB-DSR medicine packaging",
+    "featured": false,
+    "therapyCategory": "Gastrointestinal care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "ruskirab-dsr-20-30",
+      "label": "20 mg / 30 mg SR",
+      "ingredients": [
+        { "ingredientId": "rabeprazole", "strength": { "amount": 20, "unit": "mg" }, "verification": "source-listed" },
+        { "ingredientId": "domperidone", "strength": { "amount": 30, "unit": "mg" }, "release": "sustained release", "verification": "source-listed" }
+      ],
+      "verification": "source-listed"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova rabeprazole and sustained-release domperidone capsule. Refer to the current pack insert and a qualified healthcare professional for complete medical guidance.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": [] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
+  },
+  {
+    "slug": "ruskirab-l",
+    "name": "RUSKIRAB-L",
+    "brandName": "RUSKIRAB-L",
+    "sourceDescription": "Rabeprazole 20 mg + Levosulpiride 75 mg SR Capsules",
+    "displayDescription": "Rabeprazole 20 mg and levosulpiride 75 mg sustained-release capsules",
+    "category": "capsules",
+    "dosageForm": "sustained-release-capsule",
+    "image": "/images/products/ruskirab-l.webp",
+    "imageAlt": "RUSKIRAB-L medicine packaging",
+    "featured": false,
+    "therapyCategory": "Gastrointestinal care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "ruskirab-l-20-75",
+      "label": "20 mg / 75 mg SR",
+      "ingredients": [
+        { "ingredientId": "rabeprazole", "strength": { "amount": 20, "unit": "mg" }, "verification": "source-listed" },
+        { "ingredientId": "levosulpiride", "strength": { "amount": 75, "unit": "mg" }, "release": "sustained release", "verification": "source-listed" }
+      ],
+      "verification": "source-listed"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova rabeprazole and sustained-release levosulpiride capsule. Refer to the current pack insert and a qualified healthcare professional for complete medical guidance.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed", "notes": [] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
+  },
+  {
+    "slug": "roseoram-1000",
+    "name": "ROSEORAM-1000",
+    "brandName": "ROSEORAM-1000",
+    "sourceDescription": "Evening Primrose Oil 1000 mg Softgel Capsules",
+    "displayDescription": "Evening primrose oil 1000 mg soft-gel capsules",
+    "category": "capsules",
+    "dosageForm": "soft-gel-capsule",
+    "image": "/images/products/roseoram-1000.webp",
+    "imageAlt": "ROSEORAM-1000 supplement packaging",
+    "featured": false,
+    "therapyCategory": "Nutritional support",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{ "id": "roseoram-1000-1000", "label": "1000 mg", "ingredients": [{ "ingredientId": "evening-primrose-oil", "strength": { "amount": 1000, "unit": "mg" }, "verification": "source-listed-standardization-not-provided" }], "verification": "source-listed-pending-packaging-check" }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed evening primrose oil soft-gel capsule. The U.S. National Center for Complementary and Integrative Health reports insufficient evidence to support evening primrose oil for any health condition.",
+      "uses": [],
+      "sideEffects": ["Commonly reported effects are gastrointestinal symptoms such as abdominal pain, nausea, or diarrhea."],
+      "warnings": ["Evidence about safety during pregnancy and breastfeeding is not conclusive, and long-term safety when used to try to start labor has not been established."],
+      "contraindications": [],
+      "interactions": ["Specific interactions are not established in the cited overview; people taking medicines should discuss evening primrose oil with a healthcare professional because herbal products can interact with medicines."],
+      "scopeNote": "General U.S. botanical evidence review, not a Ramnova-specific approved label. No therapeutic use is presented as established.",
+      "fieldSources": { "summary": ["nccih-evening-primrose"], "sideEffects": ["nccih-evening-primrose"], "warnings": ["nccih-evening-primrose"], "interactions": ["nccih-evening-primrose"] },
+      "sources": [{ "id": "nccih-evening-primrose", "publisher": "U.S. National Center for Complementary and Integrative Health", "title": "Evening Primrose Oil: Usefulness and Safety", "url": "https://www.nccih.nih.gov/health/evening-primrose-oil", "jurisdiction": "United States", "revision": "current at access", "accessedAt": "2026-09-24", "sections": ["What Have We Learned?", "What Do We Know About Safety?"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed-pending-packaging-check", "notes": ["Confirm fatty-acid standardization from packaging if it is to be displayed."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength"] }]
+  },
+  {
+    "slug": "roseoram-500",
+    "name": "ROSEORAM-500",
+    "brandName": "ROSEORAM-500",
+    "sourceDescription": "Evening Primrose Oil 500 mg Softgel Capsules",
+    "displayDescription": "Evening primrose oil 500 mg soft-gel capsules",
+    "category": "capsules",
+    "dosageForm": "soft-gel-capsule",
+    "image": "/images/products/roseoram-500.webp",
+    "imageAlt": "ROSEORAM-500 supplement packaging",
+    "featured": false,
+    "therapyCategory": "Nutritional support",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{ "id": "roseoram-500-500", "label": "500 mg", "ingredients": [{ "ingredientId": "evening-primrose-oil", "strength": { "amount": 500, "unit": "mg" }, "verification": "source-listed-standardization-not-provided" }], "verification": "source-listed-pending-packaging-check" }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed evening primrose oil soft-gel capsule. The U.S. National Center for Complementary and Integrative Health reports insufficient evidence to support evening primrose oil for any health condition.",
+      "uses": [],
+      "sideEffects": ["Commonly reported effects are gastrointestinal symptoms such as abdominal pain, nausea, or diarrhea."],
+      "warnings": ["Evidence about safety during pregnancy and breastfeeding is not conclusive, and long-term safety when used to try to start labor has not been established."],
+      "contraindications": [],
+      "interactions": ["Specific interactions are not established in the cited overview; people taking medicines should discuss evening primrose oil with a healthcare professional because herbal products can interact with medicines."],
+      "scopeNote": "General U.S. botanical evidence review, not a Ramnova-specific approved label. No therapeutic use is presented as established.",
+      "fieldSources": { "summary": ["nccih-evening-primrose"], "sideEffects": ["nccih-evening-primrose"], "warnings": ["nccih-evening-primrose"], "interactions": ["nccih-evening-primrose"] },
+      "sources": [{ "id": "nccih-evening-primrose", "publisher": "U.S. National Center for Complementary and Integrative Health", "title": "Evening Primrose Oil: Usefulness and Safety", "url": "https://www.nccih.nih.gov/health/evening-primrose-oil", "jurisdiction": "United States", "revision": "current at access", "accessedAt": "2026-09-24", "sections": ["What Have We Learned?", "What Do We Know About Safety?"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed-pending-packaging-check", "notes": ["Confirm fatty-acid standardization from packaging if it is to be displayed."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength"] }]
+  },
+  {
+    "slug": "sizedob",
+    "name": "SIZEDOB",
+    "brandName": "SIZEDOB",
+    "sourceDescription": "Calcium Dobesilate Monohydrate Capsules",
+    "displayDescription": "Calcium dobesilate monohydrate capsules",
+    "category": "capsules",
+    "dosageForm": "capsule",
+    "image": "/images/products/sizedob.webp",
+    "imageAlt": "SIZEDOB medicine packaging",
+    "featured": false,
+    "therapyCategory": "Vascular care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{ "id": "sizedob-standard", "label": "Product presentation", "ingredients": [{ "ingredientId": "calcium-dobesilate-monohydrate", "strength": null, "verification": "source-listed-strength-not-provided" }], "verification": "partial-details" }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Catalog-listed calcium dobesilate monohydrate capsule. The strength and detailed clinical guidance are not supplied by the source catalog.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "partial-details", "notes": ["Product strength requires packaging confirmation."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "ingredient"] }]
+  },
+  {
+    "slug": "sizehem-xt",
+    "name": "SIZEHEM-XT",
+    "brandName": "SIZEHEM-XT",
+    "sourceDescription": "Ferrous Ascorbate & Folic acid Tablets",
+    "displayDescription": "Ferrous ascorbate and folic acid tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/sizehem-xt.webp",
+    "imageAlt": "SIZEHEM-XT supplement packaging",
+    "featured": false,
+    "therapyCategory": "Iron and folate supplementation",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "sizehem-xt-standard",
+      "label": "Product presentation",
+      "ingredients": [
+        { "ingredientId": "ferrous-ascorbate", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "folic-acid", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "partial-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova ferrous ascorbate and folic acid tablet. Refer to the current pack and a qualified healthcare professional for ingredient strengths and complete guidance.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "partial-details", "notes": ["Both ingredient strengths require packaging confirmation."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition"] }]
+  },
+  {
+    "slug": "sizeclav-625",
+    "name": "SIZECLAV-625",
+    "brandName": "SIZECLAV-625",
+    "sourceDescription": "Amoxicillin 500 & Clavulanic Acid 125 Tablets",
+    "displayDescription": "Amoxicillin and clavulanic acid tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/sizeclav-625.webp",
+    "imageAlt": "SIZECLAV-625 medicine packaging",
+    "featured": false,
+    "therapyCategory": "Antibacterial medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "sizeclav-625-standard",
+      "label": "Product presentation",
+      "ingredients": [
+        { "ingredientId": "amoxicillin", "strength": null, "sourceStrengthText": "500", "verification": "source-unit-omitted" },
+        { "ingredientId": "clavulanic-acid", "strength": null, "sourceStrengthText": "125", "verification": "source-unit-omitted" }
+      ],
+      "verification": "ambiguous-units"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova amoxicillin and clavulanic acid tablet. The clinical outline references a U.S. label for this ingredient combination; consult the current Ramnova pack for strength units and India-approved prescribing information.",
+      "uses": ["U.S. labeling includes certain infections caused by susceptible bacteria, including lower respiratory tract, middle-ear, sinus, skin and skin-structure, and urinary tract infections."],
+      "sideEffects": ["Frequently reported reactions include diarrhea or loose stools, nausea, skin rash or hives, vomiting, and vaginitis."],
+      "warnings": ["Serious hypersensitivity reactions, liver dysfunction or cholestatic jaundice, and Clostridioides difficile-associated diarrhea can occur.", "The matched label advises avoiding the combination in infectious mononucleosis because of the high frequency of rash and notes the possibility of fungal or bacterial overgrowth."],
+      "contraindications": ["History of a serious hypersensitivity reaction to amoxicillin, clavulanate, or another beta-lactam antibacterial medicine.", "Previous cholestatic jaundice or liver dysfunction associated with amoxicillin and clavulanate."],
+      "interactions": ["Probenecid co-administration is not recommended.", "Oral anticoagulants can increase prolongation of prothrombin time, and allopurinol can increase rash risk."],
+      "scopeNote": "U.S. combination label used for a conservative outline. It does not independently verify SIZECLAV-625's omitted source units, local indication, or pack label.",
+      "fieldSources": { "summary": ["dailymed-amoxicillin-clavulanate"], "uses": ["dailymed-amoxicillin-clavulanate"], "sideEffects": ["dailymed-amoxicillin-clavulanate"], "warnings": ["dailymed-amoxicillin-clavulanate"], "contraindications": ["dailymed-amoxicillin-clavulanate"], "interactions": ["dailymed-amoxicillin-clavulanate"] },
+      "sources": [{ "id": "dailymed-amoxicillin-clavulanate", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Amoxicillin and clavulanate potassium tablets — prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b68b2bf-b581-4372-87be-a6394ee56961", "jurisdiction": "United States", "revision": "2022-05", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "ambiguous-units", "notes": ["Do not add mg units solely from common-market knowledge; verify the product label."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "source-strength-text"] }]
+  },
+  {
+    "slug": "siliram-max",
+    "name": "SILIRAM-MAX",
+    "brandName": "SILIRAM-MAX",
+    "sourceDescription": "Silymarin,L-Ornithine-L-Aspartate , Tricholinecitrate & Multivitamin Syrup",
+    "displayDescription": "Silymarin, L-ornithine L-aspartate, tricholine citrate and multivitamin syrup",
+    "category": "syrups",
+    "dosageForm": "syrup",
+    "image": "/images/products/siliram-max.webp",
+    "imageAlt": "SILIRAM-MAX syrup packaging",
+    "featured": false,
+    "therapyCategory": "Liver and nutritional support",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "siliram-max-standard",
+      "label": "Product composition",
+      "ingredients": [
+        { "ingredientId": "silymarin", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "l-ornithine-l-aspartate", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "tricholine-citrate", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "blend-details-not-provided" }
+      ],
+      "verification": "partial-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova multi-ingredient syrup. Refer to the current pack for ingredient strengths, botanical standardization, and the complete multivitamin composition.",
+      "uses": [], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [],
+      "reviewStatus": "details-being-verified", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "partial-details", "notes": ["No ingredient strengths or full multivitamin composition are supplied by the source."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition"] }]
+  },
+  {
+    "slug": "ursoram-300-150mg",
+    "name": "URSORAM 300/150mg",
+    "brandName": "URSORAM 300/150mg",
+    "sourceDescription": "Ursodeoxycholic Acid  IP 300/150 mg Tablets",
+    "displayDescription": "Ursodeoxycholic acid tablets — 150 mg and 300 mg presentations",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/ursoram-300-150mg.webp",
+    "imageAlt": "URSORAM ursodeoxycholic acid tablet packaging",
+    "featured": true,
+    "therapyCategory": "Hepatobiliary care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [
+      { "id": "ursoram-150", "label": "150 mg", "ingredients": [{ "ingredientId": "ursodeoxycholic-acid", "strength": { "amount": 150, "unit": "mg" }, "verification": "source-listed-combined-entry" }], "verification": "source-listed-pending-pack-specific-confirmation" },
+      { "id": "ursoram-300", "label": "300 mg", "ingredients": [{ "ingredientId": "ursodeoxycholic-acid", "strength": { "amount": 300, "unit": "mg" }, "verification": "source-listed-combined-entry" }], "verification": "source-listed-pending-pack-specific-confirmation" }
+    ],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "The source lists ursodeoxycholic acid 150 mg and 300 mg in one combined entry. Clinical information below comes from a U.S. ursodiol tablet label with different strengths, so it is ingredient-level context rather than a verified Ramnova indication.",
+      "uses": ["The cited U.S. ursodiol tablet label is indicated for primary biliary cholangitis; URSORAM's India-approved indication has not been verified."],
+      "sideEffects": ["Commonly reported reactions include abdominal discomfort or pain, diarrhea, nausea, itching, rash, and hair loss."],
+      "warnings": ["Liver-test deterioration requires clinical assessment, and bile flow must be maintained.", "Rare intestinal concretions causing obstruction have been reported in people predisposed to intestinal narrowing or stasis."],
+      "contraindications": ["Complete biliary obstruction, or known hypersensitivity or intolerance to ursodiol or formulation components, under the cited U.S. label."],
+      "interactions": ["Bile-acid sequestrants and aluminum-based antacids can reduce ursodiol absorption.", "Medicines that alter lipid metabolism or induce cholestasis may interfere with its action."],
+      "scopeNote": "A U.S. 250 mg/500 mg ursodiol tablet label provides ingredient-level context. Consult the current Ramnova pack insert for local indications and guidance for the 150 mg and 300 mg presentations.",
+      "fieldSources": { "summary": ["dailymed-ursodiol"], "uses": ["dailymed-ursodiol"], "sideEffects": ["dailymed-ursodiol"], "warnings": ["dailymed-ursodiol"], "contraindications": ["dailymed-ursodiol"], "interactions": ["dailymed-ursodiol"] },
+      "sources": [{ "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+    },
+    "verification": { "status": "source-listed-pending-pack-specific-confirmation", "notes": ["Keep 150 mg and 300 mg as separate variants; do not imply both strengths occur in one tablet."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength-variants"] }]
+  }
+]

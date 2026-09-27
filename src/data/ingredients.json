@@ -1,0 +1,448 @@
+[
+  {
+    "id": "aceclofenac",
+    "name": "Aceclofenac",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in Ramnova's ACEORAM tablet range. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "paracetamol",
+    "name": "Paracetamol",
+    "synonyms": ["acetaminophen"],
+    "kind": "active-ingredient",
+    "medicalSummary": "Paracetamol, also known as acetaminophen, is used for pain and fever. Ramnova lists it in the ACEORAM range; matching this ingredient does not establish that branded combination products are interchangeable.",
+    "summaryStatus": "sourced-draft-not-medically-reviewed",
+    "clinical": {
+      "uses": ["Used to relieve pain and reduce high temperature or fever."],
+      "sideEffects": ["Side effects are rare when used correctly; serious reactions can include anaphylaxis, liver problems, or blood-cell disorders."],
+      "warnings": ["Taking too much can cause liver damage.", "Avoid unintentionally combining multiple medicines that contain paracetamol; people with liver or kidney conditions or heavy alcohol use should seek professional advice."],
+      "contraindications": ["A previous allergic reaction to paracetamol is a reason to seek professional advice before use; product leaflets may state additional contraindications."],
+      "interactions": ["Potential interactions include other paracetamol-containing medicines, metoclopramide or domperidone, warfarin, and flucloxacillin."],
+      "fieldSources": { "uses": ["nhs-paracetamol"], "sideEffects": ["nhs-paracetamol"], "warnings": ["nhs-paracetamol"], "contraindications": ["nhs-paracetamol"], "interactions": ["nhs-paracetamol"] },
+      "sources": [{ "id": "nhs-paracetamol", "publisher": "National Health Service", "title": "Paracetamol for adults", "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/", "jurisdiction": "United Kingdom", "revision": "reviewed 2026-03-24", "accessedAt": "2026-09-24", "sections": ["What paracetamol is for", "Side effects", "Who can and cannot take paracetamol", "Taking paracetamol with other medicines"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed"
+    },
+    "references": [
+      {
+        "publisher": "National Library of Medicine",
+        "title": "Acetaminophen",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK482369/",
+        "jurisdiction": "United States",
+        "accessedAt": "2026-09-24",
+        "fieldsSupported": ["synonyms"]
+      }
+    ]
+  },
+  {
+    "id": "serratiopeptidase",
+    "name": "Serratiopeptidase",
+    "synonyms": ["serrapeptase"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An enzyme ingredient listed in ACEORAM-SP. Detailed clinical claims are withheld pending approved-label verification.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "omega-3-fatty-acids",
+    "name": "Omega-3 fatty acids",
+    "synonyms": ["omega 3 fatty acids"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient blend listed in BLEMANGO-5G and CADMIZORB-MAX. The source catalog does not provide EPA/DHA amounts or ratios.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "ginkgo-biloba-extract",
+    "name": "Ginkgo biloba extract",
+    "synonyms": ["ginkgo extract"],
+    "kind": "botanical",
+    "medicalSummary": "A botanical extract listed in BLEMANGO-5G; its amount and extract standardization are not provided by the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "ginseng-extract",
+    "name": "Ginseng extract",
+    "synonyms": [],
+    "kind": "botanical",
+    "medicalSummary": "A botanical extract listed in BLEMANGO-5G; species, amount, and extract standardization are not provided by the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "green-tea-extract",
+    "name": "Green tea extract",
+    "synonyms": [],
+    "kind": "botanical",
+    "medicalSummary": "A botanical extract listed in BLEMANGO-5G; its amount and extract standardization are not provided by the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "grape-seed-extract",
+    "name": "Grape seed extract",
+    "synonyms": [],
+    "kind": "botanical",
+    "medicalSummary": "A botanical extract listed in BLEMANGO-5G; its amount and extract standardization are not provided by the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "multimineral-blend",
+    "name": "Multimineral blend",
+    "synonyms": ["multiminerals"],
+    "kind": "unspecified-blend",
+    "medicalSummary": "A catalog-level blend description. The individual minerals and amounts must be confirmed from product packaging before publication as a detailed composition.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "multivitamin-blend",
+    "name": "Multivitamin blend",
+    "synonyms": ["multivitamins"],
+    "kind": "unspecified-blend",
+    "medicalSummary": "A catalog-level blend description. The individual vitamins and amounts must be confirmed from product packaging before publication as a detailed composition.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "antioxidant-blend",
+    "name": "Antioxidant blend",
+    "synonyms": ["antioxidants"],
+    "kind": "unspecified-blend",
+    "medicalSummary": "A catalog-level blend description with no ingredient-level composition supplied by the source site.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "trace-elements-blend",
+    "name": "Trace elements",
+    "synonyms": ["trace element blend"],
+    "kind": "unspecified-blend",
+    "medicalSummary": "A catalog-level blend description with no ingredient-level composition supplied by the source site.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "astaxanthin",
+    "name": "Astaxanthin",
+    "synonyms": [],
+    "kind": "nutrient",
+    "medicalSummary": "A carotenoid ingredient listed in BLEMANGO SYRUP. The source catalog does not provide its amount.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "cholecalciferol",
+    "name": "Cholecalciferol",
+    "synonyms": ["vitamin d3", "colecalciferol"],
+    "kind": "vitamin",
+    "medicalSummary": "Cholecalciferol is vitamin D3. It supports calcium absorption and bone health; product-specific amounts are retained only when they appear in the Ramnova catalog.",
+    "summaryStatus": "sourced-draft-not-medically-reviewed",
+    "clinical": {
+      "uses": ["Vitamin D supports calcium absorption and normal bone health; treatment claims depend on the specific approved product label."],
+      "sideEffects": [],
+      "warnings": ["Excess supplemental vitamin D can cause high blood calcium, nausea, vomiting, weakness, confusion, dehydration, kidney stones, kidney failure, or an irregular heartbeat."],
+      "contraindications": [],
+      "interactions": ["Vitamin D supplements may interact with orlistat, some statins, corticosteroids, and thiazide diuretics."],
+      "fieldSources": { "uses": ["nih-ods-vitamin-d"], "warnings": ["nih-ods-vitamin-d"], "interactions": ["nih-ods-vitamin-d"] },
+      "sources": [{ "id": "nih-ods-vitamin-d", "publisher": "NIH Office of Dietary Supplements", "title": "Vitamin D — Fact Sheet for Consumers", "url": "https://ods.od.nih.gov/factsheets/VITAMIND-Consumer/", "jurisdiction": "United States", "revision": "current at access", "accessedAt": "2026-09-24", "sections": ["What is vitamin D and what does it do?", "Can vitamin D be harmful?", "Does vitamin D interact with medications or other dietary supplements?"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed"
+    }
+  },
+  {
+    "id": "calcium-carbonate",
+    "name": "Calcium carbonate",
+    "synonyms": [],
+    "kind": "mineral-source",
+    "medicalSummary": "A calcium source listed in several CADMIZORB products. The source catalog does not consistently state whether amounts refer to the compound or elemental calcium.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "calcium-citrate",
+    "name": "Calcium citrate",
+    "synonyms": [],
+    "kind": "mineral-source",
+    "medicalSummary": "A calcium source listed in CADMIZORB. No strength is supplied in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "methylcobalamin",
+    "name": "Methylcobalamin",
+    "synonyms": ["mecobalamin", "vitamin b12"],
+    "kind": "vitamin",
+    "medicalSummary": "A form of vitamin B12 listed in several CADMIZORB products.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "magnesium",
+    "name": "Magnesium",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A mineral listed in several CADMIZORB products. Its chemical form is not stated in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A mineral listed in CADMIZORB products. Its chemical form is not stated in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "folic-acid",
+    "name": "Folic acid",
+    "synonyms": ["vitamin b9", "folate"],
+    "kind": "vitamin",
+    "medicalSummary": "A vitamin ingredient listed in CADMIZORB and SIZEHEM-XT products.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "pyridoxine-hydrochloride",
+    "name": "Pyridoxine hydrochloride",
+    "synonyms": ["pyridoxine hcl", "vitamin b6"],
+    "kind": "vitamin",
+    "medicalSummary": "A form of vitamin B6 listed in CADMIZORB.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "calcitriol",
+    "name": "Calcitriol",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active form of vitamin D listed in several CADMIZORB soft-gel products.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "boron",
+    "name": "Boron",
+    "synonyms": [],
+    "kind": "trace-element",
+    "medicalSummary": "A trace element listed in CADMIZORB-MAX and CADMIZORB-PLUS.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-k2-7",
+    "name": "Vitamin K2-7",
+    "synonyms": ["menaquinone-7", "mk-7", "vitamin k2"],
+    "kind": "vitamin",
+    "medicalSummary": "A vitamin ingredient listed in CADMIZORB-PLUS and CADMIZORB-FEM. The source's strength formatting is potentially ambiguous and must be verified from packaging.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "soya-isoflavones",
+    "name": "Soya isoflavones",
+    "synonyms": ["soy isoflavones"],
+    "kind": "botanical",
+    "medicalSummary": "A soy-derived ingredient listed in CADMIZORB-FEM. The source describes a 40% material and a 50 mg amount; packaging confirmation is still required.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "esomeprazole",
+    "name": "Esomeprazole",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in ESORUSK-D and ESORUSK-LS sustained-release capsule combinations.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "domperidone",
+    "name": "Domperidone",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in ESORUSK-D, RUSKITOP-DSR, and RUSKIRAB-DSR. Detailed medical guidance is awaiting approved-label verification.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "levosulpiride",
+    "name": "Levosulpiride",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in ESORUSK-LS and RUSKIRAB-L sustained-release combinations.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "levocetirizine",
+    "name": "Levocetirizine",
+    "synonyms": ["levocetirizine hydrochloride"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in KRUJOCET-M.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "montelukast",
+    "name": "Montelukast",
+    "synonyms": ["montelukast sodium"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An asthma and allergy medicine listed in KRUJOCET-M and KRUJOKAST-F. The U.S. FDA requires a boxed warning about serious neuropsychiatric events.",
+    "summaryStatus": "sourced-draft-not-medically-reviewed",
+    "clinical": {
+      "uses": ["Used for asthma and allergies; the U.S. FDA recommends reserving use for allergic rhinitis for people who do not respond to or cannot tolerate alternatives."],
+      "sideEffects": ["The FDA communication lists upper respiratory infection, fever, headache, sore throat, cough, stomach pain, diarrhea, ear infection, flu, runny nose, and sinus infection among common reported effects."],
+      "warnings": ["The U.S. FDA requires a boxed warning for serious neuropsychiatric events, including suicidal thoughts or actions; events have occurred with and without previous psychiatric illness."],
+      "contraindications": [],
+      "interactions": [],
+      "fieldSources": { "uses": ["fda-montelukast-boxed-warning"], "sideEffects": ["fda-montelukast-boxed-warning"], "warnings": ["fda-montelukast-boxed-warning"] },
+      "sources": [{ "id": "fda-montelukast-boxed-warning", "publisher": "U.S. Food and Drug Administration", "title": "FDA requires Boxed Warning about serious mental health side effects for montelukast", "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug", "jurisdiction": "United States", "revision": "2020-03-04", "accessedAt": "2026-09-24", "sections": ["Safety announcement", "Additional Information for Health Care Professionals"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed"
+    }
+  },
+  {
+    "id": "fexofenadine",
+    "name": "Fexofenadine",
+    "synonyms": ["fexofenadine hydrochloride"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in KRUJOKAST-F.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "meropenem",
+    "name": "Meropenem",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An injectable carbapenem antibacterial ingredient listed in MEPRISHOT. The Ramnova listing contains conflicting strength information, so the product strength remains withheld.",
+    "summaryStatus": "sourced-draft-not-medically-reviewed",
+    "clinical": {
+      "uses": ["U.S. labeling includes certain susceptible bacterial infections, including complicated skin and skin-structure infections and intra-abdominal infections."],
+      "sideEffects": ["Commonly reported reactions include headache, nausea, constipation, diarrhea, anemia, vomiting, and rash."],
+      "warnings": ["Serious hypersensitivity and severe skin reactions can occur; seizures and other central nervous system effects have been reported, with greater concern in renal impairment or seizure disorders."],
+      "contraindications": ["Known hypersensitivity to meropenem or product components, or a history of anaphylactic reactions to beta-lactam antibacterial medicines."],
+      "interactions": ["Probenecid can increase meropenem exposure and is not recommended with it.", "Meropenem can reduce valproic acid or divalproex concentrations and increase the risk of breakthrough seizures."],
+      "fieldSources": { "uses": ["dailymed-meropenem"], "sideEffects": ["dailymed-meropenem"], "warnings": ["dailymed-meropenem"], "contraindications": ["dailymed-meropenem"], "interactions": ["dailymed-meropenem"] },
+      "sources": [{ "id": "dailymed-meropenem", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Meropenem for injection — prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d37e43b-ff8d-495d-b9af-4fd5fce53d56", "jurisdiction": "United States", "revision": "2025", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed"
+    }
+  },
+  {
+    "id": "piperacillin",
+    "name": "Piperacillin",
+    "synonyms": ["piperacillin sodium"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An injectable antibacterial ingredient listed with tazobactam in PIPROSHOT 4.5g. Ingredient-level strengths are not stated in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "tazobactam",
+    "name": "Tazobactam",
+    "synonyms": ["tazobactam sodium"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An ingredient listed with piperacillin in PIPROSHOT 4.5g. Ingredient-level strengths are not stated in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "tamsulosin-hydrochloride",
+    "name": "Tamsulosin hydrochloride",
+    "synonyms": ["tamsulosin hcl", "tamsulosin"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in PROSTEOSOL-D.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "dutasteride",
+    "name": "Dutasteride",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in PROSTEOSOL-D.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "pantoprazole-sodium",
+    "name": "Pantoprazole sodium",
+    "synonyms": ["pantoprazole"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in RUSKITOP-DSR. The source catalog does not state its strength.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "rabeprazole",
+    "name": "Rabeprazole",
+    "synonyms": ["rabeprazole sodium"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in RUSKIRAB-DSR and RUSKIRAB-L.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "evening-primrose-oil",
+    "name": "Evening primrose oil",
+    "synonyms": ["epo"],
+    "kind": "botanical-oil",
+    "medicalSummary": "A botanical oil listed in ROSEORAM soft-gel capsules. NCCIH reports insufficient evidence to support evening primrose oil for any health condition; the catalog also provides no fatty-acid standardization.",
+    "summaryStatus": "sourced-draft-not-medically-reviewed",
+    "clinical": {
+      "uses": [],
+      "sideEffects": ["Commonly reported effects are gastrointestinal symptoms such as abdominal pain, nausea, or diarrhea."],
+      "warnings": ["Evidence about safety during pregnancy and breastfeeding is not conclusive, and long-term safety when used to try to start labor has not been established."],
+      "contraindications": [],
+      "interactions": ["Specific interactions are not established in the cited overview; people taking medicines should discuss evening primrose oil with a healthcare professional because herbal products can interact with medicines."],
+      "fieldSources": { "sideEffects": ["nccih-evening-primrose"], "warnings": ["nccih-evening-primrose"], "interactions": ["nccih-evening-primrose"] },
+      "sources": [{ "id": "nccih-evening-primrose", "publisher": "U.S. National Center for Complementary and Integrative Health", "title": "Evening Primrose Oil: Usefulness and Safety", "url": "https://www.nccih.nih.gov/health/evening-primrose-oil", "jurisdiction": "United States", "revision": "current at access", "accessedAt": "2026-09-24", "sections": ["What Have We Learned?", "What Do We Know About Safety?"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed"
+    }
+  },
+  {
+    "id": "calcium-dobesilate-monohydrate",
+    "name": "Calcium dobesilate monohydrate",
+    "synonyms": ["calcium dobesilate"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in SIZEDOB. No strength is supplied in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "ferrous-ascorbate",
+    "name": "Ferrous ascorbate",
+    "synonyms": ["iron ascorbate"],
+    "kind": "mineral-source",
+    "medicalSummary": "An iron source listed with folic acid in SIZEHEM-XT. No strengths are supplied in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "amoxicillin",
+    "name": "Amoxicillin",
+    "synonyms": ["amoxycillin"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An antibacterial ingredient listed with clavulanic acid in SIZECLAV-625. The source displays numeric strengths but omits the units.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "clavulanic-acid",
+    "name": "Clavulanic acid",
+    "synonyms": ["clavulanate", "potassium clavulanate"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An ingredient listed with amoxicillin in SIZECLAV-625. The source displays numeric strengths but omits the units.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "silymarin",
+    "name": "Silymarin",
+    "synonyms": ["milk thistle extract"],
+    "kind": "botanical",
+    "medicalSummary": "A botanical ingredient listed in SILIRAM-MAX. The amount and extract standardization are not provided by the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "l-ornithine-l-aspartate",
+    "name": "L-ornithine L-aspartate",
+    "synonyms": ["lola"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An ingredient listed in SILIRAM-MAX. No strength is supplied in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "tricholine-citrate",
+    "name": "Tricholine citrate",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An ingredient listed in SILIRAM-MAX. No strength is supplied in the source catalog.",
+    "summaryStatus": "details-being-verified"
+  },
+  {
+    "id": "ursodeoxycholic-acid",
+    "name": "Ursodeoxycholic acid",
+    "synonyms": ["ursodiol", "udca"],
+    "kind": "active-ingredient",
+    "medicalSummary": "Ursodeoxycholic acid, also called ursodiol, is listed in URSORAM tablets. The source identifies 150 mg and 300 mg strengths in one combined listing; pack-specific details remain unverified.",
+    "summaryStatus": "sourced-draft-not-medically-reviewed",
+    "clinical": {
+      "uses": ["A cited U.S. ursodiol tablet label is indicated for primary biliary cholangitis; approved uses vary by product and jurisdiction."],
+      "sideEffects": ["Commonly reported reactions include abdominal discomfort or pain, diarrhea, nausea, itching, rash, and hair loss."],
+      "warnings": ["Liver-test deterioration requires clinical assessment, and bile flow must be maintained.", "Rare intestinal concretions causing obstruction have been reported in people predisposed to intestinal narrowing or stasis."],
+      "contraindications": ["Complete biliary obstruction, or known hypersensitivity or intolerance to ursodiol or formulation components, under the cited U.S. label."],
+      "interactions": ["Bile-acid sequestrants and aluminum-based antacids can reduce ursodiol absorption.", "Medicines that alter lipid metabolism or induce cholestasis may interfere with its action."],
+      "fieldSources": { "uses": ["dailymed-ursodiol"], "sideEffects": ["dailymed-ursodiol"], "warnings": ["dailymed-ursodiol"], "contraindications": ["dailymed-ursodiol"], "interactions": ["dailymed-ursodiol"] },
+      "sources": [{ "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "reviewStatus": "sourced-draft-not-medically-reviewed"
+    }
+  }
+]
