@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/home", "destination": "/", "permanent": true },
+    { "source": "/aboutUs", "destination": "/about/", "permanent": true },
+    { "source": "/contactUs", "destination": "/contact/", "permanent": true }
+  ]
+}
