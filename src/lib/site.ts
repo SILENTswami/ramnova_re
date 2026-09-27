@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Changing tomorrow for a better and healthier life.",
   description:
     "Explore Ramnova Healthcare's pharmaceutical formulations, compositions and product information across tablets, capsules, syrups and injections.",
-  url: "https://ramnovahealthcare.com",
+  url: "https://www.ramnovahealthcare.com",
   email: "ramnovainfo@gmail.com",
   phoneDisplay: "+91 79799 75763",
   phoneHref: "+917979975763",
