@@ -19,6 +19,7 @@ import {
   getIngredientLabel,
   getProduct,
   getProductImages,
+  getProductIngredientNames,
   getRelatedProducts,
   ingredientMap,
   products,
@@ -37,20 +38,45 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
+// Search traffic arrives on the molecule, not the brand: nobody looks up "SIZEDOB"
+// unless they already hold the pack. Lead the title and description with the
+// composition, trimmed to a character budget so the useful part survives truncation.
+function getCompositionSummary(product: Product, budget: number) {
+  const names = getProductIngredientNames(product);
+  if (!names.length) return null;
+  const kept: string[] = [];
+  let length = 0;
+  for (const name of names) {
+    const addition = kept.length ? name.length + 2 : name.length;
+    if (kept.length && length + addition > budget) break;
+    kept.push(name);
+    length += addition;
+  }
+  const omitted = names.length - kept.length;
+  return omitted > 0 ? `${kept.join(", ")} and ${omitted} more` : kept.join(", ");
+}
+
+function getDosageFormLabel(product: Product) {
+  return product.dosageForm.replaceAll("-", " ");
+}
+
 export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
   const { slug } = await params;
   const category = productCategories.find((item) => item.slug === slug);
   if (category) {
-    const count = products.filter((product) => product.category === category.slug).length;
-    const description = `Explore ${count} Ramnova Healthcare ${category.label.toLowerCase()} with composition, product imagery and direct enquiry information.`;
+    const inCategory = products.filter((product) => product.category === category.slug);
+    // Name real brands here so the category page can also be found by product query.
+    const examples = inCategory.slice(0, 3).map((product) => product.name);
+    const examplesText = examples.length ? `, including ${examples.join(", ")}` : "";
+    const description = `${inCategory.length} Ramnova Healthcare ${category.label.toLowerCase()}${examplesText}. Composition, safety information and cited sources for each product.`;
     return {
-      title: `${category.label} Products`,
+      title: category.label,
       description,
       alternates: { canonical: `/products/${category.slug}/` },
       openGraph: {
         type: "website",
         url: `/products/${category.slug}/`,
-        title: `${category.label} Products | Ramnova Healthcare`,
+        title: `${category.label} | Ramnova Healthcare`,
         description,
       },
     };
@@ -59,15 +85,22 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const product = getProduct(slug);
   if (!product) return {};
   const productImages = getProductImages(product);
-  const description = `View composition, dosage form, product imagery and enquiry details for ${product.name}. Catalogue information only.`;
+  const titleComposition = getCompositionSummary(product, 58);
+  const descriptionComposition = getCompositionSummary(product, 54);
+  const title = titleComposition ? `${product.name} (${titleComposition})` : product.name;
+  // Keep the whole description inside the ~155 characters Google will show.
+  const subject = descriptionComposition
+    ? `${getDosageFormLabel(product)} containing ${descriptionComposition}`
+    : product.displayDescription;
+  const description = `${product.name}: ${subject}. Composition, safety details and cited sources.`;
   return {
-    title: product.name,
+    title,
     description,
     alternates: { canonical: `/products/${product.slug}/` },
     openGraph: {
       type: "website",
       url: `/products/${product.slug}/`,
-      title: `${product.name} | Ramnova Healthcare`,
+      title: `${title} | Ramnova Healthcare`,
       description,
       images: productImages.map((image, index) => ({
         url: image,
@@ -76,7 +109,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     },
     twitter: {
       card: "summary_large_image",
-      title: `${product.name} | Ramnova Healthcare`,
+      title: `${title} | Ramnova Healthcare`,
       description,
       images: productImages,
     },
