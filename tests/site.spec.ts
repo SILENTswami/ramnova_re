@@ -13,7 +13,11 @@ test("homepage has crawlable brand content and working imagery", async ({ page }
   expect(brokenImages).toBe(0);
 });
 
-test("Dolo search explains the ingredient relationship", async ({ page }) => {
+// Skipped since the 2026-09-28 catalogue revision: ACEORAM-P and ACEORAM-SP were the
+// only paracetamol products, so the "dolo" and "acetaminophen" aliases in
+// search-aliases.json now match nothing. Restore this test if a paracetamol product
+// returns to the catalogue, or drop it along with the aliases.
+test.skip("Dolo search explains the ingredient relationship", async ({ page }) => {
   await page.goto("/products/");
   const search = page.getByRole("combobox", { name: "Search products" });
   await search.fill("dolo");
@@ -24,22 +28,22 @@ test("Dolo search explains the ingredient relationship", async ({ page }) => {
 });
 
 test("a product deep link exposes metadata, composition and disclaimer", async ({ page }) => {
-  await page.goto("/products/aceoram-p/");
-  await expect(page.getByRole("heading", { level: 1, name: "ACEORAM-P" })).toBeVisible();
-  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", /products\/aceoram-p\/$/);
+  await page.goto("/products/ruskirab-dsr/");
+  await expect(page.getByRole("heading", { level: 1, name: "RUSKIRAB-DSR" })).toBeVisible();
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", /products\/ruskirab-dsr\/$/);
   await expect(page.getByText(/Important medical information/i)).toBeVisible();
   await expect(page.getByRole("heading", { name: "Composition and variants" })).toBeVisible();
   await expect(page.locator('script[type="application/ld+json"]')).not.toHaveCount(0);
 });
 
 test("single product artwork and composition are server-rendered", async ({ page }) => {
-  await page.goto("/products/aceoram-p/");
+  await page.goto("/products/ruskirab-dsr/");
   const gallery = page.locator(".product-media-carousel");
   await expect(gallery).toHaveAttribute("data-image-count", "1");
-  await expect(gallery.getByRole("img", { name: /ACEORAM-P medicine packaging/i })).toBeVisible();
+  await expect(gallery.getByRole("img", { name: /RUSKIRAB-DSR medicine packaging/i })).toBeVisible();
   await expect(gallery.locator(".product-media-controls")).toHaveCount(0);
   const composition = page.locator("#composition");
-  await expect(composition.getByText("Aceclofenac", { exact: true })).toBeVisible();
+  await expect(composition.getByText("Rabeprazole", { exact: true })).toBeVisible();
   await expect(composition.getByText("Paracetamol", { exact: true })).toBeVisible();
 });
 

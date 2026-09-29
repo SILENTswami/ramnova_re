@@ -9,9 +9,9 @@ import {
 } from "@/lib/catalog";
 
 describe("catalog data", () => {
-  it("contains the 27 migrated products", () => {
-    expect(products).toHaveLength(27);
-    expect(new Set(products.map((product) => product.slug)).size).toBe(27);
+  it("contains the 8 catalogue products", () => {
+    expect(products).toHaveLength(8);
+    expect(new Set(products.map((product) => product.slug)).size).toBe(8);
   });
 
   it("formats a missing price as a contact action", () => {
@@ -19,7 +19,7 @@ describe("catalog data", () => {
   });
 
   it("resolves product slugs", () => {
-    expect(getProduct("aceoram-p")?.name).toBe("ACEORAM-P");
+    expect(getProduct("ruskirab-dsr")?.name).toBe("RUSKIRAB-DSR");
   });
 
   it("normalizes string and array product images", () => {
@@ -42,7 +42,9 @@ describe("catalog data", () => {
 describe("ingredient-aware search", () => {
   const expectedParacetamolProducts = ["ACEORAM-P", "ACEORAM-SP"];
 
-  it.each(["dolo", "paracetamol", "acetaminophen"])(
+  // Skipped since the 2026-09-28 catalogue revision: the only paracetamol products were
+  // retired, so these aliases resolve to an empty product list. Restore if one returns.
+  it.skip.each(["dolo", "paracetamol", "acetaminophen"])(
     "maps %s to paracetamol-containing products",
     (query) => {
       const result = searchProducts(query);
@@ -53,16 +55,16 @@ describe("ingredient-aware search", () => {
   );
 
   it("finds an exact brand", () => {
-    expect(searchProducts("CADISUN-D3").products[0]?.name).toBe("CADISUN-D3");
+    expect(searchProducts("ESORUSK-D").products[0]?.name).toBe("ESORUSK-D");
   });
 
   it("supports typo-tolerant brand search", () => {
-    expect(searchProducts("aceoram sp").products.some((product) => product.name === "ACEORAM-SP")).toBe(true);
+    expect(searchProducts("ruskirab dsr").products.some((product) => product.name === "RUSKIRAB-DSR")).toBe(true);
   });
 
   it("applies dosage-form filtering", () => {
     const result = searchProducts("", "injections");
-    expect(result.products).toHaveLength(2);
+    expect(result.products).toHaveLength(1);
     expect(result.products.every((product) => product.category === "injections")).toBe(true);
   });
 });
