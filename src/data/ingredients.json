@@ -604,5 +604,13 @@
     "kind": "unspecified-blend",
     "medicalSummary": "A catalog-level blend description. The individual amino acids and amounts must be confirmed from product packaging before publication as a detailed composition.",
     "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "flavoxate-hydrochloride",
+    "name": "Flavoxate hydrochloride",
+    "synonyms": ["flavoxate"],
+    "kind": "active-ingredient",
+    "medicalSummary": "A urinary antispasmodic listed in Ramnova's FLAVOLEAD tablets. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
   }
 ]

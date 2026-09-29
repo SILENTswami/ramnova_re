@@ -935,7 +935,7 @@
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
       "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
     },
-    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The protein source is not named on the artwork reviewed; confirm before publishing a composition.", "Per-serving amounts are stated but the serving size itself is not, so the amounts cannot be converted to a per-100 g basis.", "The container artwork carries a Remova brand mark rather than Ramnova; confirm the correct brand owner before publication."] },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The protein source is not named on the artwork reviewed; confirm before publishing a composition.", "Per-serving amounts are stated but the serving size itself is not, so the amounts cannot be converted to a per-100 g basis.", "The stylised brand mark on the container reads as Remova at low resolution; the brand owner has confirmed it is Ramnova."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
   },
   {
@@ -1251,5 +1251,155 @@
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid headline reads Cefpodoxime + Potassium Clavulanate 100mg but the pack artwork on the same page reads Cefpodoxime Oral Suspension I.P. with no clavulanate. Only cefpodoxime is recorded here; the presence and amount of potassium clavulanate must be confirmed from the pack before publication.", "The meaning of 100 in the brand name, whether a per-5-mL strength or something else, is not stated."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "flavolead",
+    "name": "FLAVOLEAD",
+    "brandName": "FLAVOLEAD",
+    "sourceDescription": "Flavoxate Hydrochloride 200 mg Tablets",
+    "displayDescription": "Flavoxate hydrochloride 200 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/flavolead.webp",
+    "imageAlt": "FLAVOLEAD tablet packaging",
+    "featured": false,
+    "therapyCategory": "Urinary tract medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "flavolead-200",
+      "label": "200 mg",
+      "ingredients": [
+        { "ingredientId": "flavoxate-hydrochloride", "strength": { "amount": 200, "unit": "mg" }, "verification": "visual-aid-listed" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova flavoxate hydrochloride 200 mg tablets. Flavoxate is a urinary antispasmodic used for symptoms of bladder overactivity.",
+      "uses": ["The manufacturer's visual aid lists overactive bladder, dysuria, urgency, suprapubic pain, nocturia, frequency and incontinence, as may occur in cystitis, prostatitis, urethritis and urethrocystitis or urethrotrigonitis."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Flavoxate relieves symptoms of bladder overactivity and does not treat the cystitis, prostatitis or urethritis that may cause them; the visual aid lists those conditions as the setting in which the symptoms occur."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }]
+  },
+  {
+    "slug": "siliram-max",
+    "name": "SILIRAM-MAX",
+    "brandName": "SILIRAM-MAX",
+    "sourceDescription": "Silymarin,L-Ornithine-L-Aspartate , Tricholinecitrate & Multivitamin Syrup",
+    "displayDescription": "Silymarin, L-ornithine L-aspartate, tricholine citrate and multivitamin syrup",
+    "category": "syrups",
+    "dosageForm": "syrup",
+    "image": "/images/products/siliram-max.webp",
+    "imageAlt": "SILIRAM-MAX syrup packaging",
+    "featured": false,
+    "therapyCategory": "Liver and nutritional support",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "siliram-max-standard",
+      "label": "Product composition",
+      "ingredients": [
+        { "ingredientId": "silymarin", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "l-ornithine-l-aspartate", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "tricholine-citrate", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "blend-details-not-provided" }
+      ],
+      "verification": "partial-details"
+    }],
+    "packaging": { "description": null, "verification": "not-provided" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova syrup listed as silymarin with L-ornithine L-aspartate, tricholine citrate and an unenumerated multivitamin blend. No strength is stated for any ingredient. The two components that can be sourced both have negative or inconclusive evidence: a United States evidence review reports that trials of silymarin in hepatitis C and in non-alcoholic steatohepatitis did not show benefit, and a Cochrane review concluded that evidence is insufficient to confidently recommend L-ornithine L-aspartate for preventing or managing hepatic encephalopathy. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
+      "uses": [
+        "The U.S. National Center for Complementary and Integrative Health reports that study results for milk thistle in liver disease have been conflicting or too limited to allow conclusions, and that two trials it funded, one in hepatitis C and one in non-alcoholic steatohepatitis, did not show benefits from supplementation with the milk thistle extract silymarin.",
+        "The same review notes that a small number of studies in people suggest milk thistle extracts may help control blood sugar in people with type 2 diabetes.",
+        "A Cochrane review of L-ornithine L-aspartate in people with cirrhosis concluded that the evidence is insufficient to confidently recommend it for preventing or managing hepatic encephalopathy, with certainty of evidence rated very low to low.",
+        "No source reviewed here establishes a use for this product or for this combination of ingredients."
+      ],
+      "sideEffects": [
+        "Reported effects of milk thistle are digestive symptoms such as bloating, nausea and gas.",
+        "Allergic reactions to milk thistle may occur, particularly in people allergic to related plants such as ragweed, chrysanthemum, marigold and daisy."
+      ],
+      "warnings": [
+        "The cited review notes a product-quality concern specific to milk thistle: some products have been found to contain amounts of silymarin substantially different from the label, or to be contaminated with pesticides, microorganisms or mycotoxins. The silymarin content of this product is not stated and is not verified by any source reviewed here.",
+        "Because milk thistle extracts may affect blood sugar control in people with type 2 diabetes, anyone using glucose-lowering treatment should raise this with a health professional before use.",
+        "People allergic to ragweed, chrysanthemum, marigold or daisy may react to milk thistle.",
+        "The Cochrane review of L-ornithine L-aspartate assessed it in people with cirrhosis and hepatic encephalopathy, a hospital population under specialist care. Nothing in that review supports use of the ingredient outside that setting, and it notes considerable risk of bias in the included trials and evidence of small-study effects."
+      ],
+      "contraindications": [],
+      "interactions": [
+        "No specific drug interaction is named for milk thistle in the cited review, which advises anyone taking any type of medicine to consult a health professional before use.",
+        "No interaction statement for L-ornithine L-aspartate, tricholine citrate or the multivitamin blend is established by any source reviewed here."
+      ],
+      "scopeNote": "Assembled from one United States evidence review and one Cochrane systematic review, because no Indian pack insert, CDSCO approval or Indian peer-reviewed source for SILIRAM-MAX was located. The gaps are extensive. No strength is stated for any of the four listed components, and the multivitamin blend is not itemised anywhere reviewed here, so nothing above can be read as a dose and no vitamin can be checked against a recommended intake or an upper intake level. Tricholine citrate is named in the composition but is not covered by any source cited here, and no claim is made about it. The silymarin source is a general evidence and safety summary about milk thistle; it does not correspond to any particular extract, standardisation or dose, and it is not regulatory labelling. The L-ornithine L-aspartate source is a systematic review in people with cirrhosis and hepatic encephalopathy, which is a different population and a different level of care from anyone likely to be given a syrup on general liver support grounds; its conclusion is cited for what it says about the ingredient, not as evidence about this product, and specific trial counts and effect estimates from it are deliberately not reproduced here because they could not be read reliably from the copy consulted. Neither source addresses the combination of silymarin with L-ornithine L-aspartate, and no source reviewed here explains why the two are combined with a choline salt and vitamins in one syrup. The contraindications list is empty because neither cited source is a regulatory label and neither establishes a contraindication. The catalogue therapy category, liver and nutritional support, is itself marked as inferred from composition rather than sourced. Nothing above verifies the India-approved status, composition, strengths, dosing or pack insert of SILIRAM-MAX.",
+      "fieldSources": {
+        "summary": [
+          "nccih-milk-thistle",
+          "cochrane-lola"
+        ],
+        "uses": [
+          "nccih-milk-thistle",
+          "cochrane-lola"
+        ],
+        "sideEffects": [
+          "nccih-milk-thistle"
+        ],
+        "warnings": [
+          "nccih-milk-thistle",
+          "cochrane-lola"
+        ],
+        "interactions": [
+          "nccih-milk-thistle"
+        ],
+        "scopeNote": [
+          "nccih-milk-thistle",
+          "cochrane-lola"
+        ]
+      },
+      "sources": [
+        {
+          "id": "nccih-milk-thistle",
+          "publisher": "U.S. National Center for Complementary and Integrative Health",
+          "title": "Milk Thistle",
+          "url": "https://www.nccih.nih.gov/health/milk-thistle",
+          "jurisdiction": "United States",
+          "revision": "2025-02",
+          "accessedAt": "2026-09-28",
+          "sections": [
+            "What the Science Says",
+            "Liver diseases",
+            "Type 2 diabetes",
+            "Safety"
+          ]
+        },
+        {
+          "id": "cochrane-lola",
+          "publisher": "Cochrane Database of Systematic Reviews",
+          "title": "L-ornithine L-aspartate for prevention and treatment of hepatic encephalopathy in people with cirrhosis (Goh ET and others), CD012410.pub2",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD012410.pub2/full",
+          "jurisdiction": "International",
+          "revision": "2018",
+          "accessedAt": "2026-09-28",
+          "sections": [
+            "Authors' conclusions",
+            "Certainty of evidence",
+            "Risk of bias"
+          ]
+        }
+      ],
+      "reviewStatus": "sourced-draft-not-medically-reviewed",
+      "reviewedBy": null,
+      "lastUpdated": "2026-09-28"
+    },
+    "verification": { "status": "partial-details", "notes": ["The PVAS2109 visual aid presents SILIRAM-MAX as tablets and suspension, while this entry describes the syrup only. Confirm whether a tablet pack should be listed separately.", "No per-dose strengths are stated for any component."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition"] }]
   }
 ]

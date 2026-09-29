@@ -9,9 +9,9 @@ import {
 } from "@/lib/catalog";
 
 describe("catalog data", () => {
-  it("contains the 18 catalogue products", () => {
-    expect(products).toHaveLength(18);
-    expect(new Set(products.map((product) => product.slug)).size).toBe(18);
+  it("contains the 20 catalogue products", () => {
+    expect(products).toHaveLength(20);
+    expect(new Set(products.map((product) => product.slug)).size).toBe(20);
   });
 
   it("formats a missing price as a contact action", () => {

@@ -22,7 +22,6 @@
     { "source": "/products/roseoram-500", "destination": "/products/", "permanent": true },
     { "source": "/products/sizedob", "destination": "/products/", "permanent": true },
     { "source": "/products/sizehem-xt", "destination": "/products/", "permanent": true },
-    { "source": "/products/sizeclav-625", "destination": "/products/", "permanent": true },
-    { "source": "/products/siliram-max", "destination": "/products/", "permanent": true }
+    { "source": "/products/sizeclav-625", "destination": "/products/", "permanent": true }
   ]
 }

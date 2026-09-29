@@ -55,6 +55,7 @@
     { "output": "/images/products/ramomin-400.webp", "sourceDocument": "PVAS2109 product visual aid supplied by Ramnova Healthcare", "sourcePage": 14, "method": "cropped from the page artwork and re-encoded as WebP", "status": "localized" },
     { "output": "/images/products/sizepod-100.webp", "sourceDocument": "PVAS2109 product visual aid supplied by Ramnova Healthcare", "sourcePage": 16, "method": "cropped from the page artwork and re-encoded as WebP", "status": "localized" },
     { "output": "/images/products/cefrishot-tz.webp", "sourceDocument": "PVAS2109 product visual aid supplied by Ramnova Healthcare", "sourcePage": 18, "method": "cropped from the page artwork and re-encoded as WebP", "status": "localized" },
-    { "output": "/images/products/blemango-protein-powder.webp", "sourceDocument": "BLEMANGO Protein Powder artwork supplied by Ramnova Healthcare (PHOTO-2026-09-25-10-36-10.jpg)", "method": "cropped from the banner artwork and re-encoded as WebP", "status": "localized" }
+    { "output": "/images/products/blemango-protein-powder.webp", "sourceDocument": "BLEMANGO Protein Powder artwork supplied by Ramnova Healthcare (PHOTO-2026-09-25-10-36-10.jpg)", "method": "cropped from the banner artwork and re-encoded as WebP", "status": "localized" },
+    { "output": "/images/products/flavolead.webp", "sourceDocument": "PVAS2109 product visual aid supplied by Ramnova Healthcare", "sourcePage": 7, "method": "cropped from the page artwork and re-encoded as WebP", "status": "localized" }
   ]
 }
