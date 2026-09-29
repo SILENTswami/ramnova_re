@@ -18,7 +18,7 @@
       "ingredients": [
         { "ingredientId": "calcium-carbonate", "strength": { "amount": 500, "unit": "mg" }, "verification": "source-listed-compound-vs-elemental-basis-not-stated" },
         { "ingredientId": "calcitriol", "strength": { "amount": 0.25, "unit": "mcg" }, "verification": "source-listed" },
-        { "ingredientId": "vitamin-k2-7", "strength": null, "sourceStrengthText": "45 mg", "verification": "unit-or-decimal-formatting-needs-confirmation" },
+        { "ingredientId": "vitamin-k2-7", "strength": { "amount": 45, "unit": "mcg" }, "sourceStrengthText": "45 mg", "verification": "visual-aid-corrects-catalogue-unit" },
         { "ingredientId": "methylcobalamin", "strength": { "amount": 750, "unit": "mcg" }, "verification": "source-listed" },
         { "ingredientId": "magnesium", "strength": { "amount": 20, "unit": "mg" }, "verification": "source-listed-form-not-stated" },
         { "ingredientId": "boron", "strength": { "amount": 1.5, "unit": "mg" }, "verification": "source-listed" },
@@ -178,7 +178,7 @@
       "reviewedBy": null,
       "lastUpdated": "2026-09-28"
     },
-    "verification": { "status": "conflicting-or-ambiguous-details", "notes": ["Source states vitamin K2-7 as 45 mg; confirm amount and unit from packaging before normalized display."] },
+    "verification": { "status": "conflicting-or-ambiguous-details", "notes": ["The website catalogue states vitamin K2-7 as 45 mg and the PVAS2109 visual aid states 45 mcg. The microgram figure is recorded because 45 mg would be roughly a thousand times any usual vitamin K2-7 amount; confirm against the pack.", "The two Ramnova sources disagree on calcium carbonate: the website catalogue states 500 mg and the PVAS2109 visual aid states 200 mg. The catalogue figure is retained unchanged pending confirmation from the pack.", "The source does not state whether the calcium figure refers to calcium carbonate or to elemental calcium."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition", "source-strength-text"] }]
   },
   {
@@ -483,8 +483,8 @@
       "id": "piproshot-4-5g-standard",
       "label": "4.5 g product presentation",
       "ingredients": [
-        { "ingredientId": "piperacillin", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "tazobactam", "strength": null, "verification": "source-listed-strength-not-provided" }
+        { "ingredientId": "piperacillin", "strength": { "amount": 4, "unit": "g" }, "verification": "visual-aid-listed" },
+        { "ingredientId": "tazobactam", "strength": { "amount": 500, "unit": "mg" }, "verification": "visual-aid-listed" }
       ],
       "verification": "partial-details"
     }],
@@ -502,7 +502,7 @@
       "sources": [{ "id": "dailymed-piperacillin-tazobactam", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Piperacillin and tazobactam for injection — prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c8e3cc43-238d-4a23-95dc-157c85f83184", "jurisdiction": "United States", "revision": "2025-04", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
       "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
     },
-    "verification": { "status": "partial-details", "notes": ["Do not split the 4.5 g brand total into component strengths without packaging evidence."] },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Component strengths are taken from the PVAS2109 visual aid, which states piperacillin 4 g and tazobactam 500 mg; confirm against the pack before treating them as final."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "sourceDescription", "category", "composition"] }]
   },
   {
@@ -561,8 +561,8 @@
       "id": "ruskitop-dsr-standard",
       "label": "Product presentation",
       "ingredients": [
-        { "ingredientId": "pantoprazole-sodium", "strength": null, "release": "enteric coated", "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "domperidone", "strength": null, "release": "sustained release", "verification": "source-listed-strength-not-provided" }
+        { "ingredientId": "pantoprazole-sodium", "strength": { "amount": 40, "unit": "mg" }, "release": "gastro resistant", "verification": "visual-aid-listed" },
+        { "ingredientId": "domperidone", "strength": { "amount": 30, "unit": "mg" }, "release": "prolonged release", "verification": "visual-aid-listed" }
       ],
       "verification": "partial-details"
     }],
@@ -850,5 +850,406 @@
     },
     "verification": { "status": "source-listed-pending-pack-specific-confirmation", "notes": ["Keep 150 mg and 300 mg as separate variants; do not imply both strengths occur in one tablet."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength-variants"] }]
+  },
+  {
+    "slug": "blemango-q10",
+    "name": "BLEMANGO Q10",
+    "brandName": "BLEMANGO Q10",
+    "sourceDescription": "Co enzyme-Q10, L-Carnitine L-tartrate, Astaxanthin, Lycopene, Zinc, Sodium Selenite & Multivitamin Tablets",
+    "displayDescription": "Coenzyme Q10, L-carnitine L-tartrate, astaxanthin, lycopene, zinc, sodium selenite and multivitamin tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/blemango-q10.webp",
+    "imageAlt": "BLEMANGO Q10 supplement packaging",
+    "featured": false,
+    "therapyCategory": "Nutritional supplement",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "blemango-q10-standard",
+      "label": "Product composition",
+      "ingredients": [
+        { "ingredientId": "coenzyme-q10", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "l-carnitine-l-tartrate", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "astaxanthin", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "lycopene", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "zinc", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "sodium-selenite", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "10 x 1 x 10 tablets", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "A Ramnova nutritional supplement tablet combining coenzyme Q10, L-carnitine L-tartrate, carotenoid and mineral antioxidants and a multivitamin blend. The visual aid does not state per-tablet amounts for any component.",
+      "uses": ["The manufacturer's visual aid positions this product for weakness and fatigue associated with viral fever and chronic illness."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["No per-tablet strengths are stated for any component; do not publish amounts without packaging evidence.", "The elemental selenium and zinc content is not stated, only the salt or element name."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "blemango-protein-powder",
+    "name": "BLEMANGO PROTEIN POWDER",
+    "brandName": "BLEMANGO PROTEIN POWDER",
+    "sourceDescription": "BLEMANGO Protein Powder - Nutrition Supplement, Vanilla flavour, Net Wt. 200 g",
+    "displayDescription": "Vanilla-flavoured protein powder with added vitamins, minerals and amino acids",
+    "category": "powders",
+    "dosageForm": "powder",
+    "image": "/images/products/blemango-protein-powder.webp",
+    "imageAlt": "BLEMANGO PROTEIN POWDER container",
+    "featured": false,
+    "therapyCategory": "Nutritional supplement",
+    "therapyCategoryVerification": "stated-on-pack",
+    "variants": [{
+      "id": "blemango-protein-powder-vanilla",
+      "label": "Vanilla flavour, per serving",
+      "ingredients": [
+        { "ingredientId": "protein-blend", "strength": { "amount": 24, "unit": "g" }, "verification": "visual-aid-listed" },
+        { "ingredientId": "branched-chain-amino-acids", "strength": { "amount": 5, "unit": "g" }, "verification": "visual-aid-listed" },
+        { "ingredientId": "l-glutamine", "strength": { "amount": 4, "unit": "g" }, "verification": "visual-aid-listed" },
+        { "ingredientId": "essential-amino-acids", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "multimineral-blend", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "200 g container", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "A vanilla-flavoured Ramnova dietary supplement powder. The artwork states 24 g of protein, 5 g of branched-chain amino acids and 4 g of glutamine per serving, and describes the product as trans-fat free, gluten free and free of added sugar. The protein source is not named and the serving size is not stated.",
+      "uses": ["The manufacturer's artwork positions this product for muscle growth and recovery, energy, immunity and daily nutritional support in fitness enthusiasts, active individuals and post-workout recovery."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The protein source is not named on the artwork reviewed; confirm before publishing a composition.", "Per-serving amounts are stated but the serving size itself is not, so the amounts cannot be converted to a per-100 g basis.", "The container artwork carries a Remova brand mark rather than Ramnova; confirm the correct brand owner before publication."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "cadmizyme-alpha",
+    "name": "CADMIZYME-ALPHA",
+    "brandName": "CADMIZYME-ALPHA",
+    "sourceDescription": "Diastase, Alpha-Galactosidase, Lipase and Pepsin Syrup",
+    "displayDescription": "Diastase, alpha-galactosidase, lipase and pepsin digestive enzyme syrup",
+    "category": "syrups",
+    "dosageForm": "syrup",
+    "image": "/images/products/cadmizyme-alpha.webp",
+    "imageAlt": "CADMIZYME-ALPHA syrup packaging",
+    "featured": false,
+    "therapyCategory": "Digestive enzyme preparation",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "cadmizyme-alpha-standard",
+      "label": "Product composition",
+      "ingredients": [
+        { "ingredientId": "diastase", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "alpha-galactosidase", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "lipase", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "pepsin", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "150 mL bottle", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "A Ramnova digestive enzyme syrup combining diastase, alpha-galactosidase, lipase and pepsin. Enzyme activity units, which are the meaningful measure for an enzyme preparation, are not stated in the visual aid.",
+      "uses": ["The manufacturer's visual aid positions this product as supporting digestion of carbohydrates, starch, protein and fat, and for gas and bloating associated with indigestion."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Enzyme activity units are not stated for any component; a strength in milligrams would not be meaningful here even if provided."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "cefrishot-tz",
+    "name": "CEFRISHOT-TZ",
+    "brandName": "CEFRISHOT-TZ",
+    "sourceDescription": "Ceftriaxone 1000mg & Tazobactam 125mg Injection",
+    "displayDescription": "Ceftriaxone 1000 mg and tazobactam 125 mg injection",
+    "category": "injections",
+    "dosageForm": "injection",
+    "image": "/images/products/cefrishot-tz.webp",
+    "imageAlt": "CEFRISHOT-TZ injection packaging",
+    "featured": false,
+    "therapyCategory": "Antibacterial medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "cefrishot-tz-1125mg",
+      "label": "1.125 g presentation",
+      "ingredients": [
+        { "ingredientId": "ceftriaxone", "strength": { "amount": 1000, "unit": "mg" }, "verification": "visual-aid-listed" },
+        { "ingredientId": "tazobactam", "strength": { "amount": 125, "unit": "mg" }, "verification": "visual-aid-listed" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "1.125 g vial for intramuscular or intravenous use", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "A Ramnova injection combining ceftriaxone 1000 mg with tazobactam 125 mg, supplied as a 1.125 g vial for intramuscular or intravenous use. Ceftriaxone with tazobactam is a fixed-dose combination marketed in India; it is not the same combination as piperacillin with tazobactam and is not covered by that product's labelling.",
+      "uses": ["The manufacturer's visual aid lists meningitis and septicaemia, respiratory tract infections, intra-abdominal infections, bone and joint infections, urinary tract infections and pelvic inflammatory disease."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid's tazobactam paragraph describes tazobactam as enhancing the effectiveness of piperacillin, which is copy carried over from a piperacillin-tazobactam leaflet and does not describe this product. It has not been reproduced here.", "Ceftriaxone with tazobactam is an India-specific fixed-dose combination; do not apply ceftriaxone-only or piperacillin-tazobactam labelling to it without review."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "heptaram",
+    "name": "HEPTARAM",
+    "brandName": "HEPTARAM",
+    "sourceDescription": "Lecithin, Silymarin, Zinc, Amino Acids and Vitamins Tablets",
+    "displayDescription": "Lecithin, silymarin, zinc, amino acids and vitamins tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/heptaram.webp",
+    "imageAlt": "HEPTARAM tablet packaging",
+    "featured": false,
+    "therapyCategory": "Liver health supplement",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "heptaram-standard",
+      "label": "Product composition",
+      "ingredients": [
+        { "ingredientId": "lecithin", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "silymarin", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "zinc", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "amino-acids-blend", "strength": null, "verification": "source-listed-strength-not-provided" },
+        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "A Ramnova tablet combining lecithin, silymarin, zinc, an amino acid blend and vitamins. The visual aid does not state per-tablet amounts for any component.",
+      "uses": ["The manufacturer's visual aid lists hepatitis, alcoholic liver disease and cirrhosis."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["No per-tablet strengths are stated for any component.", "The visual aid also lists galactogogue among the indications, which is unrelated to the liver indications alongside it and is not supported by any source reviewed here. It has not been reproduced."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "krujokast-b",
+    "name": "KRUJOKAST-B",
+    "brandName": "KRUJOKAST-B",
+    "sourceDescription": "Bilastine 20 mg & Montelukast 10 mg Tablets",
+    "displayDescription": "Bilastine 20 mg and montelukast 10 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/krujokast-b.webp",
+    "imageAlt": "KRUJOKAST-B tablet packaging",
+    "featured": false,
+    "therapyCategory": "Allergy and asthma medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "krujokast-b-20-10",
+      "label": "20 mg / 10 mg",
+      "ingredients": [
+        { "ingredientId": "bilastine", "strength": { "amount": 20, "unit": "mg" }, "verification": "visual-aid-listed" },
+        { "ingredientId": "montelukast", "strength": { "amount": 10, "unit": "mg" }, "verification": "visual-aid-listed" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "10 x 1 x 10 tablets", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "A Ramnova tablet combining the antihistamine bilastine 20 mg with the leukotriene receptor antagonist montelukast 10 mg.",
+      "uses": ["The manufacturer's visual aid lists asthma, seasonal and perennial allergic rhinoconjunctivitis, hay fever, respiratory and nasal allergies, and urticaria."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Montelukast carries regulatory warnings about serious neuropsychiatric events in several jurisdictions. Safety sections must be sourced before this page presents any clinical guidance.", "The visual aid's tolerability comparison against desloratadine and cetirizine is a promotional claim and has not been reproduced."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "optibreathe-n",
+    "name": "OPTIBREATHE-N",
+    "brandName": "OPTIBREATHE-N",
+    "sourceDescription": "Acebrophylline 100 mg & Acetylcysteine 600 mg Tablets",
+    "displayDescription": "Acebrophylline 100 mg and acetylcysteine 600 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/optibreathe-n.webp",
+    "imageAlt": "OPTIBREATHE-N tablet packaging",
+    "featured": false,
+    "therapyCategory": "Respiratory medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "optibreathe-n-100-600",
+      "label": "100 mg / 600 mg",
+      "ingredients": [
+        { "ingredientId": "acebrophylline", "strength": { "amount": 100, "unit": "mg" }, "verification": "visual-aid-listed" },
+        { "ingredientId": "acetylcysteine", "strength": { "amount": 600, "unit": "mg" }, "verification": "visual-aid-listed" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "10 x 1 x 10 tablets", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "A Ramnova tablet combining acebrophylline 100 mg, an airway secretion and bronchial agent, with acetylcysteine 600 mg, a mucolytic.",
+      "uses": ["The manufacturer's visual aid lists asthma and chronic obstructive pulmonary disease."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid also lists PTSD (post-traumatic stress disorder) with enhanced mucus production as an indication. Post-traumatic stress disorder is a psychiatric condition with no mucus component, so this entry is an error in the source document and has not been reproduced.", "Acebrophylline is not licensed in the United Kingdom or United States, so those regulators labelling cannot be used as a source for this combination."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "ramomin-200",
+    "name": "RAMOMIN-200",
+    "brandName": "RAMOMIN-200",
+    "sourceDescription": "Rifaximin 200 mg Tablets",
+    "displayDescription": "Rifaximin 200 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/ramomin-200.webp",
+    "imageAlt": "RAMOMIN-200 tablet packaging",
+    "featured": false,
+    "therapyCategory": "Antibacterial medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "ramomin-200-standard",
+      "label": "200 mg",
+      "ingredients": [
+        { "ingredientId": "rifaximin", "strength": { "amount": 200, "unit": "mg" }, "verification": "visual-aid-listed" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova rifaximin 200 mg tablets. Rifaximin is an antibacterial that acts largely within the gut because very little of it is absorbed.",
+      "uses": ["The manufacturer's visual aid lists acute and chronic intestinal infections caused by non-invasive bacteria, infectious diarrhoea, adjuvant therapy in hyperammonaemia, and pre- and post-operative prophylaxis in gastrointestinal surgery."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "ramomin-400",
+    "name": "RAMOMIN-400",
+    "brandName": "RAMOMIN-400",
+    "sourceDescription": "Rifaximin 400 mg Tablets",
+    "displayDescription": "Rifaximin 400 mg tablets",
+    "category": "tablets",
+    "dosageForm": "tablet",
+    "image": "/images/products/ramomin-400.webp",
+    "imageAlt": "RAMOMIN-400 tablet packaging",
+    "featured": false,
+    "therapyCategory": "Antibacterial medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "ramomin-400-standard",
+      "label": "400 mg",
+      "ingredients": [
+        { "ingredientId": "rifaximin", "strength": { "amount": 400, "unit": "mg" }, "verification": "visual-aid-listed" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova rifaximin 400 mg tablets. Rifaximin is an antibacterial that acts largely within the gut because very little of it is absorbed.",
+      "uses": ["The manufacturer's visual aid lists acute and chronic intestinal infections caused by non-invasive bacteria, infectious diarrhoea, adjuvant therapy in hyperammonaemia, and pre- and post-operative prophylaxis in gastrointestinal surgery."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
+  },
+  {
+    "slug": "sizepod-100",
+    "name": "SIZEPOD-100",
+    "brandName": "SIZEPOD-100",
+    "sourceDescription": "Cefpodoxime Oral Suspension I.P. - Sizepod-100 Dry Syrup",
+    "displayDescription": "Cefpodoxime oral suspension for paediatric use",
+    "category": "syrups",
+    "dosageForm": "dry-syrup",
+    "image": "/images/products/sizepod-100.webp",
+    "imageAlt": "SIZEPOD-100 dry syrup packaging",
+    "featured": false,
+    "therapyCategory": "Antibacterial medicine",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "variants": [{
+      "id": "sizepod-100-standard",
+      "label": "Product presentation",
+      "ingredients": [
+        { "ingredientId": "cefpodoxime", "strength": null, "verification": "source-listed-strength-not-provided" }
+      ],
+      "verification": "visual-aid-listed-pending-pack-confirmation"
+    }],
+    "packaging": { "description": "15 g / 30 mL dry syrup, for paediatric use", "verification": "visual-aid-listed" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "A Ramnova cefpodoxime dry syrup reconstituted for paediatric use, supplied as 15 g yielding 30 mL. The pack artwork describes the product as Cefpodoxime Oral Suspension I.P.",
+      "uses": ["The manufacturer's visual aid lists acute otitis media, pharyngitis and tonsillitis, community-acquired pneumonia and acute maxillary sinusitis."],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
+      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
+      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+    },
+    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid headline reads Cefpodoxime + Potassium Clavulanate 100mg but the pack artwork on the same page reads Cefpodoxime Oral Suspension I.P. with no clavulanate. Only cefpodoxime is recorded here; the presence and amount of potassium clavulanate must be confirmed from the pack before publication.", "The meaning of 100 in the brand name, whether a per-5-mL strength or something else, is not stated."] },
+    "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
   }
 ]

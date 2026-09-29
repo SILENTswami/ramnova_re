@@ -444,5 +444,165 @@
       "sources": [{ "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
       "reviewStatus": "sourced-draft-not-medically-reviewed"
     }
+  },
+  {
+    "id": "coenzyme-q10",
+    "name": "Coenzyme Q10",
+    "synonyms": ["ubiquinone", "co enzyme-q10"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets. Per-tablet amounts are not stated in the source material and consumer-facing guidance is awaiting verification against approved product information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "l-carnitine-l-tartrate",
+    "name": "L-carnitine L-tartrate",
+    "synonyms": ["levocarnitine tartrate"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets. Per-tablet amounts are not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "lycopene",
+    "name": "Lycopene",
+    "synonyms": [],
+    "kind": "nutrient",
+    "medicalSummary": "A carotenoid listed in Ramnova's BLEMANGO Q10 tablets. Per-tablet amounts are not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "sodium-selenite",
+    "name": "Sodium selenite",
+    "synonyms": ["selenium"],
+    "kind": "mineral-source",
+    "medicalSummary": "A selenium source listed in Ramnova's BLEMANGO Q10 tablets. The elemental selenium content is not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "diastase",
+    "name": "Diastase",
+    "synonyms": ["amylase"],
+    "kind": "active-ingredient",
+    "medicalSummary": "A starch-digesting enzyme listed in Ramnova's CADMIZYME-ALPHA syrup. Enzyme activity units are not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "alpha-galactosidase",
+    "name": "Alpha-galactosidase",
+    "synonyms": ["a-galactosidase"],
+    "kind": "active-ingredient",
+    "medicalSummary": "A carbohydrate-digesting enzyme listed in Ramnova's CADMIZYME-ALPHA syrup. Enzyme activity units are not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "lipase",
+    "name": "Lipase",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "A fat-digesting enzyme listed in Ramnova's CADMIZYME-ALPHA syrup. Enzyme activity units are not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "pepsin",
+    "name": "Pepsin",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "A protein-digesting enzyme listed in Ramnova's CADMIZYME-ALPHA syrup. Enzyme activity units are not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "lecithin",
+    "name": "Lecithin",
+    "synonyms": ["phosphatidylcholine"],
+    "kind": "nutrient",
+    "medicalSummary": "A phospholipid listed in Ramnova's HEPTARAM tablets. Per-tablet amounts are not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "amino-acids-blend",
+    "name": "Amino acids blend",
+    "synonyms": ["amino acids"],
+    "kind": "unspecified-blend",
+    "medicalSummary": "A catalog-level blend description. The individual amino acids and amounts must be confirmed from product packaging before publication as a detailed composition.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "bilastine",
+    "name": "Bilastine",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "A second-generation antihistamine listed in Ramnova's KRUJOKAST-B tablets. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "acebrophylline",
+    "name": "Acebrophylline",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An airway medicine listed in Ramnova's OPTIBREATHE-N tablets. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "acetylcysteine",
+    "name": "Acetylcysteine",
+    "synonyms": ["n-acetylcysteine", "nac"],
+    "kind": "active-ingredient",
+    "medicalSummary": "A mucolytic listed in Ramnova's OPTIBREATHE-N tablets. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "rifaximin",
+    "name": "Rifaximin",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "A poorly absorbed antibacterial listed in Ramnova's RAMOMIN tablets. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "cefpodoxime",
+    "name": "Cefpodoxime",
+    "synonyms": ["cefpodoxime proxetil"],
+    "kind": "active-ingredient",
+    "medicalSummary": "A cephalosporin antibacterial listed in Ramnova's SIZEPOD-100 oral suspension. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "ceftriaxone",
+    "name": "Ceftriaxone",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "A cephalosporin antibacterial listed in Ramnova's CEFRISHOT-TZ injection. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "protein-blend",
+    "name": "Protein blend",
+    "synonyms": ["protein"],
+    "kind": "unspecified-blend",
+    "medicalSummary": "A catalog-level blend description. The BLEMANGO protein powder artwork states 24 g of protein per serving but does not name the protein source, which must be confirmed from product packaging.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "branched-chain-amino-acids",
+    "name": "Branched-chain amino acids",
+    "synonyms": ["bcaa"],
+    "kind": "unspecified-blend",
+    "medicalSummary": "A catalog-level blend description covering leucine, isoleucine and valine. Individual amounts are not stated in the source material.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "l-glutamine",
+    "name": "L-glutamine",
+    "synonyms": ["glutamine"],
+    "kind": "nutrient",
+    "medicalSummary": "An amino acid listed on Ramnova's BLEMANGO protein powder artwork at 4 g per serving.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "essential-amino-acids",
+    "name": "Essential amino acids",
+    "synonyms": [],
+    "kind": "unspecified-blend",
+    "medicalSummary": "A catalog-level blend description. The individual amino acids and amounts must be confirmed from product packaging before publication as a detailed composition.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
   }
 ]

@@ -9,9 +9,9 @@ import {
 } from "@/lib/catalog";
 
 describe("catalog data", () => {
-  it("contains the 8 catalogue products", () => {
-    expect(products).toHaveLength(8);
-    expect(new Set(products.map((product) => product.slug)).size).toBe(8);
+  it("contains the 18 catalogue products", () => {
+    expect(products).toHaveLength(18);
+    expect(new Set(products.map((product) => product.slug)).size).toBe(18);
   });
 
   it("formats a missing price as a contact action", () => {
@@ -64,7 +64,7 @@ describe("ingredient-aware search", () => {
 
   it("applies dosage-form filtering", () => {
     const result = searchProducts("", "injections");
-    expect(result.products).toHaveLength(1);
+    expect(result.products).toHaveLength(2);
     expect(result.products.every((product) => product.category === "injections")).toBe(true);
   });
 });

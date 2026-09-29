@@ -63,7 +63,7 @@ export type Product = {
   brandName: string;
   sourceDescription: string;
   displayDescription: string;
-  category: "tablets" | "capsules" | "syrups" | "injections";
+  category: "tablets" | "capsules" | "syrups" | "injections" | "powders";
   dosageForm: string;
   image: string | string[];
   imageAlt: string;

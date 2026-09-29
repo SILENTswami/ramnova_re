@@ -7,6 +7,7 @@ import {
   ArrowUpRight,
   CircleDot,
   FlaskConical,
+  Milk,
   Pill,
   Syringe,
 } from "lucide-react";
@@ -27,6 +28,7 @@ const categoryIcons = {
   capsules: CircleDot,
   syrups: FlaskConical,
   injections: Syringe,
+  powders: Milk,
 };
 
 export default function HomePage() {

@@ -12,8 +12,8 @@ const assert = (condition, message) => {
   if (!condition) errors.push(message);
 };
 
-assert(products.length === 8, `Expected 8 products, found ${products.length}`);
-const validCategories = new Set(["tablets", "capsules", "syrups", "injections"]);
+assert(products.length === 18, `Expected 18 products, found ${products.length}`);
+const validCategories = new Set(["tablets", "capsules", "syrups", "injections", "powders"]);
 const slugs = new Set();
 const ingredientIds = new Set(ingredients.map((ingredient) => ingredient.id));
 

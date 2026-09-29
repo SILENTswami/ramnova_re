@@ -31,6 +31,7 @@ export const productCategories = [
   { slug: "capsules", singular: "Capsule", label: "Capsules" },
   { slug: "syrups", singular: "Syrup", label: "Syrups" },
   { slug: "injections", singular: "Injection", label: "Injections" },
+  { slug: "powders", singular: "Powder", label: "Powders" },
 ] as const;
 
 export type ProductCategorySlug = (typeof productCategories)[number]["slug"];
