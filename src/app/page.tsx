@@ -61,7 +61,7 @@ export default function HomePage() {
             </p>
             <div className="hero-actions">
               <Link className="button button-primary" href="/products/">
-                Explore 27 products <ArrowRight size={17} aria-hidden="true" />
+                Explore {products.length} products <ArrowRight size={17} aria-hidden="true" />
               </Link>
               <Link className="button button-outline" href="/about/">
                 Our approach
