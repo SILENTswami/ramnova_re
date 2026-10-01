@@ -1268,17 +1268,72 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova tablet combining acebrophylline 100 mg, which helps relax the airways and thin bronchial secretions, with acetylcysteine 600 mg, a mucolytic.",
+      "introduction": [
+        "OPTIBREATHE-N tablets combine acebrophylline 100 mg, which relaxes the airways and helps clear mucus, with acetylcysteine 600 mg, which thins thick phlegm so it is easier to cough up. It is used in asthma and chronic obstructive pulmonary disease (COPD), including chronic bronchitis, to ease breathlessness, chest tightness and cough with sticky mucus.",
+        "Take it exactly as your doctor prescribes, usually after food. Common side effects include nausea, stomach upset and headache. It does not relieve a sudden asthma attack, so keep your reliever inhaler with you, and tell your doctor if you have heart, liver, kidney or thyroid problems or a stomach ulcer."
+      ],
       "uses": [
         "Asthma",
         "Chronic obstructive pulmonary disease (COPD)"
       ],
       "seoUses": ["asthma", "COPD"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Asthma", "text": "In asthma the airways tighten and fill with sticky mucus. Acebrophylline relaxes the airway muscles and improves mucus clearance, while acetylcysteine thins the mucus, helping you breathe and cough more easily. It is used alongside your inhalers, not instead of them." },
+        { "use": "Chronic obstructive pulmonary disease (COPD)", "text": "In COPD and chronic bronchitis, narrowed airways and thick phlegm cause breathlessness and a persistent cough. By opening the airways and loosening phlegm, this combination can make daily activities easier and coughing more productive." }
+      ],
+      "sideEffects": [
+        "Nausea, vomiting or indigestion",
+        "Abdominal pain, diarrhoea or constipation",
+        "Headache",
+        "Loss of appetite",
+        "Rash or itching",
+        "Rarely, a fast heartbeat or chest tightness"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises, preferably after food to reduce stomach upset. Swallow the tablet whole with water; do not chew or crush it. Drink plenty of fluids during the day to help loosen mucus.",
+      "howItWorks": "Acebrophylline combines ambroxol, which helps the lungs produce thinner mucus and clear it more easily, with a theophylline-like compound that relaxes the muscles of the airways. Acetylcysteine breaks the chemical bonds that make mucus thick and sticky, so phlegm becomes thinner and easier to cough up.",
+      "warnings": [
+        "Acetylcysteine can occasionally cause tightening of the airways, especially in people with asthma. Stop taking it and seek help if this happens.",
+        "Use with caution in older people and in people with heart disease, high blood pressure, heart failure, an overactive thyroid, very low blood oxygen levels or a history of stomach ulcers.",
+        "Rarely, serious skin reactions have been reported with both ingredients. Stop taking it and seek medical help if a widespread rash, blistering or peeling develops.",
+        "Mucus may increase at first as it loosens. Tell your doctor if you find it hard to cough up.",
+        "It is not intended for children unless a doctor advises it."
+      ],
+      "contraindications": [
+        "Allergy to acebrophylline, ambroxol, theophylline or similar medicines (xanthines), acetylcysteine or any other ingredient",
+        "A recent heart attack",
+        "Low blood pressure",
+        "Severe liver or kidney disease",
+        "Breastfeeding"
+      ],
+      "interactions": [
+        "Cough suppressants should not be taken with it, as they stop you from clearing the loosened mucus.",
+        "Take oral antibiotics at least 2 hours apart, as acetylcysteine may reduce their effect.",
+        "It may increase the effect of nitroglycerin (glyceryl trinitrate), which can cause headache or low blood pressure.",
+        "Activated charcoal reduces the effect of acetylcysteine.",
+        "Acebrophylline is related to theophylline, so tell your doctor if you take theophylline or other medicines for breathing."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "caution", "note": "Alcohol can worsen breathing problems and stomach upset. Limit it." },
+        { "topic": "pregnancy", "status": "consult", "note": "Safety in pregnancy has not been established. Use only if your doctor advises it." },
+        { "topic": "breastfeeding", "status": "unsafe", "note": "Must not be used while breastfeeding." },
+        { "topic": "driving", "status": "consult", "note": "Not known to affect driving. Do not drive if you feel dizzy or unwell." },
+        { "topic": "kidney", "status": "unsafe", "note": "Must not be used in severe kidney disease. Tell your doctor about any kidney problem." },
+        { "topic": "liver", "status": "unsafe", "note": "Must not be used in severe liver disease. Tell your doctor about any liver problem." }
+      ],
+      "quickTips": [
+        "Take it after food, at the same time each day.",
+        "Drink plenty of water to help loosen mucus.",
+        "Keep your reliever inhaler with you. This tablet does not treat a sudden breathing attack.",
+        "Stop taking it and get help if your breathing suddenly gets worse after a dose.",
+        "If you smoke, stopping is the most important thing you can do for your lungs.",
+        "If you take antibiotics by mouth, take them at least 2 hours apart from this tablet."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "emc-acetylcysteine-600mg", "publisher": "electronic medicines compendium (emc)", "title": "Acetylcysteine 600 mg effervescent tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/8576/smpc", "jurisdiction": "United Kingdom", "accessedAt": "2026-10-01" },
+        { "id": "aifa-acebrophylline", "publisher": "Agenzia Italiana del Farmaco (AIFA)", "title": "Ambroxol acefyllinate (acebrophylline) 100 mg granules: Summary of Product Characteristics (AIC 027089022)", "url": "https://medicinali.aifa.gov.it/it/#/it/dettaglio/0000019564", "jurisdiction": "Italy", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid also lists PTSD (post-traumatic stress disorder) with enhanced mucus production as an indication. Post-traumatic stress disorder is a psychiatric condition with no mucus component, so this entry is an error in the source document and has not been reproduced.", "Acebrophylline is not licensed in the United Kingdom or United States, so those regulators labelling cannot be used as a source for this combination."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
