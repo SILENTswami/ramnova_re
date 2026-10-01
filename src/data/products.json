@@ -215,12 +215,73 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova capsule combining esomeprazole 40 mg, a proton pump inhibitor that reduces stomach acid, with levosulpiride 75 mg in sustained-release form, a prokinetic agent.",
-      "uses": [],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "introduction": [
+        "ESORUSK-LS capsules combine esomeprazole 40 mg, which reduces stomach acid, with levosulpiride 75 mg in sustained-release form, which helps the stomach empty and move food along. It is used to treat gastro-oesophageal reflux disease (GERD) and indigestion, relieving heartburn, acid regurgitation, bloating and early fullness.",
+        "Take one capsule on an empty stomach, preferably in the morning about an hour before a meal, exactly as your doctor prescribes. It can cause drowsiness, so avoid alcohol and take care when driving. It must not be used during pregnancy or breastfeeding."
+      ],
+      "uses": [
+        "Gastro-oesophageal reflux disease (GERD), including heartburn and acid regurgitation",
+        "Indigestion (dyspepsia) with bloating and early fullness caused by slow stomach emptying"
+      ],
+      "seoUses": ["acid reflux (GERD)", "indigestion"],
+      "benefits": [
+        { "use": "Gastro-oesophageal reflux disease (GERD)", "text": "In GERD, stomach acid flows back into the food pipe, causing heartburn and irritation. Esomeprazole lowers acid production, relieving symptoms and allowing the food pipe to heal. Levosulpiride helps the stomach empty faster, so less acid is pushed back up. Your doctor will decide how long you need to take it." },
+        { "use": "Indigestion with slow stomach emptying", "text": "When the stomach empties slowly, food stays longer and causes bloating, early fullness, nausea and discomfort. Levosulpiride improves the movement of the stomach and gut to ease these symptoms, while esomeprazole reduces acid-related pain." }
+      ],
+      "sideEffects": [
+        "Drowsiness or sluggishness",
+        "Headache",
+        "Diarrhoea, constipation, wind or abdominal pain",
+        "Nausea or vomiting",
+        "Breast swelling or tenderness, milk discharge or changes to periods (caused by raised prolactin)",
+        "Rarely, tremor, stiffness or abnormal movements"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises. Swallow the capsule whole on an empty stomach, preferably in the morning about an hour before a meal. Do not chew, crush or open it.",
+      "howItWorks": "ESORUSK-LS combines two medicines. Esomeprazole is a proton pump inhibitor that blocks the pumps in the stomach lining that produce acid. Levosulpiride blocks dopamine receptors in the gut, which increases the movement of the stomach and intestines, helping food pass through and reducing reflux, bloating and nausea. The sustained-release form releases levosulpiride gradually through the day.",
+      "warnings": [
+        "Levosulpiride can raise prolactin levels, which may cause breast enlargement or tenderness, milk discharge, period changes or reduced sex drive. These usually reverse when treatment stops.",
+        "Rarely it can cause tremor, stiffness or abnormal movements. It can also affect heart rhythm (QT prolongation), especially with other medicines that do the same.",
+        "Stop taking it and get urgent medical help if you develop a high fever with muscle stiffness, confusion or sweating. These can be signs of a rare but serious reaction (neuroleptic malignant syndrome).",
+        "Use with care in older people, especially those with dementia, and in people at risk of blood clots.",
+        "Long-term use of esomeprazole, especially beyond 3 months, may lower magnesium and vitamin B12 levels and increase the risk of bone fractures."
+      ],
+      "contraindications": [
+        "Pregnancy and breastfeeding",
+        "Epilepsy, mania or bipolar disorder",
+        "Phaeochromocytoma (an adrenal gland tumour), because of the risk of a dangerous rise in blood pressure",
+        "Bleeding, blockage or perforation of the stomach or intestines",
+        "Breast cancer",
+        "Use with the HIV medicine nelfinavir",
+        "Allergy to esomeprazole, similar acid-reducing medicines, levosulpiride or any other ingredient"
+      ],
+      "interactions": [
+        "Alcohol, sleeping tablets, strong painkillers and other medicines that cause drowsiness can increase sleepiness.",
+        "Medicines that affect heart rhythm, or that lower potassium or magnesium (such as some water tablets), should be avoided with levosulpiride.",
+        "Anticholinergic medicines and opioid painkillers can reduce levosulpiride's effect on the gut.",
+        "Esomeprazole can reduce the effect of clopidogrel, so the two should not be used together.",
+        "Esomeprazole can change the levels of warfarin, methotrexate, digoxin, phenytoin and diazepam, and reduces the absorption of ketoconazole, itraconazole and atazanavir."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "unsafe", "note": "Avoid alcohol. It increases drowsiness and can also worsen acid reflux." },
+        { "topic": "pregnancy", "status": "unsafe", "note": "Must not be used during pregnancy. Tell your doctor if you are pregnant or planning a pregnancy." },
+        { "topic": "breastfeeding", "status": "unsafe", "note": "Must not be used while breastfeeding." },
+        { "topic": "driving", "status": "caution", "note": "Can cause drowsiness or reduced alertness. Do not drive or use machines if you are affected." },
+        { "topic": "kidney", "status": "caution", "note": "Levosulpiride is removed through the kidneys. Tell your doctor if you have kidney disease, as the dose may need adjusting." },
+        { "topic": "liver", "status": "caution", "note": "Tell your doctor if you have severe liver disease, as the dose may need adjusting." }
+      ],
+      "quickTips": [
+        "Take it about an hour before breakfast.",
+        "Avoid alcohol, and limit tea, coffee, chocolate and spicy or fatty food, which can worsen reflux.",
+        "Eat smaller meals and avoid lying down for 2 to 3 hours after eating.",
+        "Do not take it for longer than your doctor advises.",
+        "Tell your doctor if you notice breast swelling, milk discharge, missed periods, tremor or unusual movements.",
+        "See your doctor if you have severe or persistent watery diarrhoea, or if your symptoms do not improve."
+      ],
+      "sources": [
+        { "id": "emc-esomeprazole-40mg", "publisher": "electronic medicines compendium (emc)", "title": "Esomeprazole 40 mg gastro-resistant capsules: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/15052/smpc", "jurisdiction": "United Kingdom", "revision": "2025-11-13", "accessedAt": "2026-10-01" },
+        { "id": "aifa-levosulpiride", "publisher": "Agenzia Italiana del Farmaco (AIFA)", "title": "Levosulpiride tablets: Summary of Product Characteristics (AIC 026009)", "url": "https://medicinali.aifa.gov.it/it/#/it/dettaglio/0000026009", "jurisdiction": "Italy", "revision": "2013-02", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed", "notes": [] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
