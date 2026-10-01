@@ -1036,7 +1036,7 @@
         "Urinary tract infections",
         "Pelvic inflammatory disease"
       ],
-      "seoUses": ["meningitis", "respiratory tract infections"],
+      "seoUses": ["meningitis", "septicaemia"],
       "benefits": [
         { "use": "Meningitis and septicaemia", "text": "Ceftriaxone reaches the brain and spinal fluid well, so it is widely used for bacterial meningitis and serious blood infections. Prompt treatment in hospital is essential to clear the infection and prevent complications." },
         { "use": "Chest and abdominal infections", "text": "It is active against many bacteria that cause pneumonia and infections inside the abdomen. Tazobactam blocks the enzymes some bacteria use to resist ceftriaxone, helping it work against a wider range of bacteria." },
@@ -1069,7 +1069,7 @@
       "interactions": [
         "It must not be mixed with, or given at the same time as, calcium-containing fluids.",
         "It can increase the effect of warfarin and similar blood thinners, so your INR may need checking.",
-        "Using it with aminoglycoside antibiotics may increase the risk of kidney damage.",
+        "Kidney function should be monitored if it is used together with aminoglycoside antibiotics.",
         "Chloramphenicol may reduce its effect."
       ],
       "safetyAdvice": [
@@ -1090,7 +1090,8 @@
       ],
       "sources": [
         { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
-        { "id": "emc-ceftriaxone-1g", "publisher": "electronic medicines compendium (emc)", "title": "Ceftriaxone 1 g powder for solution for injection or infusion: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/1361/smpc", "jurisdiction": "United Kingdom", "revision": "2025-01-23", "accessedAt": "2026-10-01" }
+        { "id": "emc-ceftriaxone-1g", "publisher": "electronic medicines compendium (emc)", "title": "Ceftriaxone 1 g powder for solution for injection or infusion: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/1361/smpc", "jurisdiction": "United Kingdom", "revision": "2025-01-23", "accessedAt": "2026-10-01" },
+        { "id": "emc-piperacillin-tazobactam-4g", "publisher": "electronic medicines compendium (emc)", "title": "Piperacillin/tazobactam 4 g/0.5 g powder for solution for infusion: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/6526/smpc", "jurisdiction": "United Kingdom", "revision": "2025-07-04", "accessedAt": "2026-10-01" }
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
