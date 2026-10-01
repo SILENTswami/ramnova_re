@@ -1257,6 +1257,10 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova rifaximin 200 mg tablets. Rifaximin is an antibacterial that acts mainly within the gut because very little of it is absorbed into the bloodstream.",
+      "introduction": [
+        "RAMOMIN-200 tablets contain rifaximin 200 mg, an antibiotic that acts mainly inside the gut because very little is absorbed into the bloodstream. It is used to treat infectious diarrhoea and other intestinal infections, to help lower ammonia in liver disease, and to reduce gut bacteria around bowel surgery.",
+        "Take it with or without food, exactly as your doctor prescribes. For diarrhoea it is usually taken for only a few days. Common side effects include nausea, bloating and headache, and it may turn your urine reddish, which is harmless."
+      ],
       "uses": [
         "Acute and chronic intestinal infections caused by non-invasive bacteria",
         "Infectious diarrhoea",
@@ -1264,12 +1268,59 @@
         "Pre- and post-operative prophylaxis in gastrointestinal surgery"
       ],
       "seoUses": ["intestinal infections", "infectious diarrhoea"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Acute and chronic intestinal infections", "text": "Rifaximin acts against a wide range of gut bacteria in intestinal infections caused by bacteria that do not invade the gut wall. Because it stays in the gut, it works where the infection is." },
+        { "use": "Infectious diarrhoea", "text": "Rifaximin kills many of the bacteria that cause traveller's and other infectious diarrhoea, such as non-invasive strains of E. coli, and can shorten the illness. It is not suitable for diarrhoea with fever or blood in the stool, which needs other treatment." },
+        { "use": "Adjuvant therapy in hyperammonaemia", "text": "In advanced liver disease, gut bacteria produce ammonia, which can build up and affect the brain (hepatic encephalopathy), causing confusion and drowsiness. Rifaximin reduces these bacteria, lowering ammonia and helping to prevent episodes, usually alongside lactulose." },
+        { "use": "Before and after gut surgery", "text": "It may be used to reduce the number of gut bacteria before and after bowel surgery, lowering the risk of infection." }
+      ],
+      "sideEffects": [
+        "Nausea, vomiting or abdominal pain",
+        "Bloating, wind or constipation",
+        "Headache or dizziness",
+        "Muscle cramps",
+        "Swelling of the ankles or legs, mainly in people with liver disease",
+        "Reddish discoloration of the urine, which is harmless"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises. Swallow the tablet whole with water, with or without food. For infectious diarrhoea, treatment usually lasts no more than 3 days; for liver-related conditions it may be longer.",
+      "howItWorks": "Rifaximin is an antibiotic related to rifampicin. It blocks a bacterial enzyme needed to make RNA, so bacteria cannot produce the proteins they need to grow. Less than 1% is absorbed, so it stays in the gut, where it acts on the bacteria that cause diarrhoea and on those that produce ammonia.",
+      "warnings": [
+        "It is not suitable for diarrhoea with fever or blood in the stool, which may be caused by bacteria that invade the gut wall.",
+        "Like other antibiotics, it can cause a serious bowel infection (Clostridioides difficile). See your doctor if diarrhoea becomes severe or persistent.",
+        "Rarely, serious skin reactions have been reported, especially in people with liver disease. Stop taking it and seek help if a widespread rash or blistering develops.",
+        "Use with caution in severe liver disease."
+      ],
+      "contraindications": [
+        "Allergy to rifaximin or other rifamycin antibiotics, such as rifampicin or rifabutin",
+        "Blockage of the intestines"
+      ],
+      "interactions": [
+        "Ciclosporin can greatly increase the amount of rifaximin absorbed.",
+        "It can change the effect of warfarin, with both higher and lower INR reported, so your INR should be checked closely.",
+        "In people with liver disease it may reduce the effect of hormonal contraceptives, so ask your doctor whether extra contraception is needed."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "caution", "note": "Avoid alcohol. It irritates the gut and is harmful in liver disease." },
+        { "topic": "pregnancy", "status": "caution", "note": "Not recommended during pregnancy unless your doctor considers it essential." },
+        { "topic": "breastfeeding", "status": "consult", "note": "It is not known whether rifaximin passes into breast milk. Ask your doctor before use." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect driving, although dizziness can occasionally occur." },
+        { "topic": "kidney", "status": "consult", "note": "There is limited information in kidney disease. Tell your doctor if you have kidney problems." },
+        { "topic": "liver", "status": "caution", "note": "Use with caution in severe liver disease. Your doctor will monitor you." }
+      ],
+      "quickTips": [
+        "Drink plenty of fluids, or oral rehydration solution (ORS), while you have diarrhoea.",
+        "Don't worry if your urine turns reddish; this is harmless.",
+        "See your doctor if diarrhoea does not improve within 2 to 3 days, or if you develop fever or blood in your stool.",
+        "Complete the course your doctor prescribes.",
+        "If you take warfarin, your INR may need checking more often.",
+        "If you have liver disease, keep taking your other treatments, such as lactulose, as prescribed."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "emc-rifaximin-200mg", "publisher": "electronic medicines compendium (emc)", "title": "Rifaximin 200 mg film-coated tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/4752/smpc", "jurisdiction": "United Kingdom", "revision": "2026-07-20", "accessedAt": "2026-10-01" },
+        { "id": "emc-rifaximin-550mg", "publisher": "electronic medicines compendium (emc)", "title": "Rifaximin 550 mg film-coated tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/2976/smpc", "jurisdiction": "United Kingdom", "revision": "2026-05-21", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -1300,6 +1351,10 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova rifaximin 400 mg tablets. Rifaximin is an antibacterial that acts mainly within the gut because very little of it is absorbed into the bloodstream.",
+      "introduction": [
+        "RAMOMIN-400 tablets contain rifaximin 400 mg, an antibiotic that acts mainly inside the gut because very little is absorbed into the bloodstream. It is used to treat infectious diarrhoea and other intestinal infections, to help lower ammonia in liver disease, and to reduce gut bacteria around bowel surgery.",
+        "Take it with or without food, exactly as your doctor prescribes. For diarrhoea it is usually taken for only a few days. Common side effects include nausea, bloating and headache, and it may turn your urine reddish, which is harmless."
+      ],
       "uses": [
         "Acute and chronic intestinal infections caused by non-invasive bacteria",
         "Infectious diarrhoea",
@@ -1307,12 +1362,59 @@
         "Pre- and post-operative prophylaxis in gastrointestinal surgery"
       ],
       "seoUses": ["intestinal infections", "infectious diarrhoea"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Acute and chronic intestinal infections", "text": "Rifaximin acts against a wide range of gut bacteria in intestinal infections caused by bacteria that do not invade the gut wall. Because it stays in the gut, it works where the infection is." },
+        { "use": "Infectious diarrhoea", "text": "Rifaximin kills many of the bacteria that cause traveller's and other infectious diarrhoea, such as non-invasive strains of E. coli, and can shorten the illness. It is not suitable for diarrhoea with fever or blood in the stool, which needs other treatment." },
+        { "use": "Adjuvant therapy in hyperammonaemia", "text": "In advanced liver disease, gut bacteria produce ammonia, which can build up and affect the brain (hepatic encephalopathy), causing confusion and drowsiness. Rifaximin reduces these bacteria, lowering ammonia and helping to prevent episodes, usually alongside lactulose." },
+        { "use": "Before and after gut surgery", "text": "It may be used to reduce the number of gut bacteria before and after bowel surgery, lowering the risk of infection." }
+      ],
+      "sideEffects": [
+        "Nausea, vomiting or abdominal pain",
+        "Bloating, wind or constipation",
+        "Headache or dizziness",
+        "Muscle cramps",
+        "Swelling of the ankles or legs, mainly in people with liver disease",
+        "Reddish discoloration of the urine, which is harmless"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises. Swallow the tablet whole with water, with or without food. For infectious diarrhoea, treatment usually lasts no more than 3 days; for liver-related conditions it may be longer.",
+      "howItWorks": "Rifaximin is an antibiotic related to rifampicin. It blocks a bacterial enzyme needed to make RNA, so bacteria cannot produce the proteins they need to grow. Less than 1% is absorbed, so it stays in the gut, where it acts on the bacteria that cause diarrhoea and on those that produce ammonia.",
+      "warnings": [
+        "It is not suitable for diarrhoea with fever or blood in the stool, which may be caused by bacteria that invade the gut wall.",
+        "Like other antibiotics, it can cause a serious bowel infection (Clostridioides difficile). See your doctor if diarrhoea becomes severe or persistent.",
+        "Rarely, serious skin reactions have been reported, especially in people with liver disease. Stop taking it and seek help if a widespread rash or blistering develops.",
+        "Use with caution in severe liver disease."
+      ],
+      "contraindications": [
+        "Allergy to rifaximin or other rifamycin antibiotics, such as rifampicin or rifabutin",
+        "Blockage of the intestines"
+      ],
+      "interactions": [
+        "Ciclosporin can greatly increase the amount of rifaximin absorbed.",
+        "It can change the effect of warfarin, with both higher and lower INR reported, so your INR should be checked closely.",
+        "In people with liver disease it may reduce the effect of hormonal contraceptives, so ask your doctor whether extra contraception is needed."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "caution", "note": "Avoid alcohol. It irritates the gut and is harmful in liver disease." },
+        { "topic": "pregnancy", "status": "caution", "note": "Not recommended during pregnancy unless your doctor considers it essential." },
+        { "topic": "breastfeeding", "status": "consult", "note": "It is not known whether rifaximin passes into breast milk. Ask your doctor before use." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect driving, although dizziness can occasionally occur." },
+        { "topic": "kidney", "status": "consult", "note": "There is limited information in kidney disease. Tell your doctor if you have kidney problems." },
+        { "topic": "liver", "status": "caution", "note": "Use with caution in severe liver disease. Your doctor will monitor you." }
+      ],
+      "quickTips": [
+        "Drink plenty of fluids, or oral rehydration solution (ORS), while you have diarrhoea.",
+        "Don't worry if your urine turns reddish; this is harmless.",
+        "See your doctor if diarrhoea does not improve within 2 to 3 days, or if you develop fever or blood in your stool.",
+        "Complete the course your doctor prescribes.",
+        "If you take warfarin, your INR may need checking more often.",
+        "If you have liver disease, keep taking your other treatments, such as lactulose, as prescribed."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "emc-rifaximin-200mg", "publisher": "electronic medicines compendium (emc)", "title": "Rifaximin 200 mg film-coated tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/4752/smpc", "jurisdiction": "United Kingdom", "revision": "2026-07-20", "accessedAt": "2026-10-01" },
+        { "id": "emc-rifaximin-550mg", "publisher": "electronic medicines compendium (emc)", "title": "Rifaximin 550 mg film-coated tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/2976/smpc", "jurisdiction": "United Kingdom", "revision": "2026-05-21", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
