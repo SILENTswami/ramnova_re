@@ -1779,6 +1779,14 @@ a {
   white-space: nowrap;
 }
 
+.ingredient-table .ingredient-group th {
+  padding-top: 22px;
+  color: var(--ink);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .ingredient-qualifier {
   display: block;
   margin-top: 2px;

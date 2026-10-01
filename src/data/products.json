@@ -867,7 +867,7 @@
     "name": "BLEMANGO PROTEIN POWDER",
     "brandName": "BLEMANGO PROTEIN POWDER",
     "sourceDescription": "BLEMANGO Protein Powder - Nutrition Supplement, Vanilla flavour, Net Wt. 200 g",
-    "displayDescription": "Vanilla-flavoured protein powder with added vitamins, minerals and amino acids",
+    "displayDescription": "Vanilla-flavoured protein powder with 13 vitamins, 13 minerals, fibre and other nutrients",
     "category": "powders",
     "dosageForm": "powder",
     "image": "/images/products/blemango-protein-powder.webp",
@@ -878,35 +878,111 @@
     "schemaType": "DietarySupplement",
     "variants": [{
       "id": "blemango-protein-powder-vanilla",
-      "label": "Vanilla flavour, per serving",
+      "label": "Each 15 g serving contains",
       "ingredients": [
-        { "ingredientId": "protein-blend", "strength": { "amount": 24, "unit": "g" }, "verification": "visual-aid-listed" },
-        { "ingredientId": "branched-chain-amino-acids", "strength": { "amount": 5, "unit": "g" }, "verification": "visual-aid-listed" },
-        { "ingredientId": "l-glutamine", "strength": { "amount": 4, "unit": "g" }, "verification": "visual-aid-listed" },
-        { "ingredientId": "essential-amino-acids", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "multimineral-blend", "strength": null, "verification": "source-listed-strength-not-provided" }
+        { "ingredientId": "protein", "strength": { "amount": 4.39, "unit": "g" }, "group": "Protein & fibre", "qualifier": "29.26 g per 100 g", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "dietary-fibre", "strength": { "amount": 1.43, "unit": "g" }, "group": "Protein & fibre", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "fructo-oligosaccharides", "strength": { "amount": 0.45, "unit": "g" }, "group": "Protein & fibre", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-c", "strength": { "amount": 15, "unit": "mg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-e", "strength": { "amount": 4.5, "unit": "mg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b3", "strength": { "amount": 1.5, "unit": "mg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b5", "strength": { "amount": 0.44, "unit": "mg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b2", "strength": { "amount": 0.3, "unit": "mg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b1", "strength": { "amount": 0.3, "unit": "mg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b6", "strength": { "amount": 0.15, "unit": "mg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-a", "strength": { "amount": 112.5, "unit": "mcg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "folic-acid", "strength": { "amount": 100, "unit": "mcg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "biotin", "strength": { "amount": 15, "unit": "mcg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-k", "strength": { "amount": 7.5, "unit": "mcg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-d", "strength": { "amount": 0.94, "unit": "mcg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b12", "strength": { "amount": 0.45, "unit": "mcg" }, "group": "Vitamins", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "calcium", "strength": { "amount": 120, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "potassium", "strength": { "amount": 105, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "phosphorus", "strength": { "amount": 90, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "chloride", "strength": { "amount": 37.5, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "magnesium", "strength": { "amount": 30, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "zinc", "strength": { "amount": 1.5, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "copper", "strength": { "amount": 1.35, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "iron", "strength": { "amount": 0.75, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "manganese", "strength": { "amount": 0.17, "unit": "mg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "selenium", "strength": { "amount": 17.55, "unit": "mcg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "chromium", "strength": { "amount": 13.5, "unit": "mcg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "iodine", "strength": { "amount": 8.73, "unit": "mcg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "molybdenum", "strength": { "amount": 5.25, "unit": "mcg" }, "group": "Minerals", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "inositol", "strength": { "amount": 45.86, "unit": "mg" }, "group": "Other nutrients", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "alpha-lipoic-acid", "strength": { "amount": 22.5, "unit": "mg" }, "group": "Other nutrients", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "coenzyme-q10", "strength": { "amount": 6.75, "unit": "mg" }, "group": "Other nutrients", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "choline", "strength": { "amount": 22.94, "unit": "mg" }, "group": "Other nutrients", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "taurine", "strength": { "amount": 4.59, "unit": "mg" }, "group": "Other nutrients", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "l-carnitine", "strength": { "amount": 3.78, "unit": "mg" }, "group": "Other nutrients", "verification": "pack-confirmed-by-user-2026-10-01" }
       ],
-      "verification": "visual-aid-listed-pending-pack-confirmation"
+      "verification": "pack-confirmed-by-user-2026-10-01"
     }],
     "packaging": { "description": "200 g container", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Vanilla-flavoured Ramnova protein supplement providing 24 g of protein, 5 g of branched-chain amino acids and 4 g of glutamine per serving. Free of trans fat, gluten free and with no added sugar.",
-      "uses": [
-        "Muscle growth and recovery",
-        "Energy and immunity support",
-        "Daily nutritional support for fitness enthusiasts and active individuals",
-        "Post-workout recovery"
+      "summary": "Vanilla-flavoured Ramnova nutritional supplement powder providing 29.26 g of protein per 100 g (about 4.4 g per 15 g serving) with 13 vitamins, 13 minerals, dietary fibre, FOS, coenzyme Q10, alpha lipoic acid, choline, taurine and L-carnitine, and no added sugar.",
+      "introduction": [
+        "BLEMANGO PROTEIN POWDER is a vanilla-flavoured nutritional supplement that combines protein with 13 vitamins, 13 minerals, dietary fibre and other nutrients such as coenzyme Q10, alpha lipoic acid, choline and L-carnitine. It contains 29.26 g of protein per 100 g, about 4.4 g in each 15 g serving, with no added sugar.",
+        "Mix one serving in a glass of milk or water and take it as your doctor or dietician advises. It helps fill gaps in protein and micronutrient intake as part of a balanced diet; it is not a meal replacement or a medicine."
       ],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
+      "uses": [
+        "Daily protein and nutritional support",
+        "Energy and immunity support",
+        "Nutritional support for active adults and during recovery from illness"
+      ],
+      "seoUses": ["daily protein and nutrition"],
+      "benefits": [
+        { "use": "Daily protein and nutritional support", "text": "Protein is needed to build and repair muscles and other tissues. Many everyday diets fall short on protein and micronutrients, and this powder helps top them up alongside regular meals." },
+        { "use": "Energy and immunity support", "text": "B vitamins help the body release energy from food, while vitamins A, C, D and E, zinc and selenium support normal immune function. Iron, folic acid and vitamin B12 contribute to healthy blood." },
+        { "use": "Active adults and recovery", "text": "Protein, calcium, magnesium and vitamin D support muscles and bones, which matters for active people and during recovery from illness. For people who already eat a balanced diet, evidence that supplements improve performance is limited." }
+      ],
+      "sideEffects": [
+        "Bloating, wind or a feeling of fullness, from the fibre and FOS",
+        "Mild stomach upset, nausea or diarrhoea",
+        "Constipation",
+        "Rarely, allergic reactions such as rash or itching"
+      ],
+      "howToUse": "Mix one 15 g serving in about 200 ml of milk or water and stir well, or take it as your doctor or dietician advises. Do not exceed the recommended daily amount. Close the container tightly and store it in a cool, dry place below 25°C.",
+      "howItWorks": "Protein supplies amino acids that the body uses to build and repair muscle, skin and other tissues. The vitamins and minerals help with energy production, bone health, blood formation and immunity. Dietary fibre and FOS, a prebiotic, support gut health, while coenzyme Q10, alpha lipoic acid and L-carnitine take part in turning food into energy inside cells.",
+      "warnings": [
+        "This is a nutritional supplement, not a medicine. It is not intended to diagnose, treat or cure any disease, or to replace meals.",
+        "Check the pack for allergens such as milk or soy before use.",
+        "People with kidney disease should use protein and mineral supplements only on medical advice.",
+        "It contains vitamin K, which can affect warfarin, so tell your doctor if you take a blood thinner.",
+        "It is not intended for children unless a doctor or dietician advises it.",
+        "Do not exceed the recommended daily amount."
+      ],
+      "contraindications": [
+        "Allergy to any ingredient of the powder"
+      ],
+      "interactions": [
+        "Vitamin K can reduce the effect of warfarin and similar blood thinners.",
+        "Calcium, magnesium, zinc and iron can reduce the absorption of some antibiotics (tetracyclines and ciprofloxacin) and thyroid medicine, so take them at least 2 hours apart.",
+        "Avoid combining it with other supplements containing the same vitamins and minerals unless advised."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "caution", "note": "Alcohol reduces the absorption of some vitamins and adds empty calories. Limit it." },
+        { "topic": "pregnancy", "status": "consult", "note": "Use only if your doctor advises it, and avoid other supplements containing vitamin A." },
+        { "topic": "breastfeeding", "status": "consult", "note": "Ask your doctor before use." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect your ability to drive." },
+        { "topic": "kidney", "status": "consult", "note": "People with kidney disease may need to limit protein, potassium and phosphorus, which this powder contains. Ask your doctor first." },
+        { "topic": "liver", "status": "consult", "note": "Tell your doctor if you have liver disease before taking protein supplements." }
+      ],
+      "quickTips": [
+        "Use it alongside balanced meals, not instead of them.",
+        "Mix it in milk or water, and stir well or use a shaker to avoid lumps.",
+        "Drink enough water through the day, especially as it contains fibre.",
+        "Do not take other multivitamin or mineral supplements at the same time unless your doctor advises it.",
+        "If you have diabetes, kidney disease or a food allergy, check with your doctor first.",
+        "Keep the container tightly closed and away from moisture."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }
+      ],
       "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The protein source is not named on the artwork reviewed; confirm before publishing a composition.", "Per-serving amounts are stated but the serving size itself is not, so the amounts cannot be converted to a per-100 g basis.", "The stylised brand mark on the container reads as Remova at low resolution; the brand owner has confirmed it is Ramnova."] },
+    "verification": { "status": "pack-confirmed", "notes": ["Composition per 15 g serving confirmed from the pack nutrition panel by the user on 2026-10-01; protein is 29.26 g per 100 g. Per-serving values are 15% of the per-100 g values.", "The earlier visual-aid values (24 g protein, 5 g BCAA and 4 g glutamine per serving) are superseded by the pack and were removed.", "The pack panel also lists, per 15 g: energy 57.59 kcal, total fat 0.29 g, saturated fat 0.14 g, added sugars 0 g, sodium 64.66 mg. Storage: not more than 25°C and dry place."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
   },
   {

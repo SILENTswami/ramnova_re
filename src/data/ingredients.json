@@ -84,22 +84,6 @@
     "summaryStatus": "details-being-verified"
   },
   {
-    "id": "multimineral-blend",
-    "name": "Multimineral blend",
-    "synonyms": ["multiminerals"],
-    "kind": "unspecified-blend",
-    "medicalSummary": "A catalog-level blend description. The individual minerals and amounts must be confirmed from product packaging before publication as a detailed composition.",
-    "summaryStatus": "details-being-verified"
-  },
-  {
-    "id": "multivitamin-blend",
-    "name": "Multivitamin blend",
-    "synonyms": ["multivitamins"],
-    "kind": "unspecified-blend",
-    "medicalSummary": "A catalog-level blend description. The individual vitamins and amounts must be confirmed from product packaging before publication as a detailed composition.",
-    "summaryStatus": "details-being-verified"
-  },
-  {
     "id": "antioxidant-blend",
     "name": "Antioxidant blend",
     "synonyms": ["antioxidants"],
@@ -566,38 +550,6 @@
     "summaryStatus": "catalog-derived-not-medically-reviewed"
   },
   {
-    "id": "protein-blend",
-    "name": "Protein blend",
-    "synonyms": ["protein"],
-    "kind": "unspecified-blend",
-    "medicalSummary": "A catalog-level blend description. The BLEMANGO protein powder artwork states 24 g of protein per serving but does not name the protein source, which must be confirmed from product packaging.",
-    "summaryStatus": "catalog-derived-not-medically-reviewed"
-  },
-  {
-    "id": "branched-chain-amino-acids",
-    "name": "Branched-chain amino acids",
-    "synonyms": ["bcaa"],
-    "kind": "unspecified-blend",
-    "medicalSummary": "A catalog-level blend description covering leucine, isoleucine and valine. Individual amounts are not stated in the source material.",
-    "summaryStatus": "catalog-derived-not-medically-reviewed"
-  },
-  {
-    "id": "l-glutamine",
-    "name": "L-glutamine",
-    "synonyms": ["glutamine"],
-    "kind": "nutrient",
-    "medicalSummary": "An amino acid listed on Ramnova's BLEMANGO protein powder artwork at 4 g per serving.",
-    "summaryStatus": "catalog-derived-not-medically-reviewed"
-  },
-  {
-    "id": "essential-amino-acids",
-    "name": "Essential amino acids",
-    "synonyms": [],
-    "kind": "unspecified-blend",
-    "medicalSummary": "A catalog-level blend description. The individual amino acids and amounts must be confirmed from product packaging before publication as a detailed composition.",
-    "summaryStatus": "catalog-derived-not-medically-reviewed"
-  },
-  {
     "id": "flavoxate-hydrochloride",
     "name": "Flavoxate hydrochloride",
     "synonyms": ["flavoxate"],
@@ -723,6 +675,174 @@
     "synonyms": ["ornithine"],
     "kind": "nutrient",
     "medicalSummary": "A nutrient listed in Ramnova's HEPTARAM tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "protein",
+    "name": "Protein",
+    "synonyms": ["protein"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "dietary-fibre",
+    "name": "Dietary fibre",
+    "synonyms": ["fibre", "fiber"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "fructo-oligosaccharides",
+    "name": "Fructo-oligosaccharides (FOS)",
+    "synonyms": ["fos", "fructooligosaccharides"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "biotin",
+    "name": "Biotin",
+    "synonyms": ["vitamin b7", "vitamin h"],
+    "kind": "vitamin",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-k",
+    "name": "Vitamin K",
+    "synonyms": ["vitamin k"],
+    "kind": "vitamin",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-d",
+    "name": "Vitamin D",
+    "synonyms": ["vitamin d"],
+    "kind": "vitamin",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "calcium",
+    "name": "Calcium",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "potassium",
+    "name": "Potassium",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "phosphorus",
+    "name": "Phosphorus",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "chloride",
+    "name": "Chloride",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "manganese",
+    "name": "Manganese",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "chromium",
+    "name": "Chromium",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "iodine",
+    "name": "Iodine",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "molybdenum",
+    "name": "Molybdenum",
+    "synonyms": [],
+    "kind": "mineral",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "inositol",
+    "name": "Inositol",
+    "synonyms": [],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "alpha-lipoic-acid",
+    "name": "Alpha lipoic acid",
+    "synonyms": ["ala", "lipoic acid"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "choline",
+    "name": "Choline",
+    "synonyms": [],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "taurine",
+    "name": "Taurine",
+    "synonyms": [],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
     "summaryStatus": "catalog-derived-not-medically-reviewed"
   }
 ]

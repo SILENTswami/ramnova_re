@@ -36,6 +36,8 @@ export type ProductIngredient = {
   qualifier?: string;
   // Ingredient ID of the total this row is part of, e.g. EPA within omega-3 fatty acids.
   partOf?: string;
+  // Sub-heading the row is listed under, e.g. "Vitamins".
+  group?: string;
   verification: string;
 };
 

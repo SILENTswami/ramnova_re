@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
+import { Fragment, Suspense } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -396,13 +396,22 @@ function ProductPage({ product }: { product: Product }) {
                         </tr>
                       </thead>
                       <tbody>
-                        {variant.ingredients.map((item) => {
+                        {variant.ingredients.map((item, index) => {
                           const ingredient = ingredientMap.get(item.ingredientId);
+                          // Start a sub-heading row whenever the group changes.
+                          const startsGroup =
+                            item.group !== undefined &&
+                            item.group !== variant.ingredients[index - 1]?.group;
                           return (
-                            <tr
-                              key={`${variant.id}-${item.ingredientId}`}
-                              className={item.partOf ? "ingredient-component" : undefined}
-                            >
+                            <Fragment key={`${variant.id}-${item.ingredientId}`}>
+                            {startsGroup ? (
+                              <tr className="ingredient-group">
+                                <th colSpan={2} scope="colgroup">
+                                  {item.group}
+                                </th>
+                              </tr>
+                            ) : null}
+                            <tr className={item.partOf ? "ingredient-component" : undefined}>
                               <td>
                                 {item.partOf ? "of which " : null}
                                 {ingredient?.name ?? item.ingredientId}
@@ -421,6 +430,7 @@ function ProductPage({ product }: { product: Product }) {
                                 )}
                               </td>
                             </tr>
+                            </Fragment>
                           );
                         })}
                       </tbody>
