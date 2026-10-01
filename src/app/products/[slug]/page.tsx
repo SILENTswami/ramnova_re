@@ -406,7 +406,9 @@ function ProductPage({ product }: { product: Product }) {
                               <td>
                                 {item.partOf ? "of which " : null}
                                 {ingredient?.name ?? item.ingredientId}
-                                {item.qualifier ? ` (${item.qualifier})` : null}
+                                {item.qualifier ? (
+                                  <span className="ingredient-qualifier">{item.qualifier}</span>
+                                ) : null}
                               </td>
                               <td className="ingredient-strength">
                                 {item.strength ? (

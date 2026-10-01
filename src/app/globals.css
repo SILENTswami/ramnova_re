@@ -1779,6 +1779,13 @@ a {
   white-space: nowrap;
 }
 
+.ingredient-qualifier {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
 .ingredient-table .ingredient-component td:first-child {
   padding-left: 28px;
   color: var(--muted);

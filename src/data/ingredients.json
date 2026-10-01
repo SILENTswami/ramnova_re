@@ -518,14 +518,6 @@
     "summaryStatus": "catalog-derived-not-medically-reviewed"
   },
   {
-    "id": "amino-acids-blend",
-    "name": "Amino acids blend",
-    "synonyms": ["amino acids"],
-    "kind": "unspecified-blend",
-    "medicalSummary": "A catalog-level blend description. The individual amino acids and amounts must be confirmed from product packaging before publication as a detailed composition.",
-    "summaryStatus": "catalog-derived-not-medically-reviewed"
-  },
-  {
     "id": "bilastine",
     "name": "Bilastine",
     "synonyms": [],
@@ -715,6 +707,22 @@
     "synonyms": ["sodium selenate", "selenium"],
     "kind": "mineral-source",
     "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "l-carnitine",
+    "name": "L-carnitine",
+    "synonyms": ["carnitine", "levocarnitine"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's HEPTARAM tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "l-ornithine",
+    "name": "L-ornithine",
+    "synonyms": ["ornithine"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's HEPTARAM tablets.",
     "summaryStatus": "catalog-derived-not-medically-reviewed"
   }
 ]

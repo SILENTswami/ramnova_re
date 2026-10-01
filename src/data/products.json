@@ -1103,9 +1103,9 @@
     "name": "HEPTARAM",
     "brandName": "HEPTARAM",
     "sourceDescription": "Lecithin, Silymarin, Zinc, Amino Acids and Vitamins Tablets",
-    "displayDescription": "Lecithin, silymarin, zinc, amino acids and vitamins tablets",
+    "displayDescription": "Silymarin, lecithin, L-carnitine, N-acetylcysteine, L-ornithine, zinc and vitamin film-coated tablets",
     "category": "tablets",
-    "dosageForm": "tablet",
+    "dosageForm": "film-coated-tablet",
     "image": "/images/products/heptaram.webp",
     "imageAlt": "HEPTARAM tablet packaging",
     "featured": false,
@@ -1114,34 +1114,88 @@
     "schemaType": "DietarySupplement",
     "variants": [{
       "id": "heptaram-standard",
-      "label": "Product composition",
+      "label": "Each film-coated tablet contains",
       "ingredients": [
-        { "ingredientId": "lecithin", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "silymarin", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "zinc", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "amino-acids-blend", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "source-listed-strength-not-provided" }
+        { "ingredientId": "silymarin", "strength": { "amount": 140, "unit": "mg" }, "sourceStrengthText": "Silybum marianum extract (Silymarin extract) 200 mg equivalent to Silymarin 140 mg", "qualifier": "from 200 mg milk thistle extract", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "lecithin", "strength": { "amount": 75, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "l-carnitine", "strength": { "amount": 50, "unit": "mg" }, "sourceStrengthText": "L-Carnitine (as L-Carnitine Tartrate) 50 mg", "qualifier": "as L-carnitine tartrate", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "acetylcysteine", "strength": { "amount": 50, "unit": "mg" }, "sourceStrengthText": "N-Acetyl Cysteine 50 mg", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "l-ornithine", "strength": { "amount": 50, "unit": "mg" }, "sourceStrengthText": "L-Ornithine (as L-Ornithine Hydrochloride) 50 mg", "qualifier": "as hydrochloride", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-c", "strength": { "amount": 20, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "zinc", "strength": { "amount": 5, "unit": "mg" }, "sourceStrengthText": "Zinc (as Zinc Sulphate) 5 mg", "qualifier": "as zinc sulphate", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b5", "strength": { "amount": 2.5, "unit": "mg" }, "sourceStrengthText": "Pantothenic acid (as Calcium D-Pantothenate) 2.5 mg", "qualifier": "as calcium D-pantothenate", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b2", "strength": { "amount": 1, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b6", "strength": { "amount": 1, "unit": "mg" }, "sourceStrengthText": "Vitamin B6 (as Pyridoxine Hydrochloride) 1 mg", "qualifier": "as pyridoxine hydrochloride", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b1", "strength": { "amount": 0.8, "unit": "mg" }, "sourceStrengthText": "Vitamin B1 (as Thiamine mononitrate) 0.8 mg", "qualifier": "as thiamine mononitrate", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "folic-acid", "strength": { "amount": 50, "unit": "mcg" }, "sourceStrengthText": "Folic Acid 0.05 mg", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "cholecalciferol", "strength": { "amount": 200, "unit": "IU" }, "sourceStrengthText": "Vitamin D3 200 IU", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-e", "strength": { "amount": 5, "unit": "IU" }, "sourceStrengthText": "Vitamin E (as Vitamin E Acetate) 5 IU", "qualifier": "as acetate", "verification": "pack-confirmed-by-user-2026-10-01" }
       ],
-      "verification": "visual-aid-listed-pending-pack-confirmation"
+      "verification": "pack-confirmed-by-user-2026-10-01"
     }],
     "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova liver support tablet combining lecithin and silymarin with zinc, an amino acid blend and vitamins.",
-      "uses": [
-        "Hepatitis",
-        "Alcoholic liver disease",
-        "Cirrhosis"
+      "summary": "Ramnova liver support nutraceutical tablet combining silymarin (from milk thistle) with lecithin, L-carnitine, N-acetylcysteine, L-ornithine, zinc and vitamins B, C, D3 and E.",
+      "introduction": [
+        "HEPTARAM is a liver support nutraceutical tablet. Each film-coated tablet contains silymarin 140 mg (from milk thistle), lecithin, L-carnitine, N-acetylcysteine, L-ornithine and zinc, with vitamins B1, B2, B5, B6, C, D3, E and folic acid. It provides nutritional support for liver health, including alongside medical treatment for liver conditions.",
+        "The usual adult dose is one tablet twice a day, or as your doctor or dietician advises; do not take more than recommended. It is a nutritional supplement, not a medicine, and does not replace treatment of liver disease. It contains soy."
       ],
-      "seoUses": ["hepatitis", "alcoholic liver disease"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "uses": [
+        "Nutritional support for liver health",
+        "Supportive nutrition alongside medical treatment in hepatitis, alcohol-related liver disease and cirrhosis"
+      ],
+      "seoUses": ["liver health", "liver support"],
+      "benefits": [
+        { "use": "Nutritional support for liver health", "text": "Silymarin is an antioxidant from milk thistle that has been studied for protecting liver cells, although results in liver disease have been mixed. N-acetylcysteine helps the body make glutathione, one of the liver's own antioxidants, while lecithin supplies phospholipids used in cell membranes." },
+        { "use": "Supportive nutrition in liver conditions", "text": "People with liver disease often have low levels of B vitamins, vitamin D, zinc and other nutrients. This tablet helps replace them, while L-ornithine takes part in clearing ammonia and L-carnitine helps cells use fat for energy. It should be used alongside, not instead of, your doctor's treatment." }
+      ],
+      "sideEffects": [
+        "Nausea, bloating or stomach upset",
+        "Diarrhoea or loose stools",
+        "Headache",
+        "Rarely, allergic reactions such as rash or itching"
+      ],
+      "howToUse": "Take one tablet twice a day, or as your doctor or dietician advises, preferably after meals. Swallow it whole with water. Do not take more than the recommended daily amount.",
+      "howItWorks": "Silymarin, from milk thistle seeds, is an antioxidant thought to help protect liver cells from toxins. N-acetylcysteine is used by the body to make glutathione, an important antioxidant in the liver. L-ornithine helps the liver convert ammonia into urea, and L-carnitine carries fatty acids into cells to be used for energy. Lecithin supplies phospholipids, and the vitamins and zinc support normal metabolism and immune function.",
+      "warnings": [
+        "This is a nutraceutical for general well-being, not a medicine. It does not diagnose, treat or cure liver disease.",
+        "It contains soy. Do not take it if you are allergic to soy.",
+        "People allergic to plants in the daisy family, such as ragweed, chrysanthemum or marigold, may react to silymarin.",
+        "It contains added colours, which can cause reactions in sensitive people.",
+        "Do not exceed the recommended daily dose."
+      ],
+      "contraindications": [
+        "Allergy to soy, milk thistle, plants in the daisy family, or any other ingredient"
+      ],
+      "interactions": [
+        "Silymarin may lower blood sugar slightly, so people taking diabetes medicines should monitor their sugar levels.",
+        "L-carnitine may change the effect of warfarin and other blood thinners.",
+        "Avoid combining it with other supplements containing the same vitamins or zinc unless advised."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "unsafe", "note": "Avoid alcohol completely. It damages the liver and works against this supplement." },
+        { "topic": "pregnancy", "status": "consult", "note": "Safety in pregnancy has not been established. Use only if your doctor advises it." },
+        { "topic": "breastfeeding", "status": "consult", "note": "There is not enough information on use while breastfeeding. Ask your doctor first." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect your ability to drive." },
+        { "topic": "kidney", "status": "consult", "note": "Tell your doctor if you have kidney disease before taking supplements that contain minerals and vitamins." },
+        { "topic": "liver", "status": "consult", "note": "Intended to support liver health. If you have liver disease, use it only under your doctor's supervision." }
+      ],
+      "quickTips": [
+        "Take it after meals, at the same times each day.",
+        "Avoid alcohol, and eat a balanced diet low in fried and fatty food.",
+        "Do not take other multivitamin or mineral supplements at the same time unless your doctor advises it.",
+        "Keep your follow-up appointments and liver tests if you have a liver condition.",
+        "If you take warfarin or diabetes medicines, ask your doctor before starting.",
+        "See your doctor if you notice yellowing of the skin or eyes, dark urine, confusion or swelling of the abdomen."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "nccih-milk-thistle", "publisher": "National Center for Complementary and Integrative Health (NIH)", "title": "Milk Thistle: Usefulness and Safety", "url": "https://www.nccih.nih.gov/health/milk-thistle", "jurisdiction": "United States", "revision": "2025-02", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["No per-tablet strengths are stated for any component.", "The visual aid also lists galactogogue among the indications, which is unrelated to the liver indications alongside it and is not supported by any source reviewed here. It has not been reproduced."] },
+    "verification": { "status": "pack-confirmed", "notes": ["Per-tablet composition confirmed from the pack by the user on 2026-10-01.", "The pack states \"As nutraceutical, for human well-being. Not for medicinal use\", so the visual aid's disease list (hepatitis, alcoholic liver disease, cirrhosis) was reframed as nutritional support.", "The pack recommends one tablet twice daily for adults and states it contains soy and added colours (INS 171 and 124)."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
   },
   {
