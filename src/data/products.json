@@ -490,10 +490,10 @@
       "id": "ruskitop-dsr-standard",
       "label": "Product presentation",
       "ingredients": [
-        { "ingredientId": "pantoprazole-sodium", "strength": { "amount": 40, "unit": "mg" }, "release": "gastro resistant", "verification": "visual-aid-listed" },
-        { "ingredientId": "domperidone", "strength": { "amount": 30, "unit": "mg" }, "release": "prolonged release", "verification": "visual-aid-listed" }
+        { "ingredientId": "pantoprazole-sodium", "strength": { "amount": 40, "unit": "mg" }, "release": "gastro resistant", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "domperidone", "strength": { "amount": 30, "unit": "mg" }, "release": "prolonged release", "verification": "pack-confirmed-by-user-2026-10-01" }
       ],
-      "verification": "partial-details"
+      "verification": "pack-confirmed"
     }],
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
@@ -566,7 +566,7 @@
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "partial-details", "notes": ["Both ingredient strengths require packaging confirmation."] },
+    "verification": { "status": "pack-confirmed", "notes": ["The user confirmed pantoprazole 40 mg and domperidone 30 mg from the pack on 2026-10-01."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "release-form"] }]
   },
   {
