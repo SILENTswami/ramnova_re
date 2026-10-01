@@ -30,12 +30,68 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova soft-gel capsule combining calcium carbonate 500 mg and calcitriol 0.25 mcg with vitamin K2-7, methylcobalamin 750 mcg, magnesium 20 mg, boron 1.5 mg and zinc 7.5 mg. Calcitriol is the active form of vitamin D, so this product should be used under the supervision of a healthcare professional.",
-      "uses": [],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "introduction": [
+        "CADMIZORB-PLUS soft-gel capsules combine calcium carbonate 500 mg with calcitriol 0.25 mcg, the active form of vitamin D, plus vitamin K2-7, methylcobalamin (vitamin B12), magnesium, boron and zinc. It is used to treat calcium deficiency and to support bone health, including in people with osteoporosis.",
+        "Take it at the same time each day, exactly as your doctor prescribes, and do not take more than advised. Because calcitriol is a strong form of vitamin D, your doctor may check your blood calcium during treatment. Tell your doctor about any other medicines and supplements you take, especially other vitamin D or calcium products."
+      ],
+      "uses": [
+        "Calcium and vitamin D deficiency",
+        "Supporting bone health in osteoporosis and low bone density"
+      ],
+      "seoUses": ["calcium deficiency", "osteoporosis"],
+      "benefits": [
+        { "use": "Calcium and vitamin D deficiency", "text": "Calcium is needed for strong bones and teeth, and for normal nerve, muscle and heart function. Calcium carbonate tops up the calcium in your diet, and calcitriol, the active form of vitamin D, helps your gut absorb it. Magnesium and zinc also support normal bone metabolism." },
+        { "use": "Bone health in osteoporosis", "text": "In osteoporosis, bones become thinner and more likely to break. Calcium with active vitamin D helps maintain bone mineral density, while vitamin K2-7 activates proteins that help bind calcium into bone. Your doctor may prescribe it alongside other osteoporosis treatment." }
+      ],
+      "sideEffects": [
+        "Constipation, wind or bloating",
+        "Nausea or stomach upset",
+        "Headache",
+        "Loss of appetite",
+        "Rash or itching",
+        "High blood calcium with long-term or excessive use (see warnings)"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises. Swallow the capsule whole with water; do not chew or break it. Taking it with or after a meal can help calcium absorption and reduce stomach upset.",
+      "howItWorks": "Calcium carbonate supplies calcium, the main mineral in bones and teeth. Calcitriol, the active form of vitamin D, increases the amount of calcium the gut absorbs. Vitamin K2-7 activates proteins that help bind calcium into bone, while magnesium, zinc and boron support normal bone metabolism. Methylcobalamin is an active form of vitamin B12, needed for healthy nerves and red blood cells.",
+      "warnings": [
+        "Calcitriol can raise blood calcium too high (hypercalcaemia). Your doctor may check your calcium and kidney function regularly, especially when starting treatment or changing the dose.",
+        "Avoid other vitamin D products, including high-dose vitamin D supplements, unless your doctor advises them.",
+        "The risk of high calcium is greater if you are immobile for long periods, for example after surgery.",
+        "Tell your doctor if you have kidney disease, kidney stones or a heart rhythm problem."
+      ],
+      "contraindications": [
+        "High blood calcium (hypercalcaemia) or a condition that causes it",
+        "Vitamin D toxicity",
+        "Calcium deposits in body tissues (metastatic calcification)",
+        "Allergy to any ingredient of the capsule"
+      ],
+      "interactions": [
+        "Thiazide water tablets, such as hydrochlorothiazide, can increase the risk of high calcium.",
+        "High calcium can increase the risk of heart rhythm problems in people taking digoxin.",
+        "Vitamin K2-7 can reduce the effect of blood thinners such as warfarin or acenocoumarol, so your doctor may need to check your INR.",
+        "Calcium, magnesium and zinc reduce the absorption of some antibiotics (tetracyclines and ciprofloxacin), thyroid medicine, iron and bisphosphonates. Take them at least 2 hours apart, or as your doctor advises.",
+        "Cholestyramine and sevelamer reduce calcitriol absorption, and corticosteroids can reduce its effect."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "consult", "note": "It is not known whether alcohol interacts with this medicine. Heavy drinking also weakens bones, so limit alcohol and ask your doctor." },
+        { "topic": "pregnancy", "status": "consult", "note": "Use only if your doctor advises it. Calcitriol needs careful supervision during pregnancy." },
+        { "topic": "breastfeeding", "status": "caution", "note": "Calcitriol passes into breast milk. Your doctor may monitor calcium levels in you and your baby." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect your ability to drive." },
+        { "topic": "kidney", "status": "caution", "note": "Tell your doctor if you have kidney disease or have had kidney stones. The dose may need adjusting and your calcium checking." },
+        { "topic": "liver", "status": "caution", "note": "Tell your doctor if you have severe liver disease, as the dose may need adjusting." }
+      ],
+      "quickTips": [
+        "Take it at the same time each day, preferably after a meal.",
+        "Do not take other vitamin D or calcium supplements unless your doctor advises it.",
+        "Keep at least 2 hours between this capsule and iron tablets, thyroid medicine, or antibiotics such as ciprofloxacin or doxycycline.",
+        "Include calcium-rich foods such as milk, curd, paneer, ragi and green leafy vegetables.",
+        "Drink plenty of water, and tell your doctor if you have had kidney stones.",
+        "See your doctor if you notice excessive thirst, frequent urination, nausea, constipation, confusion or unusual tiredness, which can be signs of high calcium."
+      ],
+      "sources": [
+        { "id": "emc-calcitriol-0-25mcg", "publisher": "electronic medicines compendium (emc)", "title": "Calcitriol 0.25 microgram capsules: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/101902/smpc", "jurisdiction": "United Kingdom", "revision": "2026-09-08", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "conflicting-or-ambiguous-details", "notes": ["The website catalogue states vitamin K2-7 as 45 mg and the PVAS2109 visual aid states 45 mcg. The microgram figure is recorded because 45 mg would be roughly a thousand times any usual vitamin K2-7 amount; confirm against the pack.", "The two Ramnova sources disagree on calcium carbonate: the website catalogue states 500 mg and the PVAS2109 visual aid states 200 mg. The catalogue figure is retained unchanged pending confirmation from the pack.", "The source does not state whether the calcium figure refers to calcium carbonate or to elemental calcium."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition", "source-strength-text"] }]
