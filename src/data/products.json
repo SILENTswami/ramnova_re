@@ -299,8 +299,8 @@
       ],
       "safetyAdvice": [
         { "topic": "alcohol", "status": "safe", "note": "No harmful interaction is known. Avoiding alcohol can help your recovery from infection." },
-        { "topic": "pregnancy", "status": "safe-if-prescribed", "note": "Used during pregnancy only when your doctor considers it clearly needed." },
-        { "topic": "breastfeeding", "status": "safe-if-prescribed", "note": "Small amounts pass into breast milk. Your doctor will weigh the benefits; watch your baby for diarrhoea or rash." },
+        { "topic": "pregnancy", "status": "consult", "note": "Used during pregnancy only when your doctor considers it clearly needed." },
+        { "topic": "breastfeeding", "status": "consult", "note": "Small amounts pass into breast milk. Your doctor will weigh the benefits; watch your baby for diarrhoea or rash." },
         { "topic": "driving", "status": "consult", "note": "Its effect on driving has not been studied. Do not drive if you feel dizzy or unwell." },
         { "topic": "kidney", "status": "caution", "note": "The dose is reduced in kidney disease, and your kidney function will be monitored, especially if you are seriously ill." },
         { "topic": "liver", "status": "safe-if-prescribed", "note": "No dose change is usually needed, but tell your doctor about any liver problem." }
@@ -310,8 +310,7 @@
         "Tell staff immediately if you develop an itchy rash, swelling of the face or throat, or difficulty breathing during or after the infusion.",
         "Complete the full course your doctor prescribes, even if you start to feel better.",
         "Report diarrhoea that is severe, watery or bloody, or that continues, even weeks after treatment ends.",
-        "Report any unusual bleeding or bruising.",
-        "If you use hormonal contraception, ask your doctor whether you need extra protection."
+        "Report any unusual bleeding or bruising."
       ],
       "sources": [
         { "id": "emc-piperacillin-tazobactam-4g", "publisher": "electronic medicines compendium (emc)", "title": "Piperacillin/tazobactam 4 g/0.5 g powder for solution for infusion: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/6526/smpc", "jurisdiction": "United Kingdom", "revision": "2025-07-04", "accessedAt": "2026-10-01" }
