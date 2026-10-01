@@ -752,9 +752,9 @@
     "name": "BLEMANGO Q10",
     "brandName": "BLEMANGO Q10",
     "sourceDescription": "Co enzyme-Q10, L-Carnitine L-tartrate, Astaxanthin, Lycopene, Zinc, Sodium Selenite & Multivitamin Tablets",
-    "displayDescription": "Coenzyme Q10, L-carnitine L-tartrate, astaxanthin, lycopene, zinc, sodium selenite and multivitamin tablets",
+    "displayDescription": "Coenzyme Q10, L-carnitine, antioxidants, omega-3, zinc, selenium and multivitamin film-coated tablets",
     "category": "tablets",
-    "dosageForm": "tablet",
+    "dosageForm": "film-coated-tablet",
     "image": "/images/products/blemango-q10.webp",
     "imageAlt": "BLEMANGO Q10 supplement packaging",
     "featured": false,
@@ -762,35 +762,95 @@
     "therapyCategoryVerification": "inferred-from-composition",
     "variants": [{
       "id": "blemango-q10-standard",
-      "label": "Product composition",
+      "label": "Each film-coated tablet contains",
       "ingredients": [
-        { "ingredientId": "coenzyme-q10", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "l-carnitine-l-tartrate", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "astaxanthin", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "lycopene", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "zinc", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "sodium-selenite", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "source-listed-strength-not-provided" }
+        { "ingredientId": "coenzyme-q10", "strength": { "amount": 100, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "l-carnitine-l-tartrate", "strength": { "amount": 50, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "astaxanthin", "strength": { "amount": 16, "unit": "mg" }, "sourceStrengthText": "Astaxanthin 10% 16 mg", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "lycopene", "strength": { "amount": 5000, "unit": "mcg" }, "sourceStrengthText": "Lycopene 10% 5000 mcg", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "omega-3-fatty-acids", "strength": { "amount": 150, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "epa", "strength": { "amount": 90, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "dha", "strength": { "amount": 60, "unit": "mg" }, "sourceStrengthText": "DHA 10% 60 mg", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "l-glutathione", "strength": { "amount": 50, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "zinc", "strength": { "amount": 12.5, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "sodium-selenate", "strength": { "amount": 40, "unit": "mcg" }, "sourceStrengthText": "Sodium selenate equivalent to selenium 40 mcg", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b1", "strength": { "amount": 1.4, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b2", "strength": { "amount": 1.6, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b6", "strength": { "amount": 2, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b12", "strength": { "amount": 2.2, "unit": "mcg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "cholecalciferol", "strength": { "amount": 400, "unit": "IU" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-a", "strength": { "amount": 1000, "unit": "IU" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-c", "strength": { "amount": 40, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-e", "strength": { "amount": 10, "unit": "IU" }, "verification": "pack-confirmed-by-user-2026-10-01" }
       ],
-      "verification": "visual-aid-listed-pending-pack-confirmation"
+      "verification": "pack-confirmed-by-user-2026-10-01"
     }],
     "packaging": { "description": "10 x 1 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova nutritional supplement tablet combining coenzyme Q10 and L-carnitine L-tartrate with the antioxidants astaxanthin and lycopene, zinc, selenium and a multivitamin blend.",
+      "summary": "Ramnova nutritional supplement tablet combining coenzyme Q10 and L-carnitine L-tartrate with the antioxidants astaxanthin, lycopene and L-glutathione, omega-3 fatty acids, zinc, selenium and vitamins A, B1, B2, B6, B12, C, D3 and E.",
+      "introduction": [
+        "BLEMANGO Q10 is a nutritional supplement tablet. Each film-coated tablet contains coenzyme Q10 100 mg and L-carnitine L-tartrate 50 mg, with the antioxidants astaxanthin, lycopene and L-glutathione, omega-3 fatty acids (EPA and DHA), zinc, selenium and vitamins A, B1, B2, B6, B12, C, D3 and E. It is used to support recovery from weakness and fatigue after viral fever or during chronic illness.",
+        "Take it as your doctor or dietician advises, preferably after breakfast. It is usually well tolerated, though mild stomach upset can occur. Tell your doctor if you take blood thinners, diabetes medicines or other supplements."
+      ],
       "uses": [
         "Weakness and fatigue associated with viral fever",
         "Weakness and fatigue associated with chronic illness"
       ],
       "seoUses": ["weakness and fatigue"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Weakness and fatigue after viral fever", "text": "After a viral fever, the body needs extra nutrients to recover. This tablet combines coenzyme Q10 and L-carnitine, which take part in turning food into energy inside cells, with B vitamins, vitamins A, C, D3 and E, zinc and selenium, which support normal immune function. It is a nutritional supplement and does not replace treatment of the illness itself." },
+        { "use": "Weakness and fatigue in chronic illness", "text": "Long-term illness can leave people low on energy and nutrients. The antioxidants astaxanthin, lycopene, L-glutathione and vitamins C and E help protect cells from oxidative stress, while omega-3 fatty acids (EPA and DHA) support heart and general health. Evidence that these ingredients reduce fatigue is limited, so use it alongside your doctor's advice." }
+      ],
+      "sideEffects": [
+        "Nausea, heartburn or stomach upset",
+        "Diarrhoea",
+        "Fishy aftertaste or burping",
+        "Headache",
+        "Difficulty sleeping"
+      ],
+      "howToUse": "Take the dose your doctor or dietician advises, preferably after a meal such as breakfast. Swallow the tablet whole with water; do not chew or crush it.",
+      "howItWorks": "Coenzyme Q10 and L-carnitine help cells produce energy: L-carnitine carries fatty acids into the mitochondria, and coenzyme Q10 helps convert them into usable energy. Astaxanthin, lycopene, L-glutathione and vitamins C and E act as antioxidants. Omega-3 fatty acids (EPA and DHA) support heart and brain health, while zinc, selenium and vitamins A and D3 support immune function. B vitamins help the body release energy from food.",
+      "warnings": [
+        "This is a nutritional supplement. It is not intended to diagnose, treat or cure any disease.",
+        "Evidence that coenzyme Q10 and similar ingredients reduce fatigue is limited.",
+        "It contains omega-3 fatty acids, which are usually derived from fish oil. People with a fish allergy should check with their doctor.",
+        "It contains synthetic food colour and preservatives (parabens, BHA, BHT and benzoates), which can cause reactions in sensitive people.",
+        "Tell your doctor that you take this supplement before any surgery."
+      ],
+      "contraindications": [
+        "Allergy to any ingredient of the tablet"
+      ],
+      "interactions": [
+        "Coenzyme Q10 and L-carnitine may change the effect of warfarin and other blood thinners.",
+        "Coenzyme Q10 may affect blood sugar in people taking insulin or other diabetes medicines.",
+        "Coenzyme Q10 and other antioxidants may interfere with some cancer treatments, so tell your cancer doctor if you take it.",
+        "Avoid combining it with other supplements containing vitamin A, vitamin D, zinc or selenium unless advised, to prevent excess intake."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "caution", "note": "Limit alcohol, which can worsen fatigue and slow recovery." },
+        { "topic": "pregnancy", "status": "consult", "note": "Safety in pregnancy has not been established. Use only if your doctor advises it, and avoid other vitamin A supplements." },
+        { "topic": "breastfeeding", "status": "consult", "note": "There is not enough information on use while breastfeeding. Ask your doctor first." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect your ability to drive." },
+        { "topic": "kidney", "status": "consult", "note": "Tell your doctor if you have kidney disease before taking supplements that contain minerals and vitamins." },
+        { "topic": "liver", "status": "consult", "note": "Tell your doctor if you have liver disease before taking this supplement." }
+      ],
+      "quickTips": [
+        "Take it after breakfast, at the same time each day.",
+        "Do not take other multivitamin or mineral supplements at the same time unless your doctor advises it.",
+        "If you take warfarin, ask your doctor before starting, as your INR may need checking.",
+        "If you have diabetes, monitor your blood sugar, as coenzyme Q10 may affect it.",
+        "Eat a balanced diet, rest well and drink enough fluids while you recover.",
+        "See your doctor if weakness or fatigue continues or gets worse."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "nccih-coq10", "publisher": "National Center for Complementary and Integrative Health (NIH)", "title": "Coenzyme Q10", "url": "https://www.nccih.nih.gov/health/coenzyme-q10", "jurisdiction": "United States", "revision": "2019-01", "accessedAt": "2026-10-01" },
+        { "id": "nccih-omega-3", "publisher": "National Center for Complementary and Integrative Health (NIH)", "title": "Omega-3 Supplements: What You Need To Know", "url": "https://www.nccih.nih.gov/health/omega3-supplements-what-you-need-to-know", "jurisdiction": "United States", "revision": "2024-11", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["No per-tablet strengths are stated for any component; do not publish amounts without packaging evidence.", "The elemental selenium and zinc content is not stated, only the salt or element name."] },
+    "verification": { "status": "pack-confirmed", "notes": ["Per-tablet composition confirmed from the pack by the user on 2026-10-01. The pack lists sodium selenate (the catalogue says selenite) equivalent to selenium 40 mcg.", "Astaxanthin, lycopene and DHA are labelled as 10% preparations; the amounts shown are as printed on the pack. EPA 90 mg and DHA 60 mg are listed alongside omega-3 fatty acids 150 mg."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
   },
   {

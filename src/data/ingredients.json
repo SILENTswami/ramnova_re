@@ -660,5 +660,61 @@
     "kind": "vitamin",
     "medicalSummary": "A B vitamin listed in Ramnova's SILIRAM-MAX suspension.",
     "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-a",
+    "name": "Vitamin A",
+    "synonyms": ["retinol", "vitamin a"],
+    "kind": "vitamin",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-c",
+    "name": "Vitamin C",
+    "synonyms": ["ascorbic acid", "vitamin c"],
+    "kind": "vitamin",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-e",
+    "name": "Vitamin E",
+    "synonyms": ["tocopherol", "vitamin e"],
+    "kind": "vitamin",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "epa",
+    "name": "Eicosapentaenoic acid (EPA)",
+    "synonyms": ["epa", "eicosapentaenoic acid"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "dha",
+    "name": "Docosahexaenoic acid (DHA)",
+    "synonyms": ["dha", "docosahexaenoic acid"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "l-glutathione",
+    "name": "L-glutathione",
+    "synonyms": ["glutathione"],
+    "kind": "nutrient",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "sodium-selenate",
+    "name": "Selenium (as sodium selenate)",
+    "synonyms": ["sodium selenate", "selenium"],
+    "kind": "mineral-source",
+    "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO Q10 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
   }
 ]
