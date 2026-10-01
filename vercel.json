@@ -22,6 +22,8 @@
     { "source": "/products/roseoram-500", "destination": "/products/", "permanent": true },
     { "source": "/products/sizedob", "destination": "/products/", "permanent": true },
     { "source": "/products/sizehem-xt", "destination": "/products/", "permanent": true },
-    { "source": "/products/sizeclav-625", "destination": "/products/", "permanent": true }
+    { "source": "/products/sizeclav-625", "destination": "/products/", "permanent": true },
+    { "source": "/products/ursoram-300-150mg", "destination": "/products/ursoram-300/", "permanent": true },
+    { "source": "/products/ursoram-300-150mg/", "destination": "/products/ursoram-300/", "permanent": true }
   ]
 }

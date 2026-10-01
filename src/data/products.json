@@ -664,28 +664,27 @@
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
   },
   {
-    "slug": "ursoram-300-150mg",
-    "name": "URSORAM 300/150mg",
-    "brandName": "URSORAM 300/150mg",
+    "slug": "ursoram-300",
+    "name": "URSORAM 300",
+    "brandName": "URSORAM 300",
     "sourceDescription": "Ursodeoxycholic Acid  IP 300/150 mg Tablets",
-    "displayDescription": "Ursodeoxycholic acid tablets — 150 mg and 300 mg presentations",
+    "displayDescription": "Ursodeoxycholic acid 300 mg tablets",
     "category": "tablets",
     "dosageForm": "tablet",
-    "image": "/images/products/ursoram-300-150mg.webp",
+    "image": "/images/products/ursoram-300.webp",
     "imageAlt": "URSORAM ursodeoxycholic acid tablet packaging",
     "featured": true,
     "therapyCategory": "Hepatobiliary care",
     "therapyCategoryVerification": "inferred-from-composition",
     "variants": [
-      { "id": "ursoram-150", "label": "150 mg", "ingredients": [{ "ingredientId": "ursodeoxycholic-acid", "strength": { "amount": 150, "unit": "mg" }, "verification": "source-listed-combined-entry" }], "verification": "source-listed-pending-pack-specific-confirmation" },
-      { "id": "ursoram-300", "label": "300 mg", "ingredients": [{ "ingredientId": "ursodeoxycholic-acid", "strength": { "amount": 300, "unit": "mg" }, "verification": "source-listed-combined-entry" }], "verification": "source-listed-pending-pack-specific-confirmation" }
+      { "id": "ursoram-300", "label": "Product composition", "ingredients": [{ "ingredientId": "ursodeoxycholic-acid", "strength": { "amount": 300, "unit": "mg" }, "verification": "source-listed-combined-entry" }], "verification": "source-listed" }
     ],
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova ursodeoxycholic acid tablets, available in 150 mg and 300 mg strengths. Ursodeoxycholic acid is a bile acid used in the management of certain liver and gallbladder conditions.",
+      "summary": "Ramnova ursodeoxycholic acid 300 mg tablets. Ursodeoxycholic acid is a bile acid used in the management of certain liver and gallbladder conditions.",
       "introduction": [
-        "URSORAM tablets contain ursodeoxycholic acid, a bile acid, in 150 mg and 300 mg strengths. It is used to dissolve cholesterol gallstones and to treat certain long-term liver conditions, including primary biliary cholangitis. It works by improving the flow of bile and lowering the cholesterol in it, which helps gallstones dissolve and protects liver cells.",
+        "URSORAM 300 tablets contain 300 mg of ursodeoxycholic acid, a bile acid. It is used to dissolve cholesterol gallstones and to treat certain long-term liver conditions, including primary biliary cholangitis. It works by improving the flow of bile and lowering the cholesterol in it, which helps gallstones dissolve and protects liver cells.",
         "Take URSORAM after a meal with water or milk, exactly as your doctor prescribes. Treatment usually lasts several months or longer, so keep taking it even if you feel better. The most common side effect is diarrhoea or loose stools. Tell your doctor about any other medicines you take, and if you are pregnant or breastfeeding."
       ],
       "uses": [
@@ -741,12 +740,11 @@
       ],
       "sources": [
         { "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-10-01", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] },
-        { "id": "emc-ursodeoxycholic-acid-150mg", "publisher": "electronic medicines compendium (emc)", "title": "Ursodeoxycholic acid 150 mg tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/10063/smpc", "jurisdiction": "United Kingdom", "revision": "2026-06-19", "accessedAt": "2026-10-01" },
         { "id": "emc-ursodeoxycholic-acid-300mg", "publisher": "electronic medicines compendium (emc)", "title": "Ursodeoxycholic acid 300 mg tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/10064/smpc", "jurisdiction": "United Kingdom", "revision": "2026-06-19", "accessedAt": "2026-10-01" }
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "source-listed-pending-pack-specific-confirmation", "notes": ["Keep 150 mg and 300 mg as separate variants; do not imply both strengths occur in one tablet."] },
+    "verification": { "status": "source-listed", "notes": ["The source lists 150 mg and 300 mg together. The 150 mg strength is discontinued and only 300 mg is marketed, per the user on 2026-10-01."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength-variants"] }]
   },
   {
