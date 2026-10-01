@@ -934,7 +934,7 @@
       ],
       "verification": "pack-confirmed-by-user-2026-10-01"
     }],
-    "packaging": { "description": "150 mL bottle", "verification": "visual-aid-listed" },
+    "packaging": { "description": "150 mL bottle", "verification": "pack-confirmed-by-user-2026-10-01" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova digestive enzyme syrup combining diastase, alpha-galactosidase, lipase and pepsin to support the digestion of carbohydrates, protein and fat.",
@@ -994,7 +994,7 @@
       ],
       "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "pack-confirmed", "notes": ["Per-5 ml composition confirmed from the pack by the user on 2026-10-01; strengths are stated in milligrams, with activity ratios for diastase (1:1200) and pepsin (1:3000) only.", "The pack names the manufacturer as Wanley India Pvt Ltd."] },
+    "verification": { "status": "pack-confirmed", "notes": ["Per-5 ml composition confirmed from the pack by the user on 2026-10-01; strengths are stated in milligrams, with activity ratios for diastase (1:1200) and pepsin (1:3000) only.", "The pack names the manufacturer as Wanley India Pvt Ltd.", "The user confirmed a 150 mL bottle with 5 mL servings on 2026-10-01. The nutrition panel states \"No. of serving: 20\", which conflicts with 150 mL / 5 mL = 30; this label inconsistency has been raised with the user. Servings are not shown on the site."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
   },
   {
