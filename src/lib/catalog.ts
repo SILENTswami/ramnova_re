@@ -32,6 +32,10 @@ export type ProductIngredient = {
   strength: IngredientStrength | null;
   release?: string;
   sourceStrengthText?: string;
+  // Shown after the ingredient name on this product only, e.g. "10% preparation".
+  qualifier?: string;
+  // Ingredient ID of the total this row is part of, e.g. EPA within omega-3 fatty acids.
+  partOf?: string;
   verification: string;
 };
 

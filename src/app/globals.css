@@ -1779,6 +1779,11 @@ a {
   white-space: nowrap;
 }
 
+.ingredient-table .ingredient-component td:first-child {
+  padding-left: 28px;
+  color: var(--muted);
+}
+
 .ingredient-table-wrap {
   width: 100%;
   max-width: 100%;

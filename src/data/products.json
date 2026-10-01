@@ -766,11 +766,11 @@
       "ingredients": [
         { "ingredientId": "coenzyme-q10", "strength": { "amount": 100, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
         { "ingredientId": "l-carnitine-l-tartrate", "strength": { "amount": 50, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
-        { "ingredientId": "astaxanthin", "strength": { "amount": 16, "unit": "mg" }, "sourceStrengthText": "Astaxanthin 10% 16 mg", "verification": "pack-confirmed-by-user-2026-10-01" },
-        { "ingredientId": "lycopene", "strength": { "amount": 5000, "unit": "mcg" }, "sourceStrengthText": "Lycopene 10% 5000 mcg", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "astaxanthin", "strength": { "amount": 16, "unit": "mg" }, "sourceStrengthText": "Astaxanthin 10% 16 mg", "qualifier": "10% preparation", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "lycopene", "strength": { "amount": 5000, "unit": "mcg" }, "sourceStrengthText": "Lycopene 10% 5000 mcg", "qualifier": "10% preparation", "verification": "pack-confirmed-by-user-2026-10-01" },
         { "ingredientId": "omega-3-fatty-acids", "strength": { "amount": 150, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
-        { "ingredientId": "epa", "strength": { "amount": 90, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
-        { "ingredientId": "dha", "strength": { "amount": 60, "unit": "mg" }, "sourceStrengthText": "DHA 10% 60 mg", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "epa", "strength": { "amount": 90, "unit": "mg" }, "partOf": "omega-3-fatty-acids", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "dha", "strength": { "amount": 60, "unit": "mg" }, "sourceStrengthText": "DHA 10% 60 mg", "partOf": "omega-3-fatty-acids", "verification": "pack-confirmed-by-user-2026-10-01" },
         { "ingredientId": "l-glutathione", "strength": { "amount": 50, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
         { "ingredientId": "zinc", "strength": { "amount": 12.5, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
         { "ingredientId": "sodium-selenate", "strength": { "amount": 40, "unit": "mcg" }, "sourceStrengthText": "Sodium selenate equivalent to selenium 40 mcg", "verification": "pack-confirmed-by-user-2026-10-01" },
@@ -850,7 +850,7 @@
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "pack-confirmed", "notes": ["Per-tablet composition confirmed from the pack by the user on 2026-10-01. The pack lists sodium selenate (the catalogue says selenite) equivalent to selenium 40 mcg.", "Astaxanthin, lycopene and DHA are labelled as 10% preparations; the amounts shown are as printed on the pack. EPA 90 mg and DHA 60 mg are listed alongside omega-3 fatty acids 150 mg."] },
+    "verification": { "status": "pack-confirmed", "notes": ["Per-tablet composition confirmed from the pack by the user on 2026-10-01. The pack lists sodium selenate (the catalogue says selenite) equivalent to selenium 40 mcg.", "Astaxanthin and lycopene are labelled as 10% preparations and are shown with the amounts printed on the pack. EPA 90 mg and DHA 60 mg are components of the omega-3 fatty acids 150 mg; the pack's \"DHA 10%\" is kept only as raw text."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
   },
   {

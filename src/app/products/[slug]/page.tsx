@@ -404,8 +404,15 @@ function ProductPage({ product }: { product: Product }) {
                         {variant.ingredients.map((item) => {
                           const ingredient = ingredientMap.get(item.ingredientId);
                           return (
-                            <tr key={`${variant.id}-${item.ingredientId}`}>
-                              <td>{ingredient?.name ?? item.ingredientId}</td>
+                            <tr
+                              key={`${variant.id}-${item.ingredientId}`}
+                              className={item.partOf ? "ingredient-component" : undefined}
+                            >
+                              <td>
+                                {item.partOf ? "of which " : null}
+                                {ingredient?.name ?? item.ingredientId}
+                                {item.qualifier ? ` (${item.qualifier})` : null}
+                              </td>
                               <td className="ingredient-strength">
                                 {item.strength ? (
                                   `${item.strength.amount} ${item.strength.unit}`

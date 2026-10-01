@@ -56,8 +56,13 @@ for (const product of products) {
 
   for (const variant of product.variants ?? []) {
     assert(Array.isArray(variant.ingredients) && variant.ingredients.length > 0, `${product.slug}/${variant.id}: needs ingredients`);
+    const listedBefore = new Set();
     for (const ingredient of variant.ingredients ?? []) {
       assert(ingredientIds.has(ingredient.ingredientId), `${product.slug}: unknown ingredient ${ingredient.ingredientId}`);
+      if (ingredient.partOf !== undefined) {
+        assert(listedBefore.has(ingredient.partOf), `${product.slug}: ${ingredient.ingredientId} is part of ${ingredient.partOf}, which must be listed before it`);
+      }
+      listedBefore.add(ingredient.ingredientId);
       if (ingredient.strength) {
         assert(typeof ingredient.strength.amount === "number" && ingredient.strength.amount >= 0, `${product.slug}: invalid strength amount`);
         assert(typeof ingredient.strength.unit === "string" && ingredient.strength.unit.length > 0, `${product.slug}: invalid strength unit`);
