@@ -46,6 +46,7 @@
     { "output": "/images/products/sizeclav-625.webp", "sourceUrl": "https://i.imgur.com/bogIGf3.jpeg", "status": "localized" },
     { "output": "/images/products/siliram-max.webp", "sourceUrl": "https://i.imgur.com/7imlzjH.jpg", "status": "localized" },
     { "output": "/images/products/ursoram-300.webp", "sourceUrl": "https://i.imgur.com/93Nrq3i.jpeg", "status": "localized" },
+    { "output": "/images/products/ursoram-125-suspension.webp", "sourceUrl": "user-supplied pack photo, 2026-10-01", "status": "localized", "note": "Pack front photo supplied by the user; to be replaced with product artwork." },
     { "output": "/images/products/blemango-q10.webp", "sourceDocument": "PVAS2109 product visual aid supplied by Ramnova Healthcare", "sourcePage": 2, "method": "cropped from the page artwork and re-encoded as WebP", "status": "localized" },
     { "output": "/images/products/cadmizyme-alpha.webp", "sourceDocument": "PVAS2109 product visual aid supplied by Ramnova Healthcare", "sourcePage": 4, "method": "cropped from the page artwork and re-encoded as WebP", "status": "localized" },
     { "output": "/images/products/heptaram.webp", "sourceDocument": "PVAS2109 product visual aid supplied by Ramnova Healthcare", "sourcePage": 8, "method": "cropped from the page artwork and re-encoded as WebP", "status": "localized" },

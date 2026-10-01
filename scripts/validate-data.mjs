@@ -12,7 +12,7 @@ const assert = (condition, message) => {
   if (!condition) errors.push(message);
 };
 
-assert(products.length === 20, `Expected 20 products, found ${products.length}`);
+assert(products.length === 21, `Expected 21 products, found ${products.length}`);
 const validCategories = new Set(["tablets", "capsules", "syrups", "injections", "powders"]);
 const validSafetyTopics = new Set(["alcohol", "pregnancy", "breastfeeding", "driving", "kidney", "liver"]);
 const validSafetyStatuses = new Set(["safe", "safe-if-prescribed", "caution", "consult", "unsafe"]);

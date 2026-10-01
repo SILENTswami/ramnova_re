@@ -756,6 +756,94 @@
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength-variants"] }]
   },
   {
+    "slug": "ursoram-125-suspension",
+    "name": "URSORAM-125 SUSPENSION",
+    "brandName": "URSORAM-125 SUSPENSION",
+    "sourceDescription": "Ursodeoxycholic Acid IP 125 mg per 5 ml oral suspension (pack)",
+    "displayDescription": "Ursodeoxycholic acid 125 mg/5 ml oral suspension",
+    "category": "syrups",
+    "dosageForm": "oral-suspension",
+    "image": "/images/products/ursoram-125-suspension.webp",
+    "imageAlt": "URSORAM-125 ursodeoxycholic acid suspension pack",
+    "featured": false,
+    "therapyCategory": "Hepatobiliary care",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
+    "variants": [
+      { "id": "ursoram-125-suspension-standard", "label": "Each 5 ml contains", "ingredients": [{ "ingredientId": "ursodeoxycholic-acid", "strength": { "amount": 125, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" }], "verification": "pack-confirmed-by-user-2026-10-01" }
+    ],
+    "packaging": { "description": "100 ml bottle", "verification": "pack-confirmed-by-user-2026-10-01" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova ursodeoxycholic acid oral suspension, 125 mg per 5 ml, for patients who need a liquid form, including children.",
+      "introduction": [
+        "URSORAM-125 suspension contains 125 mg of ursodeoxycholic acid, a bile acid, in every 5 ml of a flavoured liquid that is easier to take for children and for people who have difficulty swallowing tablets. It is used to dissolve cholesterol gallstones and to treat certain long-term liver conditions, including primary biliary cholangitis and liver problems linked to cystic fibrosis in children.",
+        "Shake the bottle well and give the dose your doctor prescribes, which is usually based on body weight, using the measuring cup provided, preferably after meals. The most common side effect is soft stools or diarrhoea. It is a prescription medicine and should be used under a doctor's supervision."
+      ],
+      "uses": [
+        "Dissolving cholesterol gallstones in people whose gallbladder is still working",
+        "Primary biliary cholangitis (PBC)",
+        "Liver disease associated with cystic fibrosis in children"
+      ],
+      "seoUses": ["cholesterol gallstones", "primary biliary cholangitis"],
+      "benefits": [
+        { "use": "Cholesterol gallstones", "text": "Ursodeoxycholic acid lowers the amount of cholesterol in bile, which allows small cholesterol stones in a working gallbladder to dissolve slowly. This can take several months, so give it regularly for as long as the doctor advises. The doctor may arrange scans to check progress." },
+        { "use": "Primary biliary cholangitis (PBC)", "text": "In PBC, the small bile ducts inside the liver are gradually damaged and bile builds up. Ursodeoxycholic acid improves bile flow and protects liver cells from harmful bile acids, which can slow the disease and improve liver test results. It is usually taken long term." },
+        { "use": "Liver disease associated with cystic fibrosis", "text": "In cystic fibrosis, thick bile can block the small bile ducts and damage the liver. Ursodeoxycholic acid helps bile flow more easily and protects liver cells. In the UK the liquid form is approved for this use in children from 1 month to 18 years." }
+      ],
+      "sideEffects": [
+        "Soft stools or diarrhoea (the most common side effect)",
+        "Nausea or vomiting",
+        "Abdominal pain",
+        "Itching or hives"
+      ],
+      "howToUse": "Shake the bottle well before each dose. Give the dose your doctor prescribes, usually worked out from body weight, using the measuring cup or syringe provided rather than a kitchen spoon, preferably after meals. Keep the bottle tightly closed in a cool, dry, dark place, away from light and moisture.",
+      "howItWorks": "Ursodeoxycholic acid is a bile acid that occurs naturally in small amounts in the body. It reduces the cholesterol that the liver releases into bile, which helps cholesterol gallstones dissolve. It also replaces more harmful bile acids, improves bile flow and protects liver cells from damage.",
+      "warnings": [
+        "Treatment should be supervised by a doctor. Liver function is usually checked every 4 weeks for the first 3 months, then every 3 months.",
+        "If diarrhoea continues, the dose may need to be reduced or treatment stopped.",
+        "Women taking it to dissolve gallstones should use non-hormonal contraception.",
+        "It contains the colour sunset yellow (E110), which can cause allergic reactions in some people."
+      ],
+      "contraindications": [
+        "Acute inflammation of the gallbladder or bile ducts",
+        "Blockage of the bile ducts",
+        "Frequent episodes of biliary colic (severe pain in the upper abdomen)",
+        "Calcified gallstones, or a gallbladder that does not contract properly",
+        "In children with biliary atresia: an unsuccessful operation to restore bile flow",
+        "Allergy to ursodeoxycholic acid or any other ingredient"
+      ],
+      "interactions": [
+        "Antacids containing aluminium, cholestyramine and colestipol reduce absorption. Give them at least 2 hours apart.",
+        "It can affect the absorption of ciclosporin and ciprofloxacin, and may reduce the effect of nitrendipine and dapsone.",
+        "Medicines containing oestrogen, including hormonal contraceptives, and clofibrate can raise cholesterol in bile and may reduce its effect on gallstones."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "consult", "note": "It is not known whether alcohol is safe with this medicine. Adults should limit alcohol and ask their doctor." },
+        { "topic": "pregnancy", "status": "caution", "note": "Not recommended during pregnancy unless your doctor considers it clearly necessary. Women who could become pregnant should use non-hormonal contraception." },
+        { "topic": "breastfeeding", "status": "safe-if-prescribed", "note": "Only very small amounts pass into breast milk, and no effects on the baby are expected. Use as your doctor advises." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect the ability to drive." },
+        { "topic": "kidney", "status": "consult", "note": "There is limited information in kidney disease. Tell the doctor about any kidney problem." },
+        { "topic": "liver", "status": "safe-if-prescribed", "note": "Used to treat certain liver conditions. Use only as prescribed, with regular liver tests." }
+      ],
+      "quickTips": [
+        "Shake well and measure each dose with the cup or syringe provided, not a kitchen spoon.",
+        "Give it after meals, at the same times each day.",
+        "Avoid fatty, oily meals.",
+        "If diarrhoea develops, give plenty of fluids and tell the doctor if it continues.",
+        "Regular liver blood tests are usually needed during treatment.",
+        "Get medical help quickly for worsening jaundice, severe itching, dark urine or ongoing abdominal pain."
+      ],
+      "sources": [
+        { "id": "emc-udca-250mg-5ml-suspension", "publisher": "electronic medicines compendium (emc)", "title": "Ursodeoxycholic acid 250 mg/5 ml oral suspension: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/101477/smpc", "jurisdiction": "United Kingdom", "revision": "2026-07-10", "accessedAt": "2026-10-01" },
+        { "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-10-01", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+    },
+    "verification": { "status": "pack-confirmed", "notes": ["Composition confirmed from a photo of the pack by the user on 2026-10-01.", "Manufactured in India by Arcon Labs, Baddi (H.P.); marketed by Ramnova Healthcare Private Limited.", "The pack lists the colour sunset yellow FCF and carries the caution: not to be sold by retail without the prescription of a registered medical practitioner.", "Pack MRP is \u20b9315.00; price is not shown on the site, as for other products.", "The user confirmed a 100 ml bottle on 2026-10-01. The product image is the user-supplied pack photo of 2026-10-01, to be replaced with artwork."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "URSORAM-125 suspension pack labelling (photo supplied by Ramnova Healthcare)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-10-01", "fieldsSupported": ["name", "composition", "strength", "dosage-form", "labelling"] }]
+  },
+  {
     "slug": "blemango-q10",
     "name": "BLEMANGO Q10",
     "brandName": "BLEMANGO Q10",
