@@ -41,20 +41,20 @@ export const dynamicParams = false;
 // Search traffic arrives on the molecule, not the brand: nobody looks up "SIZEDOB"
 // unless they already hold the pack. Lead the title and description with the
 // composition, trimmed to a character budget so the useful part survives truncation.
+// Returns null when not even one ingredient fits.
 function getCompositionSummary(product: Product, budget: number) {
   const names = getProductIngredientNames(product);
-  if (!names.length) return null;
-  const kept: string[] = [];
-  let length = 0;
-  for (const name of names) {
-    const addition = kept.length ? name.length + 2 : name.length;
-    if (kept.length && length + addition > budget) break;
-    kept.push(name);
-    length += addition;
+  for (let count = names.length; count > 0; count--) {
+    const kept = names.slice(0, count).join(", ");
+    const omitted = names.length - count;
+    const summary = omitted > 0 ? `${kept} and ${omitted} more` : kept;
+    if (summary.length <= budget) return summary;
   }
-  const omitted = names.length - kept.length;
-  return omitted > 0 ? `${kept.join(", ")} and ${omitted} more` : kept.join(", ");
+  return null;
 }
+
+const titleSuffix = " | Ramnova Healthcare";
+const titleBudget = 60;
 
 function getDosageFormLabel(product: Product) {
   return product.dosageForm.replaceAll("-", " ");
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     // Name real brands here so the category page can also be found by product query.
     const examples = inCategory.slice(0, 3).map((product) => product.name);
     const examplesText = examples.length ? `, including ${examples.join(", ")}` : "";
-    const description = `${inCategory.length} Ramnova Healthcare ${category.label.toLowerCase()}${examplesText}. Composition, safety information and cited sources for each product.`;
+    const description = `${inCategory.length} Ramnova Healthcare ${category.label.toLowerCase()}${examplesText}. Composition and product information for each product.`;
     return {
       title: category.label,
       description,
@@ -85,14 +85,18 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const product = getProduct(slug);
   if (!product) return {};
   const productImages = getProductImages(product);
-  const titleComposition = getCompositionSummary(product, 58);
+  // Budget the composition around the brand name, the parentheses and the suffix.
+  const titleComposition = getCompositionSummary(
+    product,
+    titleBudget - product.name.length - 3 - titleSuffix.length,
+  );
   const descriptionComposition = getCompositionSummary(product, 54);
   const title = titleComposition ? `${product.name} (${titleComposition})` : product.name;
   // Keep the whole description inside the ~155 characters Google will show.
   const subject = descriptionComposition
     ? `${getDosageFormLabel(product)} containing ${descriptionComposition}`
     : product.displayDescription;
-  const description = `${product.name}: ${subject}. Composition, safety details and cited sources.`;
+  const description = `${product.name}: ${subject}. Composition and product information.`;
   return {
     title,
     description,
@@ -100,7 +104,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     openGraph: {
       type: "website",
       url: `/products/${product.slug}/`,
-      title: `${title} | Ramnova Healthcare`,
+      title: `${title}${titleSuffix}`,
       description,
       images: productImages.map((image, index) => ({
         url: image,
@@ -109,7 +113,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     },
     twitter: {
       card: "summary_large_image",
-      title: `${title} | Ramnova Healthcare`,
+      title: `${title}${titleSuffix}`,
       description,
       images: productImages,
     },

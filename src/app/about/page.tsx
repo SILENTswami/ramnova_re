@@ -9,7 +9,7 @@ const description =
   "Learn about Ramnova Healthcare's product-focused approach, company values and commitment to clear, responsible healthcare communication.";
 
 export const metadata: Metadata = {
-  title: "About Ramnova Healthcare",
+  title: { absolute: "About Ramnova Healthcare" },
   description,
   alternates: { canonical: "/about/" },
   openGraph: {

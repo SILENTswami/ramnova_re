@@ -41,18 +41,18 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     images: [
       {
-        url: "/images/brand/ramnova-logo.webp",
-        width: 305,
-        height: 305,
+        url: "/images/brand/og-image.png",
+        width: 1200,
+        height: 630,
         alt: "Ramnova Healthcare",
       },
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Ramnova Healthcare",
     description: siteConfig.description,
-    images: ["/images/brand/ramnova-logo.webp"],
+    images: ["/images/brand/og-image.png"],
   },
   robots: { index: true, follow: true },
 };
