@@ -14,6 +14,15 @@ describe("catalog data", () => {
     expect(new Set(products.map((product) => product.slug)).size).toBe(22);
   });
 
+  it("lists products alphabetically by name", () => {
+    const names = products.map((product) => product.name);
+    const sorted = [...names].sort((a, b) =>
+      a.localeCompare(b, "en", { numeric: true, sensitivity: "base", ignorePunctuation: true }),
+    );
+    expect(names).toEqual(sorted);
+    expect(names.indexOf("RAMOMIN-200")).toBeLessThan(names.indexOf("RAMOMIN-400"));
+  });
+
   it("formats a missing price as a contact action", () => {
     expect(formatPrice(products[0])).toBe("Contact for price");
   });

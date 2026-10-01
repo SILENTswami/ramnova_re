@@ -148,7 +148,10 @@ export type SearchAlias = {
   references?: SourceReference[];
 };
 
-export const products = productsData as Product[];
+// Listings are A–Z by name, with numbers compared numerically (RAMOMIN-200 before RAMOMIN-400).
+export const products = (productsData as Product[])
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name, "en", { numeric: true, sensitivity: "base", ignorePunctuation: true }));
 export const ingredients = ingredientsData as Ingredient[];
 export const searchAliases = aliasesData as SearchAlias[];
 
