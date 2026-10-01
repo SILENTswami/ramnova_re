@@ -69,7 +69,24 @@ for (const product of products) {
     assert(Array.isArray(product.clinical?.[field]), `${product.slug}: clinical.${field} must be an array`);
   }
 
-  const { safetyAdvice, quickTips } = product.clinical ?? {};
+  const { introduction, benefits, howToUse, howItWorks, safetyAdvice, quickTips } =
+    product.clinical ?? {};
+  const isText = (value) => typeof value === "string" && value.length > 0;
+  if (introduction !== undefined) {
+    assert(
+      Array.isArray(introduction) && introduction.length > 0 && introduction.every(isText),
+      `${product.slug}: clinical.introduction must be an array of non-empty strings`,
+    );
+  }
+  if (benefits !== undefined) {
+    assert(
+      Array.isArray(benefits) && benefits.every((benefit) => isText(benefit?.use) && isText(benefit?.text)),
+      `${product.slug}: clinical.benefits need a non-empty use and text`,
+    );
+  }
+  for (const [field, value] of [["howToUse", howToUse], ["howItWorks", howItWorks]]) {
+    if (value !== undefined) assert(isText(value), `${product.slug}: clinical.${field} must be a non-empty string`);
+  }
   if (safetyAdvice !== undefined) {
     assert(Array.isArray(safetyAdvice), `${product.slug}: clinical.safetyAdvice must be an array`);
     const topics = new Set();

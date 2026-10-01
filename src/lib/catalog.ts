@@ -65,6 +65,10 @@ export type SafetyAdvice = { topic: SafetyTopic; status: SafetyStatus; note: str
 
 export type ClinicalContent = {
   summary: string;
+  introduction?: string[];
+  benefits?: { use: string; text: string }[];
+  howToUse?: string;
+  howItWorks?: string;
   uses: string[];
   sideEffects: string[];
   warnings: string[];

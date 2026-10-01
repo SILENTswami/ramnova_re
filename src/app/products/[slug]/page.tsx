@@ -275,8 +275,24 @@ function ProductPage({ product }: { product: Product }) {
   );
   const externalSources = allSources.filter((source) => source.publisher !== siteConfig.legalName);
   const productImages = getProductImages(product);
-  const safetyAdvice = product.clinical.safetyAdvice ?? [];
-  const quickTips = product.clinical.quickTips ?? [];
+  const { clinical } = product;
+  const benefits = clinical.benefits ?? [];
+  const safetyAdvice = clinical.safetyAdvice ?? [];
+  const quickTips = clinical.quickTips ?? [];
+  // Optional sections, and their "On this page" entries, appear only when they have data.
+  const sections = [
+    ["introduction", "Product introduction"],
+    ["uses", "Uses"],
+    ...(benefits.length ? [["benefits", "Benefits"]] : []),
+    ...(clinical.sideEffects.length ? [["side-effects", "Side effects"]] : []),
+    ...(clinical.howToUse ? [["how-to-use", "How to use"]] : []),
+    ...(clinical.howItWorks ? [["how-it-works", "How it works"]] : []),
+    ...(safetyAdvice.length ? [["safety-advice", "Safety advice"]] : []),
+    ...(quickTips.length ? [["quick-tips", "Quick tips"]] : []),
+    ["safety", "Warnings and interactions"],
+    ["composition", "Composition"],
+    ["more-information", "More information"],
+  ];
 
   const schema = {
     "@context": "https://schema.org",
@@ -376,15 +392,7 @@ function ProductPage({ product }: { product: Product }) {
               <p className="eyebrow">On this page</p>
               <h2>Product information</h2>
               <ul>
-                {[
-                  ["composition", "Composition"],
-                  ["overview", "Overview"],
-                  ["uses", "Uses"],
-                  ...(safetyAdvice.length ? [["safety-advice", "Safety advice"]] : []),
-                  ...(quickTips.length ? [["quick-tips", "Quick tips"]] : []),
-                  ["safety", "Safety information"],
-                  ["more-information", "More information"],
-                ].map(([href, label]) => (
+                {sections.map(([href, label]) => (
                   <li key={href}>
                     <a href={`#${href}`}>
                       {label} <ChevronRight size={14} aria-hidden="true" />
@@ -395,6 +403,94 @@ function ProductPage({ product }: { product: Product }) {
             </aside>
 
             <div>
+              <section className="info-block" id="introduction">
+                <h2>Product introduction</h2>
+                {(clinical.introduction ?? [clinical.summary]).map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+                <p>
+                  Therapy category: <strong>{product.therapyCategory}</strong>.
+                </p>
+                {clinical.scopeNote ? <p>{clinical.scopeNote}</p> : null}
+              </section>
+
+              <ClinicalBlock
+                id="uses"
+                title="Uses"
+                items={clinical.uses}
+                emptyText="Product-specific uses are not currently listed. Refer to the current pack insert and a qualified healthcare professional."
+              />
+
+              {benefits.length ? (
+                <section className="info-block" id="benefits">
+                  <h2>Benefits</h2>
+                  {benefits.map(({ use, text }) => (
+                    <div key={use}>
+                      <h3>{use}</h3>
+                      <p>{text}</p>
+                    </div>
+                  ))}
+                </section>
+              ) : null}
+
+              {clinical.sideEffects.length ? (
+                <section className="info-block" id="side-effects">
+                  <h2>Side effects</h2>
+                  <p>
+                    Most side effects are mild and settle as your body adjusts. Tell your doctor if
+                    they continue or worry you.
+                  </p>
+                  <ul>
+                    {clinical.sideEffects.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </section>
+              ) : null}
+
+              {clinical.howToUse ? (
+                <section className="info-block" id="how-to-use">
+                  <h2>How to use</h2>
+                  <p>{clinical.howToUse}</p>
+                </section>
+              ) : null}
+
+              {clinical.howItWorks ? (
+                <section className="info-block" id="how-it-works">
+                  <h2>How it works</h2>
+                  <p>{clinical.howItWorks}</p>
+                </section>
+              ) : null}
+
+              {safetyAdvice.length ? <SafetyAdvicePanel advice={safetyAdvice} /> : null}
+              {quickTips.length ? <QuickTips tips={quickTips} /> : null}
+
+              <section className="info-block" id="safety">
+                <h2>Warnings and interactions</h2>
+                <p>
+                  Safety details must be checked against the current pack insert and advice from a
+                  qualified healthcare professional.
+                </p>
+                {[
+                  ["Warnings", clinical.warnings],
+                  ["Contraindications", clinical.contraindications],
+                  ["Important interactions", clinical.interactions],
+                ].map(([label, values]) => (
+                  <div key={label as string}>
+                    <h3>{label as string}</h3>
+                    {(values as string[]).length ? (
+                      <ul>
+                        {(values as string[]).map((value) => (
+                          <li key={value}>{value}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p>Not currently listed. Refer to the current pack insert.</p>
+                    )}
+                  </div>
+                ))}
+              </section>
+
               <section className="info-block" id="composition">
                 <h2>Composition and variants</h2>
                 {product.variants.map((variant) => (
@@ -427,52 +523,6 @@ function ProductPage({ product }: { product: Product }) {
                       </tbody>
                     </table>
                     </div>
-                  </div>
-                ))}
-              </section>
-
-              <section className="info-block" id="overview">
-                <h2>Overview</h2>
-                <p>{product.clinical.summary}</p>
-                <p>
-                  Therapy category: <strong>{product.therapyCategory}</strong>.
-                </p>
-                {product.clinical.scopeNote ? <p>{product.clinical.scopeNote}</p> : null}
-              </section>
-
-              <ClinicalBlock
-                id="uses"
-                title="Uses"
-                items={product.clinical.uses}
-                emptyText="Product-specific uses are not currently listed. Refer to the current pack insert and a qualified healthcare professional."
-              />
-
-              {safetyAdvice.length ? <SafetyAdvicePanel advice={safetyAdvice} /> : null}
-              {quickTips.length ? <QuickTips tips={quickTips} /> : null}
-
-              <section className="info-block" id="safety">
-                <h2>Safety information</h2>
-                <p>
-                  Safety details must be checked against the current pack insert and advice from a
-                  qualified healthcare professional.
-                </p>
-                {[
-                  ["Warnings", product.clinical.warnings],
-                  ["Common and serious side effects", product.clinical.sideEffects],
-                  ["Contraindications", product.clinical.contraindications],
-                  ["Important interactions", product.clinical.interactions],
-                ].map(([label, values]) => (
-                  <div key={label as string}>
-                    <h3>{label as string}</h3>
-                    {(values as string[]).length ? (
-                      <ul>
-                        {(values as string[]).map((value) => (
-                          <li key={value}>{value}</li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <p>Not currently listed. Refer to the current pack insert.</p>
-                    )}
                   </div>
                 ))}
               </section>

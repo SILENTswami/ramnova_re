@@ -277,18 +277,31 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova ursodeoxycholic acid tablets, available in 150 mg and 300 mg strengths. Ursodeoxycholic acid is a bile acid used in the management of certain liver and gallbladder conditions.",
+      "introduction": [
+        "URSORAM tablets contain ursodeoxycholic acid, a bile acid, in 150 mg and 300 mg strengths. It is used to dissolve cholesterol gallstones and to treat certain long-term liver conditions, including primary biliary cholangitis. It works by improving the flow of bile and lowering the cholesterol in it, which helps gallstones dissolve and protects liver cells.",
+        "Take URSORAM after a meal with water or milk, exactly as your doctor prescribes. Treatment usually lasts several months or longer, so keep taking it even if you feel better. The most common side effect is diarrhoea or loose stools. Tell your doctor about any other medicines you take, and if you are pregnant or breastfeeding."
+      ],
       "uses": [
         "Dissolving cholesterol gallstones in people whose gallbladder is still working",
         "Primary biliary cholangitis (PBC)",
         "Liver disease associated with cystic fibrosis"
       ],
       "seoUses": ["cholesterol gallstones", "primary biliary cholangitis"],
-      "sideEffects": [
-        "Diarrhoea or loose stools, abdominal pain, nausea and indigestion",
-        "Headache",
-        "Itching, rash or hair thinning",
-        "Changes in liver test results during long-term use"
+      "benefits": [
+        { "use": "Cholesterol gallstones", "text": "Ursodeoxycholic acid lowers the amount of cholesterol in bile, which allows small cholesterol stones in a working gallbladder to dissolve slowly. This can take several months, so take it regularly for as long as your doctor advises. Your doctor may arrange scans to check progress." },
+        { "use": "Primary biliary cholangitis (PBC)", "text": "In PBC, the small bile ducts inside the liver are gradually damaged and bile builds up. Ursodeoxycholic acid improves bile flow and protects liver cells from harmful bile acids, which can slow the disease and improve liver test results. It is usually taken long term." },
+        { "use": "Liver disease associated with cystic fibrosis", "text": "In cystic fibrosis, thick bile can block the small bile ducts and damage the liver. Ursodeoxycholic acid helps bile flow more easily and protects liver cells. In the UK it is approved for this use in children aged 6 to 18." }
       ],
+      "sideEffects": [
+        "Diarrhoea or loose stools (the most common side effect)",
+        "Abdominal pain",
+        "Nausea or indigestion",
+        "Headache",
+        "Itching or rash",
+        "Hair thinning"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises. Swallow the tablet whole with water or milk; do not chew or crush it. Take it with or after food.",
+      "howItWorks": "URSORAM contains ursodeoxycholic acid, a bile acid that occurs naturally in small amounts in the body. It reduces the cholesterol the liver releases into bile, which helps cholesterol gallstones dissolve. It also replaces more harmful bile acids, improves bile flow and protects liver cells from damage.",
       "warnings": [
         "Liver function should be checked regularly during treatment",
         "Not recommended during pregnancy unless your doctor considers it clearly necessary. Women who could become pregnant should use non-hormonal contraception.",
