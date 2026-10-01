@@ -78,6 +78,13 @@ describe("ingredient-aware search", () => {
     );
   });
 
+  it("finds products by a visual-aid-listed ingredient", () => {
+    expect(searchProducts("rifaximin").products.map((product) => product.slug)).toEqual([
+      "ramomin-200",
+      "ramomin-400",
+    ]);
+  });
+
   it("applies dosage-form filtering", () => {
     const result = searchProducts("", "injections");
     expect(result.products).toHaveLength(2);

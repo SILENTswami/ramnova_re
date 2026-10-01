@@ -2065,9 +2065,9 @@
       ],
       "seoUses": ["nerve pain", "diabetic neuropathy"],
       "benefits": [
-        { "use": "Neuropathic (nerve) pain", "text": "Damaged nerves can send pain signals even without injury, causing burning, shooting or stabbing pain, tingling and numbness. Gabapentin reduces these overactive signals, and nortriptyline strengthens the body's own pain-blocking pathways in the spinal cord. Together they can relieve pain and improve sleep." },
+        { "use": "Neuropathic (nerve) pain", "text": "Damaged nerves can send pain signals even without injury, causing burning, shooting or stabbing pain, tingling and numbness. Gabapentin, which is licensed for nerve pain, reduces these overactive signals. Low-dose nortriptyline is widely used by doctors for nerve pain because it strengthens the body's own pain-blocking pathways. Together they can relieve pain and improve sleep." },
         { "use": "Painful diabetic neuropathy", "text": "Long-term high blood sugar can damage the nerves in the feet and legs. This combination eases the burning and tingling, alongside good blood sugar control and foot care." },
-        { "use": "Nerve pain after shingles", "text": "Pain can continue for months after a shingles rash has healed. Gabapentin and nortriptyline are both commonly used to reduce this lingering nerve pain." }
+        { "use": "Nerve pain after shingles", "text": "Pain can continue for months after a shingles rash has healed. Gabapentin is used to reduce this lingering nerve pain, and low-dose nortriptyline is often added by doctors." }
       ],
       "sideEffects": [
         "Drowsiness or dizziness",
@@ -2079,7 +2079,7 @@
         "Fast heartbeat or palpitations"
       ],
       "howToUse": "Take this medicine in the dose and for the length of time your doctor advises, usually once a day at bedtime. Swallow the tablet whole with water, with or without food. Do not stop taking it suddenly; your doctor will reduce the dose gradually when it is time to stop.",
-      "howItWorks": "Gabapentin attaches to calcium channels on nerve cells and reduces the release of chemicals that carry pain signals, calming overactive nerves. Nortriptyline is a tricyclic medicine that increases noradrenaline and serotonin levels in the spinal cord, strengthening the nervous system's natural pain-blocking pathways. At this low dose it is used for pain rather than depression.",
+      "howItWorks": "Gabapentin attaches to calcium channels on nerve cells and reduces the release of chemicals that carry pain signals, calming overactive nerves. Nortriptyline is a tricyclic medicine that increases noradrenaline and serotonin levels in the spinal cord, strengthening the nervous system's natural pain-blocking pathways. At this low dose it is used for pain rather than depression, although in the UK it is licensed only for depression.",
       "warnings": [
         "Both medicines have been linked with suicidal thoughts. Family members or carers should also watch for changes in mood or behaviour.",
         "Gabapentin can cause serious breathing problems when taken with opioid painkillers, sleeping tablets or other sedatives, especially in older people or those with lung disease.",
