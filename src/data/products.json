@@ -2026,5 +2026,105 @@
     },
     "verification": { "status": "pack-confirmed", "notes": ["The PVAS2109 visual aid presents SILIRAM-MAX as tablets and suspension, while this entry describes the syrup only. Confirm whether a tablet pack should be listed separately.", "Per-5 ml strengths, the B-vitamin breakdown and label details (sugar, tartrazine, polyols) confirmed from the pack by the user on 2026-10-01. Tricholine citrate is labelled 275.0 mg (65%)."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition"] }]
+  },
+  {
+    "slug": "gabasram-nt-100",
+    "name": "GABASRAM NT 100",
+    "brandName": "GABASRAM NT 100",
+    "sourceDescription": "Gabapentin & Nortriptyline Hydrochloride Tablets (Gabapentin IP 100 mg + Nortriptyline 10 mg) — pack",
+    "displayDescription": "Gabapentin 100 mg and nortriptyline 10 mg film-coated tablets",
+    "category": "tablets",
+    "dosageForm": "film-coated-tablet",
+    "image": "/images/products/gabasram-nt-100.webp",
+    "imageAlt": "GABASRAM NT 100 gabapentin and nortriptyline tablet pack",
+    "featured": false,
+    "therapyCategory": "Neuropathic pain",
+    "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
+    "variants": [{
+      "id": "gabasram-nt-100-standard",
+      "label": "Each film-coated tablet contains",
+      "ingredients": [
+        { "ingredientId": "gabapentin", "strength": { "amount": 100, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "nortriptyline", "strength": { "amount": 10, "unit": "mg" }, "sourceStrengthText": "Nortriptyline Hydrochloride IP eq. to Nortriptyline 10 mg", "qualifier": "as nortriptyline hydrochloride", "verification": "pack-confirmed-by-user-2026-10-01" }
+      ],
+      "verification": "pack-confirmed-by-user-2026-10-01"
+    }],
+    "packaging": { "description": "10 x 1 x 15 tablets", "verification": "pack-confirmed-by-user-2026-10-01" },
+    "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
+    "clinical": {
+      "summary": "Ramnova film-coated tablet combining gabapentin 100 mg with nortriptyline 10 mg for long-term nerve (neuropathic) pain.",
+      "introduction": [
+        "GABASRAM NT 100 tablets combine gabapentin 100 mg with nortriptyline 10 mg. Both medicines calm overactive nerve signals, and together they are used to treat long-term nerve pain (neuropathic pain), such as pain from diabetic nerve damage, shingles or spinal problems, which often causes burning, tingling, shooting pain or numbness.",
+        "Take it as your doctor prescribes, usually once a day at bedtime, because it can make you drowsy. It may take a few weeks to work fully. Do not stop it suddenly, avoid alcohol, and tell your doctor straight away about any low mood or thoughts of self-harm."
+      ],
+      "uses": [
+        "Neuropathic (nerve) pain",
+        "Painful diabetic neuropathy",
+        "Nerve pain after shingles (post-herpetic neuralgia)"
+      ],
+      "seoUses": ["nerve pain", "diabetic neuropathy"],
+      "benefits": [
+        { "use": "Neuropathic (nerve) pain", "text": "Damaged nerves can send pain signals even without injury, causing burning, shooting or stabbing pain, tingling and numbness. Gabapentin reduces these overactive signals, and nortriptyline strengthens the body's own pain-blocking pathways in the spinal cord. Together they can relieve pain and improve sleep." },
+        { "use": "Painful diabetic neuropathy", "text": "Long-term high blood sugar can damage the nerves in the feet and legs. This combination eases the burning and tingling, alongside good blood sugar control and foot care." },
+        { "use": "Nerve pain after shingles", "text": "Pain can continue for months after a shingles rash has healed. Gabapentin and nortriptyline are both commonly used to reduce this lingering nerve pain." }
+      ],
+      "sideEffects": [
+        "Drowsiness or dizziness",
+        "Dry mouth",
+        "Constipation",
+        "Weight gain or swelling of the ankles",
+        "Blurred vision",
+        "Difficulty passing urine",
+        "Fast heartbeat or palpitations"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises, usually once a day at bedtime. Swallow the tablet whole with water, with or without food. Do not stop taking it suddenly; your doctor will reduce the dose gradually when it is time to stop.",
+      "howItWorks": "Gabapentin attaches to calcium channels on nerve cells and reduces the release of chemicals that carry pain signals, calming overactive nerves. Nortriptyline is a tricyclic medicine that increases noradrenaline and serotonin levels in the spinal cord, strengthening the nervous system's natural pain-blocking pathways. At this low dose it is used for pain rather than depression.",
+      "warnings": [
+        "Both medicines have been linked with suicidal thoughts. Family members or carers should also watch for changes in mood or behaviour.",
+        "Gabapentin can cause serious breathing problems when taken with opioid painkillers, sleeping tablets or other sedatives, especially in older people or those with lung disease.",
+        "Gabapentin can be misused and cause dependence, especially in people with a history of substance misuse.",
+        "Nortriptyline can affect heart rhythm. Tell your doctor if you have heart disease, and get urgent help for chest pain, a racing or irregular heartbeat, or fainting.",
+        "Use with caution in epilepsy, glaucoma, difficulty passing urine, an enlarged prostate, an overactive thyroid or diabetes.",
+        "Rarely, serious allergic or skin reactions can occur. Stop taking it and seek help for a widespread rash, fever, swollen glands or swelling of the face.",
+        "It is not for use in people under 18 years."
+      ],
+      "contraindications": [
+        "A recent heart attack, heart block, an irregular heart rhythm or reduced blood supply to the heart",
+        "Taking, or having taken within the last 14 days, a monoamine oxidase inhibitor (MAOI) antidepressant",
+        "Allergy to gabapentin, nortriptyline or any other ingredient"
+      ],
+      "interactions": [
+        "Opioid painkillers, sleeping tablets, anti-anxiety medicines and alcohol increase drowsiness and the risk of slowed breathing.",
+        "Antacids containing aluminium or magnesium reduce gabapentin absorption; take gabapentin at least 2 hours after them.",
+        "Other antidepressants such as SSRIs, and tramadol, can cause serotonin syndrome (agitation, fever, sweating, shaking).",
+        "Fluoxetine, paroxetine, bupropion, cimetidine, diltiazem and verapamil can raise nortriptyline levels.",
+        "Medicines that affect heart rhythm, adrenaline-type decongestants and anticholinergic medicines should be used with caution."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "unsafe", "note": "Avoid alcohol. It can cause severe drowsiness and, with gabapentin, slowed breathing." },
+        { "topic": "pregnancy", "status": "consult", "note": "Use only if your doctor considers that the benefits outweigh the risks. Babies may have withdrawal symptoms after birth." },
+        { "topic": "breastfeeding", "status": "consult", "note": "Small amounts pass into breast milk. Ask your doctor; your baby may need to be watched for drowsiness." },
+        { "topic": "driving", "status": "caution", "note": "It commonly causes drowsiness, dizziness and blurred vision. Do not drive or use machines until you know how it affects you." },
+        { "topic": "kidney", "status": "caution", "note": "Gabapentin is removed by the kidneys, so the dose must be reduced in kidney disease." },
+        { "topic": "liver", "status": "caution", "note": "Tell your doctor if you have liver disease, as nortriptyline may need a lower dose." }
+      ],
+      "quickTips": [
+        "Take it at bedtime to reduce daytime drowsiness.",
+        "It can take 2 to 3 weeks or longer to feel the full effect, so keep taking it as prescribed.",
+        "Do not stop suddenly, as this can cause withdrawal symptoms such as anxiety, poor sleep, nausea and sweating.",
+        "Take antacids at least 2 hours before this tablet.",
+        "Avoid alcohol and other medicines that make you sleepy unless your doctor agrees.",
+        "Use sunscreen and avoid strong sunlight, as nortriptyline can make your skin more sensitive.",
+        "Tell your doctor straight away about any low mood, unusual behaviour or thoughts of self-harm."
+      ],
+      "sources": [
+        { "id": "emc-gabapentin-100mg", "publisher": "electronic medicines compendium (emc)", "title": "Gabapentin 100 mg capsules: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/4121/smpc", "jurisdiction": "United Kingdom", "revision": "2026-04-13", "accessedAt": "2026-10-01" },
+        { "id": "emc-nortriptyline-10mg", "publisher": "electronic medicines compendium (emc)", "title": "Nortriptyline 10 mg film-coated tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/11267/smpc", "jurisdiction": "United Kingdom", "revision": "2024-02-28", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+    },
+    "verification": { "status": "pack-confirmed", "notes": ["Composition and pack size confirmed from photos of the pack by the user on 2026-10-01.", "Schedule H prescription drug.", "Manufactured by Vrindavan Global (WHO-GMP), Baddi, Distt. Solan (H.P.); marketed by Ramnova Healthcare.", "Colour: titanium dioxide. Storage: cool, dry and dark place, protected from direct sunlight and moisture, not above 25\u00b0C.", "The product image is the user-supplied pack photo of 2026-10-01."] },
+    "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "GABASRAM NT 100 pack labelling (photos supplied by Ramnova Healthcare)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-10-01", "fieldsSupported": ["name", "composition", "strength", "dosage-form", "packaging", "labelling"] }]
   }
 ]

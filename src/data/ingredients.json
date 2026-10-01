@@ -844,5 +844,21 @@
     "kind": "nutrient",
     "medicalSummary": "A nutrient listed in Ramnova's BLEMANGO PROTEIN POWDER.",
     "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "gabapentin",
+    "name": "Gabapentin",
+    "synonyms": [],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in Ramnova's GABASRAM NT 100 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "nortriptyline",
+    "name": "Nortriptyline",
+    "synonyms": ["nortriptyline hydrochloride"],
+    "kind": "active-ingredient",
+    "medicalSummary": "An active ingredient listed in Ramnova's GABASRAM NT 100 tablets.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
   }
 ]
