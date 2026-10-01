@@ -75,7 +75,7 @@
       ],
       "seoUses": ["acid reflux (GERD)", "heartburn"],
       "benefits": [
-        { "use": "Gastro-oesophageal reflux disease (GERD)", "text": "In GERD, stomach acid flows back into the food pipe, causing heartburn and irritation. Esomeprazole lowers acid production, which relieves symptoms and allows the food pipe to heal. Domperidone helps food move through the stomach faster, reducing bloating, fullness and the backflow of acid. Take it regularly for as long as prescribed, as stopping early can bring symptoms back." }
+        { "use": "Gastro-oesophageal reflux disease (GERD)", "text": "In GERD, stomach acid flows back into the food pipe, causing heartburn and irritation. Esomeprazole lowers acid production, which relieves symptoms and allows the food pipe to heal. Domperidone helps food move through the stomach faster, reducing bloating, fullness and the backflow of acid. Your doctor will decide how long you need to take it; do not stop or continue it without their advice." }
       ],
       "sideEffects": [
         "Headache",
@@ -88,8 +88,8 @@
       "howToUse": "Take this medicine in the dose and for the length of time your doctor advises. Swallow the capsule whole on an empty stomach, 30 to 60 minutes before a meal. Do not chew, crush or open it.",
       "howItWorks": "ESORUSK-D combines two medicines. Esomeprazole is a proton pump inhibitor that blocks the pumps in the stomach lining that produce acid. Domperidone is a prokinetic that increases the movement of the stomach and intestines, helping food pass through faster and reducing reflux, bloating and nausea. The sustained-release form releases domperidone gradually through the day.",
       "warnings": [
-        "Domperidone can affect heart rhythm (QT prolongation). The risk is higher in people over 60, at higher doses and with other medicines that affect heart rhythm. It should be used at the lowest effective dose for the shortest time.",
-        "Long-term use, especially beyond 3 months, may lower magnesium and vitamin B12 levels and increase the risk of bone fractures.",
+        "Domperidone can affect heart rhythm (QT prolongation). The risk is higher in people over 60, at higher doses and with other medicines that affect heart rhythm. It should be used at the lowest effective dose for the shortest possible time, as decided by your doctor.",
+        "Long-term use of esomeprazole, especially beyond 3 months, may lower magnesium and vitamin B12 levels and increase the risk of bone fractures.",
         "It may slightly increase the risk of certain gut infections.",
         "Tell your doctor before starting if you have unexplained weight loss, difficulty swallowing, vomiting of blood or black stools."
       ],
@@ -121,7 +121,7 @@
         "Avoid lying down for 2 to 3 hours after eating, and raise the head of your bed if symptoms are worse at night.",
         "Get urgent medical help if you notice a fast or irregular heartbeat, fainting or fits.",
         "See your doctor if you have severe or persistent watery diarrhoea, or if your symptoms do not improve.",
-        "If you take it for more than a few months, your doctor may check your magnesium and vitamin B12 levels."
+        "Do not take it for longer than your doctor advises. Domperidone is used for the shortest time needed."
       ],
       "sources": [
         { "id": "emc-esomeprazole-40mg", "publisher": "electronic medicines compendium (emc)", "title": "Esomeprazole 40 mg gastro-resistant capsules: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/15052/smpc", "jurisdiction": "United Kingdom", "revision": "2025-11-13", "accessedAt": "2026-10-01" },
