@@ -1288,6 +1288,10 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova cefpodoxime dry syrup for children, supplied as 15 g of powder that is reconstituted to make 30 mL of oral suspension. Cefpodoxime is a third-generation cephalosporin antibiotic.",
+      "introduction": [
+        "SIZEPOD-100 is a dry syrup for children containing cefpodoxime, a third-generation cephalosporin antibiotic. The powder is mixed with water to make 30 ml of oral suspension. It is used to treat bacterial infections of the ear, throat, tonsils, sinuses and chest.",
+        "Give it exactly as your child's doctor prescribes, usually twice a day, and finish the full course even if your child feels better. The most common side effects are diarrhoea, nappy rash and vomiting. Tell the doctor if your child has ever had an allergic reaction to penicillin or any other antibiotic."
+      ],
       "uses": [
         "Acute otitis media",
         "Pharyngitis and tonsillitis",
@@ -1295,12 +1299,57 @@
         "Acute maxillary sinusitis"
       ],
       "seoUses": ["acute otitis media", "pharyngitis"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Ear infections (acute otitis media)", "text": "Middle ear infections are common in young children and cause ear pain, fever and irritability. Cefpodoxime kills the bacteria most often responsible, easing pain and fever, usually within a few days." },
+        { "use": "Throat and tonsil infections", "text": "Bacterial sore throats and tonsillitis cause pain, fever and difficulty swallowing. Treating them with an antibiotic relieves symptoms and helps prevent complications. Completing the full course is important." },
+        { "use": "Chest and sinus infections", "text": "Cefpodoxime is active against many bacteria that cause sinus infections and pneumonia. It helps clear the infection, reducing cough, fever and congestion." }
+      ],
+      "sideEffects": [
+        "Diarrhoea or loose stools",
+        "Nappy rash",
+        "Vomiting or nausea",
+        "Stomach pain",
+        "Skin rash"
+      ],
+      "howToUse": "Mix the powder with the amount of boiled and cooled water shown on the pack, and shake well. Shake well again before each dose, and measure it with the cup or syringe provided rather than a kitchen spoon. It can be given with or without food, though giving it with food may reduce stomach upset. Store the mixed suspension as directed on the pack, usually in a refrigerator, and throw away any unused medicine after the stated time.",
+      "howItWorks": "Cefpodoxime is a cephalosporin antibiotic. Taken by mouth, it is absorbed and converted into its active form, which stops bacteria from building their protective cell walls, so they die. It works against bacteria, not viruses, so it will not help colds or flu.",
+      "warnings": [
+        "Do not give it to a child who has had a serious allergic reaction to penicillin, as some people allergic to penicillin also react to cephalosporins.",
+        "Antibiotics can cause a serious bowel infection (Clostridioides difficile), which can appear up to two months after treatment. See a doctor for severe or persistent diarrhoea.",
+        "In children with kidney problems the dose must be adjusted, as the medicine can build up.",
+        "Using antibiotics when they are not needed, or stopping early, encourages resistant bacteria."
+      ],
+      "contraindications": [
+        "Allergy to cefpodoxime or any other cephalosporin antibiotic",
+        "A previous severe allergic reaction to penicillin or another beta-lactam antibiotic"
+      ],
+      "interactions": [
+        "Antacids and acid-reducing medicines such as ranitidine or famotidine reduce absorption. Give them at least 2 hours apart.",
+        "Probenecid increases cefpodoxime levels in the blood.",
+        "Medicines that can harm the kidneys need closer monitoring when taken with it.",
+        "It may reduce the effectiveness of live oral typhoid and cholera vaccines, so tell the doctor before your child is vaccinated."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "safe", "note": "Not relevant for most children. Older users should avoid alcohol during treatment, as it can worsen stomach upset." },
+        { "topic": "pregnancy", "status": "consult", "note": "No adequate studies in pregnancy. Use only if a doctor considers it clearly needed." },
+        { "topic": "breastfeeding", "status": "consult", "note": "Small amounts pass into breast milk. Ask your doctor before use." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect the ability to drive." },
+        { "topic": "kidney", "status": "caution", "note": "The dose needs to be reduced in kidney disease. Tell the doctor about any kidney problem." },
+        { "topic": "liver", "status": "safe-if-prescribed", "note": "No dose change is usually needed in liver disease." }
+      ],
+      "quickTips": [
+        "Finish the whole course, even if your child feels better, to stop the infection coming back.",
+        "Use the measuring cup or syringe provided for accurate doses.",
+        "Give plenty of fluids if your child has diarrhoea, and see the doctor if it is severe, watery or bloody.",
+        "Stop the medicine and get urgent help if your child develops a rash, swelling of the face or lips, or difficulty breathing.",
+        "Antibiotics do not work against viral infections such as colds and flu.",
+        "Do not keep leftover medicine for later or give it to another child."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "dailymed-cefpodoxime-suspension", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Cefpodoxime proxetil for oral suspension: prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=63777889-d306-4fc3-88da-b24859040ef4", "jurisdiction": "United States", "revision": "2024-01-04", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid headline reads Cefpodoxime + Potassium Clavulanate 100mg but the pack artwork on the same page reads Cefpodoxime Oral Suspension I.P. with no clavulanate. Only cefpodoxime is recorded here; the presence and amount of potassium clavulanate must be confirmed from the pack before publication.", "The meaning of 100 in the brand name, whether a per-5-mL strength or something else, is not stated."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
