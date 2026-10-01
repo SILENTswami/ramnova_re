@@ -233,13 +233,7 @@ function CategoryPage({ categorySlug }: { categorySlug: Product["category"] }) {
 
 function ProductPage({ product }: { product: Product }) {
   const related = getRelatedProducts(product);
-  const likelySupplement = [
-    "Nutritional support",
-    "Bone health and nutrition",
-    "Vitamin D supplementation",
-    "Iron and folate supplementation",
-  ].includes(product.therapyCategory);
-  const entityType = likelySupplement ? "DietarySupplement" : "Drug";
+  const entityType = product.schemaType;
   const activeIngredients = product.variants.flatMap((variant) =>
     variant.ingredients.map((item) => getIngredientLabel(item)),
   );

@@ -24,6 +24,10 @@ for (const product of products) {
   assert(!slugs.has(product.slug), `Duplicate product slug: ${product.slug}`);
   slugs.add(product.slug);
   assert(validCategories.has(product.category), `${product.slug}: invalid category ${product.category}`);
+  assert(
+    product.schemaType === "Drug" || product.schemaType === "DietarySupplement",
+    `${product.slug}: schemaType must be "Drug" or "DietarySupplement"`,
+  );
   const imagePaths =
     typeof product.image === "string"
       ? [product.image]

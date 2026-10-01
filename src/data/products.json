@@ -12,6 +12,7 @@
     "featured": false,
     "therapyCategory": "Bone health and nutrition",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "cadmizorb-plus-standard",
       "label": "Product composition",
@@ -110,6 +111,7 @@
     "featured": false,
     "therapyCategory": "Gastrointestinal care",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "esorusk-d-40-30",
       "label": "40 mg / 30 mg SR",
@@ -202,6 +204,7 @@
     "featured": false,
     "therapyCategory": "Gastrointestinal care",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "esorusk-ls-40-75",
       "label": "40 mg / 75 mg SR",
@@ -299,6 +302,7 @@
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "piproshot-4-5g-standard",
       "label": "4.5 g product presentation",
@@ -394,6 +398,7 @@
     "featured": false,
     "therapyCategory": "Urology care",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "prosteosol-d-0-4-0-5",
       "label": "0.4 mg SR / 0.5 mg",
@@ -486,6 +491,7 @@
     "featured": false,
     "therapyCategory": "Gastrointestinal care",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "ruskitop-dsr-standard",
       "label": "Product presentation",
@@ -582,6 +588,7 @@
     "featured": false,
     "therapyCategory": "Gastrointestinal care",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "ruskirab-dsr-20-30",
       "label": "20 mg / 30 mg SR",
@@ -676,6 +683,7 @@
     "featured": true,
     "therapyCategory": "Hepatobiliary care",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [
       { "id": "ursoram-300", "label": "Product composition", "ingredients": [{ "ingredientId": "ursodeoxycholic-acid", "strength": { "amount": 300, "unit": "mg" }, "verification": "source-listed-combined-entry" }], "verification": "source-listed" }
     ],
@@ -760,6 +768,7 @@
     "featured": false,
     "therapyCategory": "Nutritional supplement",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "DietarySupplement",
     "variants": [{
       "id": "blemango-q10-standard",
       "label": "Each film-coated tablet contains",
@@ -866,6 +875,7 @@
     "featured": true,
     "therapyCategory": "Nutritional supplement",
     "therapyCategoryVerification": "stated-on-pack",
+    "schemaType": "DietarySupplement",
     "variants": [{
       "id": "blemango-protein-powder-vanilla",
       "label": "Vanilla flavour, per serving",
@@ -912,6 +922,7 @@
     "featured": true,
     "therapyCategory": "Digestive enzyme preparation",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "DietarySupplement",
     "variants": [{
       "id": "cadmizyme-alpha-standard",
       "label": "Each 5 ml contains",
@@ -999,6 +1010,7 @@
     "featured": true,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "cefrishot-tz-1125mg",
       "label": "1.125 g presentation",
@@ -1044,6 +1056,7 @@
     "featured": false,
     "therapyCategory": "Liver health supplement",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "DietarySupplement",
     "variants": [{
       "id": "heptaram-standard",
       "label": "Product composition",
@@ -1089,6 +1102,7 @@
     "featured": false,
     "therapyCategory": "Allergy and asthma medicine",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "krujokast-b-20-10",
       "label": "20 mg / 10 mg",
@@ -1133,6 +1147,7 @@
     "featured": false,
     "therapyCategory": "Respiratory medicine",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "optibreathe-n-100-600",
       "label": "100 mg / 600 mg",
@@ -1174,6 +1189,7 @@
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "ramomin-200-standard",
       "label": "200 mg",
@@ -1216,6 +1232,7 @@
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "ramomin-400-standard",
       "label": "400 mg",
@@ -1258,6 +1275,7 @@
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "sizepod-100-standard",
       "label": "Product presentation",
@@ -1300,6 +1318,7 @@
     "featured": false,
     "therapyCategory": "Urinary tract medicine",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "Drug",
     "variants": [{
       "id": "flavolead-200",
       "label": "200 mg",
@@ -1342,6 +1361,7 @@
     "featured": false,
     "therapyCategory": "Liver and nutritional support",
     "therapyCategoryVerification": "inferred-from-composition",
+    "schemaType": "DietarySupplement",
     "variants": [{
       "id": "siliram-max-standard",
       "label": "Each 5 ml contains",

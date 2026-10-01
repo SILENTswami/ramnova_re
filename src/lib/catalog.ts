@@ -103,6 +103,8 @@ export type Product = {
   featured: boolean;
   therapyCategory: string;
   therapyCategoryVerification: string;
+  // The schema.org type used in the product page's structured data.
+  schemaType: "Drug" | "DietarySupplement";
   variants: ProductVariant[];
   packaging: { description: string | null; verification: string };
   price: {
