@@ -1569,7 +1569,7 @@
     "displayDescription": "Rifaximin 200 mg tablets",
     "category": "tablets",
     "dosageForm": "tablet",
-    "image": "/images/products/ramomin-200.webp",
+    "image": ["/images/products/ramomin-200.webp", "/images/products/ramomin-400.webp"],
     "imageAlt": "RAMOMIN-200 tablet packaging",
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
