@@ -65,6 +65,50 @@ function getDosageFormLabel(product: Product) {
   return product.dosageForm.replaceAll("-", " ");
 }
 
+// Lowercase a use's leading word so it reads mid-sentence, leaving acronyms alone.
+function toSentenceCase(use: string) {
+  const firstWord = use.split(" ")[0];
+  return firstWord === firstWord.toUpperCase() ? use : use[0].toLowerCase() + use.slice(1);
+}
+
+const descriptionBudget = 155;
+
+// Keep the whole description inside the ~155 characters Google will show. Lead with the
+// conditions a product is used for when they are listed: drop the second use first, then
+// shorten the composition, before giving up on uses altogether.
+function getProductDescription(product: Product) {
+  const { clinical } = product;
+  const dosageForm = getDosageFormLabel(product);
+  const uses = (clinical.seoUses ?? clinical.uses.map(toSentenceCase)).slice(0, 2);
+  const hasSafety = [clinical.sideEffects, clinical.warnings, clinical.interactions].some(
+    (items) => items.length > 0,
+  );
+  const ending = hasSafety
+    ? "Uses, side effects, warnings and interactions."
+    : "Composition and product information.";
+
+  const attempts = [
+    { uses, shorten: false },
+    { uses: uses.slice(0, 1), shorten: false },
+    { uses: uses.slice(0, 1), shorten: true },
+  ];
+  for (const attempt of attempts) {
+    if (!attempt.uses.length) break;
+    const purpose = ` for ${attempt.uses.join(" and ")}`;
+    const fixedLength = `${product.name}: ${dosageForm} containing ${purpose}. ${ending}`.length;
+    const composition = attempt.shorten
+      ? getCompositionSummary(product, descriptionBudget - fixedLength)
+      : getProductIngredientNames(product).join(", ");
+    if (!composition) break;
+    const description = `${product.name}: ${dosageForm} containing ${composition}${purpose}. ${ending}`;
+    if (description.length <= descriptionBudget) return description;
+  }
+
+  const composition = getCompositionSummary(product, 54);
+  const subject = composition ? `${dosageForm} containing ${composition}` : product.displayDescription;
+  return `${product.name}: ${subject}. Composition and product information.`;
+}
+
 export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
   const { slug } = await params;
   const category = productCategories.find((item) => item.slug === slug);
@@ -93,13 +137,8 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const productImages = getProductImages(product);
   // Budget the composition around the brand name and the parentheses.
   const titleComposition = getCompositionSummary(product, titleBudget - product.name.length - 3);
-  const descriptionComposition = getCompositionSummary(product, 54);
   const title = titleComposition ? `${product.name} (${titleComposition})` : product.name;
-  // Keep the whole description inside the ~155 characters Google will show.
-  const subject = descriptionComposition
-    ? `${getDosageFormLabel(product)} containing ${descriptionComposition}`
-    : product.displayDescription;
-  const description = `${product.name}: ${subject}. Composition and product information.`;
+  const description = getProductDescription(product);
   return {
     title: { absolute: title },
     description,

@@ -49,6 +49,8 @@ export type ClinicalContent = {
   warnings: string[];
   contraindications: string[];
   interactions: string[];
+  // Short, lowercase forms of the leading uses for meta descriptions.
+  seoUses?: string[];
   scopeNote?: string;
   fieldSources?: Record<string, string[]>;
   sources?: SourceReference[];

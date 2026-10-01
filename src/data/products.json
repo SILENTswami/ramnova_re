@@ -282,6 +282,7 @@
         "Primary biliary cholangitis (PBC)",
         "Liver disease associated with cystic fibrosis"
       ],
+      "seoUses": ["cholesterol gallstones", "primary biliary cholangitis"],
       "sideEffects": [
         "Diarrhoea or loose stools, abdominal pain, nausea and indigestion",
         "Headache",
@@ -432,6 +433,7 @@
         "Supports digestion of carbohydrates, starch, protein and fat",
         "Gas and bloating associated with indigestion"
       ],
+      "seoUses": ["indigestion", "bloating"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
@@ -726,6 +728,7 @@
         "Community-acquired pneumonia",
         "Acute maxillary sinusitis"
       ],
+      "seoUses": ["acute otitis media", "pharyngitis"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
