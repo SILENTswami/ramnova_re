@@ -1256,7 +1256,7 @@
     "clinical": {
       "summary": "Ramnova liver support syrup combining silymarin with L-ornithine L-aspartate, tricholine citrate and a multivitamin blend.",
       "introduction": [
-        "SILIRAM-MAX is a liver support syrup that combines silymarin (from milk thistle), L-ornithine L-aspartate, tricholine citrate and a multivitamin blend. It is used as supportive care in liver conditions such as fatty liver, to help protect liver cells and support normal liver function.",
+        "SILIRAM-MAX is a liver support syrup that combines silymarin (from milk thistle), L-ornithine L-aspartate, tricholine citrate and a multivitamin blend. It is used as supportive care in liver conditions such as fatty liver, alongside the treatment your doctor recommends.",
         "Shake the bottle well and take the dose your doctor advises with the measuring cup, at the same times each day. It is usually well tolerated, though mild stomach upset or diarrhoea can occur. It supports, but does not replace, treatment of the cause of liver disease, so avoid alcohol and follow your doctor's advice."
       ],
       "uses": [
@@ -1265,7 +1265,7 @@
       ],
       "seoUses": ["liver disease", "fatty liver"],
       "benefits": [
-        { "use": "Supportive care in liver disease", "text": "Silymarin is an antioxidant that helps protect liver cells from damage by toxins and free radicals. L-ornithine L-aspartate helps the liver clear ammonia, a waste product that builds up when the liver is not working well. Tricholine citrate helps the liver process fat, which is useful in fatty liver." },
+        { "use": "Supportive care in liver disease", "text": "Silymarin is an antioxidant from milk thistle that has been studied for protecting liver cells, although results in liver disease have been mixed. L-ornithine L-aspartate supplies amino acids the liver uses to clear ammonia, a waste product that can build up when the liver is not working well. Tricholine citrate supplies choline, which the liver needs to process fat. Your doctor can advise whether it is suitable alongside your other treatment." },
         { "use": "Nutritional support", "text": "Liver disease often reduces appetite and the body's stores of vitamins. The multivitamin blend helps make up for these shortfalls, supporting energy and recovery." }
       ],
       "sideEffects": [
@@ -1276,7 +1276,7 @@
         "Itching or rash (rare allergic reaction)"
       ],
       "howToUse": "Shake the bottle well before use. Take the dose your doctor advises using the measuring cup provided, with or without food, at the same times each day.",
-      "howItWorks": "Silymarin, taken from milk thistle seeds, acts as an antioxidant and helps stabilise liver cell membranes, protecting them from toxins. L-ornithine L-aspartate provides two amino acids that the liver uses to convert ammonia into urea, which the body then removes. Tricholine citrate supplies choline, which helps the liver move fat out of its cells. The multivitamins help replace nutrients that are often low in liver disease.",
+      "howItWorks": "Silymarin, taken from milk thistle seeds, is an antioxidant that is thought to help protect liver cells from toxins. L-ornithine L-aspartate provides two amino acids that the liver uses to convert ammonia into urea, which the body then removes. Tricholine citrate supplies choline, which the liver uses to move fat out of its cells. The multivitamins help replace nutrients that are often low in liver disease.",
       "warnings": [
         "This syrup supports, but does not replace, treatment of the underlying cause of liver disease.",
         "People allergic to plants in the daisy family, such as ragweed, chrysanthemum or marigold, may react to silymarin.",
@@ -1297,7 +1297,7 @@
         { "topic": "breastfeeding", "status": "consult", "note": "There is not enough information on use while breastfeeding. Ask your doctor first." },
         { "topic": "driving", "status": "consult", "note": "Not known to affect driving, but liver disease itself can cause drowsiness or confusion. Do not drive if you are affected." },
         { "topic": "kidney", "status": "caution", "note": "Not suitable for people with severe kidney disease. Tell your doctor about any kidney problem." },
-        { "topic": "liver", "status": "safe-if-prescribed", "note": "Intended for liver conditions. Use as your doctor prescribes, with regular liver tests." }
+        { "topic": "liver", "status": "consult", "note": "Intended for liver conditions. Use only under your doctor's supervision, with regular liver tests." }
       ],
       "quickTips": [
         "Shake the bottle well and use the measuring cup for each dose.",
