@@ -231,33 +231,6 @@ function CategoryPage({ categorySlug }: { categorySlug: Product["category"] }) {
   );
 }
 
-function ClinicalBlock({
-  id,
-  title,
-  items,
-  emptyText,
-}: {
-  id: string;
-  title: string;
-  items: string[];
-  emptyText: string;
-}) {
-  return (
-    <section className="info-block" id={id}>
-      <h2>{title}</h2>
-      {items.length ? (
-        <ul>
-          {items.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
-      ) : (
-        <p>{emptyText}</p>
-      )}
-    </section>
-  );
-}
-
 function ProductPage({ product }: { product: Product }) {
   const related = getRelatedProducts(product);
   const likelySupplement = [
@@ -279,10 +252,19 @@ function ProductPage({ product }: { product: Product }) {
   const benefits = clinical.benefits ?? [];
   const safetyAdvice = clinical.safetyAdvice ?? [];
   const quickTips = clinical.quickTips ?? [];
+  // Warnings and interactions lists only the groups a product has; with none, the section
+  // keeps just its pack-insert line.
+  const safetyGroups = (
+    [
+      ["Warnings", clinical.warnings],
+      ["Contraindications", clinical.contraindications],
+      ["Important interactions", clinical.interactions],
+    ] as const
+  ).filter(([, values]) => values.length > 0);
   // Optional sections, and their "On this page" entries, appear only when they have data.
   const sections = [
     ["introduction", "Product introduction"],
-    ["uses", "Uses"],
+    ...(clinical.uses.length ? [["uses", "Uses"]] : []),
     ...(benefits.length ? [["benefits", "Benefits"]] : []),
     ...(clinical.sideEffects.length ? [["side-effects", "Side effects"]] : []),
     ...(clinical.howToUse ? [["how-to-use", "How to use"]] : []),
@@ -414,12 +396,16 @@ function ProductPage({ product }: { product: Product }) {
                 {clinical.scopeNote ? <p>{clinical.scopeNote}</p> : null}
               </section>
 
-              <ClinicalBlock
-                id="uses"
-                title="Uses"
-                items={clinical.uses}
-                emptyText="Product-specific uses are not currently listed. Refer to the current pack insert and a qualified healthcare professional."
-              />
+              {clinical.uses.length ? (
+                <section className="info-block" id="uses">
+                  <h2>Uses</h2>
+                  <ul>
+                    {clinical.uses.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </section>
+              ) : null}
 
               {benefits.length ? (
                 <section className="info-block" id="benefits">
@@ -471,22 +457,14 @@ function ProductPage({ product }: { product: Product }) {
                   Safety details must be checked against the current pack insert and advice from a
                   qualified healthcare professional.
                 </p>
-                {[
-                  ["Warnings", clinical.warnings],
-                  ["Contraindications", clinical.contraindications],
-                  ["Important interactions", clinical.interactions],
-                ].map(([label, values]) => (
-                  <div key={label as string}>
-                    <h3>{label as string}</h3>
-                    {(values as string[]).length ? (
-                      <ul>
-                        {(values as string[]).map((value) => (
-                          <li key={value}>{value}</li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <p>Not currently listed. Refer to the current pack insert.</p>
-                    )}
+                {safetyGroups.map(([label, values]) => (
+                  <div key={label}>
+                    <h3>{label}</h3>
+                    <ul>
+                      {values.map((value) => (
+                        <li key={value}>{value}</li>
+                      ))}
+                    </ul>
                   </div>
                 ))}
               </section>
@@ -512,10 +490,15 @@ function ProductPage({ product }: { product: Product }) {
                           return (
                             <tr key={`${variant.id}-${item.ingredientId}`}>
                               <td>{ingredient?.name ?? item.ingredientId}</td>
-                              <td>
-                                {item.strength
-                                  ? `${item.strength.amount} ${item.strength.unit}`
-                                  : "Not provided"}
+                              <td className="ingredient-strength">
+                                {item.strength ? (
+                                  `${item.strength.amount} ${item.strength.unit}`
+                                ) : (
+                                  <>
+                                    <span aria-hidden="true">—</span>
+                                    <span className="sr-only">Not stated</span>
+                                  </>
+                                )}
                               </td>
                             </tr>
                           );

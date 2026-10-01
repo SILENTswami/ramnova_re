@@ -1763,6 +1763,20 @@ a {
   margin-top: 22px;
   border-collapse: collapse;
   font-size: 0.85rem;
+  table-layout: fixed;
+}
+
+.ingredient-table th:last-child,
+.ingredient-table td:last-child {
+  width: 35%;
+}
+
+.ingredient-table td {
+  overflow-wrap: anywhere;
+}
+
+.ingredient-table .ingredient-strength {
+  white-space: nowrap;
 }
 
 .ingredient-table-wrap {
@@ -2510,8 +2524,7 @@ a {
   }
 
   .ingredient-table {
-    min-width: 560px;
-    font-size: 0.72rem;
+    font-size: 0.78rem;
   }
 
   .product-info-grid > *,
@@ -2522,7 +2535,7 @@ a {
 
   .ingredient-table th,
   .ingredient-table td {
-    padding: 12px 7px;
+    padding: 11px 6px;
   }
 
   .footer-top {
