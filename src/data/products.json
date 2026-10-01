@@ -508,7 +508,7 @@
         "Reflux oesophagitis (inflammation of the food pipe caused by acid)",
         "Indigestion with bloating, fullness and nausea"
       ],
-      "seoUses": ["acid reflux (GERD)", "indigestion"],
+      "seoUses": ["GERD", "indigestion"],
       "benefits": [
         { "use": "Gastro-oesophageal reflux disease (GERD)", "text": "In GERD, stomach acid flows back into the food pipe, causing heartburn and irritation. Pantoprazole lowers acid production, relieving symptoms, while domperidone helps food move through the stomach faster, reducing fullness and the backflow of acid. Your doctor will decide how long you need to take it; do not stop or continue it without their advice." },
         { "use": "Reflux oesophagitis", "text": "Repeated acid reflux can inflame and damage the lining of the food pipe. Lowering stomach acid with pantoprazole allows the lining to heal and eases pain and burning." },
