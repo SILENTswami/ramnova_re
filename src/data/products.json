@@ -1328,10 +1328,6 @@
         "Medicines that can harm the kidneys need closer monitoring when taken with it."
       ],
       "safetyAdvice": [
-        { "topic": "alcohol", "status": "caution", "note": "Not relevant for most children. Older users should avoid alcohol during treatment, as it can worsen stomach upset." },
-        { "topic": "pregnancy", "status": "consult", "note": "No adequate studies in pregnancy. Use only if a doctor considers it clearly needed." },
-        { "topic": "breastfeeding", "status": "consult", "note": "Small amounts pass into breast milk. Ask your doctor before use." },
-        { "topic": "driving", "status": "safe", "note": "Not expected to affect the ability to drive." },
         { "topic": "kidney", "status": "caution", "note": "The dose needs to be reduced in kidney disease. Tell the doctor about any kidney problem." },
         { "topic": "liver", "status": "safe-if-prescribed", "note": "No dose change is usually needed in liver disease." }
       ],
