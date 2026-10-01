@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CatalogExplorer } from "@/components/catalog-explorer";
+import { CatalogFallback } from "@/components/catalog-fallback";
 import { JsonLd } from "@/components/json-ld";
 import { products } from "@/lib/catalog";
 import { defaultOgImage, siteConfig } from "@/lib/site";
@@ -58,7 +59,7 @@ export default function ProductsPage() {
           </div>
         </div>
       </section>
-      <Suspense fallback={<div className="catalog-section" aria-busy="true" />}>
+      <Suspense fallback={<CatalogFallback />}>
         <CatalogExplorer />
       </Suspense>
     </>

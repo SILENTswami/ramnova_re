@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CatalogExplorer } from "@/components/catalog-explorer";
+import { CatalogFallback } from "@/components/catalog-fallback";
 import { JsonLd } from "@/components/json-ld";
 import { ProductCard } from "@/components/product-card";
 import { ProductMediaCarousel } from "@/components/product-media-carousel";
@@ -228,7 +229,7 @@ function CategoryPage({ categorySlug }: { categorySlug: Product["category"] }) {
           </div>
         </div>
       </section>
-      <Suspense fallback={<div className="catalog-section" aria-busy="true" />}>
+      <Suspense fallback={<CatalogFallback initialCategory={categorySlug} />}>
         <CatalogExplorer initialCategory={categorySlug} />
       </Suspense>
     </>
