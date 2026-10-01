@@ -107,6 +107,9 @@ export type Product = {
   therapyCategoryVerification: string;
   // The schema.org type used in the product page's structured data.
   schemaType: "Drug" | "DietarySupplement";
+  // Short composition used in the page title and meta description instead of the
+  // generated ingredient list.
+  seoComposition?: string;
   variants: ProductVariant[];
   packaging: { description: string | null; verification: string };
   price: {

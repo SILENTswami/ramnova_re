@@ -876,6 +876,7 @@
     "therapyCategory": "Nutritional supplement",
     "therapyCategoryVerification": "stated-on-pack",
     "schemaType": "DietarySupplement",
+    "seoComposition": "Protein, vitamins and minerals",
     "variants": [{
       "id": "blemango-protein-powder-vanilla",
       "label": "Each 15 g serving contains",

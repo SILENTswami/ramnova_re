@@ -28,6 +28,12 @@ for (const product of products) {
     product.schemaType === "Drug" || product.schemaType === "DietarySupplement",
     `${product.slug}: schemaType must be "Drug" or "DietarySupplement"`,
   );
+  if (product.seoComposition !== undefined) {
+    assert(
+      typeof product.seoComposition === "string" && product.seoComposition.length > 0,
+      `${product.slug}: seoComposition must be a non-empty string`,
+    );
+  }
   const imagePaths =
     typeof product.image === "string"
       ? [product.image]

@@ -45,6 +45,10 @@ export const dynamicParams = false;
 // The first ingredient is always kept, even when it alone exceeds the budget. In prose,
 // names are lowercased and a complete list ends "x and y".
 function getCompositionSummary(product: Product, budget: number, prose = false) {
+  // A hand-written summary wins for products whose ingredient list is too long to name.
+  if (product.seoComposition) {
+    return prose ? toSentenceCase(product.seoComposition) : product.seoComposition;
+  }
   const names = getProductIngredientNames(product).map((name) =>
     prose ? toLowerCaseWords(name) : name,
   );
