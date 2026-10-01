@@ -25,7 +25,7 @@ import {
   products,
   type Product,
 } from "@/lib/catalog";
-import { productCategories, siteConfig } from "@/lib/site";
+import { defaultOgImage, productCategories, siteConfig } from "@/lib/site";
 
 type RouteProps = { params: Promise<{ slug: string }> };
 
@@ -41,19 +41,24 @@ export const dynamicParams = false;
 // Search traffic arrives on the molecule, not the brand: nobody looks up "SIZEDOB"
 // unless they already hold the pack. Lead the title and description with the
 // composition, trimmed to a character budget so the useful part survives truncation.
-// Returns null when not even one ingredient fits.
+// The first ingredient is always kept, even when it alone exceeds the budget.
 function getCompositionSummary(product: Product, budget: number) {
   const names = getProductIngredientNames(product);
-  for (let count = names.length; count > 0; count--) {
+  if (!names.length) return null;
+  const summarise = (count: number) => {
     const kept = names.slice(0, count).join(", ");
     const omitted = names.length - count;
-    const summary = omitted > 0 ? `${kept} and ${omitted} more` : kept;
+    return omitted > 0 ? `${kept} +${omitted} more` : kept;
+  };
+  for (let count = names.length; count > 1; count--) {
+    const summary = summarise(count);
     if (summary.length <= budget) return summary;
   }
-  return null;
+  return summarise(1);
 }
 
-const titleSuffix = " | Ramnova Healthcare";
+// Product titles skip the site-name suffix (og:site_name carries the brand) so the
+// composition gets the room.
 const titleBudget = 60;
 
 function getDosageFormLabel(product: Product) {
@@ -78,6 +83,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
         url: `/products/${category.slug}/`,
         title: `${category.label} | Ramnova Healthcare`,
         description,
+        images: [defaultOgImage],
       },
     };
   }
@@ -85,11 +91,8 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const product = getProduct(slug);
   if (!product) return {};
   const productImages = getProductImages(product);
-  // Budget the composition around the brand name, the parentheses and the suffix.
-  const titleComposition = getCompositionSummary(
-    product,
-    titleBudget - product.name.length - 3 - titleSuffix.length,
-  );
+  // Budget the composition around the brand name and the parentheses.
+  const titleComposition = getCompositionSummary(product, titleBudget - product.name.length - 3);
   const descriptionComposition = getCompositionSummary(product, 54);
   const title = titleComposition ? `${product.name} (${titleComposition})` : product.name;
   // Keep the whole description inside the ~155 characters Google will show.
@@ -98,13 +101,13 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     : product.displayDescription;
   const description = `${product.name}: ${subject}. Composition and product information.`;
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: { canonical: `/products/${product.slug}/` },
     openGraph: {
       type: "website",
       url: `/products/${product.slug}/`,
-      title: `${title}${titleSuffix}`,
+      title: title,
       description,
       images: productImages.map((image, index) => ({
         url: image,
@@ -113,7 +116,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     },
     twitter: {
       card: "summary_large_image",
-      title: `${title}${titleSuffix}`,
+      title: title,
       description,
       images: productImages,
     },

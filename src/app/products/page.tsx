@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CatalogExplorer } from "@/components/catalog-explorer";
 import { JsonLd } from "@/components/json-ld";
 import { products } from "@/lib/catalog";
-import { siteConfig } from "@/lib/site";
+import { defaultOgImage, siteConfig } from "@/lib/site";
 
 const description =
   "Search Ramnova Healthcare's complete catalogue of tablets, capsules, syrups, injections and powders by brand, ingredient or dosage form.";
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     url: "/products/",
     title: "Pharmaceutical Products | Ramnova Healthcare",
     description,
+    images: [defaultOgImage],
   },
 };
 

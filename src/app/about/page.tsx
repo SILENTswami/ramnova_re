@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { products } from "@/lib/catalog";
+import { defaultOgImage } from "@/lib/site";
 
 const description =
   "Learn about Ramnova Healthcare's product-focused approach, company values and commitment to clear, responsible healthcare communication.";
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
     url: "/about/",
     title: "About Ramnova Healthcare",
     description,
+    images: [defaultOgImage],
   },
 };
 

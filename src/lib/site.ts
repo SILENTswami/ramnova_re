@@ -19,6 +19,13 @@ export const siteConfig = {
   },
 } as const;
 
+export const defaultOgImage = {
+  url: "/images/brand/og-image.png",
+  width: 1200,
+  height: 630,
+  alt: "Ramnova Healthcare",
+};
+
 export const primaryNavigation = [
   { href: "/", label: "Home" },
   { href: "/products/", label: "Products" },

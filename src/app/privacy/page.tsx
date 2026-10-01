@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { siteConfig } from "@/lib/site";
+import { defaultOgImage, siteConfig } from "@/lib/site";
 
 const description = "Privacy information for visitors to the Ramnova Healthcare catalogue website.";
 
@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     url: "/privacy/",
     title: "Privacy Policy | Ramnova Healthcare",
     description,
+    images: [defaultOgImage],
   },
 };
 

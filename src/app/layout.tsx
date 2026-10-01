@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import { JsonLd } from "@/components/json-ld";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { siteConfig } from "@/lib/site";
+import { defaultOgImage, siteConfig } from "@/lib/site";
 import "./globals.css";
 
 const manrope = localFont({
@@ -39,14 +39,7 @@ export const metadata: Metadata = {
     title: "Ramnova Healthcare",
     description: siteConfig.description,
     url: siteConfig.url,
-    images: [
-      {
-        url: "/images/brand/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Ramnova Healthcare",
-      },
-    ],
+    images: [defaultOgImage],
   },
   twitter: {
     card: "summary_large_image",

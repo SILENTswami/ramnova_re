@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { defaultOgImage } from "@/lib/site";
 
 const description =
   "Important limitations and safety information for the Ramnova Healthcare product catalogue.";
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
     url: "/medical-disclaimer/",
     title: "Medical Disclaimer | Ramnova Healthcare",
     description,
+    images: [defaultOgImage],
   },
 };
 

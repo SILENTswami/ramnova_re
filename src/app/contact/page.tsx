@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import { ArrowUpRight, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { JsonLd } from "@/components/json-ld";
-import { siteConfig } from "@/lib/site";
+import { defaultOgImage, siteConfig } from "@/lib/site";
 
 const description =
   "Contact Ramnova Healthcare in Silvassa by phone, email or WhatsApp for product and partnership enquiries.";
 
 export const metadata: Metadata = {
-  title: "Contact Ramnova Healthcare",
+  title: { absolute: "Contact Ramnova Healthcare" },
   description,
   alternates: { canonical: "/contact/" },
   openGraph: {
@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     url: "/contact/",
     title: "Contact Ramnova Healthcare",
     description,
+    images: [defaultOgImage],
   },
 };
 
