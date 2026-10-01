@@ -103,6 +103,8 @@ export type Product = {
   image: string | string[];
   imageAlt: string;
   featured: boolean;
+  // Position on the homepage featured row (1 = first); unset falls back to A–Z.
+  featuredOrder?: number;
   therapyCategory: string;
   therapyCategoryVerification: string;
   // The schema.org type used in the product page's structured data.

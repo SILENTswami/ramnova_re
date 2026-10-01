@@ -19,6 +19,19 @@ const validSafetyStatuses = new Set(["safe", "safe-if-prescribed", "caution", "c
 const slugs = new Set();
 const ingredientIds = new Set(ingredients.map((ingredient) => ingredient.id));
 
+const featuredOrders = new Set();
+for (const product of products) {
+  if (product.featuredOrder !== undefined) {
+    assert(product.featured === true, `${product.slug}: featuredOrder is set but the product is not featured`);
+    assert(
+      Number.isInteger(product.featuredOrder) && product.featuredOrder >= 1,
+      `${product.slug}: featuredOrder must be a positive integer`,
+    );
+    assert(!featuredOrders.has(product.featuredOrder), `${product.slug}: duplicate featuredOrder ${product.featuredOrder}`);
+    featuredOrders.add(product.featuredOrder);
+  }
+}
+
 for (const product of products) {
   assert(typeof product.slug === "string" && /^[a-z0-9-]+$/.test(product.slug), `Invalid slug: ${product.slug}`);
   assert(!slugs.has(product.slug), `Duplicate product slug: ${product.slug}`);

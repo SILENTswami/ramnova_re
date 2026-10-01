@@ -32,7 +32,11 @@ const categoryIcons = {
 };
 
 export default function HomePage() {
-  const featured = products.filter((product) => product.featured).slice(0, 4);
+  // products is already A–Z, so a stable sort keeps that order for unset featuredOrder.
+  const featured = products
+    .filter((product) => product.featured)
+    .sort((a, b) => (a.featuredOrder ?? Infinity) - (b.featuredOrder ?? Infinity))
+    .slice(0, 4);
   const therapyAreaCount = new Set(products.map((product) => product.therapyCategory)).size;
   const websiteSchema = {
     "@context": "https://schema.org",
