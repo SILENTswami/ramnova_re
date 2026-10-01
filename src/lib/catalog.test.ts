@@ -62,6 +62,13 @@ describe("ingredient-aware search", () => {
     expect(searchProducts("ruskirab dsr").products.some((product) => product.name === "RUSKIRAB-DSR")).toBe(true);
   });
 
+  it("finds products by a pack-confirmed ingredient", () => {
+    expect(searchProducts("gabapentin").products.map((product) => product.slug)).toContain("gabasram-nt-100");
+    expect(searchProducts("silymarin").products.map((product) => product.slug)).toEqual(
+      expect.arrayContaining(["siliram-max", "heptaram"]),
+    );
+  });
+
   it("applies dosage-form filtering", () => {
     const result = searchProducts("", "injections");
     expect(result.products).toHaveLength(2);

@@ -215,7 +215,12 @@ export function productContainsIngredient(product: Product, ingredientId: string
     variant.ingredients.some((item) => {
       if (item.ingredientId !== ingredientId) return false;
       if (!verifiedOnly) return true;
-      return item.verification === "source-listed" || item.verification.startsWith("source-listed-");
+      // Catalogue-listed and pack-confirmed ingredients count; visual-aid-only ones do not.
+      return (
+        item.verification === "source-listed" ||
+        item.verification.startsWith("source-listed-") ||
+        item.verification.startsWith("pack-confirmed")
+      );
     }),
   );
 }
