@@ -208,6 +208,7 @@ function ProductPage({ product }: { product: Product }) {
   const allSources = [...product.sources, ...(product.clinical.sources ?? [])].filter(
     (source, index, list) => list.findIndex((item) => item.url === source.url) === index,
   );
+  const externalSources = allSources.filter((source) => source.publisher !== siteConfig.legalName);
   const productImages = getProductImages(product);
 
   const schema = {
@@ -313,7 +314,7 @@ function ProductPage({ product }: { product: Product }) {
                   ["overview", "Overview"],
                   ["uses", "Uses"],
                   ["safety", "Safety information"],
-                  ["references", "References"],
+                  ["more-information", "More information"],
                 ].map(([href, label]) => (
                   <li key={href}>
                     <a href={`#${href}`}>
@@ -404,19 +405,25 @@ function ProductPage({ product }: { product: Product }) {
                 ))}
               </section>
 
-              <section className="info-block" id="references">
-                <h2>References</h2>
-                <p>Catalogue information updated {product.clinical.lastUpdated}.</p>
-                <ul className="references-list">
-                  {allSources.map((source) => (
-                    <li key={`${source.url}-${source.title}`}>
-                      <a href={source.url} target="_blank" rel="noreferrer">
-                        {source.publisher}: {source.title}
-                      </a>{" "}
-                      ({source.jurisdiction}, accessed {source.accessedAt})
-                    </li>
-                  ))}
-                </ul>
+              <section className="info-block" id="more-information">
+                <h2>More information</h2>
+                <p>
+                  For dosage, pack sizes or prescribing information, refer to the current pack
+                  insert or contact Ramnova Healthcare. Catalogue information updated{" "}
+                  {product.clinical.lastUpdated}.
+                </p>
+                {externalSources.length ? (
+                  <ul className="references-list">
+                    {externalSources.map((source) => (
+                      <li key={`${source.url}-${source.title}`}>
+                        <a href={source.url} target="_blank" rel="noreferrer">
+                          {source.publisher}: {source.title}
+                        </a>{" "}
+                        ({source.jurisdiction}, accessed {source.accessedAt})
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
                 <Link className="text-link" href="/medical-disclaimer/">
                   Read the medical disclaimer <ArrowRight size={16} aria-hidden="true" />
                 </Link>
@@ -432,7 +439,7 @@ function ProductPage({ product }: { product: Product }) {
             <div className="section-heading-row">
               <div>
                 <p className="eyebrow">Continue exploring</p>
-                <h2 className="section-title">Related catalogue entries.</h2>
+                <h2 className="section-title">Related products.</h2>
               </div>
               <Link className="text-link" href="/products/">
                 Full catalogue <ArrowUpRight size={16} aria-hidden="true" />

@@ -7,7 +7,7 @@ import { products } from "@/lib/catalog";
 import { siteConfig } from "@/lib/site";
 
 const description =
-  "Search Ramnova Healthcare's complete catalogue of tablets, capsules, syrups and injections by brand, ingredient or dosage form.";
+  "Search Ramnova Healthcare's complete catalogue of tablets, capsules, syrups, injections and powders by brand, ingredient or dosage form.";
 
 export const metadata: Metadata = {
   title: "Pharmaceutical Products",

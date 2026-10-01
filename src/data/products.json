@@ -29,154 +29,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova soft gelatin capsule listed as calcium carbonate 500 mg, calcitriol 0.25 mcg, vitamin K2-7, methylcobalamin 750 mcg, magnesium 20 mg, boron 1.5 mg and zinc 7.5 mg. Calcitriol is not a nutritional form of vitamin D but the active hormone, and licensed calcitriol labelling requires serum calcium monitoring because of a close correlation between calcitriol treatment and hypercalcaemia. No Indian pack insert or CDSCO approval for this combination was located, so the outline below is drawn from UK Summaries of Product Characteristics for licensed products covering parts of the composition separately. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
-      "uses": [
-        "UK labelling for calcitriol covers the correction of abnormalities of calcium and phosphate metabolism in patients with renal osteodystrophy, and the treatment of established post-menopausal osteoporosis.",
-        "The same calcitriol labelling states that the effectiveness of treatment depends in part on an adequate daily intake of calcium, which should be augmented by dietary changes or supplements if necessary.",
-        "UK labelling for a licensed calcium and colecalciferol tablet covers use as an adjunct to specific therapy for osteoporosis and the treatment of calcium and vitamin D deficiency.",
-        "UK labelling for oral cyanocobalamin covers the treatment of nutritional vitamin B12 deficiency and of vitamin B12 deficiency following partial gastrectomy."
-      ],
-      "sideEffects": [
-        "Very common with calcitriol are hypercalcaemia, abdominal pain and nausea.",
-        "Common with calcitriol are decreased appetite, headache and vomiting.",
-        "Uncommon with calcitriol are polydipsia, dehydration, weight decrease, muscular weakness, sensory disturbance, somnolence, cardiac arrhythmias, constipation, paralytic ileus, polyuria, nocturia and increased blood creatinine. Urticaria, rash, erythema, pruritus, calcinosis, pyrexia and thirst have also been reported.",
-        "Gastrointestinal disturbances have been reported with calcium and vitamin D tablets, and hypercalciuria and hypercalcaemia may occur with prolonged high doses.",
-        "Hypersensitivity reactions including pruritus, wheezing and urticaria have been reported with calcium and vitamin D tablets.",
-        "Sensitisation to cyanocobalamin is rare and may present as an itching exanthema, and exceptionally as anaphylactic shock."
-      ],
-      "warnings": [
-        "Licensed calcitriol labelling states there is a close correlation between treatment with calcitriol and the development of hypercalcaemia, and that treatment must stop as soon as serum calcium rises to 1 mg per 100 ml, or 250 micromoles per litre, above normal.",
-        "During dose escalation of calcitriol the source labelling requires serum calcium to be determined at least twice weekly; for established post-menopausal osteoporosis it specifies monitoring at 1, 3 and 6 months and at 6-monthly intervals thereafter. No source reviewed here establishes a monitoring schedule for this fixed combination.",
-        "The serum calcium times phosphate product should not be allowed to exceed 70 mg squared per decilitre squared.",
-        "Immobilised patients, for example after surgery, are particularly exposed to the risk of hypercalcaemia during calcitriol treatment.",
-        "In renal failure, caution is required because of the danger of ectopic calcification, and the plasma phosphate level should be maintained at the normal level.",
-        "Licensed calcitriol labelling states that all other vitamin D compounds and their derivatives, including proprietary compounds and foodstuffs, should be withheld during calcitriol treatment. This product supplies calcitriol together with calcium in one capsule, so the calcium intake cannot be adjusted independently of the calcitriol dose.",
-        "This product contains both calcitriol and magnesium. Licensed calcitriol labelling states that magnesium-containing drugs may cause hypermagnesaemia and should not be taken during calcitriol therapy by patients on chronic renal dialysis. No source reviewed here addresses a fixed combination that supplies both in the same capsule, and renal osteodystrophy, one of the labelled calcitriol indications, occurs in exactly that dialysis population.",
-        "This product contains both calcium and zinc in a single capsule, and calcium salts reduce the absorption of zinc; no source reviewed here quantifies the net effect for this formulation.",
-        "Serum and urinary calcium should be monitored during long-term calcium and vitamin D treatment, with care in renal impairment and in patients with a history of renal stones or severe hypercalciuria."
-      ],
-      "contraindications": [
-        "For the calcitriol component, all diseases associated with hypercalcaemia, evidence of metastatic calcification, and vitamin D toxicity.",
-        "Hypercalcaemia, including hypercalcaemia resulting from myeloma, bone metastases or other malignant bone disease, and from sarcoidosis.",
-        "Primary hyperparathyroidism.",
-        "Severe renal failure.",
-        "Hypersensitivity to any of the active substances."
-      ],
-      "interactions": [
-        "Concomitant treatment with a thiazide diuretic increases the risk of hypercalcaemia during calcitriol treatment, and thiazides also reduce urinary calcium excretion.",
-        "Calcitriol dosage must be determined with care in patients taking digitalis, because hypercalcaemia in such patients may precipitate cardiac arrhythmias. The effects of cardiac glycosides may also be accentuated by a rise in serum calcium.",
-        "Magnesium-containing drugs such as antacids may cause hypermagnesaemia and should not be taken during calcitriol therapy by patients on chronic renal dialysis.",
-        "The dosage of phosphate-binding agents must be adjusted according to serum phosphate concentration during calcitriol treatment.",
-        "Bile acid sequestrants including cholestyramine and sevelamer can reduce intestinal absorption of fat-soluble vitamins and may impair the absorption of calcitriol.",
-        "A relationship of functional antagonism exists between vitamin D analogues, which promote calcium absorption, and corticosteroids, which inhibit it.",
-        "Calcium salts reduce the absorption of levothyroxine, bisphosphonates, sodium fluoride, quinolone antibiotics, tetracycline antibiotics, zinc, strontium ranelate and iron, and the source labelling advises a minimum of four hours before taking the calcium.",
-        "Phenytoin and barbiturates reduce the effect of vitamin D.",
-        "Vitamin K is the cofactor that warfarin acts against, and warfarin labelling states that sudden changes in diet can affect control of anticoagulation and that patients should seek medical advice before major dietary changes. A product supplying vitamin K2-7 is therefore relevant to anyone taking a vitamin K antagonist, although no source reviewed here quantifies the effect of a vitamin K2-7 supplement on anticoagulant control.",
-        "Absorption of vitamin B12 may be reduced by para-aminosalicylic acid, colchicine, biguanides such as metformin, neomycin, cholestyramine, potassium chloride, methyldopa and cimetidine."
-      ],
-      "scopeNote": "Assembled from four UK sources covering the calcitriol, calcium, vitamin B12 and vitamin K antagonist aspects of this composition separately, because no Indian pack insert, CDSCO approval or Indian peer-reviewed source for CADMIZORB-PLUS itself was located. Several mismatches are unresolved. The calcitriol source matches this product at 0.25 mcg, but it describes a single-ingredient capsule titrated against repeated serum calcium measurements, not a fixed combination that also supplies calcium and magnesium; no source reviewed here supports fixed-dose calcitriol in this presentation, and the monitoring requirements above cannot be assumed to be met by it. The calcium source is a calcium carbonate 1500 mg tablet, equivalent to 600 mg of elemental calcium, whereas this product lists calcium carbonate 500 mg without stating whether that refers to the carbonate salt or to elemental calcium, so the actual calcium load is unverified. The vitamin K2-7 amount is not established: the product listing renders it as 45 mg, the product record flags that figure and its unit for packaging confirmation, and no source reviewed here confirms the amount, the unit or the menaquinone-7 form; the interaction statement above is therefore made about the presence of vitamin K, not about any particular amount. The magnesium and zinc entries do not state which salts are used, so their elemental content is unverified, and the interaction between the calcitriol and magnesium in this same capsule is flagged above but is not resolved by any source reviewed here. Boron 1.5 mg is listed in the composition but is not covered by any source cited here, and no claim is made about it. The vitamin B12 form here is methylcobalamin whereas the source is cyanocobalamin, and no source reviewed here establishes that labelling for one applies to the other. The warfarin source is cited only for the dietary vitamin K statement and is not a source about this product. Nothing above verifies the India-approved indication, dosing or pack insert for CADMIZORB-PLUS, and the presence of calcitriol means this is not an ordinary nutritional supplement.",
-      "fieldSources": {
-        "summary": [
-          "emc-calcitriol",
-          "emc-calcium-colecalciferol"
-        ],
-        "uses": [
-          "emc-calcitriol",
-          "emc-calcium-colecalciferol",
-          "emc-cyanocobalamin"
-        ],
-        "sideEffects": [
-          "emc-calcitriol",
-          "emc-calcium-colecalciferol",
-          "emc-cyanocobalamin"
-        ],
-        "warnings": [
-          "emc-calcitriol",
-          "emc-calcium-colecalciferol"
-        ],
-        "contraindications": [
-          "emc-calcitriol",
-          "emc-calcium-colecalciferol"
-        ],
-        "interactions": [
-          "emc-calcitriol",
-          "emc-calcium-colecalciferol",
-          "emc-warfarin",
-          "emc-cyanocobalamin"
-        ],
-        "scopeNote": [
-          "emc-calcitriol",
-          "emc-calcium-colecalciferol",
-          "emc-warfarin",
-          "emc-cyanocobalamin"
-        ]
-      },
-      "sources": [
-        {
-          "id": "emc-calcitriol",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Calcitriol 0.25 microgram Capsule - Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/101902/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2026-09",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Posology and method of administration",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        },
-        {
-          "id": "emc-calcium-colecalciferol",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Adcal-D3 chewable tablets (calcium carbonate 1500 mg / colecalciferol 400 I.U.) - Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/1356/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2025-04",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Qualitative and quantitative composition",
-            "Therapeutic indications",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        },
-        {
-          "id": "emc-warfarin",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Warfarin 5 mg tablets - Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/14333/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2022-05",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Interaction with other medicinal products and other forms of interaction"
-          ]
-        },
-        {
-          "id": "emc-cyanocobalamin",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Cyanocobalamin 50 mcg Tablets - Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/5716/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2025-12",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        }
-      ],
-      "reviewStatus": "sourced-draft-not-medically-reviewed",
-      "reviewedBy": null,
-      "lastUpdated": "2026-09-28"
+      "summary": "Ramnova soft-gel capsule combining calcium carbonate 500 mg and calcitriol 0.25 mcg with vitamin K2-7, methylcobalamin 750 mcg, magnesium 20 mg, boron 1.5 mg and zinc 7.5 mg. Calcitriol is the active form of vitamin D, so this product should be used under the supervision of a healthcare professional.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "conflicting-or-ambiguous-details", "notes": ["The website catalogue states vitamin K2-7 as 45 mg and the PVAS2109 visual aid states 45 mcg. The microgram figure is recorded because 45 mg would be roughly a thousand times any usual vitamin K2-7 amount; confirm against the pack.", "The two Ramnova sources disagree on calcium carbonate: the website catalogue states 500 mg and the PVAS2109 visual aid states 200 mg. The catalogue figure is retained unchanged pending confirmation from the pack.", "The source does not state whether the calcium figure refers to calcium carbonate or to elemental calcium."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition", "source-strength-text"] }]
@@ -206,116 +65,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova sustained-release capsule containing esomeprazole and domperidone. No combination-product licence was located in a major regulatory jurisdiction, so the outline below is drawn from the UK Summary of Product Characteristics for each ingredient separately. Note that UK labelling for domperidone covers only the relief of nausea and vomiting, limits adults to 30 mg per day, and limits treatment to a maximum of one week. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
-      "uses": [
-        "UK labelling for esomeprazole covers erosive reflux oesophagitis, maintenance of healed oesophagitis to prevent relapse, and symptomatic treatment of gastro-oesophageal reflux disease.",
-        "UK labelling for esomeprazole also covers eradication of Helicobacter pylori in combination with appropriate antibacterial therapy, healing of Helicobacter pylori associated duodenal ulcer, and prevention of relapse of peptic ulcers in patients with Helicobacter pylori associated ulcers.",
-        "UK labelling for esomeprazole further covers healing of gastric ulcers associated with NSAID therapy, prevention of gastric and duodenal ulcers associated with NSAID therapy in patients at risk, and Zollinger-Ellison syndrome.",
-        "UK labelling for domperidone covers only the relief of the symptoms of nausea and vomiting. Indications relating to dyspepsia, heartburn and reflux were not present in the labelling reviewed."
-      ],
-      "sideEffects": [
-        "Common with esomeprazole are headache, abdominal pain, diarrhoea, nausea, vomiting, constipation, flatulence and benign fundic gland polyps.",
-        "Severe hypomagnesaemia has been reported in patients treated with proton pump inhibitors for at least three months, and may present as fatigue, tetany, delirium, convulsions, dizziness or ventricular arrhythmia.",
-        "Proton pump inhibitors are associated with very infrequent cases of subacute cutaneous lupus erythematosus, and very rarely with erythema multiforme, Stevens-Johnson syndrome, toxic epidermal necrolysis and drug reaction with eosinophilia and systemic symptoms.",
-        "Common with domperidone are somnolence and headache.",
-        "Domperidone has been associated with prolongation of the QT interval and with rare cases of torsades de pointes."
-      ],
-      "warnings": [
-        "In the presence of alarm symptoms such as significant unintentional weight loss, recurrent vomiting, dysphagia, haematemesis or melaena, gastric malignancy should be excluded before treatment, because treatment with esomeprazole may relieve symptoms and delay diagnosis.",
-        "Treatment with a proton pump inhibitor at high doses and over long durations, longer than one year, may modestly increase the risk of hip, wrist and spine fracture, predominantly in the elderly.",
-        "Epidemiological studies showed that domperidone was associated with an increased risk of serious ventricular arrhythmias or sudden cardiac death. The risk is higher in patients older than 60 years, at daily doses above 30 mg, and with concurrent QT-prolonging medicines or potent CYP3A4 inhibitors.",
-        "UK labelling limits adults to a maximum domperidone dose of 30 mg per day and states that the maximum treatment duration should not exceed one week. This product delivers 30 mg of domperidone, which is at that maximum daily dose.",
-        "Treatment with a proton pump inhibitor should be discontinued if lesions arise in sun-exposed areas of skin accompanied by arthralgia, and medical attention sought promptly, because this may indicate subacute cutaneous lupus erythematosus.",
-        "Long-term proton pump inhibitor treatment may reduce the absorption of vitamin B12 as a consequence of reduced gastric acid, and may slightly increase the risk of gastrointestinal infections caused by bacteria."
-      ],
-      "contraindications": [
-        "Hypersensitivity to esomeprazole, to domperidone, to substituted benzimidazoles, or to any of the excipients.",
-        "Concomitant use of esomeprazole with nelfinavir.",
-        "Confirmed or suspected phaeochromocytoma, or a prolactin-releasing pituitary tumour.",
-        "Gastrointestinal haemorrhage, mechanical obstruction or perforation.",
-        "Moderate or severe hepatic impairment.",
-        "Known existing prolongation of the QTc interval, significant electrolyte disturbances, or underlying cardiac disease such as congestive heart failure.",
-        "Concomitant use with QT-prolonging medicines, other than apomorphine under the specific conditions set out in its own labelling.",
-        "Concomitant use with potent CYP3A4 inhibitors, regardless of their QT-prolonging effects."
-      ],
-      "interactions": [
-        "Concomitant use of esomeprazole with clopidogrel reduces exposure to the active metabolite of clopidogrel by about 40 per cent, and the combination is discouraged.",
-        "Esomeprazole should not be co-administered with atazanavir, because exposure to atazanavir is substantially reduced. Co-administration with nelfinavir is contraindicated.",
-        "Esomeprazole increases the bioavailability of digoxin by approximately 10 to 30 per cent, and reinforced monitoring is recommended at high doses.",
-        "Esomeprazole may elevate serum methotrexate levels; temporary withdrawal of the proton pump inhibitor may be considered during high-dose methotrexate therapy.",
-        "Esomeprazole inhibits CYP2C19 and may increase plasma concentrations of diazepam, phenytoin and citalopram, which may require dose adjustment.",
-        "Concomitant use of domperidone with potent CYP3A4 inhibitors, including HIV protease inhibitors, systemic azole antifungals such as ketoconazole, and macrolides such as erythromycin, is contraindicated. Marked interaction with ketoconazole or erythromycin produced mean QTc prolongation of approximately 10 milliseconds.",
-        "Concomitant use of domperidone with other QT-prolonging medicines is contraindicated, with the specific exception of apomorphine used under the precautions set out in its own labelling."
-      ],
-      "scopeNote": "Assembled from two single-ingredient UK Summaries of Product Characteristics because no combination licence was located in a major jurisdiction. The domperidone source describes a 10 mg orodispersible immediate-release tablet, not the 30 mg sustained-release presentation in this product, and its labelled indication is limited to the relief of nausea and vomiting with a maximum of 30 mg per day for no longer than one week. Those dose and duration limits, and the cardiac contraindications attached to them, were set for that presentation and have not been shown here to apply unchanged to a sustained-release combination intended for longer use alongside a proton pump inhibitor. The esomeprazole source describes a 40 mg gastro-resistant capsule, matching the strength in this product. Nothing above verifies ESORUSK-D's India-approved indication, its pack insert, the clinical effect of the specific 40 mg / 30 mg SR combination, or the cardiac safety of that combination.",
-      "fieldSources": {
-        "summary": [
-          "emc-esomeprazole",
-          "emc-domperidone"
-        ],
-        "uses": [
-          "emc-esomeprazole",
-          "emc-domperidone"
-        ],
-        "sideEffects": [
-          "emc-esomeprazole",
-          "emc-domperidone"
-        ],
-        "warnings": [
-          "emc-esomeprazole",
-          "emc-domperidone"
-        ],
-        "contraindications": [
-          "emc-esomeprazole",
-          "emc-domperidone"
-        ],
-        "interactions": [
-          "emc-esomeprazole",
-          "emc-domperidone"
-        ],
-        "scopeNote": [
-          "emc-esomeprazole",
-          "emc-domperidone"
-        ]
-      },
-      "sources": [
-        {
-          "id": "emc-esomeprazole",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Esomeprazole 40 mg gastro-resistant capsules, hard — Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/12020/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2025-05",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        },
-        {
-          "id": "emc-domperidone",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Epzit 10 mg orodispersible tablets (domperidone) — Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/101741/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2026-03",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Posology and method of administration",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        }
-      ],
-      "reviewStatus": "sourced-draft-not-medically-reviewed",
-      "reviewedBy": null,
-      "lastUpdated": "2026-09-28"
+      "summary": "Ramnova capsule combining esomeprazole 40 mg, a proton pump inhibitor that reduces stomach acid, with domperidone 30 mg in sustained-release form, a prokinetic agent.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed", "notes": [] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
@@ -345,123 +101,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova sustained-release capsule containing esomeprazole and levosulpiride. No combination-product licence was located in a major regulatory jurisdiction. The esomeprazole outline below is drawn from the UK Summary of Product Characteristics. No UK or US licensed product information was located for levosulpiride, so the entries for that component are drawn from published Indian clinical studies rather than from approved labelling. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
-      "uses": [
-        "UK labelling for esomeprazole covers erosive reflux oesophagitis, maintenance of healed oesophagitis to prevent relapse, and symptomatic treatment of gastro-oesophageal reflux disease.",
-        "UK labelling for esomeprazole also covers eradication of Helicobacter pylori in combination with appropriate antibacterial therapy, healing of Helicobacter pylori associated duodenal ulcer, and prevention of relapse of peptic ulcers in patients with Helicobacter pylori associated ulcers.",
-        "UK labelling for esomeprazole further covers healing of gastric ulcers associated with NSAID therapy, prevention of gastric and duodenal ulcers associated with NSAID therapy in patients at risk, and Zollinger-Ellison syndrome.",
-        "No approved indication for levosulpiride was located in UK or US labelling. Published Indian clinical literature describes it as a substituted benzamide used increasingly for gastric motility disorders, and commonly prescribed alongside proton pump inhibitors."
-      ],
-      "sideEffects": [
-        "Common with esomeprazole are headache, abdominal pain, diarrhoea, nausea, vomiting, constipation, flatulence and benign fundic gland polyps.",
-        "Severe hypomagnesaemia has been reported in patients treated with proton pump inhibitors for at least three months, and may present as fatigue, tetany, delirium, convulsions, dizziness or ventricular arrhythmia.",
-        "Proton pump inhibitors are associated with very infrequent cases of subacute cutaneous lupus erythematosus, and very rarely with erythema multiforme, Stevens-Johnson syndrome, toxic epidermal necrolysis and drug reaction with eosinophilia and systemic symptoms.",
-        "Levosulpiride has been associated with movement disorders. In a prospective study of 30 patients at an Indian tertiary care centre, 86.66 per cent presented with stiffness, tremor or both; reported features included resting tremor, rigidity, dystonia, dysarthria, abnormal gait, and neck or back pain with muscle spasm.",
-        "Levosulpiride raises serum prolactin. A published Indian case report describes a patient taking levosulpiride sustained release 75 mg who developed a serum prolactin of 273 nanograms per millilitre against a reference range of 3.7 to 17.9, with amenorrhoea and galactorrhoea; the authors note that a significant number of patients who use levosulpiride develop levels above 200 nanograms per millilitre, and cite a study reporting galactorrhoea in 26.7 per cent of patients."
-      ],
-      "warnings": [
-        "In the presence of alarm symptoms such as significant unintentional weight loss, recurrent vomiting, dysphagia, haematemesis or melaena, gastric malignancy should be excluded before treatment, because treatment with esomeprazole may relieve symptoms and delay diagnosis.",
-        "Treatment with a proton pump inhibitor at high doses and over long durations, longer than one year, may modestly increase the risk of hip, wrist and spine fracture, predominantly in the elderly.",
-        "Levosulpiride-induced movement disorders became more frequent with longer treatment. In the Indian study cited, onset ranged from four days to more than six months, most patients presented after three to five weeks, and a statistically significant positive correlation was found between treatment duration and the incidence of tremor and stiffness.",
-        "The authors of that study advise that levosulpiride should be considered as a possible cause of acute recent-onset extrapyramidal syndromes, and that early recognition is essential for complete recovery.",
-        "In the prolactin case reported, serum prolactin fell and menstruation resumed within one to two weeks of stopping levosulpiride, which indicates that the effect may be reversible on withdrawal.",
-        "Treatment with a proton pump inhibitor should be discontinued if lesions arise in sun-exposed areas of skin accompanied by arthralgia, and long-term treatment may reduce the absorption of vitamin B12."
-      ],
-      "contraindications": [
-        "Hypersensitivity to esomeprazole, to levosulpiride, to substituted benzimidazoles, or to any of the excipients.",
-        "Concomitant use of esomeprazole with nelfinavir.",
-        "No licensed contraindication list was located for levosulpiride in a major regulatory jurisdiction. The absence of a listed set of contraindications is not evidence that none apply, and the pack insert should be consulted."
-      ],
-      "interactions": [
-        "Concomitant use of esomeprazole with clopidogrel reduces exposure to the active metabolite of clopidogrel by about 40 per cent, and the combination is discouraged.",
-        "Esomeprazole should not be co-administered with atazanavir, because exposure to atazanavir is substantially reduced. Co-administration with nelfinavir is contraindicated.",
-        "Esomeprazole increases the bioavailability of digoxin by approximately 10 to 30 per cent, and reinforced monitoring is recommended at high doses.",
-        "Esomeprazole may elevate serum methotrexate levels; temporary withdrawal of the proton pump inhibitor may be considered during high-dose methotrexate therapy.",
-        "Esomeprazole inhibits CYP2C19 and may increase plasma concentrations of diazepam, phenytoin and citalopram, which may require dose adjustment.",
-        "No licensed interaction profile was located for levosulpiride in a major regulatory jurisdiction. Because levosulpiride acts as a dopamine D2 antagonist, the pack insert should be consulted before use with other dopamine antagonists or with dopaminergic medicines."
-      ],
-      "scopeNote": "No combination licence was located in a major jurisdiction. The esomeprazole entries come from a UK Summary of Product Characteristics for a 40 mg gastro-resistant capsule, matching the strength in this product. Levosulpiride holds no UK or US marketing authorisation, so no approved labelling exists for it; the entries above are drawn from two peer-reviewed Indian publications, one a prospective single-centre study of 30 patients and the other a single case report with a literature discussion. Those are observational reports of harm rather than regulatory labelling, and they do not constitute a complete adverse-effect, contraindication or interaction profile. The prolactin case report concerns levosulpiride sustained release 75 mg, which matches the levosulpiride strength in this product. Nothing above verifies ESORUSK-LS's India-approved indication, its pack insert, or the clinical effect of the specific 40 mg / 75 mg SR combination.",
-      "fieldSources": {
-        "summary": [
-          "emc-esomeprazole",
-          "aian-levosulpiride-2020",
-          "ijem-levosulpiride-prolactin-2017"
-        ],
-        "uses": [
-          "emc-esomeprazole",
-          "aian-levosulpiride-2020"
-        ],
-        "sideEffects": [
-          "emc-esomeprazole",
-          "aian-levosulpiride-2020",
-          "ijem-levosulpiride-prolactin-2017"
-        ],
-        "warnings": [
-          "emc-esomeprazole",
-          "aian-levosulpiride-2020",
-          "ijem-levosulpiride-prolactin-2017"
-        ],
-        "contraindications": [
-          "emc-esomeprazole"
-        ],
-        "interactions": [
-          "emc-esomeprazole"
-        ],
-        "scopeNote": [
-          "emc-esomeprazole",
-          "aian-levosulpiride-2020",
-          "ijem-levosulpiride-prolactin-2017"
-        ]
-      },
-      "sources": [
-        {
-          "id": "emc-esomeprazole",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Esomeprazole 40 mg gastro-resistant capsules, hard — Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/12020/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2025-05",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        },
-        {
-          "id": "aian-levosulpiride-2020",
-          "publisher": "Annals of Indian Academy of Neurology",
-          "title": "Joe J. Levosulpiride-induced neurological adverse effects: A prospective study from a tertiary care center. Ann Indian Acad Neurol. 2020;23(2):174-176. doi:10.4103/aian.AIAN_449_18",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061517/",
-          "jurisdiction": "India",
-          "revision": "2020-04",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Movement disorders observed",
-            "Onset and duration of therapy",
-            "Conclusions"
-          ]
-        },
-        {
-          "id": "ijem-levosulpiride-prolactin-2017",
-          "publisher": "Indian Journal of Endocrinology and Metabolism",
-          "title": "Kuchay MS, Mithal A. Levosulpiride and serum prolactin levels. Indian J Endocrinol Metab. 2017;21(2):355-358. doi:10.4103/ijem.IJEM_555_16",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5367242/",
-          "jurisdiction": "India",
-          "revision": "2017-04",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Case report",
-            "Hyperprolactinaemia and clinical manifestations",
-            "Recovery after withdrawal"
-          ]
-        }
-      ],
-      "reviewStatus": "sourced-draft-not-medically-reviewed",
-      "reviewedBy": null,
-      "lastUpdated": "2026-09-28"
+      "summary": "Ramnova capsule combining esomeprazole 40 mg, a proton pump inhibitor that reduces stomach acid, with levosulpiride 75 mg in sustained-release form, a prokinetic agent.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed", "notes": [] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
@@ -491,16 +137,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova piperacillin and tazobactam injection. The clinical outline references a current U.S. label for the same active-ingredient combination; consult the current PIPROSHOT pack for component strengths.",
-      "uses": ["U.S. labeling includes specified susceptible bacterial infections such as intra-abdominal infections, hospital- and community-acquired pneumonia, skin and skin-structure infections, and female pelvic infections."],
-      "sideEffects": ["The U.S. label lists diarrhea, constipation, nausea, headache, and insomnia among the most common reactions."],
-      "warnings": ["Serious hypersensitivity and severe skin reactions can occur.", "Important risks include blood-count or bleeding effects, seizures or neuromuscular excitability, kidney injury in critically ill patients, and Clostridioides difficile-associated diarrhea."],
-      "contraindications": ["History of an allergic reaction to penicillins, cephalosporins, or beta-lactamase inhibitors."],
-      "interactions": ["Probenecid prolongs piperacillin and tazobactam exposure.", "Vancomycin co-administration may increase acute kidney injury risk.", "Coagulation monitoring may be needed with heparin or oral anticoagulants; the combination can also prolong blockade from non-depolarizing neuromuscular blockers."],
-      "scopeNote": "The clinical outline references a U.S. combination label. Consult the current Ramnova pack insert for India-approved indications, component strengths, and product-specific guidance.",
-      "fieldSources": { "summary": ["dailymed-piperacillin-tazobactam"], "uses": ["dailymed-piperacillin-tazobactam"], "sideEffects": ["dailymed-piperacillin-tazobactam"], "warnings": ["dailymed-piperacillin-tazobactam"], "contraindications": ["dailymed-piperacillin-tazobactam"], "interactions": ["dailymed-piperacillin-tazobactam"] },
-      "sources": [{ "id": "dailymed-piperacillin-tazobactam", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Piperacillin and tazobactam for injection — prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c8e3cc43-238d-4a23-95dc-157c85f83184", "jurisdiction": "United States", "revision": "2025-04", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
-      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+      "summary": "Ramnova injection combining piperacillin, a broad-spectrum penicillin antibiotic, with tazobactam, a beta-lactamase inhibitor. For use in hospital and clinical settings under medical supervision.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Component strengths are taken from the PVAS2109 visual aid, which states piperacillin 4 g and tazobactam 500 mg; confirm against the pack before treating them as final."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "sourceDescription", "category", "composition"] }]
@@ -530,16 +173,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Catalog-listed tamsulosin hydrochloride and dutasteride combination. The clinical outline comes from a U.S. capsule label with the same strengths; it does not verify Ramnova's tablet formulation or India-approved label.",
-      "uses": ["The matched U.S. combination label is indicated for symptomatic benign prostatic hyperplasia in men with an enlarged prostate."],
-      "sideEffects": ["The matched label lists ejaculation disorders, impotence, decreased libido, dizziness, and breast disorders among the most common reactions."],
-      "warnings": ["Postural low blood pressure and fainting can occur.", "Dutasteride lowers prostate-specific antigen values, which affects interpretation during prostate-cancer evaluation.", "People having cataract surgery should tell their eye surgeon about current or prior tamsulosin use; dutasteride can cause fetal harm and leaking capsules should not be handled during pregnancy."],
-      "contraindications": ["Pregnancy, and clinically significant hypersensitivity to dutasteride, other 5-alpha-reductase inhibitors, tamsulosin, or formulation components, under the matched U.S. label."],
-      "interactions": ["Strong CYP3A4 inhibitors should not be combined with the tamsulosin-containing product; caution applies with moderate CYP3A4 inhibitors, CYP2D6 inhibitors, cimetidine, phosphodiesterase-5 inhibitors, and warfarin.", "Other alpha-adrenergic antagonists can increase the risk of symptomatic low blood pressure."],
-      "scopeNote": "The clinical outline references the U.S. JALYN capsule label for the same 0.4 mg tamsulosin hydrochloride and 0.5 mg dutasteride combination. Consult current Ramnova labeling for formulation-specific guidance.",
-      "fieldSources": { "summary": ["dailymed-jalyn"], "uses": ["dailymed-jalyn"], "sideEffects": ["dailymed-jalyn"], "warnings": ["dailymed-jalyn"], "contraindications": ["dailymed-jalyn"], "interactions": ["dailymed-jalyn"] },
-      "sources": [{ "id": "dailymed-jalyn", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "JALYN (dutasteride and tamsulosin hydrochloride) capsules — prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aab9a2d4-5328-40f3-986f-e7753a928bc0", "jurisdiction": "United States", "revision": "2024-04; DailyMed updated 2026-03", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
-      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+      "summary": "Ramnova tablet combining tamsulosin hydrochloride 0.4 mg in sustained-release form, an alpha-blocker, with dutasteride 0.5 mg, a 5-alpha-reductase inhibitor.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed", "notes": ["Display description removes an apparent stray closing parenthesis from the source; sourceDescription is preserved verbatim."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
@@ -569,113 +209,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova modified-release capsule containing enteric-coated pantoprazole sodium and sustained-release domperidone. The strength of each ingredient requires packaging confirmation and is not stated here. No combination-product licence was located in a major regulatory jurisdiction, so the outline below is drawn from the UK Summary of Product Characteristics for each ingredient separately. Note that UK labelling for domperidone covers only the relief of nausea and vomiting, limits adults to 30 mg per day, and limits treatment to a maximum of one week. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
-      "uses": [
-        "UK labelling for pantoprazole covers reflux oesophagitis in adults and in adolescents aged 12 years and above.",
-        "UK labelling for pantoprazole in adults also covers gastric and duodenal ulcer, eradication of Helicobacter pylori in combination with appropriate antibiotic therapy, and Zollinger-Ellison syndrome together with other pathological hypersecretory conditions.",
-        "UK labelling for domperidone covers only the relief of the symptoms of nausea and vomiting. Indications relating to dyspepsia, heartburn and reflux were not present in the labelling reviewed."
-      ],
-      "sideEffects": [
-        "Common with pantoprazole are headache, dizziness, diarrhoea, nausea, vomiting, abdominal distension and bloating, and constipation.",
-        "Serious manifestations of hypomagnesaemia such as fatigue, tetany, delirium and convulsions may occur with prolonged proton pump inhibitor use.",
-        "Proton pump inhibitors are associated with very infrequent cases of subacute cutaneous lupus erythematosus, and with severe cutaneous adverse reactions including Stevens-Johnson syndrome and toxic epidermal necrolysis.",
-        "Common with domperidone are somnolence and headache.",
-        "Domperidone has been associated with prolongation of the QT interval and with rare cases of torsades de pointes."
-      ],
-      "warnings": [
-        "A symptomatic response to pantoprazole may mask the signs of gastric malignancy, and investigation should be undertaken if symptoms persist despite adequate treatment.",
-        "Proton pump inhibitors may modestly increase the risk of hip, wrist and spine fracture, predominantly in the elderly.",
-        "Epidemiological studies showed that domperidone was associated with an increased risk of serious ventricular arrhythmias or sudden cardiac death. The risk is higher in patients older than 60 years, at daily doses above 30 mg, and with concurrent QT-prolonging medicines or potent CYP3A4 inhibitors.",
-        "UK labelling limits adults to a maximum domperidone dose of 30 mg per day and states that the maximum treatment duration should not exceed one week. Because this product's domperidone strength requires packaging confirmation, its relationship to that limit cannot be stated here.",
-        "Long-term pantoprazole treatment may reduce the absorption of vitamin B12, and treatment may lead to a slightly increased risk of gastrointestinal infections caused by bacteria.",
-        "Pantoprazole should be withdrawn immediately if severe cutaneous adverse reactions appear, and treatment should be stopped if lesions arise in sun-exposed areas of skin accompanied by arthralgia."
-      ],
-      "contraindications": [
-        "Hypersensitivity to pantoprazole, to domperidone, to substituted benzimidazoles, or to any of the excipients.",
-        "Confirmed or suspected phaeochromocytoma, or a prolactin-releasing pituitary tumour.",
-        "Gastrointestinal haemorrhage, mechanical obstruction or perforation.",
-        "Moderate or severe hepatic impairment.",
-        "Known existing prolongation of the QTc interval, significant electrolyte disturbances, or underlying cardiac disease such as congestive heart failure.",
-        "Concomitant use with QT-prolonging medicines, other than apomorphine under the specific conditions set out in its own labelling.",
-        "Concomitant use with potent CYP3A4 inhibitors, regardless of their QT-prolonging effects."
-      ],
-      "interactions": [
-        "Co-administration of pantoprazole with HIV protease inhibitors such as atazanavir is not recommended, because their bioavailability is significantly reduced.",
-        "Pantoprazole may interfere with the absorption of medicines whose bioavailability depends on gastric pH, such as ketoconazole.",
-        "High-dose methotrexate given with pantoprazole may increase methotrexate levels.",
-        "There have been reports of increased INR and prothrombin time in patients taking pantoprazole together with warfarin or phenprocoumon, and monitoring is required.",
-        "Concomitant use of domperidone with potent CYP3A4 inhibitors, including HIV protease inhibitors, systemic azole antifungals such as ketoconazole, and macrolides such as erythromycin, is contraindicated. Marked interaction with ketoconazole or erythromycin produced mean QTc prolongation of approximately 10 milliseconds.",
-        "Concomitant use of domperidone with other QT-prolonging medicines is contraindicated, with the specific exception of apomorphine used under the precautions set out in its own labelling."
-      ],
-      "scopeNote": "Assembled from two single-ingredient UK Summaries of Product Characteristics because no combination licence was located in a major jurisdiction. Neither ingredient strength in this product has been confirmed against the packaging, so no strength-specific statement can be made and the dose-dependent domperidone cardiac risk cannot be placed relative to the 30 mg per day limit. The pantoprazole source describes a 40 mg gastro-resistant tablet and the domperidone source a 10 mg orodispersible immediate-release tablet; neither matches the modified-release capsule presentation here. The domperidone labelled indication is limited to the relief of nausea and vomiting for no longer than one week, a limit set for that presentation and not shown here to apply unchanged to a sustained-release combination intended for longer use alongside a proton pump inhibitor. Nothing above verifies RUSKITOP-DSR's India-approved indication, its pack insert, or the clinical effect or cardiac safety of the combination as supplied.",
-      "fieldSources": {
-        "summary": [
-          "emc-pantoprazole",
-          "emc-domperidone"
-        ],
-        "uses": [
-          "emc-pantoprazole",
-          "emc-domperidone"
-        ],
-        "sideEffects": [
-          "emc-pantoprazole",
-          "emc-domperidone"
-        ],
-        "warnings": [
-          "emc-pantoprazole",
-          "emc-domperidone"
-        ],
-        "contraindications": [
-          "emc-pantoprazole",
-          "emc-domperidone"
-        ],
-        "interactions": [
-          "emc-pantoprazole",
-          "emc-domperidone"
-        ],
-        "scopeNote": [
-          "emc-pantoprazole",
-          "emc-domperidone"
-        ]
-      },
-      "sources": [
-        {
-          "id": "emc-pantoprazole",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Pantoprazole 40 mg gastro-resistant tablets — Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/14644/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2026-02",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        },
-        {
-          "id": "emc-domperidone",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Epzit 10 mg orodispersible tablets (domperidone) — Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/101741/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2026-03",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Posology and method of administration",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        }
-      ],
-      "reviewStatus": "sourced-draft-not-medically-reviewed",
-      "reviewedBy": null,
-      "lastUpdated": "2026-09-28"
+      "summary": "Ramnova capsule combining enteric-coated pantoprazole, a proton pump inhibitor that reduces stomach acid, with domperidone in sustained-release form, a prokinetic agent.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "partial-details", "notes": ["Both ingredient strengths require packaging confirmation."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "release-form"] }]
@@ -705,114 +245,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova sustained-release capsule containing rabeprazole and domperidone. No combination-product licence was located in a major regulatory jurisdiction, so the outline below is drawn from the UK Summary of Product Characteristics for each ingredient separately. Note that UK labelling for domperidone covers only the relief of nausea and vomiting, limits adults to 30 mg per day, and limits treatment to a maximum of one week. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
-      "uses": [
-        "UK labelling for rabeprazole covers active duodenal ulcer and active benign gastric ulcer, erosive or ulcerative gastro-oesophageal reflux disease, and long-term management of gastro-oesophageal reflux disease.",
-        "UK labelling for rabeprazole also covers symptomatic treatment of moderate to very severe gastro-oesophageal reflux disease, Zollinger-Ellison syndrome, and eradication of Helicobacter pylori in combination with appropriate antibacterial therapy.",
-        "UK labelling for domperidone covers only the relief of the symptoms of nausea and vomiting. Indications relating to dyspepsia, heartburn and reflux were not present in the labelling reviewed."
-      ],
-      "sideEffects": [
-        "Common with rabeprazole are headache, diarrhoea, abdominal pain, asthenia, flatulence, rash and dry mouth.",
-        "Severe hypomagnesaemia has been reported in patients treated with proton pump inhibitors for at least three months.",
-        "Proton pump inhibitors are associated with very infrequent cases of subacute cutaneous lupus erythematosus, and with erythema multiforme, Stevens-Johnson syndrome and toxic epidermal necrolysis.",
-        "Common with domperidone are somnolence and headache.",
-        "Domperidone has been associated with prolongation of the QT interval and with rare cases of torsades de pointes."
-      ],
-      "warnings": [
-        "A symptomatic response to rabeprazole does not preclude the presence of gastric or oesophageal malignancy, and malignancy should therefore be excluded before treatment begins.",
-        "Proton pump inhibitors may modestly increase the risk of hip, wrist and spine fracture, predominantly in the elderly.",
-        "Epidemiological studies showed that domperidone was associated with an increased risk of serious ventricular arrhythmias or sudden cardiac death. The risk is higher in patients older than 60 years, at daily doses above 30 mg, and with concurrent QT-prolonging medicines or potent CYP3A4 inhibitors.",
-        "UK labelling limits adults to a maximum domperidone dose of 30 mg per day and states that the maximum treatment duration should not exceed one week. This product delivers 30 mg of domperidone, which is at that maximum daily dose.",
-        "Rabeprazole may reduce the absorption of vitamin B12 as a consequence of hypochlorhydria or achlorhydria, which may be relevant during long-term treatment.",
-        "Proton pump inhibitor treatment should be stopped and medical attention sought if lesions arise in sun-exposed areas of skin accompanied by arthralgia, or if severe cutaneous reactions develop."
-      ],
-      "contraindications": [
-        "Hypersensitivity to rabeprazole, to domperidone, to substituted benzimidazoles, or to any of the excipients.",
-        "Pregnancy and breastfeeding, which the rabeprazole labelling reviewed lists as contraindications.",
-        "Confirmed or suspected phaeochromocytoma, or a prolactin-releasing pituitary tumour.",
-        "Gastrointestinal haemorrhage, mechanical obstruction or perforation.",
-        "Moderate or severe hepatic impairment.",
-        "Known existing prolongation of the QTc interval, significant electrolyte disturbances, or underlying cardiac disease such as congestive heart failure.",
-        "Concomitant use with QT-prolonging medicines, other than apomorphine under the specific conditions set out in its own labelling.",
-        "Concomitant use with potent CYP3A4 inhibitors, regardless of their QT-prolonging effects."
-      ],
-      "interactions": [
-        "Proton pump inhibitors including rabeprazole should not be co-administered with atazanavir, because exposure to atazanavir is reduced.",
-        "Rabeprazole may cause a significant decrease in the plasma levels of antifungals whose absorption depends on gastric pH, such as ketoconazole and itraconazole.",
-        "Concomitant use of rabeprazole with methotrexate may elevate and prolong serum levels of methotrexate and its metabolite.",
-        "Rabeprazole is metabolised by CYP2C19, and slow metabolisers show an increased area under the curve and half-life compared with extensive metabolisers.",
-        "Concomitant use of domperidone with potent CYP3A4 inhibitors, including HIV protease inhibitors, systemic azole antifungals such as ketoconazole, and macrolides such as erythromycin, is contraindicated. Marked interaction with ketoconazole or erythromycin produced mean QTc prolongation of approximately 10 milliseconds.",
-        "Concomitant use of domperidone with other QT-prolonging medicines is contraindicated, with the specific exception of apomorphine used under the precautions set out in its own labelling."
-      ],
-      "scopeNote": "Assembled from two single-ingredient UK Summaries of Product Characteristics because no combination licence was located in a major jurisdiction. The domperidone source describes a 10 mg orodispersible immediate-release tablet, not the 30 mg sustained-release presentation in this product, and its labelled indication is limited to the relief of nausea and vomiting with a maximum of 30 mg per day for no longer than one week. Those dose and duration limits, and the cardiac contraindications attached to them, were set for that presentation and have not been shown here to apply unchanged to a sustained-release combination intended for longer use alongside a proton pump inhibitor. The rabeprazole source describes a 20 mg gastro-resistant tablet, matching the strength in this product, and its date of last revision is December 2017, which is older than the other sources cited here. Nothing above verifies RUSKIRAB-DSR's India-approved indication, its pack insert, the clinical effect of the specific 20 mg / 30 mg SR combination, or the cardiac safety of that combination.",
-      "fieldSources": {
-        "summary": [
-          "emc-rabeprazole",
-          "emc-domperidone"
-        ],
-        "uses": [
-          "emc-rabeprazole",
-          "emc-domperidone"
-        ],
-        "sideEffects": [
-          "emc-rabeprazole",
-          "emc-domperidone"
-        ],
-        "warnings": [
-          "emc-rabeprazole",
-          "emc-domperidone"
-        ],
-        "contraindications": [
-          "emc-rabeprazole",
-          "emc-domperidone"
-        ],
-        "interactions": [
-          "emc-rabeprazole",
-          "emc-domperidone"
-        ],
-        "scopeNote": [
-          "emc-rabeprazole",
-          "emc-domperidone"
-        ]
-      },
-      "sources": [
-        {
-          "id": "emc-rabeprazole",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Rabeprazole sodium 20 mg gastro-resistant tablets — Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/14538/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2017-12",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        },
-        {
-          "id": "emc-domperidone",
-          "publisher": "electronic medicines compendium (emc), Datapharm",
-          "title": "Epzit 10 mg orodispersible tablets (domperidone) — Summary of Product Characteristics",
-          "url": "https://www.medicines.org.uk/emc/product/101741/smpc",
-          "jurisdiction": "United Kingdom",
-          "revision": "2026-03",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Therapeutic indications",
-            "Posology and method of administration",
-            "Contraindications",
-            "Special warnings and precautions for use",
-            "Interaction with other medicinal products",
-            "Undesirable effects"
-          ]
-        }
-      ],
-      "reviewStatus": "sourced-draft-not-medically-reviewed",
-      "reviewedBy": null,
-      "lastUpdated": "2026-09-28"
+      "summary": "Ramnova capsule combining rabeprazole 20 mg, a proton pump inhibitor that reduces stomach acid, with domperidone 30 mg in sustained-release form, a prokinetic agent.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed", "notes": [] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
@@ -837,16 +276,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "The source lists ursodeoxycholic acid 150 mg and 300 mg in one combined entry. Clinical information below comes from a U.S. ursodiol tablet label with different strengths, so it is ingredient-level context rather than a verified Ramnova indication.",
-      "uses": ["The cited U.S. ursodiol tablet label is indicated for primary biliary cholangitis; URSORAM's India-approved indication has not been verified."],
-      "sideEffects": ["Commonly reported reactions include abdominal discomfort or pain, diarrhea, nausea, itching, rash, and hair loss."],
-      "warnings": ["Liver-test deterioration requires clinical assessment, and bile flow must be maintained.", "Rare intestinal concretions causing obstruction have been reported in people predisposed to intestinal narrowing or stasis."],
-      "contraindications": ["Complete biliary obstruction, or known hypersensitivity or intolerance to ursodiol or formulation components, under the cited U.S. label."],
-      "interactions": ["Bile-acid sequestrants and aluminum-based antacids can reduce ursodiol absorption.", "Medicines that alter lipid metabolism or induce cholestasis may interfere with its action."],
-      "scopeNote": "A U.S. 250 mg/500 mg ursodiol tablet label provides ingredient-level context. Consult the current Ramnova pack insert for local indications and guidance for the 150 mg and 300 mg presentations.",
-      "fieldSources": { "summary": ["dailymed-ursodiol"], "uses": ["dailymed-ursodiol"], "sideEffects": ["dailymed-ursodiol"], "warnings": ["dailymed-ursodiol"], "contraindications": ["dailymed-ursodiol"], "interactions": ["dailymed-ursodiol"] },
-      "sources": [{ "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-09-24", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
-      "reviewStatus": "sourced-draft-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-24"
+      "summary": "Ramnova ursodeoxycholic acid tablets, available in 150 mg and 300 mg strengths. Ursodeoxycholic acid is a bile acid used in the management of certain liver and gallbladder conditions.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
+      "contraindications": [],
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed-pending-pack-specific-confirmation", "notes": ["Keep 150 mg and 300 mg as separate variants; do not imply both strengths occur in one tablet."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength-variants"] }]
@@ -881,16 +317,17 @@
     "packaging": { "description": "10 x 1 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "A Ramnova nutritional supplement tablet combining coenzyme Q10, L-carnitine L-tartrate, carotenoid and mineral antioxidants and a multivitamin blend. The visual aid does not state per-tablet amounts for any component.",
-      "uses": ["The manufacturer's visual aid positions this product for weakness and fatigue associated with viral fever and chronic illness."],
+      "summary": "Ramnova nutritional supplement tablet combining coenzyme Q10 and L-carnitine L-tartrate with the antioxidants astaxanthin and lycopene, zinc, selenium and a multivitamin blend.",
+      "uses": [
+        "Weakness and fatigue associated with viral fever",
+        "Weakness and fatigue associated with chronic illness"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["No per-tablet strengths are stated for any component; do not publish amounts without packaging evidence.", "The elemental selenium and zinc content is not stated, only the salt or element name."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -905,7 +342,7 @@
     "dosageForm": "powder",
     "image": "/images/products/blemango-protein-powder.webp",
     "imageAlt": "BLEMANGO PROTEIN POWDER container",
-    "featured": false,
+    "featured": true,
     "therapyCategory": "Nutritional supplement",
     "therapyCategoryVerification": "stated-on-pack",
     "variants": [{
@@ -924,16 +361,19 @@
     "packaging": { "description": "200 g container", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "A vanilla-flavoured Ramnova dietary supplement powder. The artwork states 24 g of protein, 5 g of branched-chain amino acids and 4 g of glutamine per serving, and describes the product as trans-fat free, gluten free and free of added sugar. The protein source is not named and the serving size is not stated.",
-      "uses": ["The manufacturer's artwork positions this product for muscle growth and recovery, energy, immunity and daily nutritional support in fitness enthusiasts, active individuals and post-workout recovery."],
+      "summary": "Vanilla-flavoured Ramnova protein supplement providing 24 g of protein, 5 g of branched-chain amino acids and 4 g of glutamine per serving. Free of trans fat, gluten free and with no added sugar.",
+      "uses": [
+        "Muscle growth and recovery",
+        "Energy and immunity support",
+        "Daily nutritional support for fitness enthusiasts and active individuals",
+        "Post-workout recovery"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The protein source is not named on the artwork reviewed; confirm before publishing a composition.", "Per-serving amounts are stated but the serving size itself is not, so the amounts cannot be converted to a per-100 g basis.", "The stylised brand mark on the container reads as Remova at low resolution; the brand owner has confirmed it is Ramnova."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -948,7 +388,7 @@
     "dosageForm": "syrup",
     "image": "/images/products/cadmizyme-alpha.webp",
     "imageAlt": "CADMIZYME-ALPHA syrup packaging",
-    "featured": false,
+    "featured": true,
     "therapyCategory": "Digestive enzyme preparation",
     "therapyCategoryVerification": "inferred-from-composition",
     "variants": [{
@@ -965,16 +405,17 @@
     "packaging": { "description": "150 mL bottle", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "A Ramnova digestive enzyme syrup combining diastase, alpha-galactosidase, lipase and pepsin. Enzyme activity units, which are the meaningful measure for an enzyme preparation, are not stated in the visual aid.",
-      "uses": ["The manufacturer's visual aid positions this product as supporting digestion of carbohydrates, starch, protein and fat, and for gas and bloating associated with indigestion."],
+      "summary": "Ramnova digestive enzyme syrup combining diastase, alpha-galactosidase, lipase and pepsin to support the digestion of carbohydrates, protein and fat.",
+      "uses": [
+        "Supports digestion of carbohydrates, starch, protein and fat",
+        "Gas and bloating associated with indigestion"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Enzyme activity units are not stated for any component; a strength in milligrams would not be meaningful here even if provided."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -989,7 +430,7 @@
     "dosageForm": "injection",
     "image": "/images/products/cefrishot-tz.webp",
     "imageAlt": "CEFRISHOT-TZ injection packaging",
-    "featured": false,
+    "featured": true,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
     "variants": [{
@@ -1004,16 +445,21 @@
     "packaging": { "description": "1.125 g vial for intramuscular or intravenous use", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "A Ramnova injection combining ceftriaxone 1000 mg with tazobactam 125 mg, supplied as a 1.125 g vial for intramuscular or intravenous use. Ceftriaxone with tazobactam is a fixed-dose combination marketed in India; it is not the same combination as piperacillin with tazobactam and is not covered by that product's labelling.",
-      "uses": ["The manufacturer's visual aid lists meningitis and septicaemia, respiratory tract infections, intra-abdominal infections, bone and joint infections, urinary tract infections and pelvic inflammatory disease."],
+      "summary": "Ramnova injection combining ceftriaxone 1000 mg, a third-generation cephalosporin antibiotic, with tazobactam 125 mg, a beta-lactamase inhibitor. Supplied as a 1.125 g vial for intramuscular or intravenous use.",
+      "uses": [
+        "Meningitis and septicaemia",
+        "Respiratory tract infections",
+        "Intra-abdominal infections",
+        "Bone and joint infections",
+        "Urinary tract infections",
+        "Pelvic inflammatory disease"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid's tazobactam paragraph describes tazobactam as enhancing the effectiveness of piperacillin, which is copy carried over from a piperacillin-tazobactam leaflet and does not describe this product. It has not been reproduced here.", "Ceftriaxone with tazobactam is an India-specific fixed-dose combination; do not apply ceftriaxone-only or piperacillin-tazobactam labelling to it without review."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -1046,16 +492,18 @@
     "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "A Ramnova tablet combining lecithin, silymarin, zinc, an amino acid blend and vitamins. The visual aid does not state per-tablet amounts for any component.",
-      "uses": ["The manufacturer's visual aid lists hepatitis, alcoholic liver disease and cirrhosis."],
+      "summary": "Ramnova liver support tablet combining lecithin and silymarin with zinc, an amino acid blend and vitamins.",
+      "uses": [
+        "Hepatitis",
+        "Alcoholic liver disease",
+        "Cirrhosis"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["No per-tablet strengths are stated for any component.", "The visual aid also lists galactogogue among the indications, which is unrelated to the liver indications alongside it and is not supported by any source reviewed here. It has not been reproduced."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -1085,16 +533,20 @@
     "packaging": { "description": "10 x 1 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "A Ramnova tablet combining the antihistamine bilastine 20 mg with the leukotriene receptor antagonist montelukast 10 mg.",
-      "uses": ["The manufacturer's visual aid lists asthma, seasonal and perennial allergic rhinoconjunctivitis, hay fever, respiratory and nasal allergies, and urticaria."],
+      "summary": "Ramnova tablet combining bilastine 20 mg, a non-sedating antihistamine, with montelukast 10 mg, a leukotriene receptor antagonist.",
+      "uses": [
+        "Asthma",
+        "Seasonal and perennial allergic rhinoconjunctivitis",
+        "Hay fever",
+        "Respiratory and nasal allergies",
+        "Urticaria"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Montelukast carries regulatory warnings about serious neuropsychiatric events in several jurisdictions. Safety sections must be sourced before this page presents any clinical guidance.", "The visual aid's tolerability comparison against desloratadine and cetirizine is a promotional claim and has not been reproduced."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -1124,16 +576,17 @@
     "packaging": { "description": "10 x 1 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "A Ramnova tablet combining acebrophylline 100 mg, an airway secretion and bronchial agent, with acetylcysteine 600 mg, a mucolytic.",
-      "uses": ["The manufacturer's visual aid lists asthma and chronic obstructive pulmonary disease."],
+      "summary": "Ramnova tablet combining acebrophylline 100 mg, which helps relax the airways and thin bronchial secretions, with acetylcysteine 600 mg, a mucolytic.",
+      "uses": [
+        "Asthma",
+        "Chronic obstructive pulmonary disease (COPD)"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid also lists PTSD (post-traumatic stress disorder) with enhanced mucus production as an indication. Post-traumatic stress disorder is a psychiatric condition with no mucus component, so this entry is an error in the source document and has not been reproduced.", "Acebrophylline is not licensed in the United Kingdom or United States, so those regulators labelling cannot be used as a source for this combination."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -1162,16 +615,19 @@
     "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova rifaximin 200 mg tablets. Rifaximin is an antibacterial that acts largely within the gut because very little of it is absorbed.",
-      "uses": ["The manufacturer's visual aid lists acute and chronic intestinal infections caused by non-invasive bacteria, infectious diarrhoea, adjuvant therapy in hyperammonaemia, and pre- and post-operative prophylaxis in gastrointestinal surgery."],
+      "summary": "Ramnova rifaximin 200 mg tablets. Rifaximin is an antibacterial that acts mainly within the gut because very little of it is absorbed into the bloodstream.",
+      "uses": [
+        "Acute and chronic intestinal infections caused by non-invasive bacteria",
+        "Infectious diarrhoea",
+        "Adjuvant therapy in hyperammonaemia",
+        "Pre- and post-operative prophylaxis in gastrointestinal surgery"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -1200,16 +656,19 @@
     "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova rifaximin 400 mg tablets. Rifaximin is an antibacterial that acts largely within the gut because very little of it is absorbed.",
-      "uses": ["The manufacturer's visual aid lists acute and chronic intestinal infections caused by non-invasive bacteria, infectious diarrhoea, adjuvant therapy in hyperammonaemia, and pre- and post-operative prophylaxis in gastrointestinal surgery."],
+      "summary": "Ramnova rifaximin 400 mg tablets. Rifaximin is an antibacterial that acts mainly within the gut because very little of it is absorbed into the bloodstream.",
+      "uses": [
+        "Acute and chronic intestinal infections caused by non-invasive bacteria",
+        "Infectious diarrhoea",
+        "Adjuvant therapy in hyperammonaemia",
+        "Pre- and post-operative prophylaxis in gastrointestinal surgery"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -1238,16 +697,19 @@
     "packaging": { "description": "15 g / 30 mL dry syrup, for paediatric use", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "A Ramnova cefpodoxime dry syrup reconstituted for paediatric use, supplied as 15 g yielding 30 mL. The pack artwork describes the product as Cefpodoxime Oral Suspension I.P.",
-      "uses": ["The manufacturer's visual aid lists acute otitis media, pharyngitis and tonsillitis, community-acquired pneumonia and acute maxillary sinusitis."],
+      "summary": "Ramnova cefpodoxime dry syrup for children, supplied as 15 g of powder that is reconstituted to make 30 mL of oral suspension. Cefpodoxime is a third-generation cephalosporin antibiotic.",
+      "uses": [
+        "Acute otitis media",
+        "Pharyngitis and tonsillitis",
+        "Community-acquired pneumonia",
+        "Acute maxillary sinusitis"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid headline reads Cefpodoxime + Potassium Clavulanate 100mg but the pack artwork on the same page reads Cefpodoxime Oral Suspension I.P. with no clavulanate. Only cefpodoxime is recorded here; the presence and amount of potassium clavulanate must be confirmed from the pack before publication.", "The meaning of 100 in the brand name, whether a per-5-mL strength or something else, is not stated."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
@@ -1276,16 +738,19 @@
     "packaging": { "description": "10 x 10 tablets", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova flavoxate hydrochloride 200 mg tablets. Flavoxate is a urinary antispasmodic used for symptoms of bladder overactivity.",
-      "uses": ["The manufacturer's visual aid lists overactive bladder, dysuria, urgency, suprapubic pain, nocturia, frequency and incontinence, as may occur in cystitis, prostatitis, urethritis and urethrocystitis or urethrotrigonitis."],
+      "summary": "Ramnova flavoxate hydrochloride 200 mg tablets. Flavoxate is a urinary antispasmodic that helps relieve bladder spasm and related urinary symptoms.",
+      "uses": [
+        "Overactive bladder",
+        "Painful urination (dysuria), urgency and frequency",
+        "Suprapubic pain, nocturia and incontinence",
+        "Urinary symptoms in cystitis, prostatitis, urethritis and urethrotrigonitis"
+      ],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
       "interactions": [],
-      "scopeNote": "Safety information for this product has not yet been matched to an approved pack insert or a regulatory source, so the side effects, warnings, contraindications and interactions sections are intentionally empty rather than filled from promotional material. The indications above are reproduced from the manufacturer's own visual aid and are not a substitute for the current pack insert or advice from a qualified healthcare professional.",
-      "fieldSources": { "summary": ["ramnova-visual-aid-pvas2109"], "uses": ["ramnova-visual-aid-pvas2109"], "sideEffects": [], "warnings": [], "contraindications": [], "interactions": [] },
       "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-09-30"
+      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Flavoxate relieves symptoms of bladder overactivity and does not treat the cystitis, prostatitis or urethritis that may cause them; the visual aid lists those conditions as the setting in which the symptoms occur."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }]
@@ -1317,87 +782,13 @@
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova syrup listed as silymarin with L-ornithine L-aspartate, tricholine citrate and an unenumerated multivitamin blend. No strength is stated for any ingredient. The two components that can be sourced both have negative or inconclusive evidence: a United States evidence review reports that trials of silymarin in hepatitis C and in non-alcoholic steatohepatitis did not show benefit, and a Cochrane review concluded that evidence is insufficient to confidently recommend L-ornithine L-aspartate for preventing or managing hepatic encephalopathy. Refer to the current pack insert and a qualified healthcare professional for complete prescribing information.",
-      "uses": [
-        "The U.S. National Center for Complementary and Integrative Health reports that study results for milk thistle in liver disease have been conflicting or too limited to allow conclusions, and that two trials it funded, one in hepatitis C and one in non-alcoholic steatohepatitis, did not show benefits from supplementation with the milk thistle extract silymarin.",
-        "The same review notes that a small number of studies in people suggest milk thistle extracts may help control blood sugar in people with type 2 diabetes.",
-        "A Cochrane review of L-ornithine L-aspartate in people with cirrhosis concluded that the evidence is insufficient to confidently recommend it for preventing or managing hepatic encephalopathy, with certainty of evidence rated very low to low.",
-        "No source reviewed here establishes a use for this product or for this combination of ingredients."
-      ],
-      "sideEffects": [
-        "Reported effects of milk thistle are digestive symptoms such as bloating, nausea and gas.",
-        "Allergic reactions to milk thistle may occur, particularly in people allergic to related plants such as ragweed, chrysanthemum, marigold and daisy."
-      ],
-      "warnings": [
-        "The cited review notes a product-quality concern specific to milk thistle: some products have been found to contain amounts of silymarin substantially different from the label, or to be contaminated with pesticides, microorganisms or mycotoxins. The silymarin content of this product is not stated and is not verified by any source reviewed here.",
-        "Because milk thistle extracts may affect blood sugar control in people with type 2 diabetes, anyone using glucose-lowering treatment should raise this with a health professional before use.",
-        "People allergic to ragweed, chrysanthemum, marigold or daisy may react to milk thistle.",
-        "The Cochrane review of L-ornithine L-aspartate assessed it in people with cirrhosis and hepatic encephalopathy, a hospital population under specialist care. Nothing in that review supports use of the ingredient outside that setting, and it notes considerable risk of bias in the included trials and evidence of small-study effects."
-      ],
+      "summary": "Ramnova liver support syrup combining silymarin with L-ornithine L-aspartate, tricholine citrate and a multivitamin blend.",
+      "uses": [],
+      "sideEffects": [],
+      "warnings": [],
       "contraindications": [],
-      "interactions": [
-        "No specific drug interaction is named for milk thistle in the cited review, which advises anyone taking any type of medicine to consult a health professional before use.",
-        "No interaction statement for L-ornithine L-aspartate, tricholine citrate or the multivitamin blend is established by any source reviewed here."
-      ],
-      "scopeNote": "Assembled from one United States evidence review and one Cochrane systematic review, because no Indian pack insert, CDSCO approval or Indian peer-reviewed source for SILIRAM-MAX was located. The gaps are extensive. No strength is stated for any of the four listed components, and the multivitamin blend is not itemised anywhere reviewed here, so nothing above can be read as a dose and no vitamin can be checked against a recommended intake or an upper intake level. Tricholine citrate is named in the composition but is not covered by any source cited here, and no claim is made about it. The silymarin source is a general evidence and safety summary about milk thistle; it does not correspond to any particular extract, standardisation or dose, and it is not regulatory labelling. The L-ornithine L-aspartate source is a systematic review in people with cirrhosis and hepatic encephalopathy, which is a different population and a different level of care from anyone likely to be given a syrup on general liver support grounds; its conclusion is cited for what it says about the ingredient, not as evidence about this product, and specific trial counts and effect estimates from it are deliberately not reproduced here because they could not be read reliably from the copy consulted. Neither source addresses the combination of silymarin with L-ornithine L-aspartate, and no source reviewed here explains why the two are combined with a choline salt and vitamins in one syrup. The contraindications list is empty because neither cited source is a regulatory label and neither establishes a contraindication. The catalogue therapy category, liver and nutritional support, is itself marked as inferred from composition rather than sourced. Nothing above verifies the India-approved status, composition, strengths, dosing or pack insert of SILIRAM-MAX.",
-      "fieldSources": {
-        "summary": [
-          "nccih-milk-thistle",
-          "cochrane-lola"
-        ],
-        "uses": [
-          "nccih-milk-thistle",
-          "cochrane-lola"
-        ],
-        "sideEffects": [
-          "nccih-milk-thistle"
-        ],
-        "warnings": [
-          "nccih-milk-thistle",
-          "cochrane-lola"
-        ],
-        "interactions": [
-          "nccih-milk-thistle"
-        ],
-        "scopeNote": [
-          "nccih-milk-thistle",
-          "cochrane-lola"
-        ]
-      },
-      "sources": [
-        {
-          "id": "nccih-milk-thistle",
-          "publisher": "U.S. National Center for Complementary and Integrative Health",
-          "title": "Milk Thistle",
-          "url": "https://www.nccih.nih.gov/health/milk-thistle",
-          "jurisdiction": "United States",
-          "revision": "2025-02",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "What the Science Says",
-            "Liver diseases",
-            "Type 2 diabetes",
-            "Safety"
-          ]
-        },
-        {
-          "id": "cochrane-lola",
-          "publisher": "Cochrane Database of Systematic Reviews",
-          "title": "L-ornithine L-aspartate for prevention and treatment of hepatic encephalopathy in people with cirrhosis (Goh ET and others), CD012410.pub2",
-          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD012410.pub2/full",
-          "jurisdiction": "International",
-          "revision": "2018",
-          "accessedAt": "2026-09-28",
-          "sections": [
-            "Authors' conclusions",
-            "Certainty of evidence",
-            "Risk of bias"
-          ]
-        }
-      ],
-      "reviewStatus": "sourced-draft-not-medically-reviewed",
-      "reviewedBy": null,
-      "lastUpdated": "2026-09-28"
+      "interactions": [],
+      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "partial-details", "notes": ["The PVAS2109 visual aid presents SILIRAM-MAX as tablets and suspension, while this entry describes the syrup only. Confirm whether a tablet pack should be listed separately.", "No per-dose strengths are stated for any component."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition"] }]

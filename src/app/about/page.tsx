@@ -58,14 +58,15 @@ export default function AboutPage() {
             <p>
               Ramnova presents a portfolio of pharmaceutical and nutritional formulations. The
               company&apos;s public catalogue currently spans{" "}
-              {products.length} products across tablets, capsules, syrups and injections.
+              {products.length} products across tablets, capsules, syrups, injections and nutritional
+              powders.
             </p>
             <div className="values-list">
               <div className="value-row">
                 <span>01</span>
                 <div>
                   <strong>Product responsibility</strong>
-                  <p>Separate known composition data from information that still needs review.</p>
+                  <p>Publish accurate compositions and refer to the pack insert for complete prescribing information.</p>
                 </div>
               </div>
               <div className="value-row">

@@ -19,7 +19,7 @@ import { productCategories, siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Ramnova Healthcare | Pharmaceutical Product Catalogue",
   description:
-    "Discover Ramnova Healthcare's portfolio of tablets, capsules, syrups and injections with clear product and composition information.",
+    "Discover Ramnova Healthcare's portfolio of tablets, capsules, syrups, injections and nutritional powders with clear product and composition information.",
   alternates: { canonical: "/" },
 };
 
@@ -33,6 +33,7 @@ const categoryIcons = {
 
 export default function HomePage() {
   const featured = products.filter((product) => product.featured).slice(0, 4);
+  const therapyAreaCount = new Set(products.map((product) => product.therapyCategory)).size;
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -105,8 +106,8 @@ export default function HomePage() {
             <span>Dosage forms</span>
           </div>
           <div className="stat">
-            <strong>100%</strong>
-            <span>Locally hosted imagery</span>
+            <strong>{therapyAreaCount}</strong>
+            <span>Therapy areas</span>
           </div>
         </div>
       </section>
@@ -138,8 +139,8 @@ export default function HomePage() {
               <h2 className="section-title">Find the right part of the portfolio.</h2>
             </div>
             <p className="section-copy">
-              Each category has its own crawlable page, while the catalogue can be searched by
-              brand, active ingredient or common terminology.
+              Browse tablets, capsules, syrups, injections and powders, or search the full
+              catalogue by brand name or active ingredient.
             </p>
           </div>
           <div className="category-grid">
