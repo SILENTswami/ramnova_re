@@ -18,13 +18,13 @@
       "ingredients": [
         { "ingredientId": "calcium-carbonate", "strength": { "amount": 200, "unit": "mg" }, "sourceStrengthText": "500mg", "verification": "pack-confirmed-by-user-2026-10-01" },
         { "ingredientId": "calcitriol", "strength": { "amount": 0.25, "unit": "mcg" }, "verification": "source-listed" },
-        { "ingredientId": "vitamin-k2-7", "strength": { "amount": 45, "unit": "mcg" }, "sourceStrengthText": "45 mg", "verification": "visual-aid-corrects-catalogue-unit" },
+        { "ingredientId": "vitamin-k2-7", "strength": { "amount": 45, "unit": "mcg" }, "sourceStrengthText": "45 mg", "verification": "pack-confirmed-by-user-2026-10-01" },
         { "ingredientId": "methylcobalamin", "strength": { "amount": 750, "unit": "mcg" }, "verification": "source-listed" },
         { "ingredientId": "magnesium", "strength": { "amount": 20, "unit": "mg" }, "verification": "source-listed-form-not-stated" },
         { "ingredientId": "boron", "strength": { "amount": 1.5, "unit": "mg" }, "verification": "source-listed" },
         { "ingredientId": "zinc", "strength": { "amount": 7.5, "unit": "mg" }, "verification": "source-listed-form-not-stated" }
       ],
-      "verification": "conflicting-or-ambiguous-details"
+      "verification": "conflicts-resolved-by-pack-check"
     }],
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
@@ -94,7 +94,7 @@
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "conflicting-or-ambiguous-details", "notes": ["The website catalogue states vitamin K2-7 as 45 mg and the PVAS2109 visual aid states 45 mcg. The microgram figure is recorded because 45 mg would be roughly a thousand times any usual vitamin K2-7 amount; confirm against the pack.", "The two Ramnova sources disagreed on calcium carbonate (website catalogue 500 mg, PVAS2109 visual aid 200 mg). The user confirmed 200 mg from the pack on 2026-10-01.", "The pack figure is recorded as calcium carbonate; whether it refers to the carbonate salt or to elemental calcium is not stated."] },
+    "verification": { "status": "conflicts-resolved-by-pack-check", "notes": ["The website catalogue stated vitamin K2-7 as 45 mg and the PVAS2109 visual aid as 45 mcg. The user confirmed 45 mcg from the pack on 2026-10-01.", "The two Ramnova sources disagreed on calcium carbonate (website catalogue 500 mg, PVAS2109 visual aid 200 mg). The user confirmed 200 mg from the pack on 2026-10-01.", "The pack figure is recorded as calcium carbonate; whether it refers to the carbonate salt or to elemental calcium is not stated."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition", "source-strength-text"] }]
   },
   {
