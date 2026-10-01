@@ -14,6 +14,8 @@ const assert = (condition, message) => {
 
 assert(products.length === 20, `Expected 20 products, found ${products.length}`);
 const validCategories = new Set(["tablets", "capsules", "syrups", "injections", "powders"]);
+const validSafetyTopics = new Set(["alcohol", "pregnancy", "breastfeeding", "driving", "kidney", "liver"]);
+const validSafetyStatuses = new Set(["safe", "safe-if-prescribed", "caution", "consult", "unsafe"]);
 const slugs = new Set();
 const ingredientIds = new Set(ingredients.map((ingredient) => ingredient.id));
 
@@ -65,6 +67,25 @@ for (const product of products) {
 
   for (const field of ["uses", "sideEffects", "warnings", "contraindications", "interactions"]) {
     assert(Array.isArray(product.clinical?.[field]), `${product.slug}: clinical.${field} must be an array`);
+  }
+
+  const { safetyAdvice, quickTips } = product.clinical ?? {};
+  if (safetyAdvice !== undefined) {
+    assert(Array.isArray(safetyAdvice), `${product.slug}: clinical.safetyAdvice must be an array`);
+    const topics = new Set();
+    for (const advice of Array.isArray(safetyAdvice) ? safetyAdvice : []) {
+      assert(validSafetyTopics.has(advice.topic), `${product.slug}: invalid safety topic ${advice.topic}`);
+      assert(!topics.has(advice.topic), `${product.slug}: duplicate safety topic ${advice.topic}`);
+      topics.add(advice.topic);
+      assert(validSafetyStatuses.has(advice.status), `${product.slug}: invalid safety status ${advice.status}`);
+      assert(typeof advice.note === "string" && advice.note.length > 0, `${product.slug}: safety advice needs a note`);
+    }
+  }
+  if (quickTips !== undefined) {
+    assert(
+      Array.isArray(quickTips) && quickTips.every((tip) => typeof tip === "string" && tip.length > 0),
+      `${product.slug}: clinical.quickTips must be an array of non-empty strings`,
+    );
   }
 }
 

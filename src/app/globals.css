@@ -1666,6 +1666,96 @@ a {
   top: 0.65em;
 }
 
+.info-block .safety-advice-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.info-block .safety-advice-card {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper-alt);
+}
+
+.info-block .safety-advice-card::before,
+.info-block .quick-tips li::before {
+  content: none;
+}
+
+.safety-advice-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--blue-deep);
+}
+
+.safety-advice-head h3 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1.05rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.info-block .safety-advice-card p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.status-pill {
+  justify-self: start;
+  padding: 4px 10px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.01em;
+}
+
+.status-pill-safe {
+  background: #e7f5ec;
+  color: #17643a;
+}
+
+.status-pill-caution {
+  background: #fff4dc;
+  color: #7f5300;
+}
+
+.status-pill-unsafe {
+  background: #fde8ef;
+  color: var(--red-deep);
+}
+
+.info-block .quick-tips {
+  gap: 12px;
+  margin-top: 22px;
+  padding: 22px 24px;
+  border-left: 3px solid var(--blue);
+  border-radius: var(--radius-sm);
+  background: #eef7fd;
+}
+
+.info-block .quick-tips li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding-left: 0;
+}
+
+.quick-tips svg {
+  flex: 0 0 auto;
+  margin-top: 3px;
+  color: var(--blue-deep);
+}
+
 .ingredient-table {
   width: 100%;
   margin-top: 22px;
@@ -2003,6 +2093,10 @@ a {
 
 /* Responsive */
 @media (max-width: 1050px) {
+  .info-block .safety-advice-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .desktop-nav {
     display: none;
   }
@@ -2238,6 +2332,10 @@ a {
 }
 
 @media (max-width: 520px) {
+  .info-block .safety-advice-grid {
+    grid-template-columns: 1fr;
+  }
+
   :root {
     --shell: calc(100vw - 28px);
   }

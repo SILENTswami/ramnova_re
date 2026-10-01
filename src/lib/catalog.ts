@@ -42,6 +42,27 @@ export type ProductVariant = {
   verification: string;
 };
 
+export const safetyTopics = [
+  "alcohol",
+  "pregnancy",
+  "breastfeeding",
+  "driving",
+  "kidney",
+  "liver",
+] as const;
+export type SafetyTopic = (typeof safetyTopics)[number];
+
+export const safetyStatuses = [
+  "safe",
+  "safe-if-prescribed",
+  "caution",
+  "consult",
+  "unsafe",
+] as const;
+export type SafetyStatus = (typeof safetyStatuses)[number];
+
+export type SafetyAdvice = { topic: SafetyTopic; status: SafetyStatus; note: string };
+
 export type ClinicalContent = {
   summary: string;
   uses: string[];
@@ -51,6 +72,8 @@ export type ClinicalContent = {
   interactions: string[];
   // Short, lowercase forms of the leading uses for meta descriptions.
   seoUses?: string[];
+  safetyAdvice?: SafetyAdvice[];
+  quickTips?: string[];
   scopeNote?: string;
   fieldSources?: Record<string, string[]>;
   sources?: SourceReference[];

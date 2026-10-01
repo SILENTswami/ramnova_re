@@ -291,9 +291,8 @@
       ],
       "warnings": [
         "Liver function should be checked regularly during treatment",
-        "Tell your doctor if you are pregnant, planning a pregnancy or breastfeeding, as safety has not been established",
-        "Limit alcohol during treatment",
-        "Take after meals with water or milk, and swallow the tablet whole"
+        "Not recommended during pregnancy unless your doctor considers it clearly necessary. Women who could become pregnant should use non-hormonal contraception.",
+        "Limit alcohol during treatment"
       ],
       "contraindications": [
         "Complete blockage of the bile ducts",
@@ -304,7 +303,27 @@
         "Antacids containing aluminium or magnesium (such as magaldrate), cholestyramine and colestipol can reduce absorption. Take ursodeoxycholic acid at least 2 hours apart from them.",
         "Medicines containing oestrogen, including hormonal contraceptives, can raise cholesterol in bile and may reduce its effect on gallstones."
       ],
-      "sources": [{ "id": "1mg-ursocol-300", "publisher": "Tata 1mg", "title": "Ursocol 300 Tablet (ursodeoxycholic acid 300 mg, Sun Pharmaceutical Industries Ltd)", "url": "https://www.1mg.com/drugs/ursocol-300-tablet-493338", "jurisdiction": "India", "accessedAt": "2026-10-01" }, { "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-10-01", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "consult", "note": "It is not known whether alcohol is safe with this medicine. Limit alcohol and ask your doctor." },
+        { "topic": "pregnancy", "status": "caution", "note": "Not recommended unless clearly necessary. Discuss the risks and benefits with your doctor." },
+        { "topic": "breastfeeding", "status": "consult", "note": "Only very small amounts are expected to pass into breast milk. Ask your doctor before use." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect your ability to drive." },
+        { "topic": "kidney", "status": "consult", "note": "Limited information in kidney disease. Tell your doctor if you have kidney problems." },
+        { "topic": "liver", "status": "safe-if-prescribed", "note": "Used to treat certain liver conditions. Take only as prescribed, with regular liver tests." }
+      ],
+      "quickTips": [
+        "Take it after meals with water or milk, at the same time each day.",
+        "Avoid high-fat, oily meals and limit alcohol.",
+        "If you get diarrhoea, drink plenty of fluids and tell your doctor if it continues.",
+        "Your doctor will check your liver tests regularly, especially in the first few months.",
+        "Get medical help quickly for worsening jaundice, severe itching, dark urine or ongoing abdominal pain.",
+        "Don't stop taking it without speaking to your doctor."
+      ],
+      "sources": [
+        { "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-10-01", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] },
+        { "id": "emc-ursodeoxycholic-acid-150mg", "publisher": "electronic medicines compendium (emc)", "title": "Ursodeoxycholic acid 150 mg tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/10063/smpc", "jurisdiction": "United Kingdom", "revision": "2026-06-19", "accessedAt": "2026-10-01" },
+        { "id": "emc-ursodeoxycholic-acid-300mg", "publisher": "electronic medicines compendium (emc)", "title": "Ursodeoxycholic acid 300 mg tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/10064/smpc", "jurisdiction": "United Kingdom", "revision": "2026-06-19", "accessedAt": "2026-10-01" }
+      ],
       "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed-pending-pack-specific-confirmation", "notes": ["Keep 150 mg and 300 mg as separate variants; do not imply both strengths occur in one tablet."] },

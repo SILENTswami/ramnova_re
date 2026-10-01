@@ -13,6 +13,7 @@ import { CatalogExplorer } from "@/components/catalog-explorer";
 import { JsonLd } from "@/components/json-ld";
 import { ProductCard } from "@/components/product-card";
 import { ProductMediaCarousel } from "@/components/product-media-carousel";
+import { QuickTips, SafetyAdvicePanel } from "@/components/product-safety";
 import {
   formatPrice,
   getCategoryLabel,
@@ -274,6 +275,8 @@ function ProductPage({ product }: { product: Product }) {
   );
   const externalSources = allSources.filter((source) => source.publisher !== siteConfig.legalName);
   const productImages = getProductImages(product);
+  const safetyAdvice = product.clinical.safetyAdvice ?? [];
+  const quickTips = product.clinical.quickTips ?? [];
 
   const schema = {
     "@context": "https://schema.org",
@@ -377,6 +380,8 @@ function ProductPage({ product }: { product: Product }) {
                   ["composition", "Composition"],
                   ["overview", "Overview"],
                   ["uses", "Uses"],
+                  ...(safetyAdvice.length ? [["safety-advice", "Safety advice"]] : []),
+                  ...(quickTips.length ? [["quick-tips", "Quick tips"]] : []),
                   ["safety", "Safety information"],
                   ["more-information", "More information"],
                 ].map(([href, label]) => (
@@ -441,6 +446,9 @@ function ProductPage({ product }: { product: Product }) {
                 items={product.clinical.uses}
                 emptyText="Product-specific uses are not currently listed. Refer to the current pack insert and a qualified healthcare professional."
               />
+
+              {safetyAdvice.length ? <SafetyAdvicePanel advice={safetyAdvice} /> : null}
+              {quickTips.length ? <QuickTips tips={quickTips} /> : null}
 
               <section className="info-block" id="safety">
                 <h2>Safety information</h2>
