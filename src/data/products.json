@@ -250,7 +250,7 @@
         "Epilepsy, mania or bipolar disorder",
         "Phaeochromocytoma (an adrenal gland tumour), because of the risk of a dangerous rise in blood pressure",
         "Bleeding, blockage or perforation of the stomach or intestines",
-        "Breast cancer",
+        "Breast cancer or a prolactin-secreting pituitary tumour (prolactinoma)",
         "Use with the HIV medicine nelfinavir",
         "Allergy to esomeprazole, similar acid-reducing medicines, levosulpiride or any other ingredient"
       ],
@@ -279,7 +279,7 @@
       ],
       "sources": [
         { "id": "emc-esomeprazole-40mg", "publisher": "electronic medicines compendium (emc)", "title": "Esomeprazole 40 mg gastro-resistant capsules: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/15052/smpc", "jurisdiction": "United Kingdom", "revision": "2025-11-13", "accessedAt": "2026-10-01" },
-        { "id": "aifa-levosulpiride", "publisher": "Agenzia Italiana del Farmaco (AIFA)", "title": "Levosulpiride tablets: Summary of Product Characteristics (AIC 026009)", "url": "https://medicinali.aifa.gov.it/it/#/it/dettaglio/0000026009", "jurisdiction": "Italy", "revision": "2013-02", "accessedAt": "2026-10-01" }
+        { "id": "aifa-levosulpiride", "publisher": "Agenzia Italiana del Farmaco (AIFA)", "title": "Levosulpiride 25 mg tablets: Summary of Product Characteristics (AIC 026009)", "url": "https://medicinali.aifa.gov.it/it/#/it/dettaglio/0000017492", "jurisdiction": "Italy", "revision": "2013-02", "accessedAt": "2026-10-01" }
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
