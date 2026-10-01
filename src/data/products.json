@@ -914,32 +914,76 @@
     "therapyCategoryVerification": "inferred-from-composition",
     "variants": [{
       "id": "cadmizyme-alpha-standard",
-      "label": "Product composition",
+      "label": "Each 5 ml contains",
       "ingredients": [
-        { "ingredientId": "diastase", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "alpha-galactosidase", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "lipase", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "pepsin", "strength": null, "verification": "source-listed-strength-not-provided" }
+        { "ingredientId": "diastase", "strength": { "amount": 50, "unit": "mg" }, "qualifier": "1:1200", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "alpha-galactosidase", "strength": { "amount": 25, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "pepsin", "strength": { "amount": 10, "unit": "mg" }, "qualifier": "1:3000", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "lipase", "strength": { "amount": 10, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" }
       ],
-      "verification": "visual-aid-listed-pending-pack-confirmation"
+      "verification": "pack-confirmed-by-user-2026-10-01"
     }],
     "packaging": { "description": "150 mL bottle", "verification": "visual-aid-listed" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova digestive enzyme syrup combining diastase, alpha-galactosidase, lipase and pepsin to support the digestion of carbohydrates, protein and fat.",
+      "introduction": [
+        "CADMIZYME-ALPHA is a digestive enzyme syrup. Each 5 ml contains diastase (1:1200) 50 mg, alpha-galactosidase 25 mg, pepsin (1:3000) 10 mg and lipase 10 mg. Together these enzymes help break down carbohydrates, protein and fat, easing indigestion, gas and bloating after meals.",
+        "Shake the bottle well and take it with or just after your main meals, as your doctor advises. It is usually well tolerated. It is a nutritional supplement rather than a medicine, and it contains sorbitol, which can have a laxative effect."
+      ],
       "uses": [
         "Supports digestion of carbohydrates, starch, protein and fat",
         "Gas and bloating associated with indigestion"
       ],
       "seoUses": ["indigestion", "bloating"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Digestion of carbohydrates, protein and fat", "text": "Diastase breaks down starch into simple sugars, pepsin helps digest protein in the stomach, and lipase helps break down fat. This can help when digestion is slow or a meal is heavy, easing discomfort and fullness." },
+        { "use": "Gas and bloating", "text": "Foods such as beans, lentils, cabbage and onions contain complex sugars that the gut cannot digest on its own. Bacteria in the bowel then ferment them, producing gas. Alpha-galactosidase breaks these sugars down before they reach the bowel, helping to reduce gas and bloating." }
+      ],
+      "sideEffects": [
+        "Mild stomach discomfort or nausea",
+        "Loose stools or diarrhoea, as sorbitol can have a laxative effect",
+        "Rarely, allergic reactions such as rash or itching"
+      ],
+      "howToUse": "Shake the bottle well before use. Take the dose your doctor advises, usually with or immediately after your main meals, using the measuring cup provided. Children should take it only under medical supervision.",
+      "howItWorks": "Digestive enzymes speed up the breakdown of food into smaller parts that the body can absorb. Diastase, a type of amylase, breaks down starch, pepsin breaks down protein, and lipase breaks down fat. Alpha-galactosidase breaks down the complex sugars in beans, lentils and some vegetables that would otherwise ferment in the gut and cause gas.",
+      "warnings": [
+        "It is a nutritional supplement and not a substitute for treatment of any underlying digestive disease.",
+        "Pepsin is usually obtained from animal sources, commonly pigs. People who avoid animal or pork products should check with the manufacturer or a pharmacist.",
+        "People with galactosaemia should not take products containing alpha-galactosidase, which releases galactose during digestion.",
+        "It contains sorbitol, which can cause loose stools, as well as synthetic colour and flavour.",
+        "Children should use it only under medical supervision."
+      ],
+      "contraindications": [
+        "Galactosaemia",
+        "Allergy to any of the enzymes or other ingredients"
+      ],
+      "interactions": [
+        "Antacids taken at the same time may reduce how well pepsin works.",
+        "No other important interactions are known. Tell your doctor about all the medicines and supplements you take."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "caution", "note": "Alcohol can irritate the stomach and worsen indigestion, so limit it." },
+        { "topic": "pregnancy", "status": "consult", "note": "There is little information on use in pregnancy. Ask your doctor before use." },
+        { "topic": "breastfeeding", "status": "consult", "note": "Ask your doctor before use while breastfeeding." },
+        { "topic": "driving", "status": "safe", "note": "Not expected to affect your ability to drive." },
+        { "topic": "kidney", "status": "safe-if-prescribed", "note": "No specific problems are expected, but tell your doctor if you have kidney disease." },
+        { "topic": "liver", "status": "safe-if-prescribed", "note": "No specific problems are expected, but tell your doctor if you have liver disease." }
+      ],
+      "quickTips": [
+        "Take it with or straight after your main meals, so it can work on the food you eat.",
+        "Shake the bottle well before each dose.",
+        "Eat slowly, chew well, and avoid very large, fatty or spicy meals.",
+        "If you have diabetes, note that each 5 ml contains about 1.5 g of sugars.",
+        "See your doctor if indigestion keeps coming back, or if you have weight loss, difficulty swallowing, vomiting or black stools.",
+        "Store it in a cool, dry place and keep the cap tightly closed."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Enzyme activity units are not stated for any component; a strength in milligrams would not be meaningful here even if provided."] },
+    "verification": { "status": "pack-confirmed", "notes": ["Per-5 ml composition confirmed from the pack by the user on 2026-10-01; strengths are stated in milligrams, with activity ratios for diastase (1:1200) and pepsin (1:3000) only.", "The pack names the manufacturer as Wanley India Pvt Ltd."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
   },
   {
