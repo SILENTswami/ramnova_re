@@ -106,8 +106,9 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     alternates: { canonical: `/products/${product.slug}/` },
     openGraph: {
       type: "website",
+      siteName: siteConfig.name,
       url: `/products/${product.slug}/`,
-      title: title,
+      title,
       description,
       images: productImages.map((image, index) => ({
         url: image,
@@ -116,7 +117,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     },
     twitter: {
       card: "summary_large_image",
-      title: title,
+      title,
       description,
       images: productImages,
     },
