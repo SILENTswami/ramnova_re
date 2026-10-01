@@ -1171,6 +1171,10 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova tablet combining bilastine 20 mg, a non-sedating antihistamine, with montelukast 10 mg, a leukotriene receptor antagonist.",
+      "introduction": [
+        "KRUJOKAST-B tablets combine bilastine 20 mg, a non-drowsy antihistamine, with montelukast 10 mg, a leukotriene receptor antagonist. It is used to relieve allergic rhinitis and hay fever (sneezing, runny or blocked nose, itchy and watery eyes) and hives, and to help control asthma, particularly when allergies and asthma occur together.",
+        "Take one tablet once a day on an empty stomach, at least 1 hour before or 2 hours after food or fruit juice, exactly as your doctor prescribes. It is for adults and adolescents aged 15 and over. Montelukast can occasionally cause mood or behaviour changes, so tell your doctor straight away if you notice any."
+      ],
       "uses": [
         "Asthma",
         "Seasonal and perennial allergic rhinoconjunctivitis",
@@ -1179,12 +1183,60 @@
         "Urticaria"
       ],
       "seoUses": ["asthma", "allergic rhinitis"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Allergic rhinitis and hay fever", "text": "During an allergic reaction the body releases histamine and leukotrienes, which cause sneezing, a runny or blocked nose and itchy, watery eyes. Bilastine blocks histamine and montelukast blocks leukotrienes, so together they relieve both itching and congestion." },
+        { "use": "Asthma", "text": "Leukotrienes narrow and inflame the airways. Montelukast blocks them, helping to prevent asthma symptoms, including those triggered by exercise or allergies. It is a preventer and does not relieve a sudden attack." },
+        { "use": "Urticaria (hives)", "text": "Bilastine reduces the itching and raised red wheals of hives by blocking histamine, the main chemical behind them." }
+      ],
+      "sideEffects": [
+        "Headache",
+        "Drowsiness, dizziness or tiredness",
+        "Abdominal pain, diarrhoea or nausea",
+        "Upper respiratory infection or fever",
+        "Rash",
+        "Rarely, mood changes, disturbed sleep or vivid dreams"
+      ],
+      "howToUse": "Take one tablet once a day, or as your doctor advises, at the same time each day. Take it on an empty stomach, at least 1 hour before or 2 hours after eating or drinking fruit juice, as food reduces how much bilastine is absorbed. Swallow it whole with water.",
+      "howItWorks": "During an allergic reaction, the body releases chemicals including histamine and leukotrienes. Bilastine is a long-acting antihistamine that blocks histamine H1 receptors, relieving sneezing, itching and hives without usually causing drowsiness. Montelukast blocks leukotriene receptors in the airways and nose, reducing swelling, mucus and narrowing of the airways.",
+      "warnings": [
+        "Montelukast can cause mood and behaviour changes, such as agitation, sleep problems, depression and suicidal thoughts, in people of all ages. Stop taking it and contact your doctor if these occur.",
+        "It does not relieve a sudden asthma attack, and it must not replace inhaled or oral steroid treatment unless your doctor advises.",
+        "Rarely, people taking montelukast have developed inflammation of the blood vessels, with rash, tingling, worsening breathing or sinus pain. Tell your doctor if you notice these.",
+        "Bilastine should be used with caution in people with heart rhythm problems or low potassium or magnesium.",
+        "It is not suitable for children under 15 years."
+      ],
+      "contraindications": [
+        "Allergy to bilastine, montelukast or any other ingredient"
+      ],
+      "interactions": [
+        "Food and grapefruit or other fruit juices reduce the absorption of bilastine.",
+        "Ketoconazole, erythromycin, ciclosporin, ritonavir and diltiazem increase bilastine levels; avoid them if you also have moderate or severe kidney disease.",
+        "Phenobarbital, phenytoin and rifampicin can reduce the effect of montelukast.",
+        "Gemfibrozil increases montelukast levels.",
+        "Use caution with other medicines that affect heart rhythm."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "caution", "note": "Bilastine does not usually interact with alcohol, but alcohol can add to drowsiness and trigger asthma in some people. Limit it." },
+        { "topic": "pregnancy", "status": "consult", "note": "Best avoided during pregnancy unless your doctor considers it clearly needed." },
+        { "topic": "breastfeeding", "status": "consult", "note": "Use only if your doctor considers it clearly needed." },
+        { "topic": "driving", "status": "caution", "note": "It does not usually affect driving, but some people feel drowsy or dizzy. Do not drive if you are affected." },
+        { "topic": "kidney", "status": "caution", "note": "Tell your doctor if you have kidney disease, especially if you also take medicines such as ketoconazole, erythromycin or diltiazem." },
+        { "topic": "liver", "status": "consult", "note": "Tell your doctor if you have liver disease." }
+      ],
+      "quickTips": [
+        "Take it at the same time each day on an empty stomach, away from food and fruit juice.",
+        "It prevents and controls symptoms but does not cure allergies, so keep taking it as advised.",
+        "Keep your reliever inhaler with you. This tablet does not treat a sudden asthma attack.",
+        "Tell your doctor straight away about any change in mood, sleep or behaviour, including anxiety, depression or thoughts of self-harm.",
+        "Stop taking it a few days before an allergy skin test, as your doctor advises.",
+        "Reduce exposure to triggers such as dust, pollen and pet hair."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "emc-bilastine-20mg", "publisher": "electronic medicines compendium (emc)", "title": "Bilastine 20 mg tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/101237/smpc", "jurisdiction": "United Kingdom", "revision": "2025-03-24", "accessedAt": "2026-10-01" },
+        { "id": "emc-montelukast-10mg", "publisher": "electronic medicines compendium (emc)", "title": "Montelukast 10 mg film-coated tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/1222/smpc", "jurisdiction": "United Kingdom", "revision": "2026-09-18", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Montelukast carries regulatory warnings about serious neuropsychiatric events in several jurisdictions. Safety sections must be sourced before this page presents any clinical guidance.", "The visual aid's tolerability comparison against desloratadine and cetirizine is a promotional claim and has not been reproduced."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
