@@ -277,12 +277,34 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova ursodeoxycholic acid tablets, available in 150 mg and 300 mg strengths. Ursodeoxycholic acid is a bile acid used in the management of certain liver and gallbladder conditions.",
-      "uses": [],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "uses": [
+        "Dissolving cholesterol gallstones in people whose gallbladder is still working",
+        "Primary biliary cholangitis (PBC)",
+        "Liver disease associated with cystic fibrosis"
+      ],
+      "sideEffects": [
+        "Diarrhoea or loose stools, abdominal pain, nausea and indigestion",
+        "Headache",
+        "Itching, rash or hair thinning",
+        "Changes in liver test results during long-term use"
+      ],
+      "warnings": [
+        "Liver function should be checked regularly during treatment",
+        "Tell your doctor if you are pregnant, planning a pregnancy or breastfeeding, as safety has not been established",
+        "Limit alcohol during treatment",
+        "Take after meals with water or milk, and swallow the tablet whole"
+      ],
+      "contraindications": [
+        "Complete blockage of the bile ducts",
+        "Acute inflammation of the gallbladder or bile ducts",
+        "Allergy to ursodeoxycholic acid or any other ingredient of the tablet"
+      ],
+      "interactions": [
+        "Antacids containing aluminium or magnesium (such as magaldrate), cholestyramine and colestipol can reduce absorption. Take ursodeoxycholic acid at least 2 hours apart from them.",
+        "Medicines containing oestrogen, including hormonal contraceptives, can raise cholesterol in bile and may reduce its effect on gallstones."
+      ],
+      "sources": [{ "id": "1mg-ursocol-300", "publisher": "Tata 1mg", "title": "Ursocol 300 Tablet (ursodeoxycholic acid 300 mg, Sun Pharmaceutical Industries Ltd)", "url": "https://www.1mg.com/drugs/ursocol-300-tablet-493338", "jurisdiction": "India", "accessedAt": "2026-10-01" }, { "id": "dailymed-ursodiol", "publisher": "DailyMed, U.S. National Library of Medicine", "title": "Ursodiol tablets — prescribing information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e", "jurisdiction": "United States", "revision": "2025-08", "accessedAt": "2026-10-01", "sections": ["Indications and Usage", "Contraindications", "Warnings and Precautions", "Adverse Reactions", "Drug Interactions"] }],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed-pending-pack-specific-confirmation", "notes": ["Keep 150 mg and 300 mg as separate variants; do not imply both strengths occur in one tablet."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength-variants"] }]
