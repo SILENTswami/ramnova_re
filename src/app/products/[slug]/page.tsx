@@ -263,6 +263,7 @@ function ProductPage({ product }: { product: Product }) {
   ).filter(([, values]) => values.length > 0);
   // Optional sections, and their "On this page" entries, appear only when they have data.
   const sections = [
+    ["composition", "Composition"],
     ["introduction", "Product introduction"],
     ...(clinical.uses.length ? [["uses", "Uses"]] : []),
     ...(benefits.length ? [["benefits", "Benefits"]] : []),
@@ -272,7 +273,6 @@ function ProductPage({ product }: { product: Product }) {
     ...(safetyAdvice.length ? [["safety-advice", "Safety advice"]] : []),
     ...(quickTips.length ? [["quick-tips", "Quick tips"]] : []),
     ["safety", "Warnings and interactions"],
-    ["composition", "Composition"],
     ["more-information", "More information"],
   ];
 
@@ -385,6 +385,47 @@ function ProductPage({ product }: { product: Product }) {
             </aside>
 
             <div>
+              <section className="info-block" id="composition">
+                <h2>Composition and variants</h2>
+                {product.variants.map((variant) => (
+                  <div key={variant.id}>
+                    <p>
+                      <strong>{variant.label}</strong>
+                    </p>
+                    <div className="ingredient-table-wrap" tabIndex={0}>
+                    <table className="ingredient-table">
+                      <thead>
+                        <tr>
+                          <th>Ingredient</th>
+                          <th>Strength</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {variant.ingredients.map((item) => {
+                          const ingredient = ingredientMap.get(item.ingredientId);
+                          return (
+                            <tr key={`${variant.id}-${item.ingredientId}`}>
+                              <td>{ingredient?.name ?? item.ingredientId}</td>
+                              <td className="ingredient-strength">
+                                {item.strength ? (
+                                  `${item.strength.amount} ${item.strength.unit}`
+                                ) : (
+                                  <>
+                                    <span aria-hidden="true">—</span>
+                                    <span className="sr-only">Not stated</span>
+                                  </>
+                                )}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                    </div>
+                  </div>
+                ))}
+              </section>
+
               <section className="info-block" id="introduction">
                 <h2>Product introduction</h2>
                 {(clinical.introduction ?? [clinical.summary]).map((paragraph) => (
@@ -465,47 +506,6 @@ function ProductPage({ product }: { product: Product }) {
                         <li key={value}>{value}</li>
                       ))}
                     </ul>
-                  </div>
-                ))}
-              </section>
-
-              <section className="info-block" id="composition">
-                <h2>Composition and variants</h2>
-                {product.variants.map((variant) => (
-                  <div key={variant.id}>
-                    <p>
-                      <strong>{variant.label}</strong>
-                    </p>
-                    <div className="ingredient-table-wrap" tabIndex={0}>
-                    <table className="ingredient-table">
-                      <thead>
-                        <tr>
-                          <th>Ingredient</th>
-                          <th>Strength</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {variant.ingredients.map((item) => {
-                          const ingredient = ingredientMap.get(item.ingredientId);
-                          return (
-                            <tr key={`${variant.id}-${item.ingredientId}`}>
-                              <td>{ingredient?.name ?? item.ingredientId}</td>
-                              <td className="ingredient-strength">
-                                {item.strength ? (
-                                  `${item.strength.amount} ${item.strength.unit}`
-                                ) : (
-                                  <>
-                                    <span aria-hidden="true">—</span>
-                                    <span className="sr-only">Not stated</span>
-                                  </>
-                                )}
-                              </td>
-                            </tr>
-                          );
-                        })}
-                      </tbody>
-                    </table>
-                    </div>
                   </div>
                 ))}
               </section>
