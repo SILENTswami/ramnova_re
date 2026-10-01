@@ -1184,7 +1184,7 @@
       ],
       "seoUses": ["asthma", "allergic rhinitis"],
       "benefits": [
-        { "use": "Allergic rhinitis and hay fever", "text": "During an allergic reaction the body releases histamine and leukotrienes, which cause sneezing, a runny or blocked nose and itchy, watery eyes. Bilastine blocks histamine and montelukast blocks leukotrienes, so together they relieve both itching and congestion." },
+        { "use": "Allergic rhinitis and hay fever", "text": "During an allergic reaction the body releases histamine and leukotrienes, which cause sneezing, a runny or blocked nose and itchy, watery eyes. Bilastine blocks histamine to relieve sneezing, itching and a runny nose, while montelukast blocks leukotrienes, which can help with nasal congestion, especially in people who also have asthma." },
         { "use": "Asthma", "text": "Leukotrienes narrow and inflame the airways. Montelukast blocks them, helping to prevent asthma symptoms, including those triggered by exercise or allergies. It is a preventer and does not relieve a sudden attack." },
         { "use": "Urticaria (hives)", "text": "Bilastine reduces the itching and raised red wheals of hives by blocking histamine, the main chemical behind them." }
       ],
@@ -1228,7 +1228,7 @@
         "It prevents and controls symptoms but does not cure allergies, so keep taking it as advised.",
         "Keep your reliever inhaler with you. This tablet does not treat a sudden asthma attack.",
         "Tell your doctor straight away about any change in mood, sleep or behaviour, including anxiety, depression or thoughts of self-harm.",
-        "Stop taking it a few days before an allergy skin test, as your doctor advises.",
+        "Your doctor may ask you to stop it a few days before an allergy skin test, because antihistamines can affect the result.",
         "Reduce exposure to triggers such as dust, pollen and pet hair."
       ],
       "sources": [
