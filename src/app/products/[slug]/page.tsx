@@ -294,8 +294,9 @@ function ProductPage({ product }: { product: Product }) {
       category: getCategoryLabel(product.category),
       dosageForm: entityType === "Drug" ? product.dosageForm : undefined,
       activeIngredient: activeIngredients,
+      // Brand only: some products are made by contract manufacturers, so Ramnova is not
+      // claimed as the manufacturer.
       brand: { "@type": "Brand", name: siteConfig.name },
-      manufacturer: { "@id": `${siteConfig.url}/#organization` },
       isProprietary: entityType === "Drug" ? true : undefined,
     },
     breadcrumb: {
