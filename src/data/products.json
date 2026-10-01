@@ -407,12 +407,68 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova tablet combining tamsulosin hydrochloride 0.4 mg in sustained-release form, an alpha-blocker, with dutasteride 0.5 mg, a 5-alpha-reductase inhibitor.",
-      "uses": [],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "introduction": [
+        "PROSTEOSOL-D tablets combine tamsulosin hydrochloride 0.4 mg in sustained-release form with dutasteride 0.5 mg. It is used in men to treat the symptoms of an enlarged prostate (benign prostatic hyperplasia, BPH), such as a weak stream, difficulty starting and needing to pass urine often or urgently, and to lower the risk of urinary retention and prostate surgery.",
+        "Take one tablet a day, about 30 minutes after the same meal each day, exactly as your doctor prescribes. Tamsulosin starts working within days, but dutasteride can take several months to have its full effect. Common side effects include dizziness and changes in sexual function. It is for men only; women and children should not handle broken tablets."
+      ],
+      "uses": [
+        "Moderate to severe symptoms of an enlarged prostate (benign prostatic hyperplasia, BPH)",
+        "Reducing the risk of sudden inability to pass urine (acute urinary retention) and the need for prostate surgery"
+      ],
+      "seoUses": ["enlarged prostate (BPH)"],
+      "benefits": [
+        { "use": "Symptoms of an enlarged prostate", "text": "As the prostate grows, it squeezes the urine tube, causing a weak stream, straining, dribbling and frequent trips to the toilet, including at night. Tamsulosin relaxes the muscles in the prostate and bladder neck so urine flows more easily, often within days. Dutasteride gradually shrinks the prostate, giving further improvement over 3 to 6 months." },
+        { "use": "Lower risk of urinary retention and surgery", "text": "By shrinking the prostate over time, dutasteride reduces the chance of suddenly being unable to pass urine and of needing prostate surgery. Taking it regularly, as your doctor advises, gives the most benefit." }
+      ],
+      "sideEffects": [
+        "Dizziness, especially when standing up quickly",
+        "Difficulty getting or keeping an erection, or reduced sex drive",
+        "Changes in ejaculation, including less semen",
+        "Breast tenderness or enlargement",
+        "Rarely, a prolonged and painful erection (priapism), which needs urgent medical help"
+      ],
+      "howToUse": "Take one tablet a day, or as your doctor advises, about 30 minutes after the same meal each day. Swallow it whole with water; do not chew, crush or break it.",
+      "howItWorks": "PROSTEOSOL-D combines two medicines that work in different ways. Tamsulosin is an alpha-blocker that relaxes the smooth muscle in the prostate and at the neck of the bladder, making it easier to pass urine. Dutasteride is a 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DHT), the hormone that makes the prostate grow, so the prostate gradually shrinks.",
+      "warnings": [
+        "It can cause a sudden fall in blood pressure when you stand up, leading to dizziness or fainting, especially at the start of treatment.",
+        "Dutasteride lowers PSA levels by about half, which affects prostate cancer screening. Your doctor will take this into account and may check you regularly.",
+        "Before cataract or glaucoma surgery, tell your eye surgeon, as tamsulosin can cause 'floppy iris syndrome' during the operation.",
+        "Report any breast lumps, pain or nipple discharge to your doctor.",
+        "Get urgent medical help for a painful erection that lasts more than 4 hours.",
+        "A slightly higher rate of heart failure has been seen with this combination, so tell your doctor if you have heart problems."
+      ],
+      "contraindications": [
+        "Women, children and adolescents",
+        "Severe liver disease",
+        "A history of dizziness or fainting caused by low blood pressure on standing (orthostatic hypotension)",
+        "Allergy to tamsulosin, dutasteride, other 5-alpha-reductase inhibitors such as finasteride, or any other ingredient"
+      ],
+      "interactions": [
+        "Other alpha-blockers, such as prazosin, alfuzosin or doxazosin, must not be taken with it.",
+        "Erectile dysfunction medicines such as sildenafil or tadalafil can lower blood pressure further and cause dizziness.",
+        "Strong CYP3A4 blockers such as ketoconazole are not recommended, and CYP2D6 blockers such as paroxetine need caution, because they raise tamsulosin levels.",
+        "Tell your doctor if you take warfarin or medicines for blood pressure."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "consult", "note": "Alcohol can make dizziness and low blood pressure worse. Limit alcohol and ask your doctor." },
+        { "topic": "pregnancy", "status": "unsafe", "note": "For men only. Women who are or may become pregnant must not handle broken or crushed tablets, as dutasteride can harm a male baby." },
+        { "topic": "breastfeeding", "status": "unsafe", "note": "Not for use by women." },
+        { "topic": "driving", "status": "caution", "note": "Can cause dizziness or blurred vision. Do not drive or use machines if you are affected." },
+        { "topic": "kidney", "status": "caution", "note": "Tell your doctor if you have severe kidney disease." },
+        { "topic": "liver", "status": "unsafe", "note": "Must not be used in severe liver disease. Tell your doctor about any liver problem." }
+      ],
+      "quickTips": [
+        "Take it at the same time each day, about 30 minutes after a meal.",
+        "Get up slowly from sitting or lying down, especially when you first start, to avoid dizziness or fainting.",
+        "Tell your eye surgeon that you take, or have taken, this medicine before any cataract or glaucoma surgery.",
+        "Use a condom if your partner is or may become pregnant, as dutasteride passes into semen.",
+        "Do not donate blood while taking it and for at least 6 months after stopping.",
+        "Remind your doctor that you take it before any PSA blood test, as it lowers PSA levels."
+      ],
+      "sources": [
+        { "id": "emc-dutasteride-tamsulosin", "publisher": "electronic medicines compendium (emc)", "title": "Dutasteride/tamsulosin hydrochloride 0.5 mg/0.4 mg hard capsules: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/12674/smpc", "jurisdiction": "United Kingdom", "revision": "2025-05-14", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed", "notes": ["Display description removes an apparent stray closing parenthesis from the source; sourceDescription is preserved verbatim."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
