@@ -722,8 +722,12 @@
         "Limit alcohol during treatment"
       ],
       "contraindications": [
-        "Complete blockage of the bile ducts",
         "Acute inflammation of the gallbladder or bile ducts",
+        "Blockage of the bile ducts",
+        "Frequent episodes of biliary colic (severe pain in the upper abdomen)",
+        "Calcified gallstones, or a gallbladder that does not contract properly",
+        "An active stomach or duodenal ulcer",
+        "In children with biliary atresia: an unsuccessful operation to restore bile flow",
         "Allergy to ursodeoxycholic acid or any other ingredient of the tablet"
       ],
       "interactions": [
