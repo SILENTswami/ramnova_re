@@ -1314,23 +1314,21 @@
       "howToUse": "Mix the powder with the amount of boiled and cooled water shown on the pack, and shake well. Shake well again before each dose, and measure it with the cup or syringe provided rather than a kitchen spoon. It can be given with or without food, though giving it with food may reduce stomach upset. Store the mixed suspension as directed on the pack, usually in a refrigerator, and throw away any unused medicine after the stated time.",
       "howItWorks": "Cefpodoxime is a cephalosporin antibiotic. Taken by mouth, it is absorbed and converted into its active form, which stops bacteria from building their protective cell walls, so they die. It works against bacteria, not viruses, so it will not help colds or flu.",
       "warnings": [
-        "Do not give it to a child who has had a serious allergic reaction to penicillin, as some people allergic to penicillin also react to cephalosporins.",
+        "Tell the doctor if your child has ever had an allergic reaction to penicillin. Some people allergic to penicillin also react to cephalosporins, so after a severe reaction the doctor may choose a different antibiotic.",
         "Antibiotics can cause a serious bowel infection (Clostridioides difficile), which can appear up to two months after treatment. See a doctor for severe or persistent diarrhoea.",
         "In children with kidney problems the dose must be adjusted, as the medicine can build up.",
         "Using antibiotics when they are not needed, or stopping early, encourages resistant bacteria."
       ],
       "contraindications": [
-        "Allergy to cefpodoxime or any other cephalosporin antibiotic",
-        "A previous severe allergic reaction to penicillin or another beta-lactam antibiotic"
+        "Allergy to cefpodoxime or any other cephalosporin antibiotic"
       ],
       "interactions": [
         "Antacids and acid-reducing medicines such as ranitidine or famotidine reduce absorption. Give them at least 2 hours apart.",
         "Probenecid increases cefpodoxime levels in the blood.",
-        "Medicines that can harm the kidneys need closer monitoring when taken with it.",
-        "It may reduce the effectiveness of live oral typhoid and cholera vaccines, so tell the doctor before your child is vaccinated."
+        "Medicines that can harm the kidneys need closer monitoring when taken with it."
       ],
       "safetyAdvice": [
-        { "topic": "alcohol", "status": "safe", "note": "Not relevant for most children. Older users should avoid alcohol during treatment, as it can worsen stomach upset." },
+        { "topic": "alcohol", "status": "caution", "note": "Not relevant for most children. Older users should avoid alcohol during treatment, as it can worsen stomach upset." },
         { "topic": "pregnancy", "status": "consult", "note": "No adequate studies in pregnancy. Use only if a doctor considers it clearly needed." },
         { "topic": "breastfeeding", "status": "consult", "note": "Small amounts pass into breast milk. Ask your doctor before use." },
         { "topic": "driving", "status": "safe", "note": "Not expected to affect the ability to drive." },
