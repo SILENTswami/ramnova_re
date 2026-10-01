@@ -41,14 +41,20 @@ export const dynamicParams = false;
 // Search traffic arrives on the molecule, not the brand: nobody looks up "SIZEDOB"
 // unless they already hold the pack. Lead the title and description with the
 // composition, trimmed to a character budget so the useful part survives truncation.
-// The first ingredient is always kept, even when it alone exceeds the budget.
-function getCompositionSummary(product: Product, budget: number) {
-  const names = getProductIngredientNames(product);
+// The first ingredient is always kept, even when it alone exceeds the budget. In prose,
+// names are lowercased and a complete list ends "x and y".
+function getCompositionSummary(product: Product, budget: number, prose = false) {
+  const names = getProductIngredientNames(product).map((name) =>
+    prose ? toLowerCaseWords(name) : name,
+  );
   if (!names.length) return null;
   const summarise = (count: number) => {
-    const kept = names.slice(0, count).join(", ");
     const omitted = names.length - count;
-    return omitted > 0 ? `${kept} +${omitted} more` : kept;
+    if (omitted > 0) return `${names.slice(0, count).join(", ")} +${omitted} more`;
+    if (prose && count > 1) {
+      return `${names.slice(0, count - 1).join(", ")} and ${names[count - 1]}`;
+    }
+    return names.slice(0, count).join(", ");
   };
   for (let count = names.length; count > 1; count--) {
     const summary = summarise(count);
@@ -63,6 +69,15 @@ const titleBudget = 60;
 
 function getDosageFormLabel(product: Product) {
   return product.dosageForm.replaceAll("-", " ");
+}
+
+// Lowercase capitalised words so a name reads mid-sentence. Acronyms, tokens with
+// digits ("Q10", "K2-7") and letter prefixes ("L-carnitine") keep their case.
+function toLowerCaseWords(name: string) {
+  return name
+    .split(" ")
+    .map((word) => (/^[A-Z][a-z][a-z-]*$/.test(word) ? word.toLowerCase() : word))
+    .join(" ");
 }
 
 // Lowercase a use's leading word so it reads mid-sentence, leaving acronyms alone.
@@ -85,7 +100,7 @@ function getProductDescription(product: Product) {
   );
   const ending = hasSafety
     ? "Uses, side effects, warnings and interactions."
-    : "Composition and product information.";
+    : "Uses and composition.";
 
   const attempts = [
     { uses, shorten: false },
@@ -96,15 +111,17 @@ function getProductDescription(product: Product) {
     if (!attempt.uses.length) break;
     const purpose = ` for ${attempt.uses.join(" and ")}`;
     const fixedLength = `${product.name}: ${dosageForm} containing ${purpose}. ${ending}`.length;
-    const composition = attempt.shorten
-      ? getCompositionSummary(product, descriptionBudget - fixedLength)
-      : getProductIngredientNames(product).join(", ");
+    const composition = getCompositionSummary(
+      product,
+      attempt.shorten ? descriptionBudget - fixedLength : Infinity,
+      true,
+    );
     if (!composition) break;
     const description = `${product.name}: ${dosageForm} containing ${composition}${purpose}. ${ending}`;
     if (description.length <= descriptionBudget) return description;
   }
 
-  const composition = getCompositionSummary(product, 54);
+  const composition = getCompositionSummary(product, 54, true);
   const subject = composition ? `${dosageForm} containing ${composition}` : product.displayDescription;
   return `${product.name}: ${subject}. Composition and product information.`;
 }

@@ -345,6 +345,7 @@
         "Weakness and fatigue associated with viral fever",
         "Weakness and fatigue associated with chronic illness"
       ],
+      "seoUses": ["weakness and fatigue"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
@@ -478,6 +479,7 @@
         "Urinary tract infections",
         "Pelvic inflammatory disease"
       ],
+      "seoUses": ["meningitis", "respiratory tract infections"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
@@ -522,6 +524,7 @@
         "Alcoholic liver disease",
         "Cirrhosis"
       ],
+      "seoUses": ["hepatitis", "alcoholic liver disease"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
@@ -565,6 +568,7 @@
         "Respiratory and nasal allergies",
         "Urticaria"
       ],
+      "seoUses": ["asthma", "allergic rhinitis"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
@@ -605,6 +609,7 @@
         "Asthma",
         "Chronic obstructive pulmonary disease (COPD)"
       ],
+      "seoUses": ["asthma", "COPD"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
@@ -646,6 +651,7 @@
         "Adjuvant therapy in hyperammonaemia",
         "Pre- and post-operative prophylaxis in gastrointestinal surgery"
       ],
+      "seoUses": ["intestinal infections", "infectious diarrhoea"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
@@ -687,6 +693,7 @@
         "Adjuvant therapy in hyperammonaemia",
         "Pre- and post-operative prophylaxis in gastrointestinal surgery"
       ],
+      "seoUses": ["intestinal infections", "infectious diarrhoea"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
@@ -770,6 +777,7 @@
         "Suprapubic pain, nocturia and incontinence",
         "Urinary symptoms in cystitis, prostatitis, urethritis and urethrotrigonitis"
       ],
+      "seoUses": ["overactive bladder", "painful urination"],
       "sideEffects": [],
       "warnings": [],
       "contraindications": [],
