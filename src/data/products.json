@@ -251,12 +251,72 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova injection combining piperacillin, a broad-spectrum penicillin antibiotic, with tazobactam, a beta-lactamase inhibitor. For use in hospital and clinical settings under medical supervision.",
-      "uses": [],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "introduction": [
+        "PIPROSHOT 4.5 g is an injectable antibiotic that combines piperacillin 4 g, a broad-spectrum penicillin, with tazobactam 500 mg, which protects piperacillin from bacterial enzymes. It is used in hospital to treat serious bacterial infections, including severe pneumonia, complicated urinary tract and abdominal infections, skin and soft tissue infections, and fever in patients with very low white blood cell counts.",
+        "It is given by a doctor or nurse as a slow infusion into a vein, usually every 6 to 8 hours. The most common side effect is diarrhoea. Tell your doctor straight away if you have ever had an allergic reaction to penicillin or any other antibiotic."
+      ],
+      "uses": [
+        "Severe pneumonia, including hospital-acquired and ventilator-associated pneumonia",
+        "Complicated urinary tract infections, including kidney infection (pyelonephritis)",
+        "Complicated abdominal infections",
+        "Complicated skin and soft tissue infections, including diabetic foot infections",
+        "Bloodstream infections linked to any of the above",
+        "Fever in patients with very low white blood cell counts (neutropenic fever) due to suspected bacterial infection"
+      ],
+      "seoUses": ["severe pneumonia", "complicated urinary tract infections"],
+      "benefits": [
+        { "use": "Severe pneumonia", "text": "Piperacillin with tazobactam is active against many bacteria that cause hospital-acquired and ventilator-associated pneumonia, including Pseudomonas. Treating the infection promptly helps clear the lungs, ease breathing and reduce the risk of complications." },
+        { "use": "Complicated urinary tract and abdominal infections", "text": "Infections of the kidneys, urinary tract or abdomen are often caused by a mix of bacteria. Its broad range of activity covers many of these organisms, helping to control the infection and stop it spreading to the bloodstream." },
+        { "use": "Skin, soft tissue and diabetic foot infections", "text": "Deep skin and diabetic foot infections can involve several types of bacteria. This combination helps stop the infection spreading and supports healing alongside proper wound care." },
+        { "use": "Neutropenic fever", "text": "People with very low white blood cell counts, for example during chemotherapy, can develop life-threatening infections. Starting a broad-spectrum antibiotic such as this one quickly is an important part of their care." }
+      ],
+      "sideEffects": [
+        "Diarrhoea (the most common side effect)",
+        "Nausea or vomiting",
+        "Rash or itching",
+        "Pain, swelling or redness where the infusion is given",
+        "Headache or difficulty sleeping"
+      ],
+      "howToUse": "This medicine is given only by a doctor or nurse in a hospital or clinic. It is dissolved and given as an infusion into a vein over about 30 minutes. Your doctor will decide the dose and how long treatment lasts, based on the infection and how well your kidneys work.",
+      "howItWorks": "Piperacillin is a penicillin antibiotic that stops bacteria from building their cell walls, so they burst and die. Many bacteria make enzymes called beta-lactamases that destroy penicillins. Tazobactam blocks these enzymes, so piperacillin can work against a wider range of bacteria.",
+      "warnings": [
+        "Serious, sometimes life-threatening allergic reactions, including severe skin reactions, can occur. Tell your doctor about any previous antibiotic allergy.",
+        "It can cause a serious bowel infection (Clostridioides difficile colitis). Report severe or persistent diarrhoea.",
+        "It may cause bleeding problems and low potassium levels, so your doctor may check your blood during treatment.",
+        "It contains a significant amount of sodium. Tell your doctor if you are on a low-salt diet or have heart failure.",
+        "In seriously ill patients it may slow kidney recovery, particularly with vancomycin. High doses can rarely cause fits, especially in people with kidney problems."
+      ],
+      "contraindications": [
+        "Allergy to piperacillin, tazobactam or any other penicillin",
+        "A previous severe allergic reaction to any beta-lactam antibiotic, such as a cephalosporin or carbapenem"
+      ],
+      "interactions": [
+        "Probenecid increases the levels of piperacillin and tazobactam in the blood.",
+        "People taking blood thinners, including heparin and warfarin, may need more frequent blood clotting tests.",
+        "Piperacillin can raise methotrexate levels, which may need monitoring.",
+        "It can prolong the effect of muscle relaxants such as vecuronium used during surgery.",
+        "Using it with vancomycin increases the risk of kidney injury. Aminoglycoside antibiotics must be given separately, not mixed in the same infusion."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "safe", "note": "No harmful interaction is known. Avoiding alcohol can help your recovery from infection." },
+        { "topic": "pregnancy", "status": "safe-if-prescribed", "note": "Used during pregnancy only when your doctor considers it clearly needed." },
+        { "topic": "breastfeeding", "status": "safe-if-prescribed", "note": "Small amounts pass into breast milk. Your doctor will weigh the benefits; watch your baby for diarrhoea or rash." },
+        { "topic": "driving", "status": "consult", "note": "Its effect on driving has not been studied. Do not drive if you feel dizzy or unwell." },
+        { "topic": "kidney", "status": "caution", "note": "The dose is reduced in kidney disease, and your kidney function will be monitored, especially if you are seriously ill." },
+        { "topic": "liver", "status": "safe-if-prescribed", "note": "No dose change is usually needed, but tell your doctor about any liver problem." }
+      ],
+      "quickTips": [
+        "Before the first dose, tell your doctor or nurse about any past allergy to penicillins, cephalosporins or other antibiotics.",
+        "Tell staff immediately if you develop an itchy rash, swelling of the face or throat, or difficulty breathing during or after the infusion.",
+        "Complete the full course your doctor prescribes, even if you start to feel better.",
+        "Report diarrhoea that is severe, watery or bloody, or that continues, even weeks after treatment ends.",
+        "Report any unusual bleeding or bruising.",
+        "If you use hormonal contraception, ask your doctor whether you need extra protection."
+      ],
+      "sources": [
+        { "id": "emc-piperacillin-tazobactam-4g", "publisher": "electronic medicines compendium (emc)", "title": "Piperacillin/tazobactam 4 g/0.5 g powder for solution for infusion: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/6526/smpc", "jurisdiction": "United Kingdom", "revision": "2025-07-04", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Component strengths are taken from the PVAS2109 visual aid, which states piperacillin 4 g and tazobactam 500 mg; confirm against the pack before treating them as final."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "sourceDescription", "category", "composition"] }]
