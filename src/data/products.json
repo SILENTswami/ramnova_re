@@ -595,12 +595,70 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova capsule combining rabeprazole 20 mg, a proton pump inhibitor that reduces stomach acid, with domperidone 30 mg in sustained-release form, a prokinetic agent.",
-      "uses": [],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "reviewStatus": "awaiting-pack-insert", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "introduction": [
+        "RUSKIRAB-DSR capsules combine rabeprazole 20 mg, which reduces stomach acid, with domperidone 30 mg in sustained-release form, which helps the stomach empty faster. It is used to treat gastro-oesophageal reflux disease (GERD), relieving heartburn, acid regurgitation, bloating and nausea.",
+        "Take one capsule on an empty stomach, about an hour before your first meal, exactly as your doctor prescribes. Common side effects include headache, diarrhoea and dry mouth. It must not be used during pregnancy or breastfeeding, and because domperidone can affect heart rhythm, tell your doctor about any heart problems and every other medicine you take."
+      ],
+      "uses": [
+        "Gastro-oesophageal reflux disease (GERD), including heartburn and acid regurgitation",
+        "Indigestion with bloating, fullness and nausea"
+      ],
+      "seoUses": ["GERD", "indigestion"],
+      "benefits": [
+        { "use": "Gastro-oesophageal reflux disease (GERD)", "text": "In GERD, stomach acid flows back into the food pipe, causing heartburn and irritation. Rabeprazole lowers acid production, relieving symptoms and allowing the food pipe to heal, while domperidone helps food move through the stomach faster, reducing the backflow of acid. Your doctor will decide how long you need to take it; do not stop or continue it without their advice." },
+        { "use": "Indigestion with bloating and nausea", "text": "Domperidone helps the stomach empty more quickly, easing bloating, early fullness, nausea and upper abdominal discomfort, while rabeprazole reduces acid-related pain." }
+      ],
+      "sideEffects": [
+        "Headache",
+        "Diarrhoea, abdominal pain or wind",
+        "Dry mouth",
+        "Weakness or tiredness",
+        "Dizziness or drowsiness",
+        "Rash"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises. Swallow the capsule whole on an empty stomach, about an hour before your first meal. Do not chew, crush or open it.",
+      "howItWorks": "RUSKIRAB-DSR combines two medicines. Rabeprazole is a proton pump inhibitor that blocks the pumps in the stomach lining that produce acid. Domperidone is a prokinetic that increases the movement of the stomach and intestines, helping food pass through faster and reducing reflux, bloating and nausea. The sustained-release form releases domperidone gradually through the day.",
+      "warnings": [
+        "Domperidone can affect heart rhythm (QT prolongation). The risk is higher in people over 60, at higher doses and with other medicines that affect heart rhythm. It should be used at the lowest effective dose for the shortest possible time, as decided by your doctor.",
+        "Long-term use of rabeprazole, especially beyond 3 months, may lower magnesium and vitamin B12 levels and increase the risk of bone fractures.",
+        "It may slightly increase the risk of certain gut infections.",
+        "Tell your doctor before starting if you have unexplained weight loss, difficulty swallowing, vomiting of blood or black stools."
+      ],
+      "contraindications": [
+        "Pregnancy and breastfeeding",
+        "Heart conditions such as heart failure, or a known abnormal heart rhythm (QT prolongation)",
+        "Moderate or severe liver disease",
+        "Bleeding, blockage or perforation of the stomach or intestines",
+        "A prolactin-secreting pituitary tumour (prolactinoma)",
+        "Use with strong CYP3A4-blocking medicines such as ketoconazole, itraconazole or clarithromycin, or with the HIV medicine atazanavir",
+        "Allergy to rabeprazole, similar acid-reducing medicines, domperidone or any other ingredient"
+      ],
+      "interactions": [
+        "Medicines that affect heart rhythm, such as some antiarrhythmics, antipsychotics like haloperidol, and antidepressants like citalopram or escitalopram, should not be combined with domperidone.",
+        "Rabeprazole sharply reduces the absorption of ketoconazole, itraconazole and atazanavir.",
+        "Rabeprazole can raise high-dose methotrexate levels, which may need monitoring."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "consult", "note": "Alcohol can increase drowsiness and worsen acid reflux. Limit it and ask your doctor." },
+        { "topic": "pregnancy", "status": "unsafe", "note": "Must not be used during pregnancy." },
+        { "topic": "breastfeeding", "status": "unsafe", "note": "Must not be used while breastfeeding." },
+        { "topic": "driving", "status": "caution", "note": "May cause dizziness or drowsiness. Do not drive until you know how it affects you." },
+        { "topic": "kidney", "status": "caution", "note": "Your doctor may need to adjust the dose or review treatment if you have severe kidney disease." },
+        { "topic": "liver", "status": "unsafe", "note": "Not recommended in moderate or severe liver disease. Tell your doctor if you have any liver problem." }
+      ],
+      "quickTips": [
+        "Take it about an hour before your first meal, at the same time each day.",
+        "Eat smaller, more frequent meals, avoid spicy or oily food, and do not lie down straight after eating.",
+        "See your doctor if your symptoms have not improved after 2 weeks.",
+        "Get urgent medical help if you notice a fast or irregular heartbeat, fainting or fits.",
+        "See your doctor if you have severe or persistent watery diarrhoea or fever.",
+        "Do not take it for longer than your doctor advises. Domperidone is used for the shortest time needed."
+      ],
+      "sources": [
+        { "id": "emc-rabeprazole-20mg", "publisher": "electronic medicines compendium (emc)", "title": "Rabeprazole sodium 20 mg gastro-resistant tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/14538/smpc", "jurisdiction": "United Kingdom", "revision": "2017-12-07", "accessedAt": "2026-10-01" },
+        { "id": "emc-domperidone-10mg", "publisher": "electronic medicines compendium (emc)", "title": "Domperidone 10 mg tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/101741/smpc", "jurisdiction": "United Kingdom", "revision": "2026-03-31", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "source-listed", "notes": [] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "composition", "strength", "release-form"] }]
