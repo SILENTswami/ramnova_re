@@ -630,12 +630,12 @@
         "Moderate or severe liver disease",
         "Bleeding, blockage or perforation of the stomach or intestines",
         "A prolactin-secreting pituitary tumour (prolactinoma)",
-        "Use with strong CYP3A4-blocking medicines such as ketoconazole, itraconazole or clarithromycin, or with the HIV medicine atazanavir",
+        "Use with strong CYP3A4-blocking medicines such as ketoconazole, itraconazole or clarithromycin",
         "Allergy to rabeprazole, similar acid-reducing medicines, domperidone or any other ingredient"
       ],
       "interactions": [
         "Medicines that affect heart rhythm, such as some antiarrhythmics, antipsychotics like haloperidol, and antidepressants like citalopram or escitalopram, should not be combined with domperidone.",
-        "Rabeprazole sharply reduces the absorption of ketoconazole, itraconazole and atazanavir.",
+        "Rabeprazole sharply reduces the absorption of ketoconazole and itraconazole, and should not be used with the HIV medicine atazanavir.",
         "Rabeprazole can raise high-dose methotrexate levels, which may need monitoring."
       ],
       "safetyAdvice": [
