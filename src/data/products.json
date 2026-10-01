@@ -1429,6 +1429,10 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova flavoxate hydrochloride 200 mg tablets. Flavoxate is a urinary antispasmodic that helps relieve bladder spasm and related urinary symptoms.",
+      "introduction": [
+        "FLAVOLEAD tablets contain flavoxate hydrochloride 200 mg, a urinary antispasmodic. It relaxes the muscles of the bladder and urinary tract to relieve painful urination, urgency, frequent urination, night-time urination and leakage, including symptoms linked to cystitis, prostatitis and urethritis.",
+        "Take it after meals, usually three times a day, exactly as your doctor prescribes. The most common side effect is nausea; it can also cause drowsiness or blurred vision. It is not recommended for children under 12, and it must not be used by people with glaucoma or difficulty passing urine."
+      ],
       "uses": [
         "Overactive bladder",
         "Painful urination (dysuria), urgency and frequency",
@@ -1436,12 +1440,61 @@
         "Urinary symptoms in cystitis, prostatitis, urethritis and urethrotrigonitis"
       ],
       "seoUses": ["overactive bladder", "painful urination"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Overactive bladder", "text": "In an overactive bladder, the bladder muscle squeezes suddenly and often, causing urgent and frequent trips to the toilet. Flavoxate relaxes this muscle, so the bladder can hold more urine and the urge becomes easier to control." },
+        { "use": "Painful urination, urgency and frequency", "text": "Irritation of the bladder or urethra can cause burning, pain and a constant urge to pass urine. By easing spasm in the urinary tract, flavoxate relieves these symptoms while the underlying cause is treated." },
+        { "use": "Night-time urination, lower abdominal pain and leakage", "text": "Relaxing the bladder muscle can reduce how often you wake at night to pass urine, ease discomfort above the pubic bone, and lessen leakage caused by bladder spasm." },
+        { "use": "Symptoms of urinary infections and inflammation", "text": "In cystitis, prostatitis and urethritis, flavoxate eases the painful spasm and urgency. It does not treat infection itself, so your doctor may prescribe an antibiotic alongside it." }
+      ],
+      "sideEffects": [
+        "Nausea (the most common side effect)",
+        "Drowsiness",
+        "Blurred vision",
+        "Vomiting or indigestion",
+        "Dry mouth",
+        "Rarely, allergic reactions, a fast heartbeat or difficulty passing urine"
+      ],
+      "howToUse": "Take this medicine in the dose and for the length of time your doctor advises, usually one tablet three times a day. Swallow the tablet whole with water after a meal; do not chew or crush it.",
+      "howItWorks": "Flavoxate is a urinary antispasmodic. It acts directly on the smooth muscle of the bladder and urinary tract, relaxing it and reducing involuntary contractions. This increases the amount of urine the bladder can hold and eases pain, urgency and frequency.",
+      "warnings": [
+        "It is not recommended for children under 12 years.",
+        "Use with caution in kidney disease.",
+        "It can cause drowsiness or blurred vision. Avoid driving or operating machinery if affected."
+      ],
+      "contraindications": [
+        "Glaucoma",
+        "Difficulty passing urine (urinary retention)",
+        "Blockage of the stomach or intestines, or bowel paralysis (ileus)",
+        "Bleeding in the stomach or intestines",
+        "Achalasia (a swallowing disorder of the food pipe)",
+        "Myasthenia gravis",
+        "Allergy to flavoxate or any other ingredient"
+      ],
+      "interactions": [
+        "No formal interaction studies have been done. Tell your doctor about all the medicines you take.",
+        "Taking it with other medicines that have anticholinergic effects, such as trihexyphenidyl, procyclidine or clozapine, may increase dry mouth, constipation, blurred vision or difficulty passing urine."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "consult", "note": "Alcohol can irritate the bladder and add to drowsiness. Limit it and ask your doctor." },
+        { "topic": "pregnancy", "status": "caution", "note": "Best avoided during pregnancy unless your doctor considers it necessary." },
+        { "topic": "breastfeeding", "status": "unsafe", "note": "Should not be used while breastfeeding." },
+        { "topic": "driving", "status": "caution", "note": "Can cause drowsiness or blurred vision. Do not drive or use machines if you are affected." },
+        { "topic": "kidney", "status": "caution", "note": "Flavoxate is mainly removed through the kidneys. Tell your doctor if you have kidney disease." },
+        { "topic": "liver", "status": "consult", "note": "Tell your doctor if you have liver disease." }
+      ],
+      "quickTips": [
+        "Take it after meals to reduce nausea.",
+        "Cut down on tea, coffee, fizzy drinks and alcohol, which can irritate the bladder.",
+        "Drink enough water through the day, but reduce fluids in the evening if night-time urination is a problem.",
+        "For a dry mouth, sip water or chew sugar-free gum.",
+        "Tell your doctor if you have glaucoma or eye pain, or if you find it hard to pass urine.",
+        "See your doctor if you have fever, blood in the urine or pain in your back or side, which may mean an infection needing other treatment."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "emc-flavoxate-200mg", "publisher": "electronic medicines compendium (emc)", "title": "Flavoxate hydrochloride 200 mg film-coated tablets: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/322/smpc", "jurisdiction": "United Kingdom", "revision": "2023-11", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["Flavoxate relieves symptoms of bladder overactivity and does not treat the cystitis, prostatitis or urethritis that may cause them; the visual aid lists those conditions as the setting in which the symptoms occur."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }]
