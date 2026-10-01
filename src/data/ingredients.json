@@ -612,5 +612,53 @@
     "kind": "active-ingredient",
     "medicalSummary": "A urinary antispasmodic listed in Ramnova's FLAVOLEAD tablets. Consumer-facing clinical guidance is awaiting verification against approved prescribing information.",
     "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-b1",
+    "name": "Vitamin B1 (thiamine)",
+    "synonyms": ["thiamine", "thiamin", "vitamin b1"],
+    "kind": "vitamin",
+    "medicalSummary": "A B vitamin listed in Ramnova's SILIRAM-MAX suspension.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-b2",
+    "name": "Vitamin B2 (riboflavin)",
+    "synonyms": ["riboflavin", "vitamin b2"],
+    "kind": "vitamin",
+    "medicalSummary": "A B vitamin listed in Ramnova's SILIRAM-MAX suspension.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-b3",
+    "name": "Vitamin B3",
+    "synonyms": ["niacin", "niacinamide", "nicotinamide", "vitamin b3"],
+    "kind": "vitamin",
+    "medicalSummary": "A B vitamin listed in Ramnova's SILIRAM-MAX suspension.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-b5",
+    "name": "Vitamin B5 (pantothenic acid)",
+    "synonyms": ["pantothenic acid", "vitamin b5"],
+    "kind": "vitamin",
+    "medicalSummary": "A B vitamin listed in Ramnova's SILIRAM-MAX suspension.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-b6",
+    "name": "Vitamin B6 (pyridoxine)",
+    "synonyms": ["pyridoxine", "vitamin b6"],
+    "kind": "vitamin",
+    "medicalSummary": "A B vitamin listed in Ramnova's SILIRAM-MAX suspension.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
+  },
+  {
+    "id": "vitamin-b12",
+    "name": "Vitamin B12",
+    "synonyms": ["cobalamin", "vitamin b12"],
+    "kind": "vitamin",
+    "medicalSummary": "A B vitamin listed in Ramnova's SILIRAM-MAX suspension.",
+    "summaryStatus": "catalog-derived-not-medically-reviewed"
   }
 ]

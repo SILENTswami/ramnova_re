@@ -1232,39 +1232,44 @@
     "sourceDescription": "Silymarin,L-Ornithine-L-Aspartate , Tricholinecitrate & Multivitamin Syrup",
     "displayDescription": "Silymarin, L-ornithine L-aspartate, tricholine citrate and multivitamin syrup",
     "category": "syrups",
-    "dosageForm": "syrup",
+    "dosageForm": "oral-suspension",
     "image": "/images/products/siliram-max.webp",
-    "imageAlt": "SILIRAM-MAX syrup packaging",
+    "imageAlt": "SILIRAM-MAX suspension packaging",
     "featured": false,
     "therapyCategory": "Liver and nutritional support",
     "therapyCategoryVerification": "inferred-from-composition",
     "variants": [{
       "id": "siliram-max-standard",
-      "label": "Product composition",
+      "label": "Each 5 ml contains",
       "ingredients": [
-        { "ingredientId": "silymarin", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "l-ornithine-l-aspartate", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "tricholine-citrate", "strength": null, "verification": "source-listed-strength-not-provided" },
-        { "ingredientId": "multivitamin-blend", "strength": null, "verification": "blend-details-not-provided" }
+        { "ingredientId": "l-ornithine-l-aspartate", "strength": { "amount": 150, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "tricholine-citrate", "strength": { "amount": 275, "unit": "mg" }, "sourceStrengthText": "275.0 mg (65%)", "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "silymarin", "strength": { "amount": 35, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b1", "strength": { "amount": 1.4, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b2", "strength": { "amount": 2.5, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b3", "strength": { "amount": 18, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b5", "strength": { "amount": 5, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b6", "strength": { "amount": 1.5, "unit": "mg" }, "verification": "pack-confirmed-by-user-2026-10-01" },
+        { "ingredientId": "vitamin-b12", "strength": { "amount": 1, "unit": "mcg" }, "verification": "pack-confirmed-by-user-2026-10-01" }
       ],
-      "verification": "partial-details"
+      "verification": "pack-confirmed-by-user-2026-10-01"
     }],
     "packaging": { "description": null, "verification": "not-provided" },
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
-      "summary": "Ramnova liver support syrup combining silymarin with L-ornithine L-aspartate, tricholine citrate and a multivitamin blend.",
+      "summary": "Ramnova liver support suspension combining silymarin with L-ornithine L-aspartate, tricholine citrate and B-complex vitamins.",
       "introduction": [
-        "SILIRAM-MAX is a liver support syrup that combines silymarin (from milk thistle), L-ornithine L-aspartate, tricholine citrate and a multivitamin blend. It is used as supportive care in liver conditions such as fatty liver, alongside the treatment your doctor recommends.",
-        "Shake the bottle well and take the dose your doctor advises with the measuring cup, at the same times each day. It is usually well tolerated, though mild stomach upset or diarrhoea can occur. It supports, but does not replace, treatment of the cause of liver disease, so avoid alcohol and follow your doctor's advice."
+        "SILIRAM-MAX is a liver support nutritional suspension. Each 5 ml contains silymarin 35 mg (from milk thistle), L-ornithine L-aspartate 150 mg and tricholine citrate 275 mg, with vitamins B1, B2, B3, B5, B6 and B12. It is used as supportive care in liver conditions such as fatty liver, alongside the treatment your doctor recommends.",
+        "Shake the bottle well and take the dose your doctor or dietician advises with the measuring cup, at the same times each day. It is usually well tolerated, though mild stomach upset or diarrhoea can occur. It supports, but does not replace, treatment of the cause of liver disease, so avoid alcohol and follow your doctor's advice."
       ],
       "uses": [
         "Supportive care in liver disease, including fatty liver",
-        "Nutritional support in people with liver conditions"
+        "Vitamin B-complex support in people with liver conditions"
       ],
       "seoUses": ["liver disease", "fatty liver"],
       "benefits": [
         { "use": "Supportive care in liver disease", "text": "Silymarin is an antioxidant from milk thistle that has been studied for protecting liver cells, although results in liver disease have been mixed. L-ornithine L-aspartate supplies amino acids the liver uses to clear ammonia, a waste product that can build up when the liver is not working well. Tricholine citrate supplies choline, which the liver needs to process fat. Your doctor can advise whether it is suitable alongside your other treatment." },
-        { "use": "Nutritional support", "text": "Liver disease often reduces appetite and the body's stores of vitamins. The multivitamin blend helps make up for these shortfalls, supporting energy and recovery." }
+        { "use": "Vitamin B-complex support", "text": "Liver disease often reduces appetite and the body's stores of B vitamins. Each 5 ml provides the daily recommended amount of vitamins B1, B2, B3, B5, B6 and B12, which the body needs to turn food into energy and keep nerves healthy." }
       ],
       "sideEffects": [
         "Diarrhoea or loose stools",
@@ -1273,13 +1278,15 @@
         "Tiredness",
         "Itching or rash (rare allergic reaction)"
       ],
-      "howToUse": "Shake the bottle well before use. Take the dose your doctor advises using the measuring cup provided, with or without food, at the same times each day.",
-      "howItWorks": "Silymarin, taken from milk thistle seeds, is an antioxidant that is thought to help protect liver cells from toxins. L-ornithine L-aspartate provides two amino acids that the liver uses to convert ammonia into urea, which the body then removes. Tricholine citrate supplies choline, which the liver uses to move fat out of its cells. The multivitamins help replace nutrients that are often low in liver disease.",
+      "howToUse": "Shake the bottle well before use. Take the dose your doctor or dietician advises using the measuring cup provided, at the same times each day. Keep the cap tightly closed and store below 25°C, away from light and moisture.",
+      "howItWorks": "Silymarin, taken from milk thistle seeds, is an antioxidant that is thought to help protect liver cells from toxins. L-ornithine L-aspartate provides two amino acids that the liver uses to convert ammonia into urea, which the body then removes. Tricholine citrate supplies choline, which the liver uses to move fat out of its cells. The B vitamins help replace nutrients that are often low in liver disease.",
       "warnings": [
-        "This syrup supports, but does not replace, treatment of the underlying cause of liver disease.",
+        "This suspension supports, but does not replace, treatment of the underlying cause of liver disease.",
         "People allergic to plants in the daisy family, such as ragweed, chrysanthemum or marigold, may react to silymarin.",
-        "Avoid taking other multivitamin products at the same time unless your doctor advises it, to avoid getting too much of some vitamins.",
-        "If you have diabetes, ask your doctor or pharmacist whether this syrup is suitable for you."
+        "Avoid taking other vitamin B supplements at the same time unless your doctor advises it.",
+        "It contains sugar, so people with diabetes should check with their doctor before use.",
+        "It contains the colour tartrazine, which can cause allergic reactions in some people, particularly those sensitive to aspirin.",
+        "It contains polyols, which can have a laxative effect."
       ],
       "contraindications": [
         "Severe kidney disease",
@@ -1310,7 +1317,7 @@
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
-    "verification": { "status": "partial-details", "notes": ["The PVAS2109 visual aid presents SILIRAM-MAX as tablets and suspension, while this entry describes the syrup only. Confirm whether a tablet pack should be listed separately.", "No per-dose strengths are stated for any component."] },
+    "verification": { "status": "pack-confirmed", "notes": ["The PVAS2109 visual aid presents SILIRAM-MAX as tablets and suspension, while this entry describes the syrup only. Confirm whether a tablet pack should be listed separately.", "Per-5 ml strengths, the B-vitamin breakdown and label details (sugar, tartrazine, polyols) confirmed from the pack by the user on 2026-10-01. Tricholine citrate is labelled 275.0 mg (65%)."] },
     "sources": [{ "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["name", "sourceDescription", "category", "partial-composition"] }]
   }
 ]
