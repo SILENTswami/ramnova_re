@@ -1024,6 +1024,10 @@
     "price": { "amount": null, "currency": "INR", "packBasis": null, "effectiveDate": null, "verification": "not-provided" },
     "clinical": {
       "summary": "Ramnova injection combining ceftriaxone 1000 mg, a third-generation cephalosporin antibiotic, with tazobactam 125 mg, a beta-lactamase inhibitor. Supplied as a 1.125 g vial for intramuscular or intravenous use.",
+      "introduction": [
+        "CEFRISHOT-TZ is an injectable antibiotic that combines ceftriaxone 1000 mg, a third-generation cephalosporin, with tazobactam 125 mg, which protects ceftriaxone from bacterial enzymes. It is supplied as a 1.125 g vial and used to treat serious bacterial infections, including meningitis, blood infections, and infections of the chest, abdomen, urinary tract, bones and joints.",
+        "It is given by a doctor or nurse as an injection into a muscle or vein, usually once a day. The most common side effects are diarrhoea and rash. Tell your doctor straight away if you have ever had an allergic reaction to penicillin or any other antibiotic."
+      ],
       "uses": [
         "Meningitis and septicaemia",
         "Respiratory tract infections",
@@ -1033,12 +1037,62 @@
         "Pelvic inflammatory disease"
       ],
       "seoUses": ["meningitis", "respiratory tract infections"],
-      "sideEffects": [],
-      "warnings": [],
-      "contraindications": [],
-      "interactions": [],
-      "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }],
-      "reviewStatus": "manufacturer-literature-only-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
+      "benefits": [
+        { "use": "Meningitis and septicaemia", "text": "Ceftriaxone reaches the brain and spinal fluid well, so it is widely used for bacterial meningitis and serious blood infections. Prompt treatment in hospital is essential to clear the infection and prevent complications." },
+        { "use": "Chest and abdominal infections", "text": "It is active against many bacteria that cause pneumonia and infections inside the abdomen. Tazobactam blocks the enzymes some bacteria use to resist ceftriaxone, helping it work against a wider range of bacteria." },
+        { "use": "Urinary, bone and joint infections", "text": "It treats complicated urinary tract and kidney infections, as well as infections of bones and joints, which may need several days or weeks of treatment as decided by your doctor." },
+        { "use": "Pelvic inflammatory disease", "text": "Infection of the womb, fallopian tubes or ovaries can cause pain and affect fertility if untreated. Ceftriaxone is commonly used, often together with other antibiotics, to treat it." }
+      ],
+      "sideEffects": [
+        "Diarrhoea or loose stools",
+        "Rash or itching",
+        "Pain, swelling or hardness at the injection site",
+        "Nausea or vomiting",
+        "Changes in blood counts or liver test results"
+      ],
+      "howToUse": "This medicine is given only by a doctor or nurse, as an injection into a muscle or vein, or as a slow drip into a vein. Your doctor will decide the dose and how long treatment lasts. It must not be mixed with calcium-containing fluids such as Ringer's solution.",
+      "howItWorks": "Ceftriaxone is a cephalosporin antibiotic that stops bacteria from building their cell walls, so they burst and die. Some bacteria make enzymes called beta-lactamases that can break down antibiotics like ceftriaxone. Tazobactam blocks these enzymes, helping ceftriaxone keep working.",
+      "warnings": [
+        "Serious, sometimes life-threatening allergic reactions, including severe skin reactions, can occur. Tell your doctor about any previous antibiotic allergy.",
+        "It can cause a serious bowel infection (Clostridioides difficile colitis). Report severe or persistent diarrhoea.",
+        "It can cause sludge to form in the gallbladder, especially at higher doses, which may cause abdominal pain. This usually clears after treatment stops.",
+        "Rarely, it can cause anaemia due to the breakdown of red blood cells (haemolytic anaemia).",
+        "In newborn babies it must never be given with calcium-containing fluids, as deposits can form in the lungs and kidneys."
+      ],
+      "contraindications": [
+        "Allergy to ceftriaxone, tazobactam or any other cephalosporin",
+        "A previous severe allergic reaction to any other beta-lactam antibiotic, such as a penicillin or carbapenem",
+        "Premature babies, and newborn babies with jaundice",
+        "Newborn babies who need calcium-containing fluids into a vein",
+        "When lidocaine is used for injection into a muscle: allergy to lidocaine or certain heart rhythm problems"
+      ],
+      "interactions": [
+        "It must not be mixed with, or given at the same time as, calcium-containing fluids.",
+        "It can increase the effect of warfarin and similar blood thinners, so your INR may need checking.",
+        "Using it with aminoglycoside antibiotics may increase the risk of kidney damage.",
+        "Chloramphenicol may reduce its effect."
+      ],
+      "safetyAdvice": [
+        { "topic": "alcohol", "status": "safe", "note": "No harmful interaction is known. Avoiding alcohol can help your recovery from infection." },
+        { "topic": "pregnancy", "status": "consult", "note": "Used during pregnancy only if your doctor considers that the benefit outweighs the risk." },
+        { "topic": "breastfeeding", "status": "consult", "note": "Small amounts pass into breast milk and may cause diarrhoea or thrush in the baby. Ask your doctor." },
+        { "topic": "driving", "status": "caution", "note": "Can cause dizziness. Do not drive if you feel dizzy or unwell." },
+        { "topic": "kidney", "status": "caution", "note": "Tell your doctor if you have kidney disease, especially if you also have liver problems, as the dose may need adjusting." },
+        { "topic": "liver", "status": "caution", "note": "Tell your doctor if you have liver disease, especially if you also have kidney problems, as the dose may need adjusting." }
+      ],
+      "quickTips": [
+        "Before the first dose, tell your doctor or nurse about any past allergy to penicillins, cephalosporins or other antibiotics.",
+        "Tell staff immediately if you develop an itchy rash, swelling of the face or throat, or difficulty breathing.",
+        "Complete the full course your doctor prescribes, even if you start to feel better.",
+        "Report diarrhoea that is severe, watery or bloody, even weeks after treatment ends.",
+        "Report pain in the upper right side of the abdomen, yellowing of the skin, or unusual tiredness or paleness.",
+        "Rest, eat well and drink plenty of fluids to support your recovery."
+      ],
+      "sources": [
+        { "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] },
+        { "id": "emc-ceftriaxone-1g", "publisher": "electronic medicines compendium (emc)", "title": "Ceftriaxone 1 g powder for solution for injection or infusion: Summary of Product Characteristics", "url": "https://www.medicines.org.uk/emc/product/1361/smpc", "jurisdiction": "United Kingdom", "revision": "2025-01-23", "accessedAt": "2026-10-01" }
+      ],
+      "reviewStatus": "reference-sourced-not-medically-reviewed", "reviewedBy": null, "lastUpdated": "2026-10-01"
     },
     "verification": { "status": "visual-aid-listed-pending-pack-confirmation", "notes": ["The visual aid's tazobactam paragraph describes tazobactam as enhancing the effectiveness of piperacillin, which is copy carried over from a piperacillin-tazobactam leaflet and does not describe this product. It has not been reproduced here.", "Ceftriaxone with tazobactam is an India-specific fixed-dose combination; do not apply ceftriaxone-only or piperacillin-tazobactam labelling to it without review."] },
     "sources": [{ "id": "ramnova-visual-aid-pvas2109", "publisher": "Ramnova Healthcare Private Limited", "title": "PVAS2109 product visual aid (document supplied by Ramnova Healthcare; not published at a public URL)", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-30", "fieldsSupported": ["brand-text", "sourceDescription", "composition", "packaging", "indications-as-stated-by-the-manufacturer"] }, { "publisher": "Ramnova Healthcare Private Limited", "title": "Our Products", "url": "https://www.ramnovahealthcare.in/products", "jurisdiction": "India", "accessedAt": "2026-09-24", "fieldsSupported": ["brand-text", "category"] }]
