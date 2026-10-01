@@ -1622,6 +1622,8 @@ a {
 .info-block {
   padding: 0 0 40px;
   border-bottom: 1px solid var(--line);
+  /* Clear the sticky header (78px, 70px on phones) when jumped to from "On this page". */
+  scroll-margin-top: 104px;
 }
 
 .info-block + .info-block {
