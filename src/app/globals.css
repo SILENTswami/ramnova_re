@@ -1441,6 +1441,7 @@ a {
   overflow: hidden;
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  scroll-margin-top: 104px;
 }
 
 .artwork-badge {
