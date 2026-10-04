@@ -222,6 +222,51 @@ function CategoryPage({ categorySlug }: { categorySlug: Product["category"] }) {
 
 type FaqItem = { question: string; answer: string };
 
+// Lowercase the first character only when the second character isn't uppercase,
+// preserving acronyms like COPD, QT, HIV, MAOI and prefixes like L-carnitine.
+function lowerFirst(text: string) {
+  if (!text) return text;
+  const stripped = text.replace(/\.$/, "");
+  if (stripped.length < 2) return stripped.toLowerCase();
+  if (stripped[1] === stripped[1].toUpperCase() && stripped[1] !== stripped[1].toLowerCase()) {
+    return stripped;
+  }
+  return stripped[0].toLowerCase() + stripped.slice(1);
+}
+
+// Join list items with "; " and "and" before the last, with a colon after the lead-in.
+function joinList(items: string[]) {
+  const cleaned = items.map(lowerFirst);
+  if (cleaned.length === 1) return cleaned[0];
+  return `${cleaned.slice(0, -1).join("; ")}; and ${cleaned[cleaned.length - 1]}`;
+}
+
+function getCompositionFaqAnswer(product: Product) {
+  const { seoName } = product;
+  const variant = product.variants[0];
+  if (!variant) return null;
+  const eligible = variant.ingredients.filter((item) => !item.partOf);
+  const maxInline = 5;
+  const showAll = eligible.length <= 6;
+  const items = (showAll ? eligible : eligible.slice(0, maxInline)).map((item) => {
+    const name = ingredientMap.get(item.ingredientId)?.name ?? item.ingredientId.replaceAll("-", " ");
+    const strength = item.strength ? ` ${item.strength.amount} ${item.strength.unit}` : "";
+    const qualifier = item.qualifier ? ` (${item.qualifier})` : "";
+    return `${toLowerCaseWords(name)}${strength}${qualifier}`;
+  });
+  const remainder = eligible.length - maxInline;
+  // Labels like "Each film-coated tablet contains" → "each film-coated tablet"
+  // Labels like "40 mg / 30 mg SR" or "Product composition" don't work inline.
+  const labelLower = variant.label.charAt(0).toLowerCase() + variant.label.slice(1);
+  const unitMatch = labelLower.match(/^each\s+(.+?)\s+contains?$/i);
+  const suffix = unitMatch ? ` in ${unitMatch[0].replace(/\s+contains?$/i, "")}` : "";
+  const list = showAll
+    ? items.join(", ")
+    : `${items.join(", ")}${suffix}, and ${remainder} other vitamins, minerals and nutrients; see the full composition table above`;
+  if (!showAll) return `${seoName} contains ${list}.`;
+  return `${seoName} contains ${list}${suffix}.`;
+}
+
 function buildFaqs(product: Product): FaqItem[] {
   const { seoName } = product;
   const { clinical } = product;
@@ -230,13 +275,13 @@ function buildFaqs(product: Product): FaqItem[] {
   if (clinical.uses.length) {
     faqs.push({
       question: `What is ${seoName} used for?`,
-      answer: `${seoName} is used for ${clinical.uses.map(toSentenceCase).join(", ")}.`,
+      answer: `${seoName} is used for: ${joinList(clinical.uses)}.`,
     });
   }
   if (clinical.sideEffects.length) {
     faqs.push({
       question: `What are the side effects of ${seoName}?`,
-      answer: `Common side effects of ${seoName} include ${clinical.sideEffects.map((s) => s.toLowerCase().replace(/\.$/, "")).join(", ")}. Tell your doctor if they continue or worry you.`,
+      answer: `Common side effects of ${seoName} include: ${joinList(clinical.sideEffects)}. Tell your doctor if they continue or worry you.`,
     });
   }
   if (clinical.howToUse) {
@@ -248,7 +293,7 @@ function buildFaqs(product: Product): FaqItem[] {
   if (clinical.contraindications.length) {
     faqs.push({
       question: `Who should not take ${seoName}?`,
-      answer: `${seoName} should not be taken by people with ${clinical.contraindications.map((c) => c.toLowerCase().replace(/\.$/, "")).join("; ")}.`,
+      answer: `Do not take ${seoName} in the following cases: ${joinList(clinical.contraindications)}.`,
     });
   }
 
@@ -282,11 +327,11 @@ function buildFaqs(product: Product): FaqItem[] {
     answer: `${product.seoBrand} is a registered product of ${siteConfig.legalName}, Silvassa, India, and is marketed by ${siteConfig.name}.`,
   });
 
-  const composition = getCompositionSummary(product, Infinity, true);
-  if (composition) {
+  const compositionAnswer = getCompositionFaqAnswer(product);
+  if (compositionAnswer) {
     faqs.push({
       question: `What is the composition of ${seoName}?`,
-      answer: `${seoName} contains ${composition}.`,
+      answer: compositionAnswer,
     });
   }
 
