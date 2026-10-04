@@ -241,6 +241,19 @@ function joinList(items: string[]) {
   return `${cleaned.slice(0, -1).join("; ")}; and ${cleaned[cleaned.length - 1]}`;
 }
 
+const dosageFormUnits: Record<string, string> = {
+  tablet: "each tablet",
+  "film-coated-tablet": "each film-coated tablet",
+  "soft-gel-capsule": "each capsule",
+  "sustained-release-capsule": "each capsule",
+  "modified-release-capsule": "each capsule",
+  injection: "each vial",
+  syrup: "per 5 ml",
+  "oral-suspension": "per 5 ml",
+  "dry-syrup": "per 5 ml after mixing",
+  powder: "per serving",
+};
+
 function getCompositionFaqAnswer(product: Product) {
   const { seoName } = product;
   const variant = product.variants[0];
@@ -248,23 +261,33 @@ function getCompositionFaqAnswer(product: Product) {
   const eligible = variant.ingredients.filter((item) => !item.partOf);
   const maxInline = 5;
   const showAll = eligible.length <= 6;
-  const items = (showAll ? eligible : eligible.slice(0, maxInline)).map((item) => {
+  const formatIngredient = (item: (typeof eligible)[number]) => {
     const name = ingredientMap.get(item.ingredientId)?.name ?? item.ingredientId.replaceAll("-", " ");
     const strength = item.strength ? ` ${item.strength.amount} ${item.strength.unit}` : "";
-    const qualifier = item.qualifier ? ` (${item.qualifier})` : "";
-    return `${toLowerCaseWords(name)}${strength}${qualifier}`;
-  });
+    const parts: string[] = [];
+    if (item.qualifier) parts.push(item.qualifier);
+    if (item.release) parts.push(item.release);
+    const parenthetical = parts.length ? ` (${parts.join(", ")})` : "";
+    return `${toLowerCaseWords(name)}${strength}${parenthetical}`;
+  };
+  const items = (showAll ? eligible : eligible.slice(0, maxInline)).map(formatIngredient);
   const remainder = eligible.length - maxInline;
-  // Labels like "Each film-coated tablet contains" → "each film-coated tablet"
-  // Labels like "40 mg / 30 mg SR" or "Product composition" don't work inline.
+
+  // Derive "in each tablet" / "per 5 ml" from the variant label or dosage form.
   const labelLower = variant.label.charAt(0).toLowerCase() + variant.label.slice(1);
   const unitMatch = labelLower.match(/^each\s+(.+?)\s+contains?$/i);
-  const suffix = unitMatch ? ` in ${unitMatch[0].replace(/\s+contains?$/i, "")}` : "";
-  const list = showAll
-    ? items.join(", ")
-    : `${items.join(", ")}${suffix}, and ${remainder} other vitamins, minerals and nutrients; see the full composition table above`;
-  if (!showAll) return `${seoName} contains ${list}.`;
-  return `${seoName} contains ${list}${suffix}.`;
+  const unit = unitMatch
+    ? unitMatch[0].replace(/\s+contains?$/i, "")
+    : dosageFormUnits[product.dosageForm] ?? null;
+  const suffix = unit ? ` in ${unit}` : "";
+
+  if (showAll) {
+    const joined = items.length === 1
+      ? items[0]
+      : `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
+    return `${seoName} contains ${joined}${suffix}.`;
+  }
+  return `${seoName} contains ${items.join(", ")} and ${remainder} other vitamins, minerals and nutrients${suffix}; see the full composition table above.`;
 }
 
 function buildFaqs(product: Product): FaqItem[] {
