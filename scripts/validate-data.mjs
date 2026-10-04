@@ -86,6 +86,16 @@ for (const product of products) {
       `${product.slug}: missing image ${imagePath}`,
     );
   }
+  if (product.imageAlts !== undefined) {
+    assert(
+      Array.isArray(product.imageAlts) && product.imageAlts.every((a) => typeof a === "string" && a.length > 0),
+      `${product.slug}: imageAlts must be an array of non-empty strings`,
+    );
+    assert(
+      product.imageAlts.length === imagePaths.length,
+      `${product.slug}: imageAlts length (${product.imageAlts?.length}) must match image count (${imagePaths.length})`,
+    );
+  }
   assert(Array.isArray(product.variants) && product.variants.length > 0, `${product.slug}: needs a variant`);
   assert(Array.isArray(product.sources) && product.sources.length > 0, `${product.slug}: needs a source`);
   assert(product.price?.currency === "INR", `${product.slug}: price currency must be INR`);

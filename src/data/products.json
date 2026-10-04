@@ -4914,7 +4914,8 @@
     "displayDescription": "Gabapentin 100 mg and nortriptyline 10 mg film-coated tablets",
     "category": "tablets",
     "dosageForm": "film-coated-tablet",
-    "image": "/images/products/gabasram-nt-100.webp",
+    "image": ["/images/products/gabasram-nt-100.webp", "/images/products/gabasram-nt-100-composition.webp"],
+    "imageAlts": ["Gabasram NT 100 Tablet pack – Ramnova Healthcare", "Gabasram NT 100 Tablet composition panel – Ramnova Healthcare"],
     "imageAlt": "GABASRAM NT 100 gabapentin and nortriptyline tablet pack",
     "featured": false,
     "therapyCategory": "Neuropathic pain",
@@ -5091,7 +5092,7 @@
         "Schedule H prescription drug.",
         "Manufactured by Vrindavan Global (WHO-GMP), Baddi, Distt. Solan (H.P.); marketed by Ramnova Healthcare.",
         "Colour: titanium dioxide. Storage: cool, dry and dark place, protected from direct sunlight and moisture, not above 25°C.",
-        "The product image is the user-supplied pack photo of 2026-10-01."
+        "Replaced with user-supplied pack artwork (front and composition side), 2026-10-05."
       ]
     },
     "sources": [

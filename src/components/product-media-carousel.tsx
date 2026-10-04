@@ -6,6 +6,7 @@ type ProductMediaCarouselProps = {
   productName: string;
   image: string | string[];
   imageAlt: string;
+  imageAlts?: string[];
 };
 
 export function ProductMediaCarousel({
@@ -13,6 +14,7 @@ export function ProductMediaCarousel({
   productName,
   image,
   imageAlt,
+  imageAlts,
 }: ProductMediaCarouselProps) {
   const images = Array.isArray(image) ? image : [image];
   const hasMultipleImages = images.length > 1;
@@ -29,7 +31,7 @@ export function ProductMediaCarousel({
           const slideId = `${slug}-image-${index + 1}`;
           const previousId = `${slug}-image-${index === 0 ? images.length : index}`;
           const nextId = `${slug}-image-${index + 1 === images.length ? 1 : index + 2}`;
-          const alt = index === 0 ? imageAlt : `${productName} packaging view ${index + 1}`;
+          const alt = imageAlts?.[index] ?? (index === 0 ? imageAlt : `${productName} packaging view ${index + 1}`);
 
           return (
             <figure

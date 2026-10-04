@@ -102,6 +102,7 @@ export type Product = {
   dosageForm: string;
   image: string | string[];
   imageAlt: string;
+  imageAlts?: string[];
   featured: boolean;
   // Position on the homepage featured row (1 = first); unset falls back to A–Z.
   featuredOrder?: number;

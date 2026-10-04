@@ -165,7 +165,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
       description,
       images: productImages.map((image, index) => ({
         url: image,
-        alt: index === 0 ? `${product.seoName} pack – ${siteConfig.name}` : `${product.seoName} packaging view ${index + 1}`,
+        alt: product.imageAlts?.[index] ?? (index === 0 ? `${product.seoName} pack – ${siteConfig.name}` : `${product.seoName} packaging view ${index + 1}`),
       })),
     },
     twitter: {
@@ -491,6 +491,7 @@ function ProductPage({ product }: { product: Product }) {
                 productName={seoName}
                 image={product.image}
                 imageAlt={`${seoName} pack – ${siteConfig.name}`}
+                imageAlts={product.imageAlts}
               />
             </div>
             <div className="product-detail-content">
