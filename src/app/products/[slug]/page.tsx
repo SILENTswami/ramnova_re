@@ -18,6 +18,7 @@ import { QuickTips, SafetyAdvicePanel } from "@/components/product-safety";
 import {
   formatPrice,
   getCategoryLabel,
+  getFamilySiblings,
   getIngredientLabel,
   getProduct,
   getProductImages,
@@ -69,14 +70,6 @@ function getCompositionSummary(product: Product, budget: number, prose = false) 
   return summarise(1);
 }
 
-// Product titles skip the site-name suffix (og:site_name carries the brand) so the
-// composition gets the room.
-const titleBudget = 60;
-
-function getDosageFormLabel(product: Product) {
-  return product.dosageForm.replaceAll("-", " ");
-}
-
 // Lowercase capitalised words so a name reads mid-sentence. Acronyms, tokens with
 // digits ("Q10", "K2-7") and letter prefixes ("L-carnitine") keep their case.
 function toLowerCaseWords(name: string) {
@@ -92,44 +85,37 @@ function toSentenceCase(use: string) {
   return firstWord === firstWord.toUpperCase() ? use : use[0].toLowerCase() + use.slice(1);
 }
 
-const descriptionBudget = 155;
+const descriptionBudget = 160;
 
-// Keep the whole description inside the ~155 characters Google will show. Lead with the
-// conditions a product is used for when they are listed: drop the second use first, then
-// shorten the composition, before giving up on uses altogether.
+// Meta description: "{seoName} by Ramnova Healthcare contains {composition} for {uses}.
+// See uses, side effects, dosage and safety advice."
 function getProductDescription(product: Product) {
   const { clinical } = product;
-  const dosageForm = getDosageFormLabel(product);
   const uses = (clinical.seoUses ?? clinical.uses.map(toSentenceCase)).slice(0, 2);
-  const hasSafety = [clinical.sideEffects, clinical.warnings, clinical.interactions].some(
-    (items) => items.length > 0,
-  );
-  const ending = hasSafety
-    ? "Uses, side effects, warnings and interactions."
-    : "Uses and composition.";
+  const tail = "See uses, side effects, dosage and safety advice.";
+
+  const tryDescription = (compositionBudget: number, usesList: string[]) => {
+    const composition = getCompositionSummary(product, compositionBudget, true);
+    if (!composition) return null;
+    const purpose = usesList.length ? ` for ${usesList.join(" and ")}` : "";
+    return `${product.seoName} by ${siteConfig.name} contains ${composition}${purpose}. ${tail}`;
+  };
 
   const attempts = [
-    { uses, shorten: false },
+    { uses: uses, shorten: false },
     { uses: uses.slice(0, 1), shorten: false },
     { uses: uses.slice(0, 1), shorten: true },
+    { uses: [], shorten: true },
   ];
   for (const attempt of attempts) {
-    if (!attempt.uses.length) break;
-    const purpose = ` for ${attempt.uses.join(" and ")}`;
-    const fixedLength = `${product.name}: ${dosageForm} containing ${purpose}. ${ending}`.length;
-    const composition = getCompositionSummary(
-      product,
-      attempt.shorten ? descriptionBudget - fixedLength : Infinity,
-      true,
-    );
-    if (!composition) break;
-    const description = `${product.name}: ${dosageForm} containing ${composition}${purpose}. ${ending}`;
-    if (description.length <= descriptionBudget) return description;
+    const purpose = attempt.uses.length ? ` for ${attempt.uses.join(" and ")}` : "";
+    const fixedLength = `${product.seoName} by ${siteConfig.name} contains ${purpose}. ${tail}`.length;
+    const budget = attempt.shorten ? descriptionBudget - fixedLength : Infinity;
+    const desc = tryDescription(budget, attempt.uses);
+    if (desc && desc.length <= descriptionBudget) return desc;
   }
 
-  const composition = getCompositionSummary(product, 54, true);
-  const subject = composition ? `${dosageForm} containing ${composition}` : product.displayDescription;
-  return `${product.name}: ${subject}. Composition and product information.`;
+  return `${product.seoName} by ${siteConfig.name}. ${tail}`;
 }
 
 export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
@@ -158,9 +144,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const product = getProduct(slug);
   if (!product) return {};
   const productImages = getProductImages(product);
-  // Budget the composition around the brand name and the parentheses.
-  const titleComposition = getCompositionSummary(product, titleBudget - product.name.length - 3);
-  const title = titleComposition ? `${product.name} (${titleComposition})` : product.name;
+  const title = `${product.seoName}: Uses, Side Effects, Composition | ${siteConfig.name}`;
   const description = getProductDescription(product);
   return {
     title: { absolute: title },
@@ -174,7 +158,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
       description,
       images: productImages.map((image, index) => ({
         url: image,
-        alt: index === 0 ? product.imageAlt : `${product.name} packaging view ${index + 1}`,
+        alt: index === 0 ? `${product.seoName} pack – ${siteConfig.name}` : `${product.seoName} packaging view ${index + 1}`,
       })),
     },
     twitter: {
@@ -200,7 +184,7 @@ function CategoryPage({ categorySlug }: { categorySlug: Product["category"] }) {
       itemListElement: categoryProducts.map((product, index) => ({
         "@type": "ListItem",
         position: index + 1,
-        name: product.name,
+        name: product.seoName,
         url: `${siteConfig.url}/products/${product.slug}/`,
       })),
     },
@@ -236,8 +220,82 @@ function CategoryPage({ categorySlug }: { categorySlug: Product["category"] }) {
   );
 }
 
+type FaqItem = { question: string; answer: string };
+
+function buildFaqs(product: Product): FaqItem[] {
+  const { seoName } = product;
+  const { clinical } = product;
+  const faqs: FaqItem[] = [];
+
+  if (clinical.uses.length) {
+    faqs.push({
+      question: `What is ${seoName} used for?`,
+      answer: `${seoName} is used for ${clinical.uses.map(toSentenceCase).join(", ")}.`,
+    });
+  }
+  if (clinical.sideEffects.length) {
+    faqs.push({
+      question: `What are the side effects of ${seoName}?`,
+      answer: `Common side effects of ${seoName} include ${clinical.sideEffects.map((s) => s.toLowerCase().replace(/\.$/, "")).join(", ")}. Tell your doctor if they continue or worry you.`,
+    });
+  }
+  if (clinical.howToUse) {
+    faqs.push({
+      question: `How should I take ${seoName}?`,
+      answer: clinical.howToUse,
+    });
+  }
+  if (clinical.contraindications.length) {
+    faqs.push({
+      question: `Who should not take ${seoName}?`,
+      answer: `${seoName} should not be taken by people with ${clinical.contraindications.map((c) => c.toLowerCase().replace(/\.$/, "")).join("; ")}.`,
+    });
+  }
+
+  const safetyMap = new Map(
+    (clinical.safetyAdvice ?? []).map((a) => [a.topic, a]),
+  );
+  const alcoholAdvice = safetyMap.get("alcohol");
+  if (alcoholAdvice) {
+    faqs.push({
+      question: `Can I drink alcohol with ${seoName}?`,
+      answer: alcoholAdvice.note,
+    });
+  }
+  const pregnancyAdvice = safetyMap.get("pregnancy");
+  if (pregnancyAdvice) {
+    faqs.push({
+      question: `Is ${seoName} safe in pregnancy?`,
+      answer: pregnancyAdvice.note,
+    });
+  }
+  const drivingAdvice = safetyMap.get("driving");
+  if (drivingAdvice) {
+    faqs.push({
+      question: `Can I drive after taking ${seoName}?`,
+      answer: drivingAdvice.note,
+    });
+  }
+
+  faqs.push({
+    question: `Who markets ${seoName}?`,
+    answer: `${product.seoBrand} is a registered product of ${siteConfig.legalName}, Silvassa, India, and is marketed by ${siteConfig.name}.`,
+  });
+
+  const composition = getCompositionSummary(product, Infinity, true);
+  if (composition) {
+    faqs.push({
+      question: `What is the composition of ${seoName}?`,
+      answer: `${seoName} contains ${composition}.`,
+    });
+  }
+
+  return faqs;
+}
+
 function ProductPage({ product }: { product: Product }) {
   const related = getRelatedProducts(product);
+  const familySiblings = getFamilySiblings(product);
   const entityType = product.schemaType;
   const activeIngredients = product.variants.flatMap((variant) =>
     variant.ingredients.map((item) => getIngredientLabel(item)),
@@ -248,9 +306,11 @@ function ProductPage({ product }: { product: Product }) {
   const externalSources = allSources.filter((source) => source.publisher !== siteConfig.legalName);
   const productImages = getProductImages(product);
   const { clinical } = product;
+  const { seoName, seoBrand } = product;
   const benefits = clinical.benefits ?? [];
   const safetyAdvice = clinical.safetyAdvice ?? [];
   const quickTips = clinical.quickTips ?? [];
+  const faqs = buildFaqs(product);
   // Warnings and interactions lists only the groups a product has; with none, the section
   // keeps just its pack-insert line.
   const safetyGroups = (
@@ -260,10 +320,15 @@ function ProductPage({ product }: { product: Product }) {
       ["Important interactions", clinical.interactions],
     ] as const
   ).filter(([, values]) => values.length > 0);
+  const familyLabel = product.family
+    ? product.family.charAt(0).toUpperCase() + product.family.slice(1)
+    : null;
   // Optional sections, and their "On this page" entries, appear only when they have data.
+  // Nav uses short labels; rendered h2s include seoName for SEO.
   const sections = [
     ["composition", "Composition"],
-    ["introduction", "Product introduction"],
+    ...(familySiblings.length ? [["family", `${familyLabel} range`]] : []),
+    ["introduction", "About"],
     ...(clinical.uses.length ? [["uses", "Uses"]] : []),
     ...(benefits.length ? [["benefits", "Benefits"]] : []),
     ...(clinical.sideEffects.length ? [["side-effects", "Side effects"]] : []),
@@ -272,30 +337,35 @@ function ProductPage({ product }: { product: Product }) {
     ...(safetyAdvice.length ? [["safety-advice", "Safety advice"]] : []),
     ...(quickTips.length ? [["quick-tips", "Quick tips"]] : []),
     ["safety", "Warnings and interactions"],
+    ...(faqs.length ? [["faqs", "FAQs"]] : []),
     ["more-information", "More information"],
   ];
+
+  const alternateNames = Array.from(
+    new Set([product.name, seoBrand, seoName]),
+  );
 
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    name: `${product.name} product information`,
+    name: `${seoName} product information`,
     url: `${siteConfig.url}/products/${product.slug}/`,
     dateModified: product.clinical.lastUpdated,
     lastReviewed: product.clinical.reviewedBy ? product.clinical.lastUpdated : undefined,
     about: { "@id": `${siteConfig.url}/products/${product.slug}/#product` },
+    publisher: { "@id": `${siteConfig.url}/#organization` },
     mainEntity: {
       "@type": entityType,
       "@id": `${siteConfig.url}/products/${product.slug}/#product`,
-      name: product.name,
+      name: seoName,
+      alternateName: alternateNames,
       proprietaryName: entityType === "Drug" ? product.name : undefined,
       description: product.displayDescription,
       image: productImages.map((image) => `${siteConfig.url}${image}`),
       category: getCategoryLabel(product.category),
       dosageForm: entityType === "Drug" ? product.dosageForm : undefined,
       activeIngredient: activeIngredients,
-      // Brand only: some products are made by contract manufacturers, so Ramnova is not
-      // claimed as the manufacturer.
-      brand: { "@type": "Brand", name: siteConfig.name },
+      brand: { "@type": "Brand", name: seoBrand },
       isProprietary: entityType === "Drug" ? true : undefined,
     },
     breadcrumb: {
@@ -308,24 +378,40 @@ function ProductPage({ product }: { product: Product }) {
           name: "Products",
           item: `${siteConfig.url}/products/`,
         },
-        { "@type": "ListItem", position: 3, name: product.name },
+        { "@type": "ListItem", position: 3, name: seoName },
       ],
     },
     citation: allSources.map((source) => source.url),
   };
 
+  const faqSchema = faqs.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
+      }
+    : null;
+
   return (
     <>
       <JsonLd data={schema} />
+      {faqSchema ? <JsonLd data={faqSchema} /> : null}
       <article>
         <header className="product-detail-hero">
           <div className="product-detail-grid">
             <div className="product-detail-media">
               <ProductMediaCarousel
                 slug={product.slug}
-                productName={product.name}
+                productName={seoName}
                 image={product.image}
-                imageAlt={product.imageAlt}
+                imageAlt={`${seoName} pack – ${siteConfig.name}`}
               />
             </div>
             <div className="product-detail-content">
@@ -333,12 +419,15 @@ function ProductPage({ product }: { product: Product }) {
                 items={[
                   { label: "Home", href: "/" },
                   { label: "Products", href: "/products/" },
-                  { label: product.name },
+                  { label: seoName },
                 ]}
               />
               <p className="eyebrow light">{getCategoryLabel(product.category)}</p>
-              <h1>{product.name}</h1>
+              <h1>{seoName}</h1>
               <p className="detail-composition">{product.displayDescription}</p>
+              <p className="detail-brand-line">
+                {seoBrand} is a registered product of {siteConfig.legalName}.
+              </p>
               <div className="detail-meta">
                 <span className="detail-chip">{product.therapyCategory}</span>
                 <span className="detail-chip">{product.dosageForm.replaceAll("-", " ")}</span>
@@ -386,7 +475,7 @@ function ProductPage({ product }: { product: Product }) {
 
             <div>
               <section className="info-block" id="composition">
-                <h2>Composition and variants</h2>
+                <h2>{seoName} composition</h2>
                 {product.variants.map((variant) => (
                   <div key={variant.id}>
                     <p>
@@ -445,8 +534,23 @@ function ProductPage({ product }: { product: Product }) {
                 ))}
               </section>
 
+              {familySiblings.length ? (
+                <section className="info-block" id="family">
+                  <h2>Also in the {familyLabel} range</h2>
+                  <ul>
+                    {familySiblings.map((sibling) => (
+                      <li key={sibling.slug}>
+                        <Link className="text-link" href={`/products/${sibling.slug}/`}>
+                          {sibling.seoName}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ) : null}
+
               <section className="info-block" id="introduction">
-                <h2>Product introduction</h2>
+                <h2>About {seoName}</h2>
                 {(clinical.introduction ?? [clinical.summary]).map((paragraph) => (
                   <p key={paragraph}>{paragraph}</p>
                 ))}
@@ -458,7 +562,7 @@ function ProductPage({ product }: { product: Product }) {
 
               {clinical.uses.length ? (
                 <section className="info-block" id="uses">
-                  <h2>Uses</h2>
+                  <h2>Uses of {seoName}</h2>
                   <ul>
                     {clinical.uses.map((item) => (
                       <li key={item}>{item}</li>
@@ -469,7 +573,7 @@ function ProductPage({ product }: { product: Product }) {
 
               {benefits.length ? (
                 <section className="info-block" id="benefits">
-                  <h2>Benefits</h2>
+                  <h2>Benefits of {seoName}</h2>
                   {benefits.map(({ use, text }) => (
                     <div key={use}>
                       <h3>{use}</h3>
@@ -481,7 +585,7 @@ function ProductPage({ product }: { product: Product }) {
 
               {clinical.sideEffects.length ? (
                 <section className="info-block" id="side-effects">
-                  <h2>Side effects</h2>
+                  <h2>Side effects of {seoName}</h2>
                   <p>
                     Most side effects are mild and settle as your body adjusts. Tell your doctor if
                     they continue or worry you.
@@ -496,19 +600,19 @@ function ProductPage({ product }: { product: Product }) {
 
               {clinical.howToUse ? (
                 <section className="info-block" id="how-to-use">
-                  <h2>How to use</h2>
+                  <h2>How to take {seoName}</h2>
                   <p>{clinical.howToUse}</p>
                 </section>
               ) : null}
 
               {clinical.howItWorks ? (
                 <section className="info-block" id="how-it-works">
-                  <h2>How it works</h2>
+                  <h2>How {seoName} works</h2>
                   <p>{clinical.howItWorks}</p>
                 </section>
               ) : null}
 
-              {safetyAdvice.length ? <SafetyAdvicePanel advice={safetyAdvice} /> : null}
+              {safetyAdvice.length ? <SafetyAdvicePanel advice={safetyAdvice} seoName={seoName} /> : null}
               {quickTips.length ? <QuickTips tips={quickTips} /> : null}
 
               <section className="info-block" id="safety">
@@ -529,11 +633,30 @@ function ProductPage({ product }: { product: Product }) {
                 ))}
               </section>
 
+              {faqs.length ? (
+                <section className="info-block" id="faqs">
+                  <h2>Frequently asked questions about {seoName}</h2>
+                  <dl className="faq-list">
+                    {faqs.map((faq) => (
+                      <details key={faq.question}>
+                        <summary>
+                          <h3>{faq.question}</h3>
+                        </summary>
+                        <dd>{faq.answer}</dd>
+                      </details>
+                    ))}
+                  </dl>
+                </section>
+              ) : null}
+
               <section className="info-block" id="more-information">
                 <h2>More information</h2>
                 <p>
+                  Marketed by {siteConfig.legalName}, Silvassa, India.
+                </p>
+                <p>
                   For dosage, pack sizes or prescribing information, refer to the current pack
-                  insert or contact Ramnova Healthcare. Catalogue information updated{" "}
+                  insert or contact {siteConfig.name}. Catalogue information updated{" "}
                   {product.clinical.lastUpdated}.
                 </p>
                 {externalSources.length ? (

@@ -19,10 +19,10 @@ const statuses: Record<SafetyStatus, { label: string; tone: "safe" | "caution" |
   unsafe: { label: "Unsafe", tone: "unsafe" },
 };
 
-export function SafetyAdvicePanel({ advice }: { advice: SafetyAdvice[] }) {
+export function SafetyAdvicePanel({ advice, seoName }: { advice: SafetyAdvice[]; seoName: string }) {
   return (
     <section className="info-block" id="safety-advice">
-      <h2>Safety advice</h2>
+      <h2>Safety advice for {seoName}</h2>
       <ul className="safety-advice-grid">
         {advice.map(({ topic, status, note }) => {
           const { label, Icon } = topics[topic];

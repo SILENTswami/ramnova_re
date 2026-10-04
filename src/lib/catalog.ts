@@ -109,6 +109,9 @@ export type Product = {
   therapyCategoryVerification: string;
   // The schema.org type used in the product page's structured data.
   schemaType: "Drug" | "DietarySupplement";
+  seoBrand: string;
+  seoName: string;
+  family?: string;
   // Short composition used in the page title and meta description instead of the
   // generated ingredient list.
   seoComposition?: string;
@@ -335,6 +338,13 @@ export function searchProducts(query: string, category: Product["category"] | "a
 
 export function getProduct(slug: string) {
   return products.find((product) => product.slug === slug);
+}
+
+export function getFamilySiblings(product: Product) {
+  if (!product.family) return [];
+  return products.filter(
+    (p) => p.family === product.family && p.slug !== product.slug,
+  );
 }
 
 export function getRelatedProducts(product: Product, limit = 3) {

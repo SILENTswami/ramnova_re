@@ -17,7 +17,7 @@ export function ProductCard({ product, index }: { product: Product; index?: numb
         ) : null}
         <Image
           src={getPrimaryProductImage(product)}
-          alt={product.imageAlt}
+          alt={`${product.seoName} pack – Ramnova Healthcare`}
           width={640}
           height={640}
         />
@@ -28,7 +28,7 @@ export function ProductCard({ product, index }: { product: Product; index?: numb
             {getCategoryLabel(product.category)} · {product.therapyCategory}
           </p>
         </div>
-        <h3>{product.name}</h3>
+        <h3>{product.seoName}</h3>
         <p className="product-card-composition">{product.displayDescription}</p>
         <div className="product-card-footer">
           <span className="product-card-price">{formatPrice(product)}</span>

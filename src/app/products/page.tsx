@@ -36,7 +36,7 @@ export default function ProductsPage() {
       itemListElement: products.map((product, index) => ({
         "@type": "ListItem",
         position: index + 1,
-        name: product.name,
+        name: product.seoName,
         url: `${siteConfig.url}/products/${product.slug}/`,
       })),
     },

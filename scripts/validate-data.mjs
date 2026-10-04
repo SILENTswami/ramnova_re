@@ -41,6 +41,20 @@ for (const product of products) {
     product.schemaType === "Drug" || product.schemaType === "DietarySupplement",
     `${product.slug}: schemaType must be "Drug" or "DietarySupplement"`,
   );
+  assert(
+    typeof product.seoBrand === "string" && product.seoBrand.length > 0,
+    `${product.slug}: seoBrand must be a non-empty string`,
+  );
+  assert(
+    typeof product.seoName === "string" && product.seoName.length > 0,
+    `${product.slug}: seoName must be a non-empty string`,
+  );
+  if (product.family !== undefined) {
+    assert(
+      typeof product.family === "string" && /^[a-z0-9-]+$/.test(product.family),
+      `${product.slug}: family must be a lowercase kebab-case string`,
+    );
+  }
   if (product.seoComposition !== undefined) {
     assert(
       typeof product.seoComposition === "string" && product.seoComposition.length > 0,

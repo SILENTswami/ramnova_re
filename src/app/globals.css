@@ -1507,6 +1507,12 @@ a {
   font-size: 1.03rem;
 }
 
+.detail-brand-line {
+  margin: 10px 0 0;
+  color: #8a929d;
+  font-size: 0.87rem;
+}
+
 .detail-meta {
   display: flex;
   flex-wrap: wrap;
@@ -1756,6 +1762,59 @@ a {
   flex: 0 0 auto;
   margin-top: 3px;
   color: var(--blue-deep);
+}
+
+.faq-list {
+  margin-top: 12px;
+}
+
+.faq-list details {
+  border-bottom: 1px solid rgb(0 0 0 / 0.08);
+}
+
+.faq-list summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-list summary::before {
+  content: "+";
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 0.06);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.faq-list details[open] > summary::before {
+  content: "−";
+}
+
+.faq-list summary h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.faq-list dd {
+  margin: 0 0 16px 32px;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #555;
 }
 
 .ingredient-table {
