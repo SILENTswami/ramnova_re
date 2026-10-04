@@ -123,11 +123,15 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const category = productCategories.find((item) => item.slug === slug);
   if (category) {
     const inCategory = products.filter((product) => product.category === category.slug);
-    const seoBrands = inCategory.map((p) => p.seoBrand);
-    const titleBrands = seoBrands.slice(0, 3);
+    const byImportance = [...inCategory].sort((a, b) => {
+      const af = a.featuredOrder ?? Infinity;
+      const bf = b.featuredOrder ?? Infinity;
+      return af - bf || a.seoBrand.localeCompare(b.seoBrand, "en", { sensitivity: "base" });
+    });
+    const titleBrands = byImportance.slice(0, 3).map((p) => p.seoBrand);
     const titleSuffix = inCategory.length > 3 ? " & more" : "";
     const title = `Ramnova Healthcare ${category.label} – ${titleBrands.join(", ")}${titleSuffix}`;
-    const descNames = inCategory.slice(0, 5).map((p) => p.seoName);
+    const descNames = byImportance.slice(0, 5).map((p) => p.seoName);
     const descMore = inCategory.length > 5 ? ` and ${inCategory.length - 5} more` : "";
     const description = `${inCategory.length} Ramnova Healthcare ${category.label.toLowerCase()}: ${descNames.join(", ")}${descMore}. Uses, side effects and composition for each product.`;
     return {
