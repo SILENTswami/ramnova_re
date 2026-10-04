@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
+import { products } from "@/lib/catalog";
 import { primaryNavigation, productCategories, siteConfig } from "@/lib/site";
 
 export function SiteFooter() {
@@ -58,6 +59,16 @@ export function SiteFooter() {
             Start an enquiry <ArrowUpRight size={17} aria-hidden="true" />
           </a>
         </address>
+      </div>
+      <div className="shell footer-products">
+        <p className="eyebrow">Our products</p>
+        <ul className="footer-product-list">
+          {products.map((product) => (
+            <li key={product.slug}>
+              <Link href={`/products/${product.slug}/`}>{product.seoName}</Link>
+            </li>
+          ))}
+        </ul>
       </div>
       <div className="shell footer-bottom">
         <p>© {new Date().getFullYear()} Ramnova Healthcare Private Limited.</p>

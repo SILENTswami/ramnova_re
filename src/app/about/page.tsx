@@ -4,13 +4,16 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { products } from "@/lib/catalog";
-import { defaultOgImage } from "@/lib/site";
+import { defaultOgImage, siteConfig } from "@/lib/site";
 
 const description =
   "Learn about Ramnova Healthcare's product-focused approach, company values and commitment to clear, responsible healthcare communication.";
 
 export const metadata: Metadata = {
-  title: { absolute: "About Ramnova Healthcare" },
+  title: {
+    absolute:
+      "About Ramnova Healthcare – Pharmaceutical Company in Silvassa, India",
+  },
   description,
   alternates: { canonical: "/about/" },
   openGraph: {
@@ -90,6 +93,28 @@ export default function AboutPage() {
               Explore the portfolio <ArrowRight size={17} aria-hidden="true" />
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell split-content">
+          <p className="eyebrow">Our brands</p>
+          <h2>
+            {siteConfig.legalName} markets {products.length} pharmaceutical and
+            nutritional products.
+          </h2>
+          <ul className="brand-list">
+            {Array.from(new Set(products.map((p) => p.seoBrand)))
+              .sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }))
+              .map((brand) => {
+                const product = products.find((p) => p.seoBrand === brand)!;
+                return (
+                  <li key={product.slug}>
+                    <Link href={`/products/${product.slug}/`}>{brand}</Link>
+                  </li>
+                );
+              })}
+          </ul>
         </div>
       </section>
 

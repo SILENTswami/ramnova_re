@@ -17,6 +17,7 @@ export const siteConfig = {
     postalCode: "396230",
     addressCountry: "IN",
   },
+  sameAs: [] as readonly string[],
 } as const;
 
 export const defaultOgImage = {

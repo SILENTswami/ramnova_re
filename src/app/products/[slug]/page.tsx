@@ -123,18 +123,21 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const category = productCategories.find((item) => item.slug === slug);
   if (category) {
     const inCategory = products.filter((product) => product.category === category.slug);
-    // Name real brands here so the category page can also be found by product query.
-    const examples = inCategory.slice(0, 3).map((product) => product.name);
-    const examplesText = examples.length ? `, including ${examples.join(", ")}` : "";
-    const description = `${inCategory.length} Ramnova Healthcare ${category.label.toLowerCase()}${examplesText}. Composition and product information for each product.`;
+    const seoBrands = inCategory.map((p) => p.seoBrand);
+    const titleBrands = seoBrands.slice(0, 3);
+    const titleSuffix = inCategory.length > 3 ? " & more" : "";
+    const title = `Ramnova Healthcare ${category.label} – ${titleBrands.join(", ")}${titleSuffix}`;
+    const descNames = inCategory.slice(0, 5).map((p) => p.seoName);
+    const descMore = inCategory.length > 5 ? ` and ${inCategory.length - 5} more` : "";
+    const description = `${inCategory.length} Ramnova Healthcare ${category.label.toLowerCase()}: ${descNames.join(", ")}${descMore}. Uses, side effects and composition for each product.`;
     return {
-      title: category.label,
+      title: { absolute: title },
       description,
       alternates: { canonical: `/products/${category.slug}/` },
       openGraph: {
         type: "website",
         url: `/products/${category.slug}/`,
-        title: `${category.label} | Ramnova Healthcare`,
+        title,
         description,
         images: [defaultOgImage],
       },
@@ -209,6 +212,10 @@ function CategoryPage({ categorySlug }: { categorySlug: Product["category"] }) {
             <p>
               Explore {categoryProducts.length} {category.label.toLowerCase()} with composition,
               packaging imagery and direct enquiry options.
+            </p>
+            <p>
+              Ramnova {category.label.toLowerCase()} include{" "}
+              {categoryProducts.map((p) => p.seoName).join(", ")}.
             </p>
           </div>
         </div>

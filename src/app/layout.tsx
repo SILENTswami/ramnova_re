@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { JsonLd } from "@/components/json-ld";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { products } from "@/lib/catalog";
 import { defaultOgImage, siteConfig } from "@/lib/site";
 import "./globals.css";
 
@@ -58,19 +59,34 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const uniqueBrands = Array.from(
+    new Set(products.map((p) => p.seoBrand)),
+  ).map((name) => ({ "@type": "Brand" as const, name }));
+
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${siteConfig.url}/#organization`,
-    name: siteConfig.legalName,
+    name: siteConfig.name,
+    legalName: siteConfig.legalName,
     url: siteConfig.url,
     logo: `${siteConfig.url}/images/brand/ramnova-logo.webp`,
     email: siteConfig.email,
     telephone: siteConfig.phoneHref,
+    areaServed: "IN",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: siteConfig.phoneHref,
+      email: siteConfig.email,
+      contactType: "customer service",
+      availableLanguage: ["en", "hi"],
+    },
     address: {
       "@type": "PostalAddress",
       ...siteConfig.address,
     },
+    brand: uniqueBrands,
+    ...(siteConfig.sameAs.length ? { sameAs: siteConfig.sameAs } : {}),
   };
 
   return (

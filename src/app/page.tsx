@@ -17,9 +17,12 @@ import { products } from "@/lib/catalog";
 import { productCategories, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Ramnova Healthcare | Pharmaceutical Product Catalogue",
+  title: {
+    absolute:
+      "Ramnova Healthcare – Pharmaceutical Products | Ursoram, Heptaram, Ramomin & more",
+  },
   description:
-    "Discover Ramnova Healthcare's portfolio of tablets, capsules, syrups, injections and nutritional powders with clear product and composition information.",
+    "Ramnova Healthcare, Silvassa: tablets, capsules, syrups and injections including Ursoram 300, Heptaram, Ramomin, Esorusk, Gabasram NT 100 and Blemango.",
   alternates: { canonical: "/" },
 };
 
