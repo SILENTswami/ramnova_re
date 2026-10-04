@@ -118,6 +118,20 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="shell split-content">
+          <p className="eyebrow">Company information</p>
+          <h2>Registration and licensing</h2>
+          <ul className="company-info-list">
+            <li><strong>Legal name:</strong> {siteConfig.legalName}</li>
+            <li><strong>GSTIN:</strong> {siteConfig.gstin}</li>
+            <li><strong>Director:</strong> {siteConfig.director}</li>
+            <li><strong>FSSAI Licence No.:</strong> {siteConfig.fssai.licenseNumber} (valid until 13 August 2030)</li>
+            <li><strong>Office:</strong> {siteConfig.address.streetAddress}, {siteConfig.address.addressLocality} – {siteConfig.address.postalCode}, {siteConfig.address.addressRegion}</li>
+          </ul>
+        </div>
+      </section>
+
       <section className="section quote-section">
         <div className="shell quote-card">
           <p className="eyebrow">From the founder&apos;s desk</p>

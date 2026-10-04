@@ -17,6 +17,9 @@ export const siteConfig = {
     postalCode: "396230",
     addressCountry: "IN",
   },
+  gstin: "10AAKCR4663D1ZN",
+  fssai: { licenseNumber: "10425310000219", validUntil: "2030-08-13" },
+  director: "Manjari Kumari",
   sameAs: [] as readonly string[],
 } as const;
 

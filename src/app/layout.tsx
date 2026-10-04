@@ -74,6 +74,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     email: siteConfig.email,
     telephone: siteConfig.phoneHref,
     areaServed: "IN",
+    taxID: siteConfig.gstin,
     contactPoint: {
       "@type": "ContactPoint",
       telephone: siteConfig.phoneHref,
@@ -86,6 +87,15 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       ...siteConfig.address,
     },
     brand: uniqueBrands,
+    hasCredential: {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "FSSAI licence",
+      identifier: siteConfig.fssai.licenseNumber,
+      recognizedBy: {
+        "@type": "GovernmentOrganization",
+        name: "Food Safety and Standards Authority of India",
+      },
+    },
     ...(siteConfig.sameAs.length ? { sameAs: siteConfig.sameAs } : {}),
   };
 

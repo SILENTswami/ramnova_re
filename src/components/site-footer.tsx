@@ -71,7 +71,7 @@ export function SiteFooter() {
         </ul>
       </div>
       <div className="shell footer-bottom">
-        <p>© {new Date().getFullYear()} Ramnova Healthcare Private Limited.</p>
+        <p>© {new Date().getFullYear()} Ramnova Healthcare Private Limited. GSTIN {siteConfig.gstin} · FSSAI Lic. No. {siteConfig.fssai.licenseNumber}</p>
         <p>Catalogue information only. Not medical advice.</p>
       </div>
     </footer>

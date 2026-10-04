@@ -459,6 +459,13 @@ a {
   color: var(--blue-deep);
 }
 
+.company-info-list {
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2;
+}
+
 .footer-products {
   padding: 28px 0;
   border-top: 1px solid rgb(255 255 255 / 0.08);

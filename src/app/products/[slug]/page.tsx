@@ -728,6 +728,9 @@ function ProductPage({ product }: { product: Product }) {
                 <h2>More information</h2>
                 <p>
                   Marketed by {siteConfig.legalName}, Silvassa, India.
+                  {product.schemaType === "DietarySupplement" ? (
+                    <> FSSAI Lic. No. {siteConfig.fssai.licenseNumber}</>
+                  ) : null}
                 </p>
                 <p>
                   For dosage, pack sizes or prescribing information, refer to the current pack
