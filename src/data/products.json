@@ -2644,8 +2644,9 @@
     "displayDescription": "Diastase, alpha-galactosidase, lipase and pepsin digestive enzyme syrup",
     "category": "syrups",
     "dosageForm": "syrup",
-    "image": "/images/products/cadmizyme-alpha.webp",
+    "image": ["/images/products/cadmizyme-alpha.webp", "/images/products/cadmizyme-alpha-composition.webp"],
     "imageAlt": "CADMIZYME-ALPHA syrup packaging",
+    "imageAlts": ["Cadmizyme-Alpha Syrup pack – Ramnova Healthcare", "Cadmizyme-Alpha Syrup composition panel – Ramnova Healthcare"],
     "featured": false,
     "therapyCategory": "Digestive enzyme preparation",
     "therapyCategoryVerification": "inferred-from-composition",
@@ -2786,7 +2787,7 @@
         "Take it with or straight after your main meals, so it can work on the food you eat.",
         "Shake the bottle well before each dose.",
         "Eat slowly, chew well, and avoid very large, fatty or spicy meals.",
-        "If you have diabetes, note that each 5 ml contains about 1.5 g of sugars.",
+        "If you have diabetes, note that each 5 ml contains about 2 g of sugars (including about 1.5 g of added sugar).",
         "See your doctor if indigestion keeps coming back, or if you have weight loss, difficulty swallowing, vomiting or black stools.",
         "Store it in a cool, dry place and keep the cap tightly closed."
       ],
@@ -2816,7 +2817,8 @@
       "notes": [
         "Per-5 ml composition confirmed from the pack by the user on 2026-10-01; strengths are stated in milligrams, with activity ratios for diastase (1:1200) and pepsin (1:3000) only.",
         "The pack names the manufacturer as Wanley India Pvt Ltd.",
-        "The user confirmed a 150 mL bottle with 5 mL servings on 2026-10-01. The nutrition panel states \"No. of serving: 20\", which conflicts with 150 mL / 5 mL = 30; this label inconsistency has been raised with the user. Servings are not shown on the site."
+        "The user confirmed a 150 mL bottle with 5 mL servings on 2026-10-01. The nutrition panel states \"No. of serving: 20\", which conflicts with 150 mL / 5 mL = 30; this label inconsistency has been raised with the user. Servings are not shown on the site.",
+        "Nutrition per 5 ml (from pack side panel, confirmed 2026-10-06): Energy 8.8746 kcal, Protein 0.1940 g, Carbohydrate 2.070 g, Total Sugars 1.9344 g, Added Sugars 1.520 g, Total Fat 0.01 g, Cholesterol 0 mg, Sodium 1.790 mg. Pineapple flavour."
       ]
     },
     "sources": [
