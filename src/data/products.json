@@ -4299,8 +4299,9 @@
     "displayDescription": "Cefpodoxime 100 mg/5 ml oral suspension for paediatric use",
     "category": "syrups",
     "dosageForm": "dry-syrup",
-    "image": "/images/products/sizepod-100.webp",
-    "imageAlt": "SIZEPOD-100 dry syrup packaging",
+    "image": ["/images/products/sizepod-100.webp", "/images/products/sizepod-100-composition.webp"],
+    "imageAlt": "Sizepod-100 Dry Syrup pack – Ramnova Healthcare",
+    "imageAlts": ["Sizepod-100 Dry Syrup pack – Ramnova Healthcare", "Sizepod-100 Dry Syrup composition panel – Ramnova Healthcare"],
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
@@ -4324,8 +4325,8 @@
       }
     ],
     "packaging": {
-      "description": "15 g / 30 mL dry syrup, for paediatric use",
-      "verification": "visual-aid-listed"
+      "description": "15 g powder for 30 ml suspension, with sterile water for reconstitution",
+      "verification": "pack-confirmed-by-user-2026-10-06"
     },
     "price": {
       "amount": null,
@@ -4371,7 +4372,7 @@
         "Stomach pain",
         "Skin rash"
       ],
-      "howToUse": "Mix the powder with the amount of boiled and cooled water shown on the pack, and shake well. Shake well again before each dose, and measure it with the cup or syringe provided rather than a kitchen spoon. It can be given with or without food, though giving it with food may reduce stomach upset. Store the mixed suspension as directed on the pack, usually in a refrigerator, and throw away any unused medicine after the stated time.",
+      "howToUse": "Shake the bottle to loosen the powder, then add the sterile water supplied in the pack up to the ring mark on the bottle and shake well. Shake well again before each dose, and measure it with the cup or syringe provided rather than a kitchen spoon. It can be given with or without food, though giving it with food may reduce stomach upset. Keep the mixed suspension in a refrigerator, use it within 4 days, and throw away any medicine left after that.",
       "howItWorks": "Cefpodoxime is a cephalosporin antibiotic. Taken by mouth, it is absorbed and converted into its active form, which stops bacteria from building their protective cell walls, so they die. It works against bacteria, not viruses, so it will not help colds or flu.",
       "warnings": [
         "Tell the doctor if your child has ever had an allergic reaction to penicillin. Some people allergic to penicillin also react to cephalosporins, so after a severe reaction the doctor may choose a different antibiotic.",
@@ -4401,10 +4402,11 @@
       ],
       "quickTips": [
         "Finish the whole course, even if your child feels better, to stop the infection coming back.",
+        "Use only the sterile water supplied in the pack to mix the medicine.",
+        "Keep the mixed suspension in the fridge and throw it away after 4 days.",
         "Use the measuring cup or syringe provided for accurate doses.",
         "Give plenty of fluids if your child has diarrhoea, and see the doctor if it is severe, watery or bloody.",
         "Stop the medicine and get urgent help if your child develops a rash, swelling of the face or lips, or difficulty breathing.",
-        "Antibiotics do not work against viral infections such as colds and flu.",
         "Do not keep leftover medicine for later or give it to another child."
       ],
       "sources": [
@@ -4441,7 +4443,8 @@
       "status": "pack-confirmed",
       "notes": [
         "The visual aid headline read Cefpodoxime + Potassium Clavulanate 100mg, but the pack artwork reads Cefpodoxime Oral Suspension I.P. The user confirmed on 2026-10-01 that the product contains no potassium clavulanate and that the visual aid headline was wrong.",
-        "The user confirmed from the pack on 2026-10-01 that it contains cefpodoxime 100 mg per 5 ml (as cefpodoxime proxetil) after mixing."
+        "The user confirmed from the pack on 2026-10-01 that it contains cefpodoxime 100 mg per 5 ml (as cefpodoxime proxetil) after mixing.",
+        "Real pack confirmed 2026-10-06: manufactured by Polestar Power Industries (WHO-GMP), Baddi, Distt. Solan (H.P.); Schedule H1; sterile water for reconstitution 25 ml or 30 ml supplied; reconstituted suspension must be refrigerated and used within 4 days; dry powder storage ≤ 30°C; colour: Sunset Yellow FCF."
       ]
     },
     "sources": [
