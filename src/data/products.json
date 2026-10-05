@@ -3413,9 +3413,10 @@
     "sourceDescription": "Bilastine 20 mg & Montelukast 10 mg Tablets",
     "displayDescription": "Bilastine 20 mg and montelukast 10 mg tablets",
     "category": "tablets",
-    "dosageForm": "tablet",
-    "image": "/images/products/krujokast-b.webp",
-    "imageAlt": "KRUJOKAST-B tablet packaging",
+    "dosageForm": "film-coated-tablet",
+    "image": ["/images/products/krujokast-b.webp", "/images/products/krujokast-b-composition.webp"],
+    "imageAlt": "Krujokast-B Tablet pack – Ramnova Healthcare",
+    "imageAlts": ["Krujokast-B Tablet pack – Ramnova Healthcare", "Krujokast-B Tablet composition panel – Ramnova Healthcare"],
     "featured": false,
     "therapyCategory": "Allergy and asthma medicine",
     "therapyCategoryVerification": "inferred-from-composition",
@@ -3423,7 +3424,7 @@
     "variants": [
       {
         "id": "krujokast-b-20-10",
-        "label": "20 mg / 10 mg",
+        "label": "Each film-coated tablet contains",
         "ingredients": [
           {
             "ingredientId": "bilastine",
@@ -3431,7 +3432,7 @@
               "amount": 20,
               "unit": "mg"
             },
-            "verification": "visual-aid-listed"
+            "verification": "pack-confirmed-by-user-2026-10-06"
           },
           {
             "ingredientId": "montelukast",
@@ -3439,15 +3440,16 @@
               "amount": 10,
               "unit": "mg"
             },
-            "verification": "visual-aid-listed"
+            "qualifier": "as montelukast sodium",
+            "verification": "pack-confirmed-by-user-2026-10-06"
           }
         ],
-        "verification": "visual-aid-listed-pending-pack-confirmation"
+        "verification": "pack-confirmed-by-user-2026-10-06"
       }
     ],
     "packaging": {
       "description": "10 x 1 x 10 tablets",
-      "verification": "visual-aid-listed"
+      "verification": "pack-confirmed-by-user-2026-10-06"
     },
     "price": {
       "amount": null,
@@ -3594,10 +3596,12 @@
       "lastUpdated": "2026-10-01"
     },
     "verification": {
-      "status": "visual-aid-listed-pending-pack-confirmation",
+      "status": "pack-confirmed",
       "notes": [
         "Montelukast carries regulatory warnings about serious neuropsychiatric events in several jurisdictions. Safety sections must be sourced before this page presents any clinical guidance.",
-        "The visual aid's tolerability comparison against desloratadine and cetirizine is a promotional claim and has not been reproduced."
+        "The visual aid's tolerability comparison against desloratadine and cetirizine is a promotional claim and has not been reproduced.",
+        "Pack composition confirmed by user on 2026-10-06: each film-coated tablet contains Bilastine 20 mg, Montelukast Sodium IP eq. to Montelukast 10 mg; Colour: Titanium Dioxide IP. 10 x 1 x 10 tablets. Schedule H.",
+        "Pack names manufacturer as Arcon Labs, Baddi; marketed by Ramnova Healthcare Private Limited."
       ]
     },
     "sources": [
