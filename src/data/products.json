@@ -2644,9 +2644,15 @@
     "displayDescription": "Diastase, alpha-galactosidase, lipase and pepsin digestive enzyme syrup",
     "category": "syrups",
     "dosageForm": "syrup",
-    "image": ["/images/products/cadmizyme-alpha.webp", "/images/products/cadmizyme-alpha-composition.webp"],
+    "image": [
+      "/images/products/cadmizyme-alpha.webp",
+      "/images/products/cadmizyme-alpha-composition.webp"
+    ],
     "imageAlt": "CADMIZYME-ALPHA syrup packaging",
-    "imageAlts": ["Cadmizyme-Alpha Syrup pack – Ramnova Healthcare", "Cadmizyme-Alpha Syrup composition panel – Ramnova Healthcare"],
+    "imageAlts": [
+      "Cadmizyme-Alpha Syrup pack – Ramnova Healthcare",
+      "Cadmizyme-Alpha Syrup composition panel – Ramnova Healthcare"
+    ],
     "featured": false,
     "therapyCategory": "Digestive enzyme preparation",
     "therapyCategoryVerification": "inferred-from-composition",
@@ -3092,9 +3098,15 @@
     "displayDescription": "Silymarin, lecithin, L-carnitine, N-acetylcysteine, L-ornithine, zinc and vitamin film-coated tablets",
     "category": "tablets",
     "dosageForm": "film-coated-tablet",
-    "image": ["/images/products/heptaram.webp", "/images/products/heptaram-composition.webp"],
+    "image": [
+      "/images/products/heptaram.webp",
+      "/images/products/heptaram-composition.webp"
+    ],
     "imageAlt": "Heptaram Tablet pack – Ramnova Healthcare",
-    "imageAlts": ["Heptaram Tablet pack – Ramnova Healthcare", "Heptaram Tablet composition panel – Ramnova Healthcare"],
+    "imageAlts": [
+      "Heptaram Tablet pack – Ramnova Healthcare",
+      "Heptaram Tablet composition panel – Ramnova Healthcare"
+    ],
     "featured": true,
     "featuredOrder": 2,
     "therapyCategory": "Liver health supplement",
@@ -3418,9 +3430,15 @@
     "displayDescription": "Bilastine 20 mg and montelukast 10 mg tablets",
     "category": "tablets",
     "dosageForm": "film-coated-tablet",
-    "image": ["/images/products/krujokast-b.webp", "/images/products/krujokast-b-composition.webp"],
+    "image": [
+      "/images/products/krujokast-b.webp",
+      "/images/products/krujokast-b-composition.webp"
+    ],
     "imageAlt": "Krujokast-B Tablet pack – Ramnova Healthcare",
-    "imageAlts": ["Krujokast-B Tablet pack – Ramnova Healthcare", "Krujokast-B Tablet composition panel – Ramnova Healthcare"],
+    "imageAlts": [
+      "Krujokast-B Tablet pack – Ramnova Healthcare",
+      "Krujokast-B Tablet composition panel – Ramnova Healthcare"
+    ],
     "featured": false,
     "therapyCategory": "Allergy and asthma medicine",
     "therapyCategoryVerification": "inferred-from-composition",
@@ -3867,9 +3885,16 @@
     "sourceDescription": "Rifaximin 200 mg Tablets",
     "displayDescription": "Rifaximin 200 mg tablets",
     "category": "tablets",
-    "dosageForm": "tablet",
-    "image": "/images/products/ramomin-200.webp",
-    "imageAlt": "RAMOMIN-200 tablet packaging",
+    "dosageForm": "film-coated-tablet",
+    "image": [
+      "/images/products/ramomin-200.webp",
+      "/images/products/ramomin-200-composition.webp"
+    ],
+    "imageAlt": "Ramomin-200 Tablet pack – Ramnova Healthcare",
+    "imageAlts": [
+      "Ramomin-200 Tablet pack – Ramnova Healthcare",
+      "Ramomin-200 Tablet composition panel – Ramnova Healthcare"
+    ],
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
@@ -3877,7 +3902,7 @@
     "variants": [
       {
         "id": "ramomin-200-standard",
-        "label": "200 mg",
+        "label": "Each film-coated tablet contains",
         "ingredients": [
           {
             "ingredientId": "rifaximin",
@@ -3885,15 +3910,17 @@
               "amount": 200,
               "unit": "mg"
             },
-            "verification": "visual-aid-listed"
+            "qualifier": "BP",
+            "sourceStrengthText": "Rifaximin BP 200 mg",
+            "verification": "pack-confirmed-by-user-2026-10-06"
           }
         ],
-        "verification": "visual-aid-listed-pending-pack-confirmation"
+        "verification": "pack-confirmed-by-user-2026-10-06"
       }
     ],
     "packaging": {
-      "description": "10 x 10 tablets",
-      "verification": "visual-aid-listed"
+      "description": "10 x 1 x 10 tablets",
+      "verification": "pack-confirmed-by-user-2026-10-06"
     },
     "price": {
       "amount": null,
@@ -3903,7 +3930,7 @@
       "verification": "not-provided"
     },
     "clinical": {
-      "summary": "Ramnova rifaximin 200 mg tablets. Rifaximin is an antibacterial that acts mainly within the gut because very little of it is absorbed into the bloodstream.",
+      "summary": "Ramnova rifaximin 200 mg film-coated tablets. Rifaximin is an antibacterial that acts mainly within the gut because very little of it is absorbed into the bloodstream.",
       "introduction": [
         "RAMOMIN-200 tablets contain rifaximin 200 mg, an antibiotic that acts mainly inside the gut because very little is absorbed into the bloodstream. It is used to treat infectious diarrhoea and other intestinal infections, to help lower ammonia in liver disease, and to reduce gut bacteria around bowel surgery.",
         "Take it with or without food, exactly as your doctor prescribes. For diarrhoea it is usually taken for only a few days. Common side effects include nausea, bloating and headache, and it may turn your urine reddish, which is harmless."
@@ -4038,12 +4065,15 @@
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed",
       "reviewedBy": null,
-      "lastUpdated": "2026-10-01"
+      "lastUpdated": "2026-10-06"
     },
     "verification": {
-      "status": "visual-aid-listed-pending-pack-confirmation",
+      "status": "pack-confirmed",
       "notes": [
-        "RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack."
+        "RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack.",
+        "Pack composition confirmed by user on 2026-10-06: each film-coated tablet contains Rifaximin BP 200 mg; Excipients q.s.; Colour: Sunset Yellow FCF & Titanium Dioxide IP. 10 x 1 x 10 tablets. Schedule H.",
+        "Pack states storage: store in a cool, dry & dark place, protect from light & moisture.",
+        "Pack names contract manufacturer as Arcon Labs, Baddi; marketed by Ramnova Healthcare Private Limited."
       ]
     },
     "sources": [
@@ -4303,9 +4333,15 @@
     "displayDescription": "Cefpodoxime 100 mg/5 ml oral suspension for paediatric use",
     "category": "syrups",
     "dosageForm": "dry-syrup",
-    "image": ["/images/products/sizepod-100.webp", "/images/products/sizepod-100-composition.webp"],
+    "image": [
+      "/images/products/sizepod-100.webp",
+      "/images/products/sizepod-100-composition.webp"
+    ],
     "imageAlt": "Sizepod-100 Dry Syrup pack – Ramnova Healthcare",
-    "imageAlts": ["Sizepod-100 Dry Syrup pack – Ramnova Healthcare", "Sizepod-100 Dry Syrup composition panel – Ramnova Healthcare"],
+    "imageAlts": [
+      "Sizepod-100 Dry Syrup pack – Ramnova Healthcare",
+      "Sizepod-100 Dry Syrup composition panel – Ramnova Healthcare"
+    ],
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
@@ -4927,8 +4963,14 @@
     "displayDescription": "Gabapentin 100 mg and nortriptyline 10 mg film-coated tablets",
     "category": "tablets",
     "dosageForm": "film-coated-tablet",
-    "image": ["/images/products/gabasram-nt-100.webp", "/images/products/gabasram-nt-100-composition.webp"],
-    "imageAlts": ["Gabasram NT 100 Tablet pack – Ramnova Healthcare", "Gabasram NT 100 Tablet composition panel – Ramnova Healthcare"],
+    "image": [
+      "/images/products/gabasram-nt-100.webp",
+      "/images/products/gabasram-nt-100-composition.webp"
+    ],
+    "imageAlts": [
+      "Gabasram NT 100 Tablet pack – Ramnova Healthcare",
+      "Gabasram NT 100 Tablet composition panel – Ramnova Healthcare"
+    ],
     "imageAlt": "GABASRAM NT 100 gabapentin and nortriptyline tablet pack",
     "featured": false,
     "therapyCategory": "Neuropathic pain",
