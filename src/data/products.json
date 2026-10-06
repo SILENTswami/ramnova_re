@@ -3092,8 +3092,9 @@
     "displayDescription": "Silymarin, lecithin, L-carnitine, N-acetylcysteine, L-ornithine, zinc and vitamin film-coated tablets",
     "category": "tablets",
     "dosageForm": "film-coated-tablet",
-    "image": "/images/products/heptaram.webp",
-    "imageAlt": "HEPTARAM tablet packaging",
+    "image": ["/images/products/heptaram.webp", "/images/products/heptaram-composition.webp"],
+    "imageAlt": "Heptaram Tablet pack – Ramnova Healthcare",
+    "imageAlts": ["Heptaram Tablet pack – Ramnova Healthcare", "Heptaram Tablet composition panel – Ramnova Healthcare"],
     "featured": true,
     "featuredOrder": 2,
     "therapyCategory": "Liver health supplement",
@@ -3240,8 +3241,8 @@
       }
     ],
     "packaging": {
-      "description": "10 x 10 tablets",
-      "verification": "visual-aid-listed"
+      "description": "10 x 1 x 10 tablets",
+      "verification": "pack-confirmed-by-user-2026-10-06"
     },
     "price": {
       "amount": null,
@@ -3372,7 +3373,10 @@
       "notes": [
         "Per-tablet composition confirmed from the pack by the user on 2026-10-01.",
         "The pack states \"As nutraceutical, for human well-being. Not for medicinal use\", so the visual aid's disease list (hepatitis, alcoholic liver disease, cirrhosis) was reframed as nutritional support.",
-        "The pack recommends one tablet twice daily for adults and states it contains soy and added colours (INS 171 and 124)."
+        "The pack recommends one tablet twice daily for adults and states it contains soy and added colours (INS 171 and 124).",
+        "Rendered side panel (2026-10-06) lists flavouring (vanillin, strawberry), colours INS 171/124, and dosage \"One tablet twice daily for adults or as directed by nutritionist\". Composition matches existing data.",
+        "Packaging 10 x 1 x 10 confirmed from front panel (2026-10-06).",
+        "\"Contains soy\" warning came from the user's earlier real-pack photo (2026-10-01); the rendered panel does not show the soy statement, but the warning is retained as the real pack is authoritative."
       ]
     },
     "sources": [
