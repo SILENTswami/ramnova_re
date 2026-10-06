@@ -1392,8 +1392,9 @@
     "displayDescription": "Ursodeoxycholic acid 300 mg tablets",
     "category": "tablets",
     "dosageForm": "tablet",
-    "image": "/images/products/ursoram-300.webp",
-    "imageAlt": "URSORAM ursodeoxycholic acid tablet packaging",
+    "image": ["/images/products/ursoram-300.webp", "/images/products/ursoram-300-composition.webp"],
+    "imageAlt": "Ursoram-300 Tablet pack – Ramnova Healthcare",
+    "imageAlts": ["Ursoram-300 Tablet pack – Ramnova Healthcare", "Ursoram-300 Tablet composition panel – Ramnova Healthcare"],
     "featured": true,
     "featuredOrder": 1,
     "therapyCategory": "Hepatobiliary care",
@@ -1402,7 +1403,7 @@
     "variants": [
       {
         "id": "ursoram-300",
-        "label": "Product composition",
+        "label": "Each uncoated tablet contains",
         "ingredients": [
           {
             "ingredientId": "ursodeoxycholic-acid",
@@ -1410,15 +1411,17 @@
               "amount": 300,
               "unit": "mg"
             },
-            "verification": "source-listed-combined-entry"
+            "qualifier": "IP",
+            "sourceStrengthText": "Ursodeoxycholic Acid IP 300 mg",
+            "verification": "pack-confirmed-by-user-2026-10-07"
           }
         ],
-        "verification": "source-listed"
+        "verification": "pack-confirmed-by-user-2026-10-07"
       }
     ],
     "packaging": {
-      "description": null,
-      "verification": "not-provided"
+      "description": "10 x 1 x 10 tablets",
+      "verification": "pack-confirmed-by-user-2026-10-07"
     },
     "price": {
       "amount": null,
@@ -1428,7 +1431,7 @@
       "verification": "not-provided"
     },
     "clinical": {
-      "summary": "Ramnova ursodeoxycholic acid 300 mg tablets. Ursodeoxycholic acid is a bile acid used in the management of certain liver and gallbladder conditions.",
+      "summary": "Ramnova ursodeoxycholic acid 300 mg uncoated tablets. Ursodeoxycholic acid is a bile acid used in the management of certain liver and gallbladder conditions.",
       "introduction": [
         "URSORAM 300 tablets contain 300 mg of ursodeoxycholic acid, a bile acid. It is used to dissolve cholesterol gallstones and to treat certain long-term liver conditions, including primary biliary cholangitis. It works by improving the flow of bile and lowering the cholesterol in it, which helps gallstones dissolve and protects liver cells.",
         "Take URSORAM after a meal with water or milk, exactly as your doctor prescribes. Treatment usually lasts several months or longer, so keep taking it even if you feel better. The most common side effect is diarrhoea or loose stools. Tell your doctor about any other medicines you take, and if you are pregnant or breastfeeding."
@@ -1553,12 +1556,15 @@
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed",
       "reviewedBy": null,
-      "lastUpdated": "2026-10-01"
+      "lastUpdated": "2026-10-07"
     },
     "verification": {
-      "status": "source-listed",
+      "status": "pack-confirmed",
       "notes": [
-        "The source lists 150 mg and 300 mg together. The 150 mg strength is discontinued and only 300 mg is marketed, per the user on 2026-10-01."
+        "The source lists 150 mg and 300 mg together. The 150 mg strength is discontinued and only 300 mg is marketed, per the user on 2026-10-01.",
+        "Pack composition confirmed by user on 2026-10-07: each uncoated tablet contains Ursodeoxycholic Acid IP 300 mg; Excipients q.s. 10 x 1 x 10 tablets. Pack carries the prescription-only caution (not to be sold by retail without the prescription of a Registered Medical Practitioner).",
+        "Pack states storage: store in a cool, dry & dark place, protect from light & moisture.",
+        "Pack names contract manufacturer as Arcon Labs, Baddi; marketed by Ramnova Healthcare Private Limited."
       ]
     },
     "sources": [
