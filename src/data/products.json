@@ -4115,9 +4115,16 @@
     "sourceDescription": "Rifaximin 400 mg Tablets",
     "displayDescription": "Rifaximin 400 mg tablets",
     "category": "tablets",
-    "dosageForm": "tablet",
-    "image": "/images/products/ramomin-400.webp",
-    "imageAlt": "RAMOMIN-400 tablet packaging",
+    "dosageForm": "film-coated-tablet",
+    "image": [
+      "/images/products/ramomin-400.webp",
+      "/images/products/ramomin-400-composition.webp"
+    ],
+    "imageAlt": "Ramomin-400 Tablet pack – Ramnova Healthcare",
+    "imageAlts": [
+      "Ramomin-400 Tablet pack – Ramnova Healthcare",
+      "Ramomin-400 Tablet composition panel – Ramnova Healthcare"
+    ],
     "featured": false,
     "therapyCategory": "Antibacterial medicine",
     "therapyCategoryVerification": "inferred-from-composition",
@@ -4125,7 +4132,7 @@
     "variants": [
       {
         "id": "ramomin-400-standard",
-        "label": "400 mg",
+        "label": "Each film-coated tablet contains",
         "ingredients": [
           {
             "ingredientId": "rifaximin",
@@ -4133,15 +4140,17 @@
               "amount": 400,
               "unit": "mg"
             },
-            "verification": "visual-aid-listed"
+            "qualifier": "BP",
+            "sourceStrengthText": "Rifaximin BP 400 mg",
+            "verification": "pack-confirmed-by-user-2026-10-06"
           }
         ],
-        "verification": "visual-aid-listed-pending-pack-confirmation"
+        "verification": "pack-confirmed-by-user-2026-10-06"
       }
     ],
     "packaging": {
-      "description": "10 x 10 tablets",
-      "verification": "visual-aid-listed"
+      "description": "10 x 1 x 10 tablets",
+      "verification": "pack-confirmed-by-user-2026-10-06"
     },
     "price": {
       "amount": null,
@@ -4151,7 +4160,7 @@
       "verification": "not-provided"
     },
     "clinical": {
-      "summary": "Ramnova rifaximin 400 mg tablets. Rifaximin is an antibacterial that acts mainly within the gut because very little of it is absorbed into the bloodstream.",
+      "summary": "Ramnova rifaximin 400 mg film-coated tablets. Rifaximin is an antibacterial that acts mainly within the gut because very little of it is absorbed into the bloodstream.",
       "introduction": [
         "RAMOMIN-400 tablets contain rifaximin 400 mg, an antibiotic that acts mainly inside the gut because very little is absorbed into the bloodstream. It is used to treat infectious diarrhoea and other intestinal infections, to help lower ammonia in liver disease, and to reduce gut bacteria around bowel surgery.",
         "Take it with or without food, exactly as your doctor prescribes. For diarrhoea it is usually taken for only a few days. Common side effects include nausea, bloating and headache, and it may turn your urine reddish, which is harmless."
@@ -4286,12 +4295,15 @@
       ],
       "reviewStatus": "reference-sourced-not-medically-reviewed",
       "reviewedBy": null,
-      "lastUpdated": "2026-10-01"
+      "lastUpdated": "2026-10-06"
     },
     "verification": {
-      "status": "visual-aid-listed-pending-pack-confirmation",
+      "status": "pack-confirmed",
       "notes": [
-        "RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack."
+        "RAMOMIN-200 and RAMOMIN-400 share one visual aid covering both strengths; they are listed as separate products because each is a distinct pack.",
+        "Pack composition confirmed by user on 2026-10-06: each film-coated tablet contains Rifaximin BP 400 mg; Excipients q.s.; Colour: Sunset Yellow FCF & Titanium Dioxide IP. 10 x 1 x 10 tablets. Schedule H.",
+        "Pack states storage: store in a cool, dry & dark place, protect from light & moisture.",
+        "Pack names contract manufacturer as Arcon Labs, Baddi; marketed by Ramnova Healthcare Private Limited."
       ]
     },
     "sources": [
