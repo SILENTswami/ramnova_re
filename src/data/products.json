@@ -814,8 +814,15 @@
     "displayDescription": "Tamsulosin hydrochloride sustained-release 0.4 mg and dutasteride 0.5 mg tablets",
     "category": "tablets",
     "dosageForm": "tablet",
-    "image": "/images/products/prosteosol-d.webp",
-    "imageAlt": "PROSTEOSOL-D medicine packaging",
+    "image": [
+      "/images/products/prosteosol-d.webp",
+      "/images/products/prosteosol-d-composition.webp"
+    ],
+    "imageAlt": "Prosteosol-D Tablet pack – Ramnova Healthcare",
+    "imageAlts": [
+      "Prosteosol-D Tablet pack – Ramnova Healthcare",
+      "Prosteosol-D Tablet composition panel – Ramnova Healthcare"
+    ],
     "featured": false,
     "therapyCategory": "Urology care",
     "therapyCategoryVerification": "inferred-from-composition",
